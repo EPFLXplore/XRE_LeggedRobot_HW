@@ -1,0 +1,52 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ea8c4f5e-7a49-4faf-a994-dbc85ed86b0a)
+
+  (paper "A4")
+
+  (title_block
+    (title "Revision History")
+    (date "2023-10-15")
+    (rev "1.0")
+    (company "EPFL Xplore")
+    (comment 3 "Author: Vincent Nguyen")
+  )
+
+  (lib_symbols
+  )
+
+
+  (polyline (pts (xy 19.05 19.05) (xy 19.05 190.5))
+    (stroke (width 0.635) (type default) (color 0 0 0 1))
+    (uuid d98bd22a-837a-4b14-b8b1-ecc667696c58)
+  )
+
+  (text_box "Back to Top Level"
+    (at 153.67 165.735 0) (size 21.59 30.48)
+    (stroke (width 0) (type default) (color 0 0 0 1))
+    (fill (type color) (color 0 0 0 0.1))
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
+    (uuid 13665541-7300-46f4-89ac-85b129234a4c)
+  )
+  (text_box "10/12/2023: Document creation"
+    (at 22.86 31.75 0) (size 124.46 129.54)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (size 1.905 1.905) bold (color 0 0 0 1)) (justify left top))
+    (uuid 212b625e-4169-46f2-a2fc-afc6cbef07cd)
+  )
+  (text_box ""
+    (at 152.4 31.75 0) (size 128.27 129.54)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (size 1.905 1.905) bold (color 0 0 0 1)) (justify left top))
+    (uuid 93a40910-83e4-434e-a0b2-3daadb84b199)
+  )
+  (text_box "Revision History"
+    (at 19.05 17.78 0) (size 73.66 13.97)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (size 5.08 5.08) bold (color 0 0 0 1)) (justify left top))
+    (uuid c4e57508-4bed-4596-9a85-28a3d091be33)
+  )
+)

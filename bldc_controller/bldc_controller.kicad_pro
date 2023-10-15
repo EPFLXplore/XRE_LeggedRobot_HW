@@ -1,5 +1,6 @@
 {
   "board": {
+    "3dviewports": [],
     "design_settings": {
       "defaults": {
         "board_outline_line_width": 0.1,
@@ -22,40 +23,382 @@
       },
       "track_widths": [],
       "via_dimensions": []
-    }
+    },
+    "layer_presets": [],
+    "viewports": []
   },
   "boards": [],
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "conflicting_netclasses": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "global_label_dangling": "warning",
+      "hier_label_mismatch": "error",
+      "label_dangling": "error",
+      "lib_symbol_issues": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "error",
+      "pin_not_driven": "error",
+      "pin_to_pin": "warning",
+      "power_pin_not_driven": "error",
+      "similar_labels": "warning",
+      "simulation_model_issue": "ignore",
+      "unannotated": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
   "libraries": {
     "pinned_footprint_libs": [],
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "kicad.kicad_pro",
+    "filename": "bldc_controller.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
+        "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
+        "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "Default",
-        "nets": [],
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.25,
         "via_diameter": 0.8,
-        "via_drill": 0.4
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
-      "version": 0
-    }
+      "version": 3
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
   },
   "pcbnew": {
+    "last_paths": {
+      "gencad": "",
+      "idf": "",
+      "netlist": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
     "page_layout_descr_file": ""
   },
-  "sheets": [],
+  "schematic": {
+    "annotate_start_num": 0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "net_format_name": "",
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_voltages": false,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0
+  },
+  "sheets": [
+    [
+      "0650c7a8-acba-429c-9f8e-eec0baf0bc1c",
+      ""
+    ],
+    [
+      "9a5639c8-5279-491f-84dc-8aadcfc880df",
+      "Power Connectors"
+    ],
+    [
+      "f1a92623-4681-4556-bc2b-558e74890d89",
+      "Mechanical"
+    ],
+    [
+      "b89a7d22-bda3-4776-b5ce-8f6b0eb8f2a5",
+      "Power Generation"
+    ],
+    [
+      "2eff0da2-7e01-4af1-97ee-ff24a49f3f51",
+      "Microcontroller Power"
+    ],
+    [
+      "575dc937-9401-4d21-80d3-b0f3272e7204",
+      "Microcontroller IO"
+    ],
+    [
+      "926acdff-90be-4f7b-9e19-9f96ee9f0571",
+      "FDCAN Transceiver"
+    ],
+    [
+      "aba936fa-d9e9-4532-8179-f8f593419a0b",
+      "Position Sensor"
+    ],
+    [
+      "e3d7d553-09c9-41e5-aeb8-81d1255a4873",
+      "Interconnects"
+    ],
+    [
+      "5b60f270-becd-4ec3-b763-258df225fc82",
+      "LED Indicators"
+    ],
+    [
+      "a6223e2e-2896-4182-b4ad-55a63bc87f3d",
+      "Motor Control Top Level"
+    ],
+    [
+      "d94e16ab-b888-46fd-b851-e56bef0c761a",
+      "Gate Driver"
+    ],
+    [
+      "2f838d38-2662-4033-af8c-9b0973f2079c",
+      "3-Phase Inverter"
+    ],
+    [
+      "335652e7-afc6-447a-bf21-b83e708f4b3e",
+      "DC-Link Bulk Capacitors"
+    ],
+    [
+      "ce1ea51b-4118-4fb5-9a41-40670da86eb7",
+      "Temperature Sensing"
+    ],
+    [
+      "7fc64539-f083-49cd-b390-cfa281750e68",
+      "Battery Sensing"
+    ],
+    [
+      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
+      "Revision History"
+    ],
+    [
+      "50cb6c1b-2a97-41f7-b806-2f324483583f",
+      "RS-422 Interface"
+    ],
+    [
+      "6ac64cfc-cd02-4504-88c7-a17dadca0833",
+      "Board Version Divider"
+    ]
+  ],
   "text_variables": {}
 }
