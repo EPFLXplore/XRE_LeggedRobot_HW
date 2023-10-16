@@ -232,7 +232,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -332,10 +332,6 @@
       "Power Connectors"
     ],
     [
-      "f1a92623-4681-4556-bc2b-558e74890d89",
-      "Mechanical"
-    ],
-    [
       "b89a7d22-bda3-4776-b5ce-8f6b0eb8f2a5",
       "Power Generation"
     ],
@@ -348,56 +344,52 @@
       "Microcontroller IO"
     ],
     [
-      "926acdff-90be-4f7b-9e19-9f96ee9f0571",
-      "FDCAN Transceiver"
-    ],
-    [
-      "aba936fa-d9e9-4532-8179-f8f593419a0b",
-      "Position Sensor"
-    ],
-    [
-      "e3d7d553-09c9-41e5-aeb8-81d1255a4873",
-      "Interconnects"
-    ],
-    [
-      "5b60f270-becd-4ec3-b763-258df225fc82",
-      "LED Indicators"
-    ],
-    [
-      "a6223e2e-2896-4182-b4ad-55a63bc87f3d",
-      "Motor Control Top Level"
-    ],
-    [
-      "d94e16ab-b888-46fd-b851-e56bef0c761a",
-      "Gate Driver"
-    ],
-    [
-      "2f838d38-2662-4033-af8c-9b0973f2079c",
-      "3-Phase Inverter"
-    ],
-    [
-      "335652e7-afc6-447a-bf21-b83e708f4b3e",
-      "DC-Link Bulk Capacitors"
+      "7fc64539-f083-49cd-b390-cfa281750e68",
+      "Battery Sensing"
     ],
     [
       "ce1ea51b-4118-4fb5-9a41-40670da86eb7",
       "Temperature Sensing"
     ],
     [
-      "7fc64539-f083-49cd-b390-cfa281750e68",
-      "Battery Sensing"
+      "e3d7d553-09c9-41e5-aeb8-81d1255a4873",
+      "Interconnects"
     ],
     [
-      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
-      "Revision History"
+      "aba936fa-d9e9-4532-8179-f8f593419a0b",
+      "Position Sensor"
     ],
     [
       "50cb6c1b-2a97-41f7-b806-2f324483583f",
       "RS-422 Interface"
     ],
     [
+      "926acdff-90be-4f7b-9e19-9f96ee9f0571",
+      "FDCAN Transceiver"
+    ],
+    [
+      "a6223e2e-2896-4182-b4ad-55a63bc87f3d",
+      "Motor Control"
+    ],
+    [
+      "4a9c9b06-3536-46ef-a76d-6cac03a1fe38",
+      "Three Phase Inverter"
+    ],
+    [
+      "5b60f270-becd-4ec3-b763-258df225fc82",
+      "LED Indicators"
+    ],
+    [
       "6ac64cfc-cd02-4504-88c7-a17dadca0833",
       "Board Version Divider"
+    ],
+    [
+      "f1a92623-4681-4556-bc2b-558e74890d89",
+      "Mechanical"
+    ],
+    [
+      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
+      "Revision History"
     ]
   ],
   "text_variables": {}

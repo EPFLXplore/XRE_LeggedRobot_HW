@@ -1605,8 +1605,8 @@
     (property "Datasheet" "~" (at 129.54 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid f7a2048e-b233-4a8f-826a-d427e7359c45))
-    (pin "2" (uuid 8366c48f-83d1-4dcd-98f3-e7206fda080a))
+    (pin "1" (uuid 7d6c969b-f861-4c67-a2c5-91345e2a22c2))
+    (pin "2" (uuid 6e6d524b-59cf-42c2-86ce-d8fdb4c34fe2))
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/2eff0da2-7e01-4af1-97ee-ff24a49f3f51"
