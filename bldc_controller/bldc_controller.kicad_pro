@@ -426,7 +426,7 @@
     "last_paths": {
       "gencad": "",
       "idf": "",
-      "netlist": "",
+      "netlist": "bldc_controller.net",
       "specctra_dsn": "",
       "step": "",
       "vrml": ""
