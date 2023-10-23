@@ -10,4 +10,6 @@
   (lib (name "0_motor_driver")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_motor_driver.kicad_sym")(options "")(descr ""))
   (lib (name "0_diode")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_diode.kicad_sym")(options "")(descr ""))
   (lib (name "0_transistor_fet")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_transistor_fet.kicad_sym")(options "")(descr ""))
+  (lib (name "0_switching_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_switching_regulator.kicad_sym")(options "")(descr ""))
+  (lib (name "0_linear_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_linear_regulator.kicad_sym")(options "")(descr ""))
 )

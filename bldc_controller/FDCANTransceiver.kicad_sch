@@ -515,11 +515,11 @@
     (uuid 2d6527fd-8510-4f00-a554-47f5a49185f7)
   )
   (text_box "Back to Top Level"
-    (at 153.67 165.735 0) (size 21.59 30.48)
+    (at 265.43 166.37 0) (size 19.05 14.605)
     (stroke (width 0) (type default) (color 0 0 0 1))
     (fill (type color) (color 0 0 0 0.1))
     (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
-    (uuid 83457a53-e003-4ec2-af5c-c40df6f42c7d)
+    (uuid 3682ea52-2fba-4186-9a3a-b04486b33837)
   )
   (text_box "Fault Protected FD-CAN Transceiver"
     (at 102.235 123.19 0) (size 94.615 9.525)
@@ -558,7 +558,7 @@
   (symbol (lib_id "power:+3V3") (at 132.08 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d5d59fb-0824-48f2-a604-b9cb7c92c8d9)
-    (property "Reference" "#PWR043" (at 132.08 67.31 0)
+    (property "Reference" "#PWR054" (at 132.08 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 132.08 58.42 0)
@@ -574,7 +574,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -583,7 +583,7 @@
   (symbol (lib_id "power:GND") (at 127 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45f83982-ac98-4dff-a0ae-defbb0bb3df3)
-    (property "Reference" "#PWR042" (at 127 119.38 0)
+    (property "Reference" "#PWR053" (at 127 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 118.11 0)
@@ -599,7 +599,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -608,7 +608,7 @@
   (symbol (lib_id "power:GND") (at 132.08 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ae6e5eb-a9a2-42c4-b20c-708b39a77b8b)
-    (property "Reference" "#PWR044" (at 132.08 82.55 0)
+    (property "Reference" "#PWR055" (at 132.08 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 81.28 0)
@@ -624,7 +624,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR044") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -633,7 +633,7 @@
   (symbol (lib_id "power:GND") (at 167.64 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94f7cf3d-b58c-42e2-91be-693a6cfcdf44)
-    (property "Reference" "#PWR046" (at 167.64 82.55 0)
+    (property "Reference" "#PWR057" (at 167.64 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 81.28 0)
@@ -649,7 +649,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -658,13 +658,13 @@
   (symbol (lib_id "Device:C_Small") (at 167.64 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98f3230e-bc50-4e2e-91ea-fe9c3ff52d36)
-    (property "Reference" "C33" (at 170.18 71.1263 0)
+    (property "Reference" "C94" (at 170.18 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 170.18 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 167.64 72.39 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 167.64 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 167.64 72.39 0)
@@ -675,7 +675,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "C33") (unit 1)
+          (reference "C94") (unit 1)
         )
       )
     )
@@ -684,7 +684,7 @@
   (symbol (lib_id "power:+5V") (at 167.64 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9be7039a-b8a0-4895-8612-5b4ae235a810)
-    (property "Reference" "#PWR045" (at 167.64 67.31 0)
+    (property "Reference" "#PWR056" (at 167.64 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 167.64 58.42 0)
@@ -700,7 +700,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -709,7 +709,7 @@
   (symbol (lib_id "0_transceiver:TCAN1057AEVDRQ1") (at 149.86 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9c2e007d-24d0-4bc2-877c-7b7d31d97f71)
-    (property "Reference" "U4" (at 139.7 78.74 0)
+    (property "Reference" "U9" (at 139.7 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TCAN1057AEVDRQ1" (at 151.13 106.68 0)
@@ -732,7 +732,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "U4") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -741,13 +741,13 @@
   (symbol (lib_id "Device:C_Small") (at 132.08 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5911e8f-4f92-435c-bf36-1785c0aad2e7)
-    (property "Reference" "C32" (at 134.62 71.1263 0)
+    (property "Reference" "C93" (at 134.62 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 134.62 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 132.08 72.39 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 132.08 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 72.39 0)
@@ -758,7 +758,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "C32") (unit 1)
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -767,13 +767,13 @@
   (symbol (lib_id "Device:R") (at 127 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db327cc3-a522-4435-9542-0bb51434a2a1)
-    (property "Reference" "R5" (at 129.54 104.14 0)
+    (property "Reference" "R?" (at 129.54 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k 1%" (at 129.54 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 125.222 105.41 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 125.222 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 105.41 0)
@@ -784,10 +784,10 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "R5") (unit 1)
+          (reference "R?") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "R24") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )

@@ -158,7 +158,7 @@
     (stroke (width 0) (type default))
     (uuid 207ea5c1-1f10-48b9-8161-f10079217cd0)
   )
-  (polyline (pts (xy 149.86 113.03) (xy 149.86 120.65))
+  (polyline (pts (xy 152.4 113.03) (xy 152.4 120.65))
     (stroke (width 0) (type default))
     (uuid 2a449f98-cd1d-4fd1-b5a4-2281db31e431)
   )
@@ -185,7 +185,7 @@
     (stroke (width 0) (type default))
     (uuid 773d1ce2-7d1e-46dd-8967-658e25d6135e)
   )
-  (polyline (pts (xy 139.7 116.84) (xy 160.02 116.84))
+  (polyline (pts (xy 142.24 116.84) (xy 162.56 116.84))
     (stroke (width 0) (type default))
     (uuid a84fe678-e34e-4b04-aaf0-3dff9fb3bcd4)
   )
@@ -209,7 +209,7 @@
     (fill (type none))
     (uuid 2075c779-ad4c-4e0c-bd75-07985adbe4de)
   )
-  (rectangle (start 139.7 113.03) (end 160.02 120.65)
+  (rectangle (start 142.24 113.03) (end 162.56 120.65)
     (stroke (width 0) (type default))
     (fill (type none))
     (uuid 9df620a7-e067-4e3f-932a-ec432a8ade03)
@@ -225,29 +225,29 @@
     (uuid e378b4f6-4a46-4e48-9c34-e776f8f72716)
   )
 
-  (text_box "Back to Top Level"
-    (at 153.67 165.735 0) (size 21.59 30.48)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 0 0 0 0.1))
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
-    (uuid 6393c47e-9292-4ba0-a102-bae3d4952e34)
-  )
   (text_box "			TOP		BOT\n\nr1.1 r1.2	  x		100k\n\n     r1.3	100k	  x"
-    (at 126.365 109.22 0) (size 33.02 8.89)
+    (at 128.905 109.22 0) (size 33.02 8.89)
     (stroke (width -0.0001) (type default))
     (fill (type none))
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 99b67ba2-c291-4e24-80b7-e0d2753b4332)
   )
+  (text_box "Back to Top Level"
+    (at 265.43 166.37 0) (size 19.05 14.605)
+    (stroke (width 0) (type default) (color 0 0 0 1))
+    (fill (type color) (color 0 0 0 0.1))
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
+    (uuid b030fe58-fe10-4f51-bc2a-a01229010b0e)
+  )
   (text_box "Board Version Resistor Divider"
     (at 118.11 120.65 0) (size 66.675 9.525)
     (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify bottom))
     (uuid e599caf1-cf2c-4321-a329-c5f6f4c8973c)
   )
 
-  (hierarchical_label "BOARD_VERSION" (shape output) (at 161.29 83.82 0) (fields_autoplaced)
+  (hierarchical_label "BOARD_VERSION" (shape output) (at 162.56 83.82 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 3b7b90f7-7df7-458a-a090-b9c853d88572)
   )
@@ -255,13 +255,13 @@
   (symbol (lib_id "Device:R") (at 149.86 92.71 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 017850a1-bb2a-43b9-ba19-2239b8cfd9ed)
-    (property "Reference" "R23" (at 152.4 91.44 0)
+    (property "Reference" "R44" (at 152.4 91.44 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 152.4 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 148.082 92.71 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 148.082 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 92.71 0)
@@ -272,7 +272,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/6ac64cfc-cd02-4504-88c7-a17dadca0833"
-          (reference "R23") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -281,7 +281,7 @@
   (symbol (lib_id "power:+3V3") (at 149.86 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c024a83-d426-4e3f-8dde-06ff98c68c59)
-    (property "Reference" "#PWR039" (at 149.86 68.58 0)
+    (property "Reference" "#PWR071" (at 149.86 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 149.86 59.69 0)
@@ -297,7 +297,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/6ac64cfc-cd02-4504-88c7-a17dadca0833"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -306,7 +306,7 @@
   (symbol (lib_id "power:GND") (at 149.86 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2cc85bd-3853-4057-8a22-9de6c0e352c3)
-    (property "Reference" "#PWR038" (at 149.86 106.68 0)
+    (property "Reference" "#PWR072" (at 149.86 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 105.41 0)
@@ -322,7 +322,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/6ac64cfc-cd02-4504-88c7-a17dadca0833"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -331,13 +331,13 @@
   (symbol (lib_id "Device:R") (at 149.86 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ced1203b-aaf0-400b-beaa-0fb6959c4285)
-    (property "Reference" "R22" (at 152.4 73.66 0)
+    (property "Reference" "R43" (at 152.4 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k 1%" (at 152.4 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 148.082 74.93 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 148.082 74.93 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 74.93 0)
@@ -348,7 +348,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/6ac64cfc-cd02-4504-88c7-a17dadca0833"
-          (reference "R22") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )

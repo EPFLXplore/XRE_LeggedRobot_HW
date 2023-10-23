@@ -609,13 +609,6 @@
     (uuid 9aa67a47-0e9b-4c26-9848-1b40c98d60ea)
   )
 
-  (text_box "Back to Top Level"
-    (at 153.67 165.735 0) (size 21.59 30.48)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 0 0 0 0.1))
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
-    (uuid 2020b8bf-9d52-48d2-ac86-c40464c29b84)
-  )
   (text_box "120-ohm termination in Interconnects sheet"
     (at 115.57 100.33 0) (size 19.05 10.16)
     (stroke (width -0.0001) (type default))
@@ -629,6 +622,13 @@
     (fill (type none))
     (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
     (uuid d09fae89-6f2d-4945-80e9-1a6b12cfc713)
+  )
+  (text_box "Back to Top Level"
+    (at 265.43 166.37 0) (size 19.05 14.605)
+    (stroke (width 0) (type default) (color 0 0 0 1))
+    (fill (type color) (color 0 0 0 0.1))
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
+    (uuid d7679e44-696b-49ab-8f4a-18beee1c39b4)
   )
 
   (label "RS422_~{RE}" (at 179.07 66.04 180) (fields_autoplaced)
@@ -664,23 +664,23 @@
     (uuid e9397590-8039-465d-86a0-c106f70180d8)
   )
 
-  (hierarchical_label "{RS422_TTL}" (shape bidirectional) (at 190.5 59.69 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) bold) (justify left))
-    (uuid 27e494fe-9e5f-4008-9e78-941c005f614e)
+  (hierarchical_label "{RS422}" (shape bidirectional) (at 109.22 74.93 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) bold) (justify right))
+    (uuid 2da82510-1a6f-4977-a60d-fe3e800c687f)
   )
   (hierarchical_label "{AUX1}" (shape bidirectional) (at 190.5 77.47 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27) bold) (justify left))
     (uuid 4940b27b-48a7-4efb-a4dc-5ea2058e4354)
   )
-  (hierarchical_label "{RS422}" (shape bidirectional) (at 109.22 74.93 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) bold) (justify right))
-    (uuid 9ed9ff6c-f3d1-430c-911c-72b6c512eced)
+  (hierarchical_label "{RS422_TTL}" (shape bidirectional) (at 190.5 59.69 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27) bold) (justify left))
+    (uuid 798d9341-dc5d-4cca-bbd6-6165d23ee3d4)
   )
 
   (symbol (lib_id "power:+3V3") (at 147.32 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6226abcd-0a72-40dc-8a0a-3da7e24d0dfc)
-    (property "Reference" "#PWR047" (at 147.32 60.96 0)
+    (property "Reference" "#PWR052" (at 147.32 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 147.32 52.07 0)
@@ -696,7 +696,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -705,13 +705,13 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7830bc81-589c-4c4e-a685-e4375d89ef62)
-    (property "Reference" "C34" (at 130.81 62.2363 0)
+    (property "Reference" "C92" (at 130.81 62.2363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 130.81 64.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 128.27 63.5 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 128.27 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 63.5 0)
@@ -722,7 +722,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "C34") (unit 1)
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -731,7 +731,7 @@
   (symbol (lib_id "power:GND") (at 128.27 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb44b7c5-3329-42b3-9eeb-05b4d5995b6d)
-    (property "Reference" "#PWR048" (at 128.27 74.93 0)
+    (property "Reference" "#PWR050" (at 128.27 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 73.66 0)
@@ -747,7 +747,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -756,7 +756,7 @@
   (symbol (lib_id "power:GND") (at 146.05 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f03fe810-c2cd-4daa-89dc-4978733f08bf)
-    (property "Reference" "#PWR049" (at 146.05 119.38 0)
+    (property "Reference" "#PWR051" (at 146.05 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 118.11 0)
@@ -772,7 +772,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -781,7 +781,7 @@
   (symbol (lib_id "0_interface_uart:SN65HVD35DR") (at 146.05 88.9 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fadb8f36-89de-42be-992e-0d85c012ce54)
-    (property "Reference" "U5" (at 140.97 69.85 0)
+    (property "Reference" "U8" (at 140.97 69.85 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD35DR" (at 162.56 105.41 0)
@@ -810,7 +810,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "U5") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )

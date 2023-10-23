@@ -525,6 +525,13 @@
     (uuid f6f415cd-d1fe-4e53-9491-382c6c937ce4)
   )
 
+  (text_box "Back to Top Level"
+    (at 265.43 166.37 0) (size 19.05 14.605)
+    (stroke (width 0) (type default) (color 0 0 0 1))
+    (fill (type color) (color 0 0 0 0.1))
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
+    (uuid 0975afee-c6a4-4aed-a5ea-858fd644d48e)
+  )
   (text_box "To Motor NTC"
     (at 215.265 68.58 0) (size 13.335 5.08)
     (stroke (width -0.0001) (type default))
@@ -532,32 +539,25 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 508fa60e-a399-4ba1-bb75-448d345f364b)
   )
-  (text_box "Back to Top Level"
-    (at 153.67 165.735 0) (size 21.59 30.48)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 0 0 0 0.1))
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
-    (uuid 6360ffff-97ee-4780-837c-c9c58330d6f1)
-  )
   (text_box "Motor Temperature Sensing"
     (at 158.115 121.285 0) (size 66.675 9.525)
     (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify bottom))
     (uuid 8e65d37d-fd03-466d-92e8-1438ca5a81f0)
   )
   (text_box "MOSFETs Temperature Sensing"
     (at 79.375 121.285 0) (size 66.675 9.525)
     (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
+    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify bottom))
     (uuid e9b5b3d6-31e6-4096-8541-3125f4fcfb64)
   )
   (text_box "Nominal B-Constant 4050-4099K"
-    (at 90.17 117.475 0) (size 45.085 8.255)
-    (stroke (width -0.0001) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify top))
+    (at 93.98 116.84 0) (size 38.1 4.445)
+    (stroke (width 0) (type default) (color 0 0 0 1))
+    (fill (type color) (color 191 240 255 1))
+    (effects (font (size 1.27 1.27) (color 0 0 0 1)))
     (uuid ea386b69-5170-4f4e-b1f5-ac7e90a65e48)
   )
 
@@ -585,13 +585,13 @@
   (symbol (lib_id "Device:NetTie_2") (at 187.96 67.31 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16b3b9ac-0b5b-4a96-b873-c71c411f784a)
-    (property "Reference" "NT1" (at 187.96 62.23 0)
+    (property "Reference" "NT4" (at 187.96 62.23 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NTC_MOT_H" (at 187.96 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 187.96 67.31 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 187.96 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 67.31 0)
@@ -602,7 +602,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "NT1") (unit 1)
+          (reference "NT4") (unit 1)
         )
       )
     )
@@ -611,7 +611,7 @@
   (symbol (lib_id "power:GND") (at 176.53 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2aa276dd-4e7a-44be-a584-d01f2e966279)
-    (property "Reference" "#PWR019" (at 176.53 115.57 0)
+    (property "Reference" "#PWR023" (at 176.53 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 114.3 0)
@@ -627,7 +627,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -636,13 +636,13 @@
   (symbol (lib_id "Device:R") (at 97.79 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 497e78eb-af49-4163-8f7c-4d168071b284)
-    (property "Reference" "R4" (at 100.33 97.79 0)
+    (property "Reference" "R8" (at 100.33 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k 1%" (at 100.33 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 96.012 99.06 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 96.012 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 99.06 0)
@@ -653,7 +653,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "R4") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -662,13 +662,13 @@
   (symbol (lib_id "Device:R") (at 176.53 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6805c917-83e5-48c1-8f16-25ea6d5d4e9f)
-    (property "Reference" "R5" (at 179.07 97.79 0)
+    (property "Reference" "R9" (at 179.07 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k 1%" (at 179.07 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 174.752 99.06 90)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 174.752 99.06 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 176.53 99.06 0)
@@ -679,7 +679,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "R5") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -688,13 +688,13 @@
   (symbol (lib_id "Device:C") (at 111.76 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 88a61af7-8101-4037-9d34-ac9fe6194ece)
-    (property "Reference" "C15" (at 115.57 97.79 0)
+    (property "Reference" "C71" (at 115.57 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 115.57 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 112.7252 102.87 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 112.7252 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 111.76 99.06 0)
@@ -705,7 +705,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "C15") (unit 1)
+          (reference "C71") (unit 1)
         )
       )
     )
@@ -714,7 +714,7 @@
   (symbol (lib_id "power:GND") (at 97.79 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b3975f29-f9c1-46ab-8c58-0bfa37444bca)
-    (property "Reference" "#PWR015" (at 97.79 115.57 0)
+    (property "Reference" "#PWR022" (at 97.79 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 97.79 114.3 0)
@@ -730,7 +730,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -745,7 +745,7 @@
     (property "Value" "47k 1% NTC" (at 100.965 84.1375 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 97.79 81.28 0)
+    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 97.79 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 97.79 81.28 0)
@@ -765,13 +765,13 @@
   (symbol (lib_id "Device:NetTie_2") (at 187.96 74.93 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid d739b43d-48bf-4d26-8b18-52dcb0e7daa9)
-    (property "Reference" "NT2" (at 187.96 69.85 0)
+    (property "Reference" "NT5" (at 187.96 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "NTC_MOT_L" (at 187.96 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "" (at 187.96 74.93 0)
+    (property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm" (at 187.96 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 187.96 74.93 0)
@@ -782,7 +782,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "NT2") (unit 1)
+          (reference "NT5") (unit 1)
         )
       )
     )
@@ -791,13 +791,13 @@
   (symbol (lib_id "Device:C") (at 190.5 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e28dc364-fb72-4a30-8cbc-eab96ab76bf7)
-    (property "Reference" "C16" (at 194.31 97.79 0)
+    (property "Reference" "C72" (at 194.31 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 194.31 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 191.4652 102.87 0)
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 191.4652 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 190.5 99.06 0)
@@ -808,7 +808,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "C16") (unit 1)
+          (reference "C72") (unit 1)
         )
       )
     )
