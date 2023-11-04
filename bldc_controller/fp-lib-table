@@ -6,4 +6,7 @@
   (lib (name "0_motor_driver")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_motor_driver.pretty")(options "")(descr ""))
   (lib (name "0_transistor_fet")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_transistor_fet.pretty")(options "")(descr ""))
   (lib (name "0_switching_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_switching_regulator.pretty")(options "")(descr ""))
+  (lib (name "0_net_tie")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_net_tie.pretty")(options "")(descr ""))
+  (lib (name "0_capacitor_smd")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_capacitor_smd.pretty")(options "")(descr ""))
+  (lib (name "0_resistor_smd")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_resistor_smd.pretty")(options "")(descr ""))
 )

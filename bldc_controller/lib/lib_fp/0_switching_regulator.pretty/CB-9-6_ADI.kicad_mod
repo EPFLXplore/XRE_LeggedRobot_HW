@@ -10,10 +10,6 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 63826be4-91e1-4aaf-90a0-5ad2cbcad57b)
   )
-  (fp_text user "A" (at -1.4859 -0.5 unlocked) (layer "B.SilkS")
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp 20801b38-f99c-4b40-960f-f85ba0af6ba9)
-  )
   (fp_text user "A" (at -1.4859 -0.5 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 737f308b-d4e0-48c1-9853-5a3aa33814ba)
@@ -32,15 +28,6 @@
     (stroke (width 0.15) (type solid)) (layer "F.SilkS") (tstamp 3af70b53-a746-4079-94d7-097be56b45f3))
   (fp_circle (center -1.5 -1) (end -1.4 -1)
     (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp f819ab0a-2a6e-423d-b521-b53cd4526c94))
-  (fp_poly
-    (pts
-      (xy -1.1945 -1.1945)
-      (xy 1.1945 -1.1945)
-      (xy 1.1945 1.1945)
-      (xy -1.1945 1.1945)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "Eco2.User") (tstamp 4e7f1c26-ceee-4b8e-80a0-e4b0e78a8095))
   (fp_line (start -1.1049 -1.2065) (end 1.1049 -1.2065)
     (stroke (width 0.1524) (type solid)) (layer "F.CrtYd") (tstamp b65523dc-fc94-4290-9ccb-bbbbd6b6bb0e))
   (fp_line (start -1.1049 1.2065) (end -1.1049 -1.2065)

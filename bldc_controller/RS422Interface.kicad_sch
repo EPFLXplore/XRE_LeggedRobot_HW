@@ -610,11 +610,11 @@
   )
 
   (text_box "120-ohm termination in Interconnects sheet"
-    (at 115.57 100.33 0) (size 19.05 10.16)
-    (stroke (width -0.0001) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify right top))
-    (uuid 2889ca68-d644-4845-9e25-d66e2854d42c)
+    (at 111.76 99.06 0) (size 24.13 6.35)
+    (stroke (width 0) (type default) (color 0 0 0 1))
+    (fill (type color) (color 191 240 255 1))
+    (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify left))
+    (uuid 8e763944-7c31-4054-8d2f-50b2e41a661d)
   )
   (text_box "3.3-V Full-Duplex RS-422 Interface"
     (at 93.98 119.38 0) (size 115.57 9.525)
@@ -680,7 +680,7 @@
   (symbol (lib_id "power:+3V3") (at 147.32 57.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6226abcd-0a72-40dc-8a0a-3da7e24d0dfc)
-    (property "Reference" "#PWR052" (at 147.32 60.96 0)
+    (property "Reference" "#PWR051" (at 147.32 60.96 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 147.32 52.07 0)
@@ -696,7 +696,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -705,13 +705,13 @@
   (symbol (lib_id "Device:C_Small") (at 128.27 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7830bc81-589c-4c4e-a685-e4375d89ef62)
-    (property "Reference" "C92" (at 130.81 62.2363 0)
+    (property "Reference" "C91" (at 130.81 62.2363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 130.81 64.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 128.27 63.5 0)
+    (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 128.27 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 128.27 63.5 0)
@@ -722,7 +722,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "C92") (unit 1)
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -731,7 +731,7 @@
   (symbol (lib_id "power:GND") (at 128.27 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb44b7c5-3329-42b3-9eeb-05b4d5995b6d)
-    (property "Reference" "#PWR050" (at 128.27 74.93 0)
+    (property "Reference" "#PWR049" (at 128.27 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 73.66 0)
@@ -747,7 +747,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -756,7 +756,7 @@
   (symbol (lib_id "power:GND") (at 146.05 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f03fe810-c2cd-4daa-89dc-4978733f08bf)
-    (property "Reference" "#PWR051" (at 146.05 119.38 0)
+    (property "Reference" "#PWR050" (at 146.05 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 118.11 0)
@@ -772,7 +772,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/50cb6c1b-2a97-41f7-b806-2f324483583f"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )

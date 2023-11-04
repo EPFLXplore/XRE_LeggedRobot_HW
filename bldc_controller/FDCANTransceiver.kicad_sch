@@ -389,6 +389,10 @@
     (stroke (width 0) (type default))
     (uuid 41e30188-4266-4264-8648-ccf37f0528e9)
   )
+  (wire (pts (xy 127 100.33) (xy 137.16 100.33))
+    (stroke (width 0) (type default))
+    (uuid 43405bc8-7495-4cb1-99fa-bb15297da781)
+  )
   (wire (pts (xy 125.73 92.71) (xy 137.16 92.71))
     (stroke (width 0) (type default))
     (uuid 457cce78-e9be-4103-b672-df56e0a6edb0)
@@ -461,10 +465,6 @@
     (stroke (width 0) (type default))
     (uuid d23692a8-d173-4b90-bba0-e74540057e87)
   )
-  (wire (pts (xy 127 100.33) (xy 137.16 100.33))
-    (stroke (width 0) (type default))
-    (uuid d3eb8a53-aba2-41a7-a269-0faaa0f2a676)
-  )
   (wire (pts (xy 147.32 66.04) (xy 147.32 77.47))
     (stroke (width 0) (type default))
     (uuid d4c6e315-0e2f-4a22-8663-4ed6acbe0fbc)
@@ -507,13 +507,6 @@
     (uuid d3091477-b798-484a-9c00-6519657ed532)
   )
 
-  (text_box "Silent mode disabled"
-    (at 110.49 101.6 0) (size 13.97 6.35)
-    (stroke (width -0.0001) (type default))
-    (fill (type none))
-    (effects (font (size 1.27 1.27)) (justify right top))
-    (uuid 2d6527fd-8510-4f00-a554-47f5a49185f7)
-  )
   (text_box "Back to Top Level"
     (at 265.43 166.37 0) (size 19.05 14.605)
     (stroke (width 0) (type default) (color 0 0 0 1))
@@ -528,7 +521,18 @@
     (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
     (uuid 9edb480b-adf7-4eab-b770-879f271f9c8e)
   )
+  (text_box "Silent mode disabled"
+    (at 109.22 102.87 0) (size 13.97 5.08)
+    (stroke (width 0) (type default) (color 0 0 0 1))
+    (fill (type color) (color 191 240 255 1))
+    (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify left))
+    (uuid f2247970-40d0-4c87-9fc2-3d34ea3e9add)
+  )
 
+  (label "FDCAN_S" (at 134.62 100.33 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right bottom))
+    (uuid 46db633b-2a72-4e39-b573-8ed0f7b55958)
+  )
   (label "FDCAN_P" (at 173.99 87.63 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 6bedefe1-00ea-4e8d-9ba2-7097e971988e)
@@ -558,7 +562,7 @@
   (symbol (lib_id "power:+3V3") (at 132.08 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d5d59fb-0824-48f2-a604-b9cb7c92c8d9)
-    (property "Reference" "#PWR054" (at 132.08 67.31 0)
+    (property "Reference" "#PWR053" (at 132.08 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 132.08 58.42 0)
@@ -574,7 +578,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -583,7 +587,7 @@
   (symbol (lib_id "power:GND") (at 127 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45f83982-ac98-4dff-a0ae-defbb0bb3df3)
-    (property "Reference" "#PWR053" (at 127 119.38 0)
+    (property "Reference" "#PWR052" (at 127 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 118.11 0)
@@ -599,7 +603,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -608,7 +612,7 @@
   (symbol (lib_id "power:GND") (at 132.08 76.2 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ae6e5eb-a9a2-42c4-b20c-708b39a77b8b)
-    (property "Reference" "#PWR055" (at 132.08 82.55 0)
+    (property "Reference" "#PWR054" (at 132.08 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 132.08 81.28 0)
@@ -624,7 +628,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -633,7 +637,7 @@
   (symbol (lib_id "power:GND") (at 167.64 76.2 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94f7cf3d-b58c-42e2-91be-693a6cfcdf44)
-    (property "Reference" "#PWR057" (at 167.64 82.55 0)
+    (property "Reference" "#PWR056" (at 167.64 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 81.28 0)
@@ -649,7 +653,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -658,13 +662,13 @@
   (symbol (lib_id "Device:C_Small") (at 167.64 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98f3230e-bc50-4e2e-91ea-fe9c3ff52d36)
-    (property "Reference" "C94" (at 170.18 71.1263 0)
+    (property "Reference" "C93" (at 170.18 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 170.18 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 167.64 72.39 0)
+    (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 167.64 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 167.64 72.39 0)
@@ -675,7 +679,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "C94") (unit 1)
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -684,7 +688,7 @@
   (symbol (lib_id "power:+5V") (at 167.64 63.5 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9be7039a-b8a0-4895-8612-5b4ae235a810)
-    (property "Reference" "#PWR056" (at 167.64 67.31 0)
+    (property "Reference" "#PWR055" (at 167.64 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 167.64 58.42 0)
@@ -700,7 +704,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -715,7 +719,7 @@
     (property "Value" "TCAN1057AEVDRQ1" (at 151.13 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-8-N7_3.9x4.9mm_P1.27mm" (at 149.86 116.84 0)
+    (property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" (at 149.86 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/tcan1057aev-q1.pdf" (at 151.13 114.3 0)
@@ -741,13 +745,13 @@
   (symbol (lib_id "Device:C_Small") (at 132.08 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d5911e8f-4f92-435c-bf36-1785c0aad2e7)
-    (property "Reference" "C93" (at 134.62 71.1263 0)
+    (property "Reference" "C92" (at 134.62 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 134.62 73.6663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (at 132.08 72.39 0)
+    (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 132.08 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 132.08 72.39 0)
@@ -758,7 +762,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
-          (reference "C93") (unit 1)
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -773,7 +777,7 @@
     (property "Value" "10k 1%" (at 129.54 106.68 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 125.222 105.41 90)
+    (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 125.222 105.41 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 127 105.41 0)

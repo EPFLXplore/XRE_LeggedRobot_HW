@@ -261,7 +261,7 @@
     (property "Value" "DNP" (at 152.4 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 148.082 92.71 90)
+    (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 148.082 92.71 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 92.71 0)
@@ -281,7 +281,7 @@
   (symbol (lib_id "power:+3V3") (at 149.86 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0c024a83-d426-4e3f-8dde-06ff98c68c59)
-    (property "Reference" "#PWR071" (at 149.86 68.58 0)
+    (property "Reference" "#PWR070" (at 149.86 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 149.86 59.69 0)
@@ -297,7 +297,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/6ac64cfc-cd02-4504-88c7-a17dadca0833"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -306,7 +306,7 @@
   (symbol (lib_id "power:GND") (at 149.86 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2cc85bd-3853-4057-8a22-9de6c0e352c3)
-    (property "Reference" "#PWR072" (at 149.86 106.68 0)
+    (property "Reference" "#PWR071" (at 149.86 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 149.86 105.41 0)
@@ -322,7 +322,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/6ac64cfc-cd02-4504-88c7-a17dadca0833"
-          (reference "#PWR072") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -337,7 +337,7 @@
     (property "Value" "100k 1%" (at 152.4 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 148.082 74.93 90)
+    (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 148.082 74.93 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 149.86 74.93 0)

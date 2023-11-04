@@ -330,6 +330,10 @@
     (uuid eb9e6cd9-8f58-4731-9fa8-6f5a61f8c9ab)
   )
 
+  (label "LED1_A" (at 151.13 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 528ddf64-8bf8-41b7-8799-ffd3563b62b3)
+  )
   (label "LED1" (at 134.62 101.6 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 81fbc446-3b85-40a8-9e46-a70c6c23341b)
@@ -337,6 +341,10 @@
   (label "LED2" (at 134.62 106.68 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 85316032-851d-4306-bf3b-c417bb6409ed)
+  )
+  (label "LED2_A" (at 165.1 88.9 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ce1d960e-34d7-4b55-873b-4222f1d61884)
   )
 
   (hierarchical_label "{LED}" (shape input) (at 121.92 95.25 180) (fields_autoplaced)
@@ -353,7 +361,7 @@
     (property "Value" "560R" (at 167.64 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 163.322 82.55 90)
+    (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 163.322 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 165.1 82.55 0)
@@ -379,7 +387,7 @@
     (property "Value" "560R" (at 153.67 83.82 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Resistor_SMD:R_0402_1005Metric" (at 149.352 82.55 90)
+    (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 149.352 82.55 90)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 151.13 82.55 0)
@@ -399,7 +407,7 @@
   (symbol (lib_id "power:+3V3") (at 165.1 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 73d2f326-3981-481e-8c04-047a3e7b409c)
-    (property "Reference" "#PWR070" (at 165.1 71.12 0)
+    (property "Reference" "#PWR069" (at 165.1 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 165.1 62.23 0)
@@ -415,7 +423,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/5b60f270-becd-4ec3-b763-258df225fc82"
-          (reference "#PWR070") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
