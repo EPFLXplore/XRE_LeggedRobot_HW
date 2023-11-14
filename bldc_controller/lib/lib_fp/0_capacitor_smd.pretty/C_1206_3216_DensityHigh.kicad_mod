@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 52dc381f-d6ba-41de-996a-729a484cda37)
   )
-  (fp_text value "C_1206_3216_DensityHigh" (at 0 1.9 unlocked) (layer "F.Fab")
+  (fp_text value "C_1206_3216_DensityHigh" (at 0 1.9 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7201ea3b-2620-4148-8875-7987dd797293)
   )

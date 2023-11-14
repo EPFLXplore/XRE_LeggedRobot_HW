@@ -12,4 +12,5 @@
   (lib (name "0_transistor_fet")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_transistor_fet.kicad_sym")(options "")(descr ""))
   (lib (name "0_switching_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_switching_regulator.kicad_sym")(options "")(descr ""))
   (lib (name "0_linear_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_linear_regulator.kicad_sym")(options "")(descr ""))
+  (lib (name "0_interface_can")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_interface_can.kicad_sym")(options "")(descr ""))
 )

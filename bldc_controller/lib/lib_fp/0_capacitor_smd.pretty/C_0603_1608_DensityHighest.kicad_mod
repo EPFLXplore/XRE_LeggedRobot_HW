@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 04cc5851-b884-466a-857c-53327b4a74c0)
   )
-  (fp_text value "C_0603_1608_DensityHighest" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "C_0603_1608_DensityHighest" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6577f062-5565-4c87-8de8-e00f998f4e4c)
   )

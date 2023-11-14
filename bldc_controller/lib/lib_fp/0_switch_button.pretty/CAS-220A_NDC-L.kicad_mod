@@ -6,11 +6,11 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e136b600-4e80-405e-8c06-0edb7cc87e4d)
   )
-  (fp_text value "CAS-220A_NDC" (at -0.35 -5.2 unlocked) (layer "F.Fab")
+  (fp_text value "CAS-220A_NDC" (at -0.35 -5.2 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 61875636-767b-45cc-b64c-a8960eb08091)
   )
-  (fp_text user "${REFERENCE}" (at -0.05 -6 unlocked) (layer "F.Fab")
+  (fp_text user "${REFERENCE}" (at 0 0 unlocked) (layer "F.Fab")
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp b9e4af55-047f-434f-b7e3-7d7245a23dbb)
   )

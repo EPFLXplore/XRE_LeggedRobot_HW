@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 90a02e75-96de-444b-8788-12891fef0109)
   )
-  (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab")
+  (fp_text value "MountingHole_3.2mm_M3_Pad_Via" (at 0 4.2) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp cb4343ba-45c4-41a0-a4c4-6712a4bd4e3b)
   )

@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.15)) (justify left))
     (tstamp 974791af-5adc-4f88-ac81-bc16a8b37d8d)
   )
-  (fp_text value "3220-10-0200-00" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "3220-10-0200-00" (at 0 1 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 70e2db4a-004a-4d1d-9085-3da44e20485c)
   )

@@ -5,7 +5,7 @@
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 1f8f948e-5a9f-4ee5-be32-1ba902743109)
   )
-  (fp_text value "D_SOD-523_Spaced" (at 0 1.4 unlocked) (layer "F.Fab")
+  (fp_text value "D_SOD-523_Spaced" (at 0 1.4 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 07739a67-0917-40f3-8310-bc98b5ca00a7)
   )
