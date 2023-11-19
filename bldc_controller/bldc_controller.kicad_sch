@@ -1059,13 +1059,13 @@
     )
   )
 
-  (symbol (lib_id "power:+3V3") (at 74.93 69.85 0) (unit 1)
+  (symbol (lib_id "0_power_symbols:+A3V3") (at 74.93 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9905a441-1003-4ab4-8416-10590b34e2e6)
-    (property "Reference" "#PWR01" (at 74.93 73.66 0)
+    (uuid b1b8a482-a2f1-402d-8314-87269b6ab977)
+    (property "Reference" "#PWR?" (at 74.93 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "+3V3" (at 74.93 64.77 0)
+    (property "Value" "+A3V3" (at 74.93 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "" (at 74.93 69.85 0)
@@ -1074,9 +1074,12 @@
     (property "Datasheet" "" (at 74.93 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 59fc45be-7740-44d7-8ada-acb62c93ba9a))
+    (pin "1" (uuid ea08f5c8-9960-48b0-8bcf-c585440c3443))
     (instances
       (project "bldc_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/2eff0da2-7e01-4af1-97ee-ff24a49f3f51"
+          (reference "#PWR?") (unit 1)
+        )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
           (reference "#PWR01") (unit 1)
         )

@@ -113,7 +113,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.0,
+        "min_copper_edge_clearance": 0.3,
         "min_hole_clearance": 0.19999999999999998,
         "min_hole_to_hole": 0.19999999999999998,
         "min_microvia_diameter": 0.19999999999999998,
@@ -445,8 +445,8 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
-        "via_diameter": 0.7,
-        "via_drill": 0.3,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -462,6 +462,23 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
+        "via_diameter": 0.5,
+        "via_drill": 0.2,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.15,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Chassis",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
@@ -562,10 +579,6 @@
       "/Interconnects/NTC_MOT_H": "rgb(255, 95, 0)",
       "/Interconnects/NTC_MOT_L": "rgb(255, 95, 0)",
       "/Interconnects/POS_SENSOR_CS": "rgb(209, 179, 255)",
-      "/Interconnects/RS422_A": "rgb(56, 228, 255)",
-      "/Interconnects/RS422_B": "rgb(56, 228, 255)",
-      "/Interconnects/RS422_Y": "rgb(56, 228, 255)",
-      "/Interconnects/RS422_Z": "rgb(56, 228, 255)",
       "/Interconnects/SWCLK": "rgb(158, 19, 255)",
       "/Interconnects/SWDIO": "rgb(158, 19, 255)",
       "/LED Indicators/LED1": "rgb(255, 194, 185)",
@@ -723,6 +736,10 @@
       {
         "netclass": "RS422 Diff Pair",
         "pattern": "/Interconnects/RS422_Z"
+      },
+      {
+        "netclass": "Chassis",
+        "pattern": "CHASSIS"
       }
     ]
   },
