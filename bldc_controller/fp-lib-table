@@ -12,6 +12,8 @@
   (lib (name "0_diode_smd")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_diode_smd.pretty")(options "")(descr ""))
   (lib (name "0_smd_pad")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_smd_pad.pretty")(options "")(descr ""))
   (lib (name "0_pad")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_pad.pretty")(options "")(descr ""))
+  (lib (name "0_package_SO")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_SO.pretty")(options "")(descr ""))
   (lib (name "0_package_SON")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_SON.pretty")(options "")(descr ""))
   (lib (name "0_package_SOT_TO_SMD")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_SOT_TO_SMD.pretty")(options "")(descr ""))
+  (lib (name "0_package_DFN_QFN")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_DFN_QFN.pretty")(options "")(descr ""))
 )

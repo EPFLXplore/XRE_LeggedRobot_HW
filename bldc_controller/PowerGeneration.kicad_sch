@@ -2474,6 +2474,13 @@
     (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
     (uuid ab1398bf-fc96-48ff-a1a1-c3e473a55830)
   )
+  (text_box "+12V (600 mA): Fan power\n\n+5V (300 mA): Gate drivers (motor and fan)\n\n+3V3 (500 mA): digital 3.3V power rail\n\n+3V3A (250 mA): analog 3.3V power rail\n"
+    (at 179.07 133.35 0) (size 99.06 30.48)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify left bottom))
+    (uuid ad53b790-2348-4226-8912-7a7c00dcc532)
+  )
   (text_box "Regulators for +5V (300mA), +3V3 (500mA) and low-noise +3V3 (250mA) generation"
     (at 20.32 110.49 0) (size 255.27 16.51)
     (stroke (width -0.0001) (type default))

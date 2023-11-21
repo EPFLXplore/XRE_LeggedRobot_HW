@@ -225,6 +225,13 @@
     (uuid e378b4f6-4a46-4e48-9c34-e776f8f72716)
   )
 
+  (text_box "Necessary to be compatible with moteus FW."
+    (at 115.57 133.35 0) (size 71.12 11.43)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
+    (uuid 3bb414a0-70a5-46a9-aace-47717d943589)
+  )
   (text_box "			TOP		BOT\n\nr1.1 r1.2	  x		100k\n\n     r1.3	100k	  x"
     (at 128.905 109.22 0) (size 33.02 8.89)
     (stroke (width -0.0001) (type default))

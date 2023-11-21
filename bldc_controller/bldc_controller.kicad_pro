@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 2.7,
-          "width": 1.0
+          "drill": 3.5,
+          "height": 6.5,
+          "width": 6.5
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -468,7 +468,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.5,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -478,14 +478,14 @@
         "name": "Chassis",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.2,
         "via_diameter": 0.5,
         "via_drill": 0.2,
         "wire_width": 6
       },
       {
         "bus_width": 12,
-        "clearance": 0.25,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -832,6 +832,10 @@
     [
       "926acdff-90be-4f7b-9e19-9f96ee9f0571",
       "FDCAN Transceiver"
+    ],
+    [
+      "7d62525d-63f0-4363-928c-1e42163f4a36",
+      "Fan Control"
     ],
     [
       "a6223e2e-2896-4182-b4ad-55a63bc87f3d",

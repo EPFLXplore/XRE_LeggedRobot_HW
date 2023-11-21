@@ -616,6 +616,13 @@
     (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify left))
     (uuid 8e763944-7c31-4054-8d2f-50b2e41a661d)
   )
+  (text_box "RS-422 through UART is used mostly for absolute position sensors (e.g. Aksim-2, SSI protocol)"
+    (at 92.71 133.35 0) (size 119.38 11.43)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
+    (uuid ceb9a650-97ad-4508-92d1-2d4c19807214)
+  )
   (text_box "3.3-V Full-Duplex RS-422 Interface"
     (at 93.98 119.38 0) (size 115.57 9.525)
     (stroke (width -0.0001) (type default))

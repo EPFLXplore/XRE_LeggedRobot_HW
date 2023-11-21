@@ -2776,7 +2776,7 @@
     (property "Value" "BAT41KFILM" (at 124.1425 88.9 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "0_diode_smd:D_SOD-523_Spaced" (at 124.46 97.155 0)
+    (property "Footprint" "Diode_SMD:D_SOD-523" (at 124.46 97.155 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf" (at 124.46 92.71 0)
