@@ -672,11 +672,6 @@
     (stroke (width 0) (type default))
     (uuid 06168acc-8acd-4542-8704-d556c613210c)
   )
-  (polyline (pts (xy 267.97 57.15) (xy 154.94 57.15))
-    (stroke (width 0) (type default))
-    (uuid 099d5250-a171-4568-af02-a694597f125f)
-  )
-
   (wire (pts (xy 220.98 68.58) (xy 207.01 68.58))
     (stroke (width 0) (type default))
     (uuid 0ed963c1-fd24-4623-90a3-629df74e734c)
@@ -706,12 +701,6 @@
     (stroke (width 0) (type default))
     (uuid 1b2b99de-3e85-4bc2-8339-3b447156d30f)
   )
-
-  (polyline (pts (xy 146.05 60.96) (xy 146.05 129.54))
-    (stroke (width 0) (type default))
-    (uuid 1c180fe8-5281-48d2-b460-3054b1f27dc9)
-  )
-
   (bus (pts (xy 119.38 80.01) (xy 125.73 80.01))
     (stroke (width 0) (type default))
     (uuid 1cff0f77-8514-4e50-bf3c-dcb276395ce9)
@@ -738,11 +727,6 @@
     (stroke (width 0) (type default))
     (uuid 311560f9-0cb4-4550-976d-bf861eac16db)
   )
-  (polyline (pts (xy 142.24 133.35) (xy 29.21 133.35))
-    (stroke (width 0) (type default))
-    (uuid 34105039-6b89-438b-974d-87bd48faf106)
-  )
-
   (wire (pts (xy 176.53 95.25) (xy 176.53 110.49))
     (stroke (width 0) (type default))
     (uuid 3429e464-86a1-4c03-9ad3-1794bc6519af)
@@ -754,11 +738,6 @@
   (bus (pts (xy 116.84 82.55) (xy 116.84 83.82))
     (stroke (width 0) (type default))
     (uuid 3715bf36-b058-46d8-8785-fc9df5e1c856)
-  )
-
-  (polyline (pts (xy 267.97 133.35) (xy 154.94 133.35))
-    (stroke (width 0) (type default))
-    (uuid 374e4614-a6c7-4826-92f7-0d442ed6dc6b)
   )
 
   (wire (pts (xy 212.09 110.49) (xy 212.09 106.68))
@@ -808,6 +787,11 @@
     (uuid 8b0946b6-37a1-4b4a-888a-70c29cfd3aee)
   )
 
+  (polyline (pts (xy 234.95 67.31) (xy 205.74 62.23))
+    (stroke (width 0) (type dot) (color 255 0 0 1))
+    (uuid 8e5d955f-bfbe-4eab-b94f-ddd48f8a1fe8)
+  )
+
   (wire (pts (xy 50.8 107.95) (xy 50.8 110.49))
     (stroke (width 0) (type default))
     (uuid 902e5c1e-39b3-4850-b895-95a81ea5380e)
@@ -820,23 +804,6 @@
     (stroke (width 0) (type default))
     (uuid 92a4508f-6ed5-468d-9881-e73823462eb2)
   )
-  (polyline (pts (xy 25.4 60.96) (xy 25.4 129.54))
-    (stroke (width 0) (type default))
-    (uuid 9380ca75-15e4-4e75-8f24-917ae0299aac)
-  )
-  (polyline (pts (xy 271.78 60.96) (xy 271.78 129.54))
-    (stroke (width 0) (type default))
-    (uuid 9eec3a90-b2fe-4c5a-91f2-c419fc905589)
-  )
-  (polyline (pts (xy 142.24 57.15) (xy 29.21 57.15))
-    (stroke (width 0) (type default))
-    (uuid a45c0ae0-60b7-4c78-ae1a-c2f89cfec558)
-  )
-  (polyline (pts (xy 151.13 60.96) (xy 151.13 129.54))
-    (stroke (width 0) (type default))
-    (uuid b3f46213-2575-4a3a-94f3-3a16a76d2f69)
-  )
-
   (wire (pts (xy 196.85 110.49) (xy 196.85 106.68))
     (stroke (width 0) (type default))
     (uuid b488d411-ae17-405b-b0ad-9becf2b8f0ce)
@@ -907,6 +874,11 @@
     (stroke (width 0) (type default))
     (uuid eb2d004b-6673-4247-9068-9a4d2864925e)
   )
+  (polyline (pts (xy 91.44 74.93) (xy 78.74 71.12))
+    (stroke (width 0) (type dot) (color 255 0 0 1))
+    (uuid ec8e0cf7-e8b7-4354-83a7-53b7ae9cc904)
+  )
+
   (wire (pts (xy 80.01 68.58) (xy 80.01 81.28))
     (stroke (width 0) (type default))
     (uuid eebade05-2311-41c0-88fa-c1fbd6b930e3)
@@ -916,88 +888,82 @@
     (uuid f4d9ee63-45ed-4d04-a9f3-733caa3152c1)
   )
 
-  (arc (start 29.21 133.35) (mid 26.5159 132.2341) (end 25.4 129.54)
-    (stroke (width 0) (type default))
+  (rectangle (start 152.4 57.15) (end 266.7 133.35)
+    (stroke (width 1) (type default) (color 200 200 200 1))
     (fill (type none))
-    (uuid 0c05aee2-1d84-4e09-93d4-832472126b63)
+    (uuid 0f6f3483-8f48-4c5b-a3c3-d492cb8e261a)
   )
-  (arc (start 142.24 57.15) (mid 144.9341 58.2659) (end 146.05 60.96)
-    (stroke (width 0) (type default))
+  (rectangle (start 30.48 57.15) (end 144.78 133.35)
+    (stroke (width 1) (type default) (color 200 200 200 1))
     (fill (type none))
-    (uuid 3168b0b5-4a26-4925-82fb-18d1a4a3bb50)
+    (uuid 25468a39-694f-4afd-838d-deff3c266863)
   )
-  (arc (start 146.05 129.54) (mid 144.937 132.237) (end 142.24 133.35)
-    (stroke (width 0) (type default))
+  (rectangle (start 71.12 62.23) (end 78.74 71.12)
+    (stroke (width 0) (type dot) (color 255 0 0 1))
     (fill (type none))
-    (uuid 5ea981f5-04f9-4ee0-86eb-c816fb21ad79)
+    (uuid 2c0f6b9c-98b1-465c-9f90-d4cbde192318)
   )
-  (arc (start 271.78 129.54) (mid 270.667 132.237) (end 267.97 133.35)
-    (stroke (width 0) (type default))
+  (rectangle (start 198.12 62.23) (end 205.74 71.12)
+    (stroke (width 0) (type dot) (color 255 0 0 1))
     (fill (type none))
-    (uuid 72621c5b-36f6-4460-88d3-116bfc663d2e)
-  )
-  (arc (start 267.97 57.15) (mid 270.6641 58.2659) (end 271.78 60.96)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 8a1bb495-0bc8-4a50-adca-06a06683abca)
-  )
-  (arc (start 25.4 60.96) (mid 26.5174 58.2674) (end 29.21 57.15)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid 94af4a85-12dd-4186-ab33-6bb7f48fbfbc)
-  )
-  (arc (start 154.94 133.35) (mid 152.2459 132.2341) (end 151.13 129.54)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid c8b99a36-fe94-4b14-97f5-fb9751244a62)
-  )
-  (arc (start 151.13 60.96) (mid 152.2474 58.2674) (end 154.94 57.15)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d031cc63-e2da-4e0d-b31e-9d55578398fe)
+    (uuid 6a479b66-4632-492b-a06a-2604abc027e6)
   )
 
-  (text_box "VDD = VDD3V3 = 3.3 V for 3V3 operation"
-    (at 232.41 67.31 0) (size 25.4 6.35)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 191 240 255 1))
-    (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify left))
-    (uuid 02d00754-5423-48ea-94bb-933414cf08e5)
-  )
-  (text_box "14-Bit On-Axis Magnetic Rotary Position Sensor (commutation)"
-    (at 27.94 121.92 0) (size 115.57 9.525)
-    (stroke (width -0.0001) (type default))
+  (text_box "DESIGN NOTE:\nVDD = VDD3V3 = 3.3 V for 3V3 operation"
+    (at 234.95 62.23 0) (size 22.86 11.43)
+    (stroke (width 0.8) (type solid) (color 255 165 0 1))
     (fill (type none))
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify bottom))
-    (uuid 6f5b950c-d205-4440-bdbe-67b6a37f97ab)
+    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
+    (uuid 240703e9-4e26-4647-86da-cbf7ec9e4522)
   )
-  (text_box "VDD = VDD3V3 = 3.3 V for 3V3 operation"
-    (at 85.09 68.58 0) (size 25.4 6.35)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 191 240 255 1))
-    (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify left))
-    (uuid 701f0352-82c1-46a2-9232-2ca24c271134)
+  (text_box "DESIGN NOTE:\nThe encoder for disambiguation cannot be used to estimate backlash!"
+    (at 152.4 137.16 0) (size 33.02 13.97)
+    (stroke (width 0.8) (type solid) (color 250 236 0 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
+    (uuid 50f86a90-7af0-4b3c-b24d-b79a8c917e8a)
   )
   (text_box "14-Bit On-Axis Magnetic Rotary Position Sensor (disambiguation)"
-    (at 153.67 121.92 0) (size 115.57 9.525)
+    (at 153.67 121.92 0) (size 111.76 8.89)
     (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify bottom))
-    (uuid 8f16c9af-d472-468a-a91e-ff32e97812a1)
+    (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 162 22 34 1)) (justify bottom))
+    (uuid 52c9493a-7325-4ded-89d3-a1d4839283ac)
   )
-  (text_box "Back to Top Level"
-    (at 265.43 166.37 0) (size 19.05 14.605)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 0 0 0 0.1))
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
-    (uuid e81b626a-fc9a-4cff-ba79-2cbfe07bb91f)
-  )
-  (text_box "AS5047P senses magnet mounted on planetary sun gear, for commutation.\nAS5048B senses magnet mounted on shaft with same reduction factor as planetary gearbox for disambiguation."
-    (at 25.4 137.16 0) (size 246.38 9.525)
+  (text_box "[14] Sensing - Position"
+    (at 80.01 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
-    (uuid e829213d-ae53-42d6-8f08-f96457e2d5c7)
+    (effects (font (face "Times New Roman") (size 6 6) (thickness 1.2) bold (color 162 22 34 1)))
+    (uuid 5f511d41-855c-45e4-97c1-f98489adeb1f)
+  )
+  (text_box "DESIGN NOTE:\nVDD = VDD3V3 = 3.3 V for 3V3 operation"
+    (at 91.44 68.58 0) (size 22.86 11.43)
+    (stroke (width 0.8) (type solid) (color 255 165 0 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
+    (uuid 766fdca9-31be-48d6-95d6-1af98650fe63)
+  )
+  (text_box "DESIGN NOTE:\nAS5047P senses magnet mounted on planetary sun gear, for commutation.\nAS5048B senses magnet mounted on shaft with same reduction factor as planetary gearbox for disambiguation."
+    (at 30.48 137.16 0) (size 49.53 13.97)
+    (stroke (width 0.8) (type solid) (color 200 200 200 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
+    (uuid 7e93b180-b4f0-4611-9d56-48728b9dc0a8)
+  )
+  (text_box "14-Bit On-Axis Magnetic Rotary Position Sensor (commutation)"
+    (at 31.75 120.65 0) (size 111.76 10.16)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 162 22 34 1)) (justify bottom))
+    (uuid 8a654888-88a0-48ea-912b-e3d473cbbac0)
+  )
+  (text_box "LAYOUT NOTE:\nEncoder for disambiguation must be mechanically placed according to actuator CAD and magnet placement. "
+    (at 228.6 105.41 0) (size 29.21 13.97)
+    (stroke (width 1) (type solid) (color 0 0 255 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
+    (uuid 8f76d795-6e37-46b5-ae8c-44b7a8ad27cd)
   )
 
   (label "AUX2_C" (at 240.03 91.44 180) (fields_autoplaced)
@@ -1061,7 +1027,7 @@
     (pin "2" (uuid df25d959-c81c-4a95-95b2-f8c8f369da31))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
           (reference "C88") (unit 1)
         )
       )
@@ -1087,7 +1053,7 @@
     (pin "2" (uuid 0c7fe17d-eacf-4800-b911-5ed132dc3e64))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
           (reference "R27") (unit 1)
         )
       )
@@ -1097,7 +1063,7 @@
   (symbol (lib_id "Device:C") (at 220.98 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0ccb9c1a-2eb8-493f-81d4-12515e738936)
-    (property "Reference" "C?" (at 223.52 73.66 0)
+    (property "Reference" "C90" (at 223.52 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10u X7R 6.3V" (at 223.52 76.2 0)
@@ -1113,10 +1079,7 @@
     (pin "2" (uuid 90ac858b-f90f-4dbd-a9f0-f4a72d3e4b14))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/b89a7d22-bda3-4776-b5ce-8f6b0eb8f2a5"
-          (reference "C?") (unit 1)
-        )
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
           (reference "C90") (unit 1)
         )
       )
@@ -1126,7 +1089,7 @@
   (symbol (lib_id "power:+3V3") (at 50.8 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16971fe4-17e8-46f6-a23f-04eb5cb1b7c7)
-    (property "Reference" "#PWR044" (at 50.8 69.85 0)
+    (property "Reference" "#PWR047" (at 50.8 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 50.8 60.96 0)
@@ -1141,8 +1104,8 @@
     (pin "1" (uuid 4a0e562b-32db-4400-9d29-fc024b429356))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
-          (reference "#PWR044") (unit 1)
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1151,7 +1114,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 220.98 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 249db3c0-e09a-48d0-b209-53669159af59)
-    (property "Reference" "#FLG06" (at 220.98 66.675 0)
+    (property "Reference" "#FLG03" (at 220.98 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 220.98 63.5 0)
@@ -1166,8 +1129,8 @@
     (pin "1" (uuid b17df90c-ca67-4b47-830d-0956e023bea2))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
-          (reference "#FLG06") (unit 1)
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
+          (reference "#FLG03") (unit 1)
         )
       )
     )
@@ -1176,7 +1139,7 @@
   (symbol (lib_id "power:GND") (at 50.8 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6187a1e6-a86b-4df7-8c07-f62424d44f8b)
-    (property "Reference" "#PWR045" (at 50.8 116.84 0)
+    (property "Reference" "#PWR048" (at 50.8 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 115.57 0)
@@ -1191,8 +1154,8 @@
     (pin "1" (uuid 419d2625-3202-4f75-bd20-3a4bb008b7e5))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
-          (reference "#PWR045") (unit 1)
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -1229,7 +1192,7 @@
     (pin "9" (uuid 5a89dccd-23d3-470c-922c-f27999612816))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
           (reference "U6") (unit 1)
         )
       )
@@ -1239,7 +1202,7 @@
   (symbol (lib_id "power:GND") (at 176.53 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6931377f-24e3-4b1e-9225-a61f006531aa)
-    (property "Reference" "#PWR047" (at 176.53 118.11 0)
+    (property "Reference" "#PWR050" (at 176.53 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 116.84 0)
@@ -1254,8 +1217,8 @@
     (pin "1" (uuid 411c3190-753e-46f8-918a-4734051d8376))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
-          (reference "#PWR047") (unit 1)
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -1292,7 +1255,7 @@
     (pin "9" (uuid a9c759c8-07f9-478a-9ca7-f5beada3a19f))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
           (reference "U7") (unit 1)
         )
       )
@@ -1318,7 +1281,7 @@
     (pin "2" (uuid 83c86b3b-a7e7-4d94-8cd0-a5e4302f822e))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
           (reference "R28") (unit 1)
         )
       )
@@ -1328,7 +1291,7 @@
   (symbol (lib_id "power:+3V3") (at 176.53 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d84ff86-9781-4dc9-a7c1-6b58e6df803c)
-    (property "Reference" "#PWR046" (at 176.53 69.85 0)
+    (property "Reference" "#PWR049" (at 176.53 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 176.53 60.96 0)
@@ -1340,11 +1303,11 @@
     (property "Datasheet" "" (at 176.53 66.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 57fa2dab-f4d7-4424-a6ef-ae44ab727a9f))
+    (pin "1" (uuid a4f17c37-0080-4559-a3c9-01146dad945d))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
-          (reference "#PWR046") (unit 1)
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1353,7 +1316,7 @@
   (symbol (lib_id "power:GND") (at 220.98 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0aaaa5e-def1-4cc0-9228-f1d88c0078c0)
-    (property "Reference" "#PWR048" (at 220.98 86.36 0)
+    (property "Reference" "#PWR051" (at 220.98 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 85.09 0)
@@ -1368,8 +1331,8 @@
     (pin "1" (uuid f8e28cb6-a538-47a5-8dd8-82677f161a9e))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
-          (reference "#PWR048") (unit 1)
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
+          (reference "#PWR051") (unit 1)
         )
       )
     )
@@ -1378,7 +1341,7 @@
   (symbol (lib_id "power:PWR_FLAG") (at 80.01 68.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8880b37-60fa-4c6f-8b3f-868e48902ed8)
-    (property "Reference" "#FLG05" (at 80.01 66.675 0)
+    (property "Reference" "#FLG02" (at 80.01 66.675 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "PWR_FLAG" (at 80.01 63.5 0)
@@ -1393,8 +1356,8 @@
     (pin "1" (uuid 45bfe4eb-a936-43b3-bfe1-caf809478229))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
-          (reference "#FLG05") (unit 1)
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
+          (reference "#FLG02") (unit 1)
         )
       )
     )
@@ -1419,7 +1382,7 @@
     (pin "2" (uuid f92b913f-9e2f-441e-a873-06d21999985e))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/aba936fa-d9e9-4532-8179-f8f593419a0b"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/0b35d49a-f427-44f5-b50c-cb0dbba96dec"
           (reference "C89") (unit 1)
         )
       )

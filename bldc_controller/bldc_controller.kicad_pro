@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.5,
-          "height": 6.5,
-          "width": 6.5
+          "drill": 0.0,
+          "height": 0.55,
+          "width": 0.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -539,6 +539,7 @@
       "version": 3
     },
     "net_colors": {
+      "+12V": "rgb(255, 69, 0)",
       "+3V3": "rgb(255, 162, 75)",
       "+5V": "rgb(199, 70, 104)",
       "+A3V3": "rgb(255, 236, 45)",
@@ -548,6 +549,10 @@
       "/FDCAN Transceiver/FDCAN_RX": "rgb(28, 84, 255)",
       "/FDCAN Transceiver/FDCAN_S": "rgb(28, 84, 255)",
       "/FDCAN Transceiver/FDCAN_TX": "rgb(28, 84, 255)",
+      "/Fan Control/FAN_GATE": "rgb(209, 255, 190)",
+      "/Fan Control/FAN_OUT": "rgb(209, 255, 190)",
+      "/Fan Control/FAN_SW": "rgb(209, 255, 190)",
+      "/Fan Control/FAN_~{IN}": "rgb(209, 255, 190)",
       "/Interconnects/AUX1P_A": "rgb(165, 255, 0)",
       "/Interconnects/AUX1P_B": "rgb(165, 255, 0)",
       "/Interconnects/AUX1P_C": "rgb(165, 255, 0)",
@@ -579,6 +584,10 @@
       "/Interconnects/NTC_MOT_H": "rgb(255, 95, 0)",
       "/Interconnects/NTC_MOT_L": "rgb(255, 95, 0)",
       "/Interconnects/POS_SENSOR_CS": "rgb(209, 179, 255)",
+      "/Interconnects/RS422_D+": "rgb(56, 228, 255)",
+      "/Interconnects/RS422_D-": "rgb(56, 228, 255)",
+      "/Interconnects/RS422_R+": "rgb(56, 228, 255)",
+      "/Interconnects/RS422_R-": "rgb(56, 228, 255)",
       "/Interconnects/SWCLK": "rgb(158, 19, 255)",
       "/Interconnects/SWDIO": "rgb(158, 19, 255)",
       "/LED Indicators/LED1": "rgb(255, 194, 185)",
@@ -590,6 +599,7 @@
       "/Microcontroller IO/DRV_MISO": "rgb(139, 0, 255)",
       "/Microcontroller IO/DRV_MOSI": "rgb(139, 0, 255)",
       "/Microcontroller IO/DRV_SCLK": "rgb(139, 0, 255)",
+      "/Microcontroller IO/FAN_CTRL": "rgb(209, 255, 190)",
       "/Microcontroller IO/FILTER_SOA": "rgb(194, 193, 118)",
       "/Microcontroller IO/FILTER_SOB": "rgb(127, 194, 127)",
       "/Microcontroller IO/FILTER_SOC": "rgb(127, 191, 194)",
@@ -642,13 +652,19 @@
       "/Position Sensors/COMM_VDD": "rgb(209, 179, 255)",
       "/Position Sensors/DIS_VDD3V": "rgb(209, 179, 255)",
       "/Power Generation/ADJ_A3V3": "rgb(255, 236, 45)",
+      "/Power Generation/BOOT_12V": "rgb(255, 69, 0)",
+      "/Power Generation/FB_12V": "rgb(255, 69, 0)",
       "/Power Generation/FB_3V3": "rgb(255, 162, 75)",
       "/Power Generation/FB_5V": "rgb(199, 70, 104)",
+      "/Power Generation/FB_DIV_12V": "rgb(255, 69, 0)",
       "/Power Generation/LX_5V": "rgb(199, 70, 104)",
       "/Power Generation/MODE_3V3": "rgb(255, 162, 75)",
       "/Power Generation/MODE_5V": "rgb(199, 70, 104)",
+      "/Power Generation/PG_12V": "rgb(255, 69, 0)",
       "/Power Generation/PG_3V3": "rgb(255, 162, 75)",
+      "/Power Generation/SW_12V": "rgb(255, 69, 0)",
       "/Power Generation/SW_3V3": "rgb(255, 162, 75)",
+      "/Power Generation/VCC_12V": "rgb(255, 69, 0)",
       "/Power Generation/VCC_5V": "rgb(199, 70, 104)",
       "/Power Generation/VID_3V3": "rgb(255, 162, 75)",
       "/Power Generation/~{RST}_5V": "rgb(199, 70, 104)",
@@ -749,7 +765,7 @@
       "idf": "",
       "netlist": "bldc_controller.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step/bldc_controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -794,68 +810,80 @@
       ""
     ],
     [
-      "9a5639c8-5279-491f-84dc-8aadcfc880df",
-      "Input Power"
+      "de68a101-7eef-4ba8-abb4-14d03adb087f",
+      "Block Diagram"
     ],
     [
-      "b89a7d22-bda3-4776-b5ce-8f6b0eb8f2a5",
-      "Power Generation"
+      "fede4c36-00cc-4d3d-b71c-5243ba232202",
+      "Project Architecture"
     ],
     [
-      "2eff0da2-7e01-4af1-97ee-ff24a49f3f51",
-      "Microcontroller Power"
+      "7d5a1283-086b-46b0-8df7-a9850521fb5e",
+      "MCU - Power"
     ],
     [
-      "575dc937-9401-4d21-80d3-b0f3272e7204",
-      "Microcontroller IO"
+      "e6015f1e-cbce-46f4-85e1-3d5463a17dc1",
+      "MCU - IO"
     ],
     [
-      "7fc64539-f083-49cd-b390-cfa281750e68",
-      "Battery Sensing"
+      "a7a72571-5668-47fa-9b3e-b97c6816a3b6",
+      "Power - Generation"
     ],
     [
-      "ce1ea51b-4118-4fb5-9a41-40670da86eb7",
-      "Temperature Sensing"
+      "957e9462-5e63-4479-b30f-86013896ffc2",
+      "Power - Connectors"
     ],
     [
-      "e3d7d553-09c9-41e5-aeb8-81d1255a4873",
-      "Interconnects"
-    ],
-    [
-      "aba936fa-d9e9-4532-8179-f8f593419a0b",
-      "Position Sensors"
-    ],
-    [
-      "50cb6c1b-2a97-41f7-b806-2f324483583f",
-      "RS-422 Interface"
-    ],
-    [
-      "926acdff-90be-4f7b-9e19-9f96ee9f0571",
-      "FDCAN Transceiver"
-    ],
-    [
-      "7d62525d-63f0-4363-928c-1e42163f4a36",
-      "Fan Control"
-    ],
-    [
-      "a6223e2e-2896-4182-b4ad-55a63bc87f3d",
-      "Motor Control"
+      "5bcbc7e4-0942-415e-ab04-e1cd42538fc3",
+      "Motor Control - Top Level"
     ],
     [
       "4a9c9b06-3536-46ef-a76d-6cac03a1fe38",
-      "Three Phase Inverter"
+      "Motor Control - Inverter"
     ],
     [
-      "5b60f270-becd-4ec3-b763-258df225fc82",
-      "LED Indicators"
+      "07dcaf51-abc9-470d-8bd8-30b1c54b6fbd",
+      "Misc - Board Version Divider"
     ],
     [
-      "6ac64cfc-cd02-4504-88c7-a17dadca0833",
-      "Board Version Divider"
+      "37954a46-d14f-4062-b94e-09ed11854078",
+      "User - LED Indicators"
     ],
     [
-      "f1a92623-4681-4556-bc2b-558e74890d89",
-      "Mechanical, Chassis"
+      "fa34585c-cea0-4980-9405-23c394490fcf",
+      "Sensing - Temperature"
+    ],
+    [
+      "5af28e14-08f4-4265-bd51-d6e5daa4b8a2",
+      "Sensing - Battery"
+    ],
+    [
+      "0b35d49a-f427-44f5-b50c-cb0dbba96dec",
+      "Sensing - Position"
+    ],
+    [
+      "a62105fd-dfaf-4ee0-a401-8aa0e7120758",
+      "Interface - RS-422"
+    ],
+    [
+      "95bf33d9-762c-4d08-af8b-3fad797ffaca",
+      "Interface - FD-CAN"
+    ],
+    [
+      "a6cb2049-0230-448a-abe7-a100286c1c6c",
+      "Interface - Fan Control"
+    ],
+    [
+      "d359abe5-ae6a-4888-8140-3e6566d20c15",
+      "Interface - Interconnects"
+    ],
+    [
+      "c35a2394-f5db-4d2b-a6ba-34798059bc1f",
+      "Mechanical - Holes"
+    ],
+    [
+      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
+      "Power Sequencing"
     ],
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",

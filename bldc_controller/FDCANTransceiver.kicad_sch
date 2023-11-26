@@ -343,11 +343,6 @@
     (uuid cb2878aa-86d9-4392-b966-62ee213ee556)
   )
 
-  (polyline (pts (xy 99.06 55.88) (xy 99.06 130.81))
-    (stroke (width 0) (type default))
-    (uuid 021206b9-b531-4b8f-8606-fb68d4a1b9b3)
-  )
-
   (wire (pts (xy 127 110.49) (xy 147.32 110.49))
     (stroke (width 0) (type default))
     (uuid 04c8bf77-00e7-4195-a1d8-80211098f415)
@@ -372,15 +367,6 @@
   (bus (pts (xy 120.65 83.82) (xy 123.19 86.36))
     (stroke (width 0) (type default))
     (uuid 1d8c109c-e774-4bc0-b549-dfcf32c5fe84)
-  )
-
-  (polyline (pts (xy 102.87 52.07) (xy 195.58 52.07))
-    (stroke (width 0) (type default))
-    (uuid 2bf921d5-c70b-4e69-8549-89add8250408)
-  )
-  (polyline (pts (xy 199.39 55.88) (xy 199.39 130.81))
-    (stroke (width 0) (type default))
-    (uuid 357f0d16-5120-4e53-8225-a0ea3d8b62ff)
   )
 
   (wire (pts (xy 167.64 71.12) (xy 167.64 67.31))
@@ -441,11 +427,6 @@
     (stroke (width 0) (type default))
     (uuid 92c281c3-974d-4e66-a431-856e8622a3de)
   )
-  (polyline (pts (xy 195.58 134.62) (xy 102.87 134.62))
-    (stroke (width 0) (type default))
-    (uuid a3f1b0a6-5a4d-4308-a70d-5589cf8a7ace)
-  )
-
   (bus (pts (xy 184.15 86.36) (xy 179.07 86.36))
     (stroke (width 0) (type default))
     (uuid a7050ac4-f748-4440-addc-d36353a00b5f)
@@ -493,52 +474,68 @@
     (stroke (width 0) (type default))
     (uuid ef6f1cac-aaa6-403c-9b9b-ec599ca260b6)
   )
+  (polyline (pts (xy 116.84 101.6) (xy 123.19 109.22))
+    (stroke (width 0) (type dot) (color 255 0 0 1))
+    (uuid f4ab9b01-fa7b-4d3e-a283-9ac525cf163d)
+  )
+
   (wire (pts (xy 132.08 67.31) (xy 147.32 67.31))
     (stroke (width 0) (type default))
     (uuid fa2f20f9-c48b-493c-9374-cb7fb89141c7)
   )
 
-  (arc (start 102.87 134.62) (mid 100.1745 133.5055) (end 99.06 130.81)
-    (stroke (width 0) (type default))
+  (rectangle (start 81.28 49.53) (end 215.9 138.43)
+    (stroke (width 1) (type default) (color 200 200 200 1))
     (fill (type none))
-    (uuid 7f7f7bd0-bf14-4c4a-9228-8e073a08ca28)
+    (uuid 4445c2ec-23de-4b5f-b1f1-64d5425c75cf)
   )
-  (arc (start 199.39 130.81) (mid 198.2741 133.5041) (end 195.58 134.62)
-    (stroke (width 0) (type default))
+  (rectangle (start 123.19 101.6) (end 130.81 109.22)
+    (stroke (width 0) (type dot) (color 255 0 0 1))
     (fill (type none))
-    (uuid 8248adbe-a211-468c-bbfb-a5ae7a6aebda)
-  )
-  (arc (start 195.58 52.07) (mid 198.2741 53.1859) (end 199.39 55.88)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid b25c74e8-af86-4163-9aab-eafe650d6f0a)
-  )
-  (arc (start 99.06 55.88) (mid 100.1759 53.1859) (end 102.87 52.07)
-    (stroke (width 0) (type default))
-    (fill (type none))
-    (uuid d3091477-b798-484a-9c00-6519657ed532)
+    (uuid c4828628-d73b-43cf-b6b7-d19c7abb5cee)
   )
 
-  (text_box "Back to Top Level"
-    (at 265.43 166.37 0) (size 19.05 14.605)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 0 0 0 0.1))
-    (effects (font (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (href "#1"))
-    (uuid 3682ea52-2fba-4186-9a3a-b04486b33837)
+  (text_box "LAYOUT NOTE:\nFD-CAN should be routed as a 120-ohm differential pair."
+    (at 181.61 101.6 0) (size 29.21 11.43)
+    (stroke (width 1) (type solid) (color 0 0 255 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
+    (uuid 63561293-f285-4fa3-836b-d43548b53a90)
   )
-  (text_box "Fault Protected FD-CAN Transceiver"
-    (at 102.235 123.19 0) (size 94.615 9.525)
+  (text_box "LAYOUT NOTE:\nPlace close to FD-CAN connector if possible to reduce stub length."
+    (at 181.61 115.57 0) (size 29.21 11.43)
+    (stroke (width 1) (type solid) (color 0 0 255 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
+    (uuid 995d2d97-7358-4651-8dfd-15614eb249e0)
+  )
+  (text_box "DESIGN NOTE:\n120-ohm termination in Interconnects sheet."
+    (at 85.09 115.57 0) (size 31.75 11.43)
+    (stroke (width 0.8) (type solid) (color 200 200 200 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
+    (uuid cdb50ca7-bbc6-40b2-8d49-1793d523c00e)
+  )
+  (text_box "[16] Interface - FD-CAN"
+    (at 80.01 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (size 2.54 2.54) (color 0 0 0 1)) (justify bottom))
-    (uuid 9edb480b-adf7-4eab-b770-879f271f9c8e)
+    (effects (font (face "Times New Roman") (size 6 6) (thickness 1.2) bold (color 162 22 34 1)))
+    (uuid d389c860-4f15-41a3-8c62-6412267cbe6c)
   )
-  (text_box "Silent mode disabled"
-    (at 106.68 119.38 0) (size 13.97 5.08)
-    (stroke (width 0) (type default) (color 0 0 0 1))
-    (fill (type color) (color 191 240 255 1))
-    (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify left))
-    (uuid f2247970-40d0-4c87-9fc2-3d34ea3e9add)
+  (text_box "Fault Protected FD-CAN Transceiver"
+    (at 82.55 127 0) (size 132.08 8.89)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 162 22 34 1)) (justify bottom))
+    (uuid d7537cdc-344b-4860-b1fe-29bccfe051ee)
+  )
+  (text_box "DESIGN NOTE:\nSilent mode disabled."
+    (at 85.09 101.6 0) (size 31.75 11.43)
+    (stroke (width 0.8) (type solid) (color 200 200 200 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
+    (uuid e6d9b032-3be0-48bb-a469-46124126d0e3)
   )
 
   (label "FDCAN_TX" (at 125.73 90.17 0) (fields_autoplaced)
@@ -597,7 +594,7 @@
     (pin "9" (uuid da51262f-067a-493f-8ee5-e218e269bfd0))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "U9") (unit 1)
         )
       )
@@ -622,7 +619,7 @@
     (pin "1" (uuid 394030b1-3d3a-4ac3-abbb-facc52ad67eb))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "#PWR053") (unit 1)
         )
       )
@@ -647,7 +644,7 @@
     (pin "1" (uuid 9421a88f-ef89-4542-9e09-71ba942649c2))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "#PWR052") (unit 1)
         )
       )
@@ -672,7 +669,7 @@
     (pin "1" (uuid c81fa75c-2d51-4802-b09d-ea016212e779))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "#PWR054") (unit 1)
         )
       )
@@ -697,7 +694,7 @@
     (pin "1" (uuid af70e141-3f9a-4998-9e51-8244fb2a8c9c))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "#PWR056") (unit 1)
         )
       )
@@ -723,7 +720,7 @@
     (pin "2" (uuid 895b2094-56f4-49fe-95fd-3b6e9069a038))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "C93") (unit 1)
         )
       )
@@ -748,7 +745,7 @@
     (pin "1" (uuid 15276f3a-af8b-47e5-ac31-6bc623d9e821))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "#PWR055") (unit 1)
         )
       )
@@ -774,7 +771,7 @@
     (pin "2" (uuid d97d0e1a-e874-4ce9-8de1-6c0f3e768cc4))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "C92") (unit 1)
         )
       )
@@ -784,7 +781,7 @@
   (symbol (lib_id "Device:R") (at 127 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid db327cc3-a522-4435-9542-0bb51434a2a1)
-    (property "Reference" "R?" (at 129.54 104.14 0)
+    (property "Reference" "R29" (at 129.54 104.14 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k 1%" (at 129.54 106.68 0)
@@ -800,10 +797,7 @@
     (pin "2" (uuid 9cc59641-14de-4164-b6e8-4993d30e7941))
     (instances
       (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/ce1ea51b-4118-4fb5-9a41-40670da86eb7"
-          (reference "R?") (unit 1)
-        )
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/926acdff-90be-4f7b-9e19-9f96ee9f0571"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
           (reference "R29") (unit 1)
         )
       )
