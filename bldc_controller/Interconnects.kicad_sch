@@ -3820,7 +3820,7 @@
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
     (uuid 4415cccb-d037-44ea-a5df-48ecfe5a712d)
   )
-  (text_box "DESIGN NOTE:\nPProgrammable I2C Pullups."
+  (text_box "DESIGN NOTE:\nProgrammable I2C Pullups."
     (at 121.92 151.13 0) (size 16.51 13.97)
     (stroke (width 0.8) (type solid) (color 200 200 200 1))
     (fill (type none))
@@ -3862,12 +3862,26 @@
     (effects (font (size 1.27 1.27)) (justify left top))
     (uuid 73402536-a97f-4e84-8fde-c14f54833a85)
   )
-  (text_box "LAYOUT NOTE:\nRS-422 should be routed as a 100-ohm differential pair. NextPCB does not support impedance control on 2oz boards."
-    (at 218.44 185.42 0) (size 19.05 24.13)
+  (text_box "LAYOUT NOTE:\nRS-422 should be routed as a 100-ohm differential pair if possible."
+    (at 218.44 185.42 0) (size 19.05 15.24)
     (stroke (width 1) (type solid) (color 0 0 255 1))
     (fill (type none))
     (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
     (uuid 86132ac0-c930-4c8e-a015-4dffb68bb011)
+  )
+  (text_box "LAYOUT NOTE:\n100-ohm differential pair controlled impedance trace is computed using Altium's 2D field solver."
+    (at 218.44 59.69 0) (size 25.4 13.97)
+    (stroke (width 1) (type solid) (color 0 0 255 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
+    (uuid 8ae1fe74-430e-4270-be54-052269e78ef7)
+  )
+  (text_box "LAYOUT NOTE:\n100-ohm differential pair controlled impedance trace is computed using Altium's 2D field solver."
+    (at 218.44 201.93 0) (size 19.05 19.05)
+    (stroke (width 1) (type solid) (color 0 0 255 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
+    (uuid 8ea13c02-946e-4c6d-98ce-0e696353f4da)
   )
   (text_box "DESIGN NOTE:\nOptionally populate capacitors if excessive noise is seen on the pins."
     (at 176.53 190.5 0) (size 19.05 13.97)
@@ -3939,14 +3953,14 @@
     (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
     (uuid e64a3727-2fa9-4afb-be95-21553e405c16)
   )
-  (text_box "LAYOUT NOTE:\nFD-CAN should be routed as a 120-ohm differential pair. NextPCB does not support impedance control on 2oz boards."
-    (at 218.44 39.37 0) (size 19.05 24.13)
+  (text_box "LAYOUT NOTE:\nFD-CAN should be routed as a 120-ohm differential pair but is routed as a 100-ohm differential pair due to design constraints and cost."
+    (at 218.44 39.37 0) (size 25.4 17.78)
     (stroke (width 1) (type solid) (color 0 0 255 1))
     (fill (type none))
     (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
     (uuid e743f70d-b801-40f8-87f3-a90c4aa8dbe5)
   )
-  (text_box "DESIGN NOTE:\nPProgrammable I2C Pullups."
+  (text_box "DESIGN NOTE:\nProgrammable I2C Pullups."
     (at 119.38 53.34 0) (size 16.51 13.97)
     (stroke (width 0.8) (type solid) (color 200 200 200 1))
     (fill (type none))

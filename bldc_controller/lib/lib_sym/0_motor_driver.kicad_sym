@@ -6,7 +6,7 @@
     (property "Value" "DRV8353FS" (at 7.62 0 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Package_DFN_QFN:HVQFN-40-1EP_6x6mm_P0.5mm_EP4.1x4.1mm_ThermalVias" (at -101.6 85.09 0)
+    (property "Footprint" "0_package_DFN_QFN:WQFN-40-1EP_6x6mm_P0.5mm_EP4.15x4.15mm_ThermalVias" (at -101.6 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8353f.pdf" (at 0 -17.78 0)

@@ -5,7 +5,7 @@
   (paper "A3")
 
   (title_block
-    (title "Controller Top Level")
+    (title "Cover Page")
     (date "2023-10-12")
     (rev "1.0")
     (company "EPFL Xplore")
@@ -304,7 +304,7 @@
     (effects (font (face "Times New Roman") (size 4 4) (color 0 0 0 1)) (justify right bottom) (href "#33"))
     (uuid 7fd97343-03c5-4f22-a59e-bc2d9fd9af23)
   )
-  (text "Variant: Draft" (at 25.4 58.42 0)
+  (text "Variant: Preliminary" (at 25.4 58.42 0)
     (effects (font (face "Times New Roman") (size 8 8) (thickness 1) bold (color 162 22 34 1)) (justify left bottom))
     (uuid 832c6231-94ea-4718-8f70-96006b71efdf)
   )

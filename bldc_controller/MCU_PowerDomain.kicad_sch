@@ -1735,7 +1735,7 @@
     (property "Value" "STM32G474RET3" (at 158.75 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm" (at 186.69 166.37 0)
+    (property "Footprint" "0_package_QFP:LQFP-64_10x10mm_P0.5mm" (at 186.69 166.37 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474re.pdf" (at 156.21 168.91 0)

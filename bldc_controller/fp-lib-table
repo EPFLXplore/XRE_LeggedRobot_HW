@@ -3,7 +3,6 @@
   (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_connectors.pretty")(options "")(descr "Custom connector footprint library"))
   (lib (name "0_switch_button")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_switch_button.pretty")(options "")(descr "Custom switch and button footprint library"))
   (lib (name "0_interface_uart")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_interface_uart.pretty")(options "")(descr ""))
-  (lib (name "0_motor_driver")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_motor_driver.pretty")(options "")(descr ""))
   (lib (name "0_transistor_fet")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_transistor_fet.pretty")(options "")(descr ""))
   (lib (name "0_switching_regulator")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_switching_regulator.pretty")(options "")(descr ""))
   (lib (name "0_net_tie")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_net_tie.pretty")(options "")(descr ""))
@@ -15,4 +14,5 @@
   (lib (name "0_package_SOT_TO_SMD")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_SOT_TO_SMD.pretty")(options "")(descr ""))
   (lib (name "0_package_DFN_QFN")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_DFN_QFN.pretty")(options "")(descr ""))
   (lib (name "0_mousebites")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_mousebites.pretty")(options "")(descr ""))
+  (lib (name "0_package_QFP")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_QFP.pretty")(options "")(descr ""))
 )
