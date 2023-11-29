@@ -2,9 +2,17 @@
 
   (uuid d4440dba-022e-49b2-97f2-6fc1871c7304)
 
-  (paper "A4")
+  (paper "A3")
 
   (lib_symbols
   )
 
+
+  (text_box "[2] Block Diagram"
+    (at 144.78 20.32 0) (size 130.81 12.7)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Times New Roman") (size 8 8) (thickness 1.2) bold (color 162 22 34 1)))
+    (uuid 73b2b29c-2473-4e80-be0b-4f57c6856c3e)
+  )
 )
