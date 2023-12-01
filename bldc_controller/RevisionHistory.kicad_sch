@@ -7,9 +7,9 @@
   (title_block
     (title "Revision History")
     (date "2023-10-15")
-    (rev "1.0")
-    (company "EPFL Xplore")
-    (comment 3 "Author: Vincent Nguyen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -21,7 +21,7 @@
     (uuid d98bd22a-837a-4b14-b8b1-ecc667696c58)
   )
 
-  (text_box "[21] Revision History"
+  (text_box "[${#}] ${TITLE}"
     (at 80.01 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))

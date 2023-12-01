@@ -5,11 +5,11 @@
   (paper "A3")
 
   (title_block
-    (title "STM32G474 I/O Domain")
+    (title "MCU - I/O")
     (date "2023-10-14")
-    (rev "1.0")
-    (company "EPFL Xplore")
-    (comment 3 "Author: Vincent Nguyen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -20,7 +20,7 @@
       (property "Value" "STM32G474RETx" (at 0 46.99 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "Package_QFP:LQFP-64_10x10mm_P0.5mm" (at 26.67 -88.9 0)
+      (property "Footprint" "0_package_QFP:LQFP-64_10x10mm_P0.5mm" (at 26.67 -88.9 0)
         (effects (font (size 1.27 1.27)) (justify right) hide)
       )
       (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474re.pdf" (at -3.81 -91.44 0)
@@ -3569,7 +3569,7 @@
     (effects (font (size 1.27 1.27)) (justify right top))
     (uuid 5233036a-69ce-438f-89ea-e81b52c7837f)
   )
-  (text_box "[5] MCU - IO"
+  (text_box "[${#}] ${TITLE}"
     (at 161.29 20.32 0) (size 96.52 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))
@@ -3748,7 +3748,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 156ac912-b11a-45ac-9b2c-1f5e8af0f423)
   )
-  (label "PC1" (at 88.9 104.14 0) (fields_autoplaced)
+  (label "PC2" (at 88.9 104.14 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 176e6e1e-5925-45c3-b917-f80fe2bcc401)
   )

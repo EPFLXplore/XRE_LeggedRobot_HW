@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "LED Indicators")
+    (title "User - LED Indicators")
     (date "2023-10-15")
-    (rev "1.0")
-    (company "EPFL Xplore")
-    (comment 3 "Author: Vincent Nguyen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -272,7 +272,7 @@
     (uuid 14d96656-cdb9-4f57-a818-681c7e2a833d)
   )
 
-  (text_box "[11] User - LED Indicators"
+  (text_box "[${#}] ${TITLE}"
     (at 80.01 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))

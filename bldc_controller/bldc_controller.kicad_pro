@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.19999999999999998
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -478,11 +478,28 @@
         "microvia_drill": 0.1,
         "name": "Chassis",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(139, 103, 213)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
-        "wire_width": 6
+        "wire_width": 15
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "GND",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 15
       },
       {
         "bus_width": 12,
@@ -495,11 +512,11 @@
         "microvia_drill": 0.1,
         "name": "High Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(200, 50, 50)",
         "track_width": 0.2,
         "via_diameter": 0.7,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 15
       },
       {
         "bus_width": 12,
@@ -761,6 +778,10 @@
       {
         "netclass": "High Power",
         "pattern": "+VBAT"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "GND"
       }
     ]
   },
@@ -895,5 +916,11 @@
       "Revision History"
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "AUTHOR": "Vincent Nguyen",
+    "BOARD_NAME": "Anemos Motion Controller",
+    "COMPANY": "EPFL Xplore",
+    "REVISION": "1.0",
+    "VARIANT": "Preliminary"
+  }
 }

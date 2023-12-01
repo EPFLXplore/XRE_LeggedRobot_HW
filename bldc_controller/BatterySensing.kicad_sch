@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Battery Sensing Voltage Divider")
+    (title "Sensing - Battery")
     (date "2023-10-14")
-    (rev "1.0")
-    (company "EPFL Xplore")
-    (comment 3 "Author: Vincent Nguyen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -151,7 +151,7 @@
   (junction (at 151.13 71.12) (diameter 0) (color 0 0 0 0)
     (uuid d3e32b75-f327-4704-8a2f-a1f6a1f01bd3)
   )
-  (junction (at 134.62 87.63) (diameter 0) (color 0 0 0 1)
+  (junction (at 134.62 87.63) (diameter 0) (color 0 0 0 0)
     (uuid f772f79c-de90-4a39-8ff1-5f8031fa1694)
   )
 
@@ -164,7 +164,7 @@
     (uuid 456fc846-e8d8-40bb-8254-be4c449a1f22)
   )
   (wire (pts (xy 151.13 85.09) (xy 151.13 87.63))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid 50fc8e63-21dd-4727-932b-40614b0b873b)
   )
   (wire (pts (xy 134.62 71.12) (xy 134.62 76.2))
@@ -172,7 +172,7 @@
     (uuid 79343de1-9c7a-46f5-91ae-ae9ec652f935)
   )
   (wire (pts (xy 151.13 87.63) (xy 134.62 87.63))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid 8b7a0151-c3de-4b96-9b51-75e70b383270)
   )
   (wire (pts (xy 134.62 52.07) (xy 134.62 59.69))
@@ -192,11 +192,11 @@
     (uuid e164dfe3-ea9c-47a2-b355-035407d61ac4)
   )
   (wire (pts (xy 134.62 92.71) (xy 134.62 87.63))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid e30da8cc-489e-4e9b-a904-cec4ef867fc5)
   )
   (wire (pts (xy 134.62 87.63) (xy 134.62 83.82))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid e9efd9d5-fc3d-4044-bc49-859aa3ac3934)
   )
 
@@ -206,7 +206,7 @@
     (uuid 91878af1-c878-483c-bb7e-7c973e0f1ee3)
   )
 
-  (text_box "[13] Sensing - Battery"
+  (text_box "[${#}] ${TITLE}"
     (at 78.74 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))

@@ -6,16 +6,16 @@
 
   (title_block
     (title "Power Sequencing")
-    (rev "1.0")
-    (company "EPFL Xplore")
-    (comment 3 "Author: Vincent Nguyen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
   )
 
 
-  (text_box "[20] Power Sequencing"
+  (text_box "[${#}] ${TITLE}"
     (at 80.01 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))

@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "RS-422 Interface")
+    (title "Interface - RS-422")
     (date "2023-10-15")
-    (rev "1.0")
-    (company "EPFL Xplore")
-    (comment 3 "Author: Vincent Nguyen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -345,7 +345,7 @@
     )
   )
 
-  (junction (at 146.05 104.14) (diameter 0) (color 0 0 0 1)
+  (junction (at 146.05 104.14) (diameter 0) (color 0 0 0 0)
     (uuid 41b13aae-793b-4d71-9363-04e395836c86)
   )
   (junction (at 147.32 54.61) (diameter 0) (color 0 0 0 0)
@@ -389,7 +389,7 @@
   )
 
   (wire (pts (xy 146.05 104.14) (xy 147.32 104.14))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid 00199f0c-a3a7-44e6-98fd-921444f96596)
   )
   (wire (pts (xy 147.32 54.61) (xy 147.32 62.23))
@@ -415,7 +415,7 @@
   )
 
   (wire (pts (xy 144.78 104.14) (xy 144.78 102.87))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid 20e1a266-3377-432f-a7cb-fc3fcb750325)
   )
   (wire (pts (xy 144.78 62.23) (xy 144.78 64.77))
@@ -457,7 +457,7 @@
   )
 
   (wire (pts (xy 128.27 64.77) (xy 128.27 62.23))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid 67222163-4554-4a54-b9bd-4814ebee4962)
   )
   (wire (pts (xy 128.27 54.61) (xy 147.32 54.61))
@@ -512,7 +512,7 @@
     (uuid 99083c7b-600c-4117-8b39-9d8b94e2e2b7)
   )
   (wire (pts (xy 147.32 102.87) (xy 147.32 104.14))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid 9c8e99ca-8765-4803-af24-1714ad5f69c1)
   )
   (wire (pts (xy 162.56 62.23) (xy 179.07 62.23))
@@ -559,11 +559,11 @@
     (uuid ee96d5cd-5bad-47ba-be78-4338d4d70c7e)
   )
   (wire (pts (xy 146.05 104.14) (xy 144.78 104.14))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid f47a332d-8388-4b84-8724-e160fba50283)
   )
   (wire (pts (xy 146.05 109.22) (xy 146.05 104.14))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid f5b80b4f-e6c0-4605-852a-c613ae9566fd)
   )
 
@@ -601,7 +601,7 @@
     (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 162 22 34 1)) (justify bottom))
     (uuid c0a3a25c-2ad5-4f4a-8242-6059205fc2ad)
   )
-  (text_box "[15] Interface - RS-422"
+  (text_box "[${#}] ${TITLE}"
     (at 78.74 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))

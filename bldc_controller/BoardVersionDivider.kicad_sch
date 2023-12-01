@@ -5,11 +5,11 @@
   (paper "A4")
 
   (title_block
-    (title "Board Version Resistor Divider")
+    (title "Misc - Board Version Divider")
     (date "2023-10-14")
-    (rev "1.0")
-    (company "EPFL Xplore")
-    (comment 3 "Author: Vincent Nguyen")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -177,7 +177,7 @@
   )
 
   (wire (pts (xy 149.86 100.33) (xy 149.86 96.52))
-    (stroke (width 0.381) (type default) (color 0 0 0 1))
+    (stroke (width 0) (type default))
     (uuid bb99928e-3c57-440e-a5eb-42c4b4557d68)
   )
 
@@ -220,7 +220,7 @@
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)))
     (uuid 5e50ebc1-1ff2-453f-a5bf-3a9a77674ee7)
   )
-  (text_box "[10] Misc - Board Version Divider"
+  (text_box "[${#}] ${TITLE}"
     (at 78.74 16.51 0) (size 137.16 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))

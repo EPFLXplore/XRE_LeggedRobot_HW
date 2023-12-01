@@ -4,11 +4,19 @@
 
   (paper "A3")
 
+  (title_block
+    (title "Block Diagram")
+    (date "2023-11-30")
+    (rev "${REVISION}")
+    (company "${COMPANY}")
+    (comment 3 "Author: ${AUTHOR}")
+  )
+
   (lib_symbols
   )
 
 
-  (text_box "[2] Block Diagram"
+  (text_box "[${#}] ${TITLE}"
     (at 144.78 20.32 0) (size 130.81 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))
