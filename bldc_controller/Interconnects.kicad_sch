@@ -4214,7 +4214,7 @@
   (symbol (lib_id "0_power_protection:PESD4USB5B-TTSX") (at 86.36 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01cf548d-6a2c-4d6e-931d-c3ecbff65ad3)
-    (property "Reference" "D20" (at 93.98 191.77 0)
+    (property "Reference" "D15" (at 93.98 191.77 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD4USB5B-TTSX" (at 93.98 194.31 0)
@@ -4239,7 +4239,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D20") (unit 1)
+          (reference "D15") (unit 1)
         )
       )
     )
@@ -4248,7 +4248,7 @@
   (symbol (lib_id "Device:C_Small") (at 69.85 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 01f0ea7d-8ce7-44d6-8458-afbecf6e87de)
-    (property "Reference" "C75" (at 72.39 57.1563 0)
+    (property "Reference" "C107" (at 72.39 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 72.39 59.6963 0)
@@ -4265,7 +4265,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C75") (unit 1)
+          (reference "C107") (unit 1)
         )
       )
     )
@@ -4274,7 +4274,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 39.37 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02b19925-5f01-455a-8337-221a7ef10b48)
-    (property "Reference" "#PWR090" (at 39.37 114.3 0)
+    (property "Reference" "#PWR061" (at 39.37 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 39.243 113.03 0)
@@ -4290,7 +4290,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR090") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -4299,7 +4299,7 @@
   (symbol (lib_id "0_power_protection:CDSOT23-SM712") (at 273.05 218.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 03beccc0-7065-4b5d-8458-67cf1d91eeab)
-    (property "Reference" "D18" (at 278.13 212.09 0)
+    (property "Reference" "D21" (at 278.13 212.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CDSOT23-SM712" (at 278.13 214.63 0)
@@ -4317,7 +4317,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D18") (unit 1)
+          (reference "D21") (unit 1)
         )
       )
     )
@@ -4326,7 +4326,7 @@
   (symbol (lib_id "Device:C_Small") (at 334.01 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1166d0b8-947e-4195-a8a1-c408ac2db237)
-    (property "Reference" "C87" (at 336.55 81.2863 0)
+    (property "Reference" "C119" (at 336.55 81.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 336.55 83.8263 0)
@@ -4343,7 +4343,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C87") (unit 1)
+          (reference "C119") (unit 1)
         )
       )
     )
@@ -4352,7 +4352,7 @@
   (symbol (lib_id "Device:R_Small") (at 146.05 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 165b70e5-19e0-4095-aa49-07313efdad78)
-    (property "Reference" "R19" (at 147.955 66.04 0)
+    (property "Reference" "R39" (at 147.955 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 147.955 68.58 0)
@@ -4369,7 +4369,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R19") (unit 1)
+          (reference "R39") (unit 1)
         )
       )
     )
@@ -4378,7 +4378,7 @@
   (symbol (lib_id "Device:R_Small") (at 323.85 83.82 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 177bb61e-ccef-4bdb-9a23-8fb209b03d78)
-    (property "Reference" "R26" (at 326.39 82.55 0)
+    (property "Reference" "R44" (at 326.39 82.55 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60R" (at 326.39 85.09 0)
@@ -4395,7 +4395,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R26") (unit 1)
+          (reference "R44") (unit 1)
         )
       )
     )
@@ -4404,7 +4404,7 @@
   (symbol (lib_id "Device:C_Small") (at 160.02 100.33 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 1d26fef1-f9d9-43aa-b40c-8e085cc4b006)
-    (property "Reference" "C82" (at 163.195 99.0663 0)
+    (property "Reference" "C115" (at 163.195 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 163.195 101.6063 0)
@@ -4421,7 +4421,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C82") (unit 1)
+          (reference "C115") (unit 1)
         )
       )
     )
@@ -4430,7 +4430,7 @@
   (symbol (lib_id "Device:R_Small") (at 129.54 83.82 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1dc256b1-728b-4fdd-b739-42ce28119561)
-    (property "Reference" "R12" (at 127 81.915 90)
+    (property "Reference" "R32" (at 127 81.915 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 132.715 81.915 90)
@@ -4447,7 +4447,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R12") (unit 1)
+          (reference "R32") (unit 1)
         )
       )
     )
@@ -4456,7 +4456,7 @@
   (symbol (lib_id "0_connectors:Conn_01x06_Mounting") (at 250.19 199.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1febd2a8-d0b2-48f4-8982-b16206498f05)
-    (property "Reference" "J6" (at 250.19 187.96 0)
+    (property "Reference" "J9" (at 250.19 187.96 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SM06B-GHS-TB" (at 250.19 190.5 0)
@@ -4478,7 +4478,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "J6") (unit 1)
+          (reference "J9") (unit 1)
         )
       )
     )
@@ -4487,7 +4487,7 @@
   (symbol (lib_id "power:+3V3") (at 64.77 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2358576e-6989-4b59-8a11-7ebb7579710e)
-    (property "Reference" "#PWR033" (at 64.77 57.15 0)
+    (property "Reference" "#PWR069" (at 64.77 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 64.77 48.26 0)
@@ -4503,7 +4503,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR069") (unit 1)
         )
       )
     )
@@ -4512,7 +4512,7 @@
   (symbol (lib_id "power:GND") (at 262.89 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2575934c-8fda-498e-bb43-34c134266f1d)
-    (property "Reference" "#PWR038" (at 262.89 81.28 0)
+    (property "Reference" "#PWR078" (at 262.89 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 262.89 80.01 0)
@@ -4528,7 +4528,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR038") (unit 1)
+          (reference "#PWR078") (unit 1)
         )
       )
     )
@@ -4537,7 +4537,7 @@
   (symbol (lib_id "power:+3V3") (at 67.31 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 27666342-8cc7-43cc-a87c-5c88b37c6071)
-    (property "Reference" "#PWR035" (at 67.31 154.94 0)
+    (property "Reference" "#PWR070" (at 67.31 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 67.31 146.05 0)
@@ -4553,7 +4553,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR035") (unit 1)
+          (reference "#PWR070") (unit 1)
         )
       )
     )
@@ -4562,7 +4562,7 @@
   (symbol (lib_id "power:+5V") (at 49.53 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2989d2b1-f4ef-4231-bdd4-6d63ae42c342)
-    (property "Reference" "#PWR028" (at 49.53 154.94 0)
+    (property "Reference" "#PWR064" (at 49.53 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 49.53 146.05 0)
@@ -4578,7 +4578,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR064") (unit 1)
         )
       )
     )
@@ -4587,7 +4587,7 @@
   (symbol (lib_name "PESD4USB5B-TTSX_1_1") (lib_id "0_power_protection:PESD4USB5B-TTSX_1") (at 300.99 157.48 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29d5fc25-ce17-49e0-9153-9e30115e35e2)
-    (property "Reference" "D23" (at 308.61 156.21 0)
+    (property "Reference" "D24" (at 308.61 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD4USB3U-TTSX" (at 308.61 158.75 0)
@@ -4612,7 +4612,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D23") (unit 1)
+          (reference "D24") (unit 1)
         )
       )
     )
@@ -4621,7 +4621,7 @@
   (symbol (lib_id "power:GND") (at 264.16 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2e4f26e1-3483-46da-a1d0-060086d912a3)
-    (property "Reference" "#PWR041" (at 264.16 102.87 0)
+    (property "Reference" "#PWR079" (at 264.16 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 264.16 101.6 0)
@@ -4637,7 +4637,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR041") (unit 1)
+          (reference "#PWR079") (unit 1)
         )
       )
     )
@@ -4646,7 +4646,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 266.7 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37494aa4-2528-4d6d-a3b8-dfa374a98676)
-    (property "Reference" "#PWR084" (at 266.7 170.18 0)
+    (property "Reference" "#PWR080" (at 266.7 170.18 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 266.573 168.91 0)
@@ -4662,7 +4662,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR084") (unit 1)
+          (reference "#PWR080") (unit 1)
         )
       )
     )
@@ -4671,7 +4671,7 @@
   (symbol (lib_id "Device:C_Small") (at 142.24 100.33 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 3ee0fd89-7dcf-41a3-a3af-dc7a8f1efb49)
-    (property "Reference" "C78" (at 145.415 99.0663 0)
+    (property "Reference" "C111" (at 145.415 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 145.415 101.6063 0)
@@ -4688,7 +4688,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C78") (unit 1)
+          (reference "C111") (unit 1)
         )
       )
     )
@@ -4697,7 +4697,7 @@
   (symbol (lib_id "power:+5V") (at 49.53 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f2aead9-232a-4d40-8f72-28258be48b72)
-    (property "Reference" "#PWR027" (at 49.53 57.15 0)
+    (property "Reference" "#PWR063" (at 49.53 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 49.53 48.26 0)
@@ -4713,7 +4713,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR063") (unit 1)
         )
       )
     )
@@ -4722,7 +4722,7 @@
   (symbol (lib_id "0_power_protection:PESD2CANFD24V-UX") (at 290.83 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 41a91235-ae48-4b4d-a0e1-f4a3cb885b7a)
-    (property "Reference" "D5" (at 285.75 90.17 0)
+    (property "Reference" "D23" (at 285.75 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD2CANFD24V-UX" (at 280.67 96.52 0)
@@ -4740,7 +4740,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D5") (unit 1)
+          (reference "D23") (unit 1)
         )
       )
     )
@@ -4749,7 +4749,7 @@
   (symbol (lib_id "0_power_protection:PESD2CANFD24V-UX") (at 276.86 83.185 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4781ff02-a2f2-4129-bc8d-8d896d020153)
-    (property "Reference" "D17" (at 270.51 90.17 0)
+    (property "Reference" "D22" (at 270.51 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD2CANFD24V-UX" (at 266.7 63.5 0)
@@ -4767,7 +4767,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D17") (unit 1)
+          (reference "D22") (unit 1)
         )
       )
     )
@@ -4776,7 +4776,7 @@
   (symbol (lib_id "0_connectors:Conn_01x07_Mounting") (at 40.64 176.53 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 47b5fda8-b3c4-4379-af02-34691ca6f3e2)
-    (property "Reference" "J4" (at 39.37 162.56 0)
+    (property "Reference" "J7" (at 39.37 162.56 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SM07B-GHS-TB" (at 39.37 165.1 0)
@@ -4799,7 +4799,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "J4") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -4808,7 +4808,7 @@
   (symbol (lib_id "Device:R_Small") (at 132.08 177.8 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4b09a60d-e467-4ef9-9345-f09fca6b1fb9)
-    (property "Reference" "R16" (at 129.54 175.895 90)
+    (property "Reference" "R36" (at 129.54 175.895 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 135.255 175.895 90)
@@ -4825,7 +4825,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R16") (unit 1)
+          (reference "R36") (unit 1)
         )
       )
     )
@@ -4834,7 +4834,7 @@
   (symbol (lib_id "Device:C_Small") (at 133.35 100.33 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4bac3245-6d1e-4947-9f06-3106d668a27d)
-    (property "Reference" "C76" (at 136.525 99.0663 0)
+    (property "Reference" "C109" (at 136.525 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 136.525 101.6063 0)
@@ -4851,7 +4851,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C76") (unit 1)
+          (reference "C109") (unit 1)
         )
       )
     )
@@ -4860,7 +4860,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 104.14 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c46f6fd-ebd8-4bb2-976e-35b56858e288)
-    (property "Reference" "#PWR092" (at 104.14 270.51 0)
+    (property "Reference" "#PWR073" (at 104.14 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 104.013 269.24 0)
@@ -4876,7 +4876,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR092") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
@@ -4885,7 +4885,7 @@
   (symbol (lib_id "Device:C_Small") (at 139.7 193.04 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 4dd486e1-94d1-4541-9eb4-4507636c2c24)
-    (property "Reference" "C79" (at 142.875 191.7763 0)
+    (property "Reference" "C110" (at 142.875 191.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 142.875 194.3163 0)
@@ -4902,7 +4902,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C79") (unit 1)
+          (reference "C110") (unit 1)
         )
       )
     )
@@ -4911,7 +4911,7 @@
   (symbol (lib_id "power:GND") (at 55.88 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4e644ebe-16b3-43d8-a636-ed1c1d67262d)
-    (property "Reference" "#PWR032" (at 55.88 210.82 0)
+    (property "Reference" "#PWR068" (at 55.88 210.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 208.915 0)
@@ -4927,7 +4927,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR068") (unit 1)
         )
       )
     )
@@ -4936,7 +4936,7 @@
   (symbol (lib_id "power:+3V3") (at 278.13 137.16 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5eaf5d9c-1039-4b7d-a1ff-542ebbee42b5)
-    (property "Reference" "#PWR042" (at 278.13 140.97 0)
+    (property "Reference" "#PWR082" (at 278.13 140.97 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 278.13 132.08 0)
@@ -4952,7 +4952,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR042") (unit 1)
+          (reference "#PWR082") (unit 1)
         )
       )
     )
@@ -4961,7 +4961,7 @@
   (symbol (lib_id "Device:C_Small") (at 54.61 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 63966381-7049-40e0-9c58-96416f988035)
-    (property "Reference" "C73" (at 57.15 57.1563 0)
+    (property "Reference" "C105" (at 57.15 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 59.6963 0)
@@ -4978,7 +4978,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C73") (unit 1)
+          (reference "C105") (unit 1)
         )
       )
     )
@@ -4987,7 +4987,7 @@
   (symbol (lib_id "Device:R_Small") (at 132.08 185.42 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 66a82a1b-1e04-4e4e-b58d-b8179ac46aa8)
-    (property "Reference" "R18" (at 129.54 183.515 90)
+    (property "Reference" "R38" (at 129.54 183.515 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 135.255 183.515 90)
@@ -5004,7 +5004,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R18") (unit 1)
+          (reference "R38") (unit 1)
         )
       )
     )
@@ -5013,7 +5013,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 254 67.31 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69de6dec-1b6e-4324-85ce-54761015d6b4)
-    (property "Reference" "J7" (at 254 76.2 0)
+    (property "Reference" "J11" (at 254 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Nano-Fit 1x03" (at 254 73.66 0)
@@ -5031,7 +5031,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "J7") (unit 1)
+          (reference "J11") (unit 1)
         )
       )
     )
@@ -5040,7 +5040,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.29 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f928f84-f16d-4471-9123-1dfcfc3ec97d)
-    (property "Reference" "R22" (at 163.195 163.83 0)
+    (property "Reference" "R42" (at 163.195 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 163.195 166.37 0)
@@ -5057,7 +5057,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R22") (unit 1)
+          (reference "R42") (unit 1)
         )
       )
     )
@@ -5066,7 +5066,7 @@
   (symbol (lib_id "power:GND") (at 69.85 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7598bed9-69bd-400e-92f0-a22796abb34c)
-    (property "Reference" "#PWR034" (at 69.85 68.58 0)
+    (property "Reference" "#PWR071" (at 69.85 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 69.85 67.31 0)
@@ -5082,7 +5082,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -5091,7 +5091,7 @@
   (symbol (lib_id "Device:R_Small") (at 326.39 195.58 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7a26f511-38b9-449c-a1f3-289819e24f87)
-    (property "Reference" "R23" (at 327.66 194.31 0)
+    (property "Reference" "R45" (at 327.66 194.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R" (at 327.66 196.85 0)
@@ -5108,7 +5108,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R23") (unit 1)
+          (reference "R45") (unit 1)
         )
       )
     )
@@ -5117,7 +5117,7 @@
   (symbol (lib_id "Device:R_Small") (at 129.54 87.63 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7cd6bdf8-6fba-4350-b27a-8cca9899f159)
-    (property "Reference" "R13" (at 127 85.725 90)
+    (property "Reference" "R33" (at 127 85.725 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 132.715 85.725 90)
@@ -5134,7 +5134,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R13") (unit 1)
+          (reference "R33") (unit 1)
         )
       )
     )
@@ -5143,7 +5143,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 161.29 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 7fb51351-357a-46fb-bcd1-9227c79554ae)
-    (property "Reference" "D4" (at 163.195 154.94 90)
+    (property "Reference" "D20" (at 163.195 154.94 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAT41KFILM" (at 163.195 157.48 90)
@@ -5160,7 +5160,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D4") (unit 1)
+          (reference "D20") (unit 1)
         )
       )
     )
@@ -5169,7 +5169,7 @@
   (symbol (lib_id "power:GND") (at 54.61 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 85af522b-34a4-460f-8bc0-7ad4b71a509d)
-    (property "Reference" "#PWR029" (at 54.61 68.58 0)
+    (property "Reference" "#PWR065" (at 54.61 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 67.31 0)
@@ -5185,7 +5185,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR029") (unit 1)
+          (reference "#PWR065") (unit 1)
         )
       )
     )
@@ -5194,7 +5194,7 @@
   (symbol (lib_id "Device:R_Small") (at 129.54 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 85dd32a1-4053-4abf-990e-453c80da9647)
-    (property "Reference" "R14" (at 127 89.535 90)
+    (property "Reference" "R34" (at 127 89.535 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 132.715 89.535 90)
@@ -5211,7 +5211,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R14") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -5220,7 +5220,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 146.05 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 863a2710-e813-4d8b-a7b9-56a5410a1452)
-    (property "Reference" "D1" (at 147.955 58.42 90)
+    (property "Reference" "D17" (at 147.955 58.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAT41KFILM" (at 147.955 60.96 90)
@@ -5237,7 +5237,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D1") (unit 1)
+          (reference "D17") (unit 1)
         )
       )
     )
@@ -5246,7 +5246,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 248.92 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ba7e99d-cb99-47d7-8617-9bfec2145bab)
-    (property "Reference" "#PWR091" (at 248.92 229.87 0)
+    (property "Reference" "#PWR074" (at 248.92 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 248.793 228.6 0)
@@ -5262,7 +5262,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR091") (unit 1)
+          (reference "#PWR074") (unit 1)
         )
       )
     )
@@ -5271,7 +5271,7 @@
   (symbol (lib_id "power:GND") (at 278.13 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8ee11cbc-b7d7-4c74-a6e1-7d7ffe6daf62)
-    (property "Reference" "#PWR043" (at 278.13 171.45 0)
+    (property "Reference" "#PWR083" (at 278.13 171.45 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 278.13 169.545 0)
@@ -5287,7 +5287,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR043") (unit 1)
+          (reference "#PWR083") (unit 1)
         )
       )
     )
@@ -5296,7 +5296,7 @@
   (symbol (lib_id "Device:R_Small") (at 146.05 165.1 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 90e0a131-62bb-42d8-aaa1-2099763d249d)
-    (property "Reference" "R20" (at 147.955 163.83 0)
+    (property "Reference" "R40" (at 147.955 163.83 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 147.955 166.37 0)
@@ -5313,7 +5313,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R20") (unit 1)
+          (reference "R40") (unit 1)
         )
       )
     )
@@ -5322,7 +5322,7 @@
   (symbol (lib_id "Device:C_Small") (at 151.13 100.33 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 943df6de-5ef8-4254-b6ec-bec21e7fef05)
-    (property "Reference" "C80" (at 154.305 99.0663 0)
+    (property "Reference" "C113" (at 154.305 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 154.305 101.6063 0)
@@ -5339,7 +5339,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C80") (unit 1)
+          (reference "C113") (unit 1)
         )
       )
     )
@@ -5348,7 +5348,7 @@
   (symbol (lib_id "Device:R_Small") (at 323.85 73.66 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 95e1af6f-a237-44f8-ad29-19a54a7f7be2)
-    (property "Reference" "R25" (at 326.39 72.39 0)
+    (property "Reference" "R43" (at 326.39 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "60R" (at 326.39 74.93 0)
@@ -5365,7 +5365,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R25") (unit 1)
+          (reference "R43") (unit 1)
         )
       )
     )
@@ -5374,7 +5374,7 @@
   (symbol (lib_id "Device:C_Small") (at 148.59 193.04 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid 98128d6e-6527-441f-8be4-93177969a447)
-    (property "Reference" "C81" (at 151.765 191.7763 0)
+    (property "Reference" "C112" (at 151.765 191.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 151.765 194.3163 0)
@@ -5391,7 +5391,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C81") (unit 1)
+          (reference "C112") (unit 1)
         )
       )
     )
@@ -5400,7 +5400,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 161.29 59.69 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98b399ac-523b-4713-a72f-bc219469bbc2)
-    (property "Reference" "D3" (at 163.195 58.42 90)
+    (property "Reference" "D19" (at 163.195 58.42 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAT41KFILM" (at 163.195 60.96 90)
@@ -5417,7 +5417,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D3") (unit 1)
+          (reference "D19") (unit 1)
         )
       )
     )
@@ -5426,7 +5426,7 @@
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 254 86.36 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 993acb34-0bc9-446c-be72-e565cfa4cc73)
-    (property "Reference" "J8" (at 254 95.25 0)
+    (property "Reference" "J12" (at 254 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Nano-Fit 1x03" (at 254 92.71 0)
@@ -5444,7 +5444,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "J8") (unit 1)
+          (reference "J12") (unit 1)
         )
       )
     )
@@ -5453,7 +5453,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 39.37 204.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 99d39dac-29fb-4cbc-b371-ad5b72dfda18)
-    (property "Reference" "#PWR083" (at 39.37 209.55 0)
+    (property "Reference" "#PWR062" (at 39.37 209.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 39.243 208.28 0)
@@ -5469,7 +5469,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR083") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -5478,7 +5478,7 @@
   (symbol (lib_id "Device:C_Small") (at 72.39 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9a77447f-9fea-4a3e-a63b-b88aca256839)
-    (property "Reference" "C77" (at 74.93 154.9463 0)
+    (property "Reference" "C108" (at 74.93 154.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 74.93 157.4863 0)
@@ -5495,7 +5495,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C77") (unit 1)
+          (reference "C108") (unit 1)
         )
       )
     )
@@ -5504,7 +5504,7 @@
   (symbol (lib_id "Device:C_Small") (at 54.61 156.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a00468ab-b6bb-4cc9-980c-98268ee75e17)
-    (property "Reference" "C74" (at 57.15 154.9463 0)
+    (property "Reference" "C106" (at 57.15 154.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 57.15 157.4863 0)
@@ -5521,7 +5521,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C74") (unit 1)
+          (reference "C106") (unit 1)
         )
       )
     )
@@ -5530,7 +5530,7 @@
   (symbol (lib_id "Device:R_Small") (at 129.54 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a4003a4e-85cb-4b5b-92d9-1538d820fc6a)
-    (property "Reference" "R10" (at 127 74.295 90)
+    (property "Reference" "R30" (at 127 74.295 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 132.715 74.295 90)
@@ -5547,7 +5547,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R10") (unit 1)
+          (reference "R30") (unit 1)
         )
       )
     )
@@ -5556,7 +5556,7 @@
   (symbol (lib_id "power:GND") (at 54.61 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aa8b10f4-5546-4e19-a7b6-92b126c4fe37)
-    (property "Reference" "#PWR031" (at 54.61 166.37 0)
+    (property "Reference" "#PWR066" (at 54.61 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 54.61 165.1 0)
@@ -5572,7 +5572,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR031") (unit 1)
+          (reference "#PWR066") (unit 1)
         )
       )
     )
@@ -5581,7 +5581,7 @@
   (symbol (lib_id "power:GND") (at 72.39 160.02 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid abe46391-176d-4c3a-9759-51c840e1d99e)
-    (property "Reference" "#PWR036" (at 72.39 166.37 0)
+    (property "Reference" "#PWR072" (at 72.39 166.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 72.39 165.1 0)
@@ -5597,7 +5597,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR036") (unit 1)
+          (reference "#PWR072") (unit 1)
         )
       )
     )
@@ -5606,7 +5606,7 @@
   (symbol (lib_id "0_power_protection:PESD4USB5B-TTSX_1") (at 101.6 100.33 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid acd61758-3e11-4d3e-bdaa-821323806306)
-    (property "Reference" "D22" (at 109.22 99.06 0)
+    (property "Reference" "D16" (at 109.22 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD4USB3U-TTSX" (at 109.22 101.6 0)
@@ -5631,7 +5631,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D22") (unit 1)
+          (reference "D16") (unit 1)
         )
       )
     )
@@ -5689,7 +5689,7 @@
   (symbol (lib_id "0_connectors:Conn_01x05_Mounting") (at 267.97 146.05 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid aea182f6-9112-473d-96e1-39529e8abdad)
-    (property "Reference" "J9" (at 262.89 144.78 0)
+    (property "Reference" "J13" (at 262.89 144.78 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SM05B-GHS-TB" (at 262.89 147.32 0)
@@ -5710,7 +5710,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "J9") (unit 1)
+          (reference "J13") (unit 1)
         )
       )
     )
@@ -5719,13 +5719,13 @@
   (symbol (lib_id "0_connectors:Conn_01x02_Mounting") (at 105.41 255.27 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b5e60a97-5bfa-4a31-9769-d8453c732874)
-    (property "Reference" "J5" (at 100.33 257.81 0)
+    (property "Reference" "J8" (at 100.33 257.81 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "JST S2B-PH-SM4-TB" (at 100.33 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 105.41 255.27 0)
+    (property "Footprint" "0_connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 105.41 255.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 105.41 255.27 0)
@@ -5737,7 +5737,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "J5") (unit 1)
+          (reference "J8") (unit 1)
         )
       )
     )
@@ -5746,7 +5746,7 @@
   (symbol (lib_id "Device:C_Small") (at 157.48 193.04 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid b6b0a181-5f7d-49c5-ac07-f09245fda6de)
-    (property "Reference" "C83" (at 160.655 191.7763 0)
+    (property "Reference" "C114" (at 160.655 191.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 160.655 194.3163 0)
@@ -5763,7 +5763,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C83") (unit 1)
+          (reference "C114") (unit 1)
         )
       )
     )
@@ -5772,7 +5772,7 @@
   (symbol (lib_id "Device:R_Small") (at 132.08 181.61 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ba86ad55-5a0d-4894-bc62-58671f5d08f1)
-    (property "Reference" "R17" (at 129.54 179.705 90)
+    (property "Reference" "R37" (at 129.54 179.705 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 135.255 179.705 90)
@@ -5789,7 +5789,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R17") (unit 1)
+          (reference "R37") (unit 1)
         )
       )
     )
@@ -5798,7 +5798,7 @@
   (symbol (lib_id "power:GND") (at 261.62 224.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bca9d18a-ba16-4527-9ae1-de493ec38b48)
-    (property "Reference" "#PWR040" (at 261.62 231.14 0)
+    (property "Reference" "#PWR077" (at 261.62 231.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 261.62 229.87 0)
@@ -5814,7 +5814,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR040") (unit 1)
+          (reference "#PWR077") (unit 1)
         )
       )
     )
@@ -5823,7 +5823,7 @@
   (symbol (lib_id "Device:R_Small") (at 132.08 173.99 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid be71821b-0ee8-4380-8f6f-74fa9cd62abe)
-    (property "Reference" "R15" (at 129.54 172.085 90)
+    (property "Reference" "R35" (at 129.54 172.085 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 135.255 172.085 90)
@@ -5840,7 +5840,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R15") (unit 1)
+          (reference "R35") (unit 1)
         )
       )
     )
@@ -5849,7 +5849,7 @@
   (symbol (lib_id "power:GND") (at 334.01 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c07f3172-7f90-418a-aad7-d111e870d786)
-    (property "Reference" "#PWR045" (at 334.01 92.71 0)
+    (property "Reference" "#PWR084" (at 334.01 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 334.01 91.44 0)
@@ -5865,7 +5865,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR084") (unit 1)
         )
       )
     )
@@ -5923,7 +5923,7 @@
   (symbol (lib_id "0_power_protection:PESD4USB5B-TTSX") (at 67.31 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c2787a0c-aa9e-4121-8ba7-2229e0fe6732)
-    (property "Reference" "D21" (at 74.93 99.06 0)
+    (property "Reference" "D14" (at 74.93 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PESD4USB5B-TTSX" (at 74.93 101.6 0)
@@ -5948,7 +5948,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D21") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -5957,7 +5957,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 250.19 265.43 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ca5dfd9c-9a5e-4819-b812-363e003f5697)
-    (property "Reference" "#PWR093" (at 250.19 270.51 0)
+    (property "Reference" "#PWR075" (at 250.19 270.51 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 250.063 269.24 0)
@@ -5973,7 +5973,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR075") (unit 1)
         )
       )
     )
@@ -5982,7 +5982,7 @@
   (symbol (lib_id "power:+5V") (at 261.62 191.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d4668caf-e0f3-4524-8bc7-e9cee8a78563)
-    (property "Reference" "#PWR039" (at 261.62 195.58 0)
+    (property "Reference" "#PWR076" (at 261.62 195.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 261.62 186.69 0)
@@ -5998,7 +5998,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR076") (unit 1)
         )
       )
     )
@@ -6007,7 +6007,7 @@
   (symbol (lib_id "0_power_protection:CDSOT23-SM712") (at 302.26 218.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid d7eeddfc-5c3b-4eba-bbe6-e5ddcaec81e3)
-    (property "Reference" "D19" (at 307.34 212.09 0)
+    (property "Reference" "D25" (at 307.34 212.09 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "CDSOT23-SM712" (at 307.34 214.63 0)
@@ -6025,7 +6025,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D19") (unit 1)
+          (reference "D25") (unit 1)
         )
       )
     )
@@ -6034,7 +6034,7 @@
   (symbol (lib_id "Device:R_Small") (at 129.54 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid dbb39224-f075-491f-810b-3f36317d5be5)
-    (property "Reference" "R11" (at 127 78.105 90)
+    (property "Reference" "R31" (at 127 78.105 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "100R" (at 132.715 78.105 90)
@@ -6051,7 +6051,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R11") (unit 1)
+          (reference "R31") (unit 1)
         )
       )
     )
@@ -6060,7 +6060,7 @@
   (symbol (lib_id "power:+12V") (at 266.7 252.73 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dd830033-e830-4e3d-8236-9974fbb04951)
-    (property "Reference" "#PWR037" (at 266.7 256.54 0)
+    (property "Reference" "#PWR081" (at 266.7 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+12V" (at 266.7 247.65 0)
@@ -6076,7 +6076,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR037") (unit 1)
+          (reference "#PWR081") (unit 1)
         )
       )
     )
@@ -6085,7 +6085,7 @@
   (symbol (lib_id "Device:C_Small") (at 168.91 100.33 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid df3c6ea8-75fc-4f80-97f4-9ef627d92ad2)
-    (property "Reference" "C84" (at 172.085 99.0663 0)
+    (property "Reference" "C117" (at 172.085 99.0663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 172.085 101.6063 0)
@@ -6102,7 +6102,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C84") (unit 1)
+          (reference "C117") (unit 1)
         )
       )
     )
@@ -6111,7 +6111,7 @@
   (symbol (lib_id "0_connectors:Conn_01x08_Mounting") (at 40.64 78.74 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e26cf460-dac3-41b0-bf19-c20df9ea4594)
-    (property "Reference" "J3" (at 40.64 64.77 0)
+    (property "Reference" "J6" (at 40.64 64.77 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SM08B-GHS-TB" (at 40.64 67.31 0)
@@ -6135,7 +6135,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "J3") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )
@@ -6150,7 +6150,7 @@
     (property "Value" "JST S2B-PH-SM4-TB" (at 246.38 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Connector_JST:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 251.46 255.27 0)
+    (property "Footprint" "0_connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 251.46 255.27 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 251.46 255.27 0)
@@ -6171,7 +6171,7 @@
   (symbol (lib_id "Device:C_Small") (at 284.48 152.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4221d50-9c0f-4d46-8277-549ef0baa2e8)
-    (property "Reference" "C86" (at 287.02 151.1363 0)
+    (property "Reference" "C118" (at 287.02 151.1363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 287.02 153.6763 0)
@@ -6188,7 +6188,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C86") (unit 1)
+          (reference "C118") (unit 1)
         )
       )
     )
@@ -6197,7 +6197,7 @@
   (symbol (lib_id "Device:R_Small") (at 161.29 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4da16ea-7bb4-4d3d-ac7e-a6e72e2331bb)
-    (property "Reference" "R21" (at 163.195 66.04 0)
+    (property "Reference" "R41" (at 163.195 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k" (at 163.195 68.58 0)
@@ -6214,7 +6214,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R21") (unit 1)
+          (reference "R41") (unit 1)
         )
       )
     )
@@ -6223,7 +6223,7 @@
   (symbol (lib_id "power:GND") (at 55.88 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f108a4e9-69d9-4165-ae46-b8b8b82e3c69)
-    (property "Reference" "#PWR030" (at 55.88 115.57 0)
+    (property "Reference" "#PWR067" (at 55.88 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 55.88 113.665 0)
@@ -6239,7 +6239,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "#PWR030") (unit 1)
+          (reference "#PWR067") (unit 1)
         )
       )
     )
@@ -6248,7 +6248,7 @@
   (symbol (lib_id "Device:R_Small") (at 326.39 205.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f11373e0-2962-45c6-ad4d-0738b15d992e)
-    (property "Reference" "R24" (at 327.66 204.47 0)
+    (property "Reference" "R46" (at 327.66 204.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100R" (at 327.66 207.01 0)
@@ -6265,7 +6265,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "R24") (unit 1)
+          (reference "R46") (unit 1)
         )
       )
     )
@@ -6274,7 +6274,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 193.04 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid f2a9888c-f84d-4ae1-a4e5-3e1ec8bb280e)
-    (property "Reference" "C85" (at 169.545 191.7763 0)
+    (property "Reference" "C116" (at 169.545 191.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DNP" (at 169.545 194.3163 0)
@@ -6291,7 +6291,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "C85") (unit 1)
+          (reference "C116") (unit 1)
         )
       )
     )
@@ -6300,7 +6300,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 146.05 156.21 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ffb81efb-d80b-41a8-9bdc-5c4ea2723e4d)
-    (property "Reference" "D2" (at 147.955 154.94 90)
+    (property "Reference" "D18" (at 147.955 154.94 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "BAT41KFILM" (at 147.955 157.48 90)
@@ -6317,7 +6317,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
-          (reference "D2") (unit 1)
+          (reference "D18") (unit 1)
         )
       )
     )

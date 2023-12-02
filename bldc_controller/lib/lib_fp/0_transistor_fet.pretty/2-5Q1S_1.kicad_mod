@@ -1,11 +1,11 @@
-(footprint "2-5Q1S" (version 20221018) (generator pcbnew)
+(footprint "2-5Q1S_1" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (attr smd)
   (fp_text reference "REF**" (at 0 -3.72 unlocked) (layer "F.SilkS")
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 369be0f4-5e77-42b4-bc1a-88b399eceacf)
   )
-  (fp_text value "2-5Q1S" (at -0.2 3.98 unlocked) (layer "F.Fab") hide
+  (fp_text value "2-5S1A" (at -0.2 3.98 unlocked) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7a0e4b68-4284-4ed4-8065-ce5d9e1d1365)
   )

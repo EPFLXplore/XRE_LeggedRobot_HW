@@ -518,7 +518,7 @@
   (symbol (lib_id "power:GND") (at 121.92 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 008f8286-5966-4d9f-9d95-8c1d4af2cccc)
-    (property "Reference" "#PWR012" (at 121.92 107.95 0)
+    (property "Reference" "#PWR086" (at 121.92 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 121.92 105.41 0)
@@ -534,7 +534,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR086") (unit 1)
         )
       )
     )
@@ -543,7 +543,7 @@
   (symbol (lib_id "Device:C_Small") (at 116.84 91.44 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 04b77f75-6a68-4d8c-8e1b-5f78ca43aa31)
-    (property "Reference" "C121" (at 119.38 90.1763 0)
+    (property "Reference" "C120" (at 119.38 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330n" (at 119.38 92.7163 0)
@@ -560,7 +560,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "C121") (unit 1)
+          (reference "C120") (unit 1)
         )
       )
     )
@@ -613,7 +613,7 @@
           (reference "#FLG01") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "#FLG01") (unit 1)
+          (reference "#FLG07") (unit 1)
         )
       )
     )
@@ -622,7 +622,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 105.41 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 43f13964-f27c-4660-91f4-c25d37f49c7d)
-    (property "Reference" "#PWR011" (at 105.41 106.68 0)
+    (property "Reference" "#PWR085" (at 105.41 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 105.283 105.41 0)
@@ -638,7 +638,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR085") (unit 1)
         )
       )
     )
@@ -647,7 +647,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 138.43 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c39639c-4d3f-4d84-a098-ade388d30a81)
-    (property "Reference" "#PWR013" (at 138.43 106.68 0)
+    (property "Reference" "#PWR087" (at 138.43 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 138.303 105.41 0)
@@ -663,7 +663,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR087") (unit 1)
         )
       )
     )
@@ -672,7 +672,7 @@
   (symbol (lib_id "Device:R_Small") (at 160.02 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4d69510f-042f-49ed-8640-7308fe303f36)
-    (property "Reference" "R45" (at 162.56 90.17 0)
+    (property "Reference" "R48" (at 162.56 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 162.56 92.71 0)
@@ -689,7 +689,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "R45") (unit 1)
+          (reference "R48") (unit 1)
         )
       )
     )
@@ -724,7 +724,7 @@
   (symbol (lib_id "0_power_symbols:CHASSIS") (at 172.72 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 813e9287-1b55-4f77-ab08-fe404598d0d9)
-    (property "Reference" "#PWR015" (at 172.72 106.68 0)
+    (property "Reference" "#PWR089" (at 172.72 106.68 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "CHASSIS" (at 172.593 105.41 0)
@@ -740,7 +740,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR089") (unit 1)
         )
       )
     )
@@ -749,7 +749,7 @@
   (symbol (lib_id "Device:C_Small") (at 149.86 91.44 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 91e054bd-6918-4224-9256-5a8637466a91)
-    (property "Reference" "C107" (at 152.4 90.1763 0)
+    (property "Reference" "C121" (at 152.4 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "330n" (at 152.4 92.7163 0)
@@ -766,7 +766,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "C107") (unit 1)
+          (reference "C121") (unit 1)
         )
       )
     )
@@ -775,7 +775,7 @@
   (symbol (lib_id "power:GND") (at 189.23 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9481f525-4929-4df1-a17d-791169bfca4e)
-    (property "Reference" "#PWR016" (at 189.23 107.95 0)
+    (property "Reference" "#PWR090" (at 189.23 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 189.23 105.41 0)
@@ -791,7 +791,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR090") (unit 1)
         )
       )
     )
@@ -800,7 +800,7 @@
   (symbol (lib_id "Device:R_Small") (at 127 91.44 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid bba876af-4fa3-4558-b067-333bc9b64d29)
-    (property "Reference" "R49" (at 129.54 90.17 0)
+    (property "Reference" "R47" (at 129.54 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 129.54 92.71 0)
@@ -817,7 +817,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "R49") (unit 1)
+          (reference "R47") (unit 1)
         )
       )
     )
@@ -826,7 +826,7 @@
   (symbol (lib_id "power:GND") (at 154.94 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ccb2acc7-44ab-42fa-bb15-9e8a8c6a3bbc)
-    (property "Reference" "#PWR014" (at 154.94 107.95 0)
+    (property "Reference" "#PWR088" (at 154.94 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 154.94 105.41 0)
@@ -842,7 +842,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR088") (unit 1)
         )
       )
     )
@@ -876,7 +876,7 @@
   (symbol (lib_id "Device:R_Small") (at 194.31 91.44 0) (unit 1)
     (in_bom no) (on_board yes) (dnp yes) (fields_autoplaced)
     (uuid da15476e-03b6-474d-8146-96b6c6e41e35)
-    (property "Reference" "R50" (at 196.85 90.17 0)
+    (property "Reference" "R49" (at 196.85 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100k" (at 196.85 92.71 0)
@@ -893,7 +893,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
-          (reference "R50") (unit 1)
+          (reference "R49") (unit 1)
         )
       )
     )

@@ -59,29 +59,29 @@
         )
       )
     )
-    (symbol "0_transistor_fet:SSM3K324R,LF" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "0_transistor_fet:PMV15ENER" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "SSM3K324R,LF" (at 5.08 0 0)
+      (property "Value" "PMV15ENER" (at 5.08 0 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 5.08 12.7 0)
+      (property "Footprint" "0_package_SOT_TO_SMD:SOT-23-3" (at 5.08 12.7 0)
         (effects (font (size 1.27 1.27) italic) (justify left) hide)
       )
-      (property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3K324R_datasheet_en_20210914.pdf?did=13879&prodName=SSM3K324R" (at 5.08 15.24 0)
+      (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV15ENE.pdf" (at 5.08 15.24 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "ki_keywords" "N-Channel MOSFET Logic-Level" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "N-Channel 30 V 4A (Ta) 1W (Ta) Surface Mount SOT-23F" (at 0 0 0)
+      (property "ki_description" "N-Channel 30 V 6.2A (Ta) 1.3W (Ta) Surface Mount SOT-23-3" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "TO?92*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "SSM3K324R,LF_0_1"
+      (symbol "PMV15ENER_0_1"
         (circle (center -2.54 0) (radius 0.254)
           (stroke (width 0) (type default))
           (fill (type outline))
@@ -254,7 +254,7 @@
           (fill (type outline))
         )
       )
-      (symbol "SSM3K324R,LF_1_1"
+      (symbol "PMV15ENER_1_1"
         (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -663,7 +663,7 @@
   (symbol (lib_id "Device:C") (at 109.22 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40e53a1f-7245-4f96-bd17-5d01fa1fb9d5)
-    (property "Reference" "C120" (at 113.03 71.12 0)
+    (property "Reference" "C103" (at 113.03 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7" (at 113.03 73.66 0)
@@ -680,7 +680,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "C120") (unit 1)
+          (reference "C103") (unit 1)
         )
       )
     )
@@ -689,7 +689,7 @@
   (symbol (lib_id "Device:R_Small") (at 160.02 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 436345e9-3a15-474a-86ff-06d999f774f0)
-    (property "Reference" "R48" (at 160.02 86.36 90)
+    (property "Reference" "R29" (at 160.02 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R" (at 160.02 88.9 90)
@@ -706,7 +706,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "R48") (unit 1)
+          (reference "R29") (unit 1)
         )
       )
     )
@@ -715,7 +715,7 @@
   (symbol (lib_id "power:GND") (at 109.22 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 683e69f2-0e7e-4764-bfc7-d78303bfc95e)
-    (property "Reference" "#PWR073" (at 109.22 85.09 0)
+    (property "Reference" "#PWR058" (at 109.22 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 109.22 83.82 0)
@@ -731,7 +731,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR073") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )
@@ -740,7 +740,7 @@
   (symbol (lib_id "power:+5V") (at 135.89 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7615ab05-b5a6-451f-910b-f8cc50a7347c)
-    (property "Reference" "#PWR074" (at 135.89 68.58 0)
+    (property "Reference" "#PWR059" (at 135.89 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 135.89 59.69 0)
@@ -756,7 +756,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR074") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -765,7 +765,7 @@
   (symbol (lib_id "power:GND") (at 135.89 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82a92d1e-e7fd-49a7-81b1-8b058a443e13)
-    (property "Reference" "#PWR075" (at 135.89 114.3 0)
+    (property "Reference" "#PWR060" (at 135.89 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 113.03 0)
@@ -781,34 +781,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR075") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0_transistor_fet:SSM3K324R,LF") (at 179.07 91.44 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8fb7fbfc-ecc3-4233-bdc3-2c0813ce4e4b)
-    (property "Reference" "Q7" (at 185.42 90.7415 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SSM3K324R,LF" (at 185.42 93.2815 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-23-3" (at 184.15 78.74 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/SSM3K324R_datasheet_en_20210914.pdf?did=13879&prodName=SSM3K324R" (at 184.15 76.2 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid c1a479d2-a251-481b-8a0e-db4c58d8327c))
-    (pin "2" (uuid 3fec2120-a01c-4913-b1e3-010f5ad33303))
-    (pin "3" (uuid 3e34e5ed-660b-4886-a4f6-1cef5667887f))
-    (instances
-      (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "Q7") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -843,10 +816,37 @@
     )
   )
 
+  (symbol (lib_id "0_transistor_fet:PMV15ENER") (at 179.07 91.44 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid dcef01ee-6637-470b-bad5-b02d58ee21e3)
+    (property "Reference" "Q7" (at 185.42 90.7415 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "PMV15ENER" (at 185.42 93.2815 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "0_package_SOT_TO_SMD:SOT-23-3" (at 184.15 78.74 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PMV15ENE.pdf" (at 184.15 76.2 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 5f890125-d08b-45fc-9a13-8c3fc0d7d19e))
+    (pin "2" (uuid c64816a0-4b55-4a4e-80ec-52049f0aa25a))
+    (pin "3" (uuid 4d439208-afa3-419e-bbd6-3b8bfe50963c))
+    (instances
+      (project "bldc_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
+          (reference "Q7") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:C_Small") (at 121.92 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5f5057f-e1ed-4a4f-b0f6-723a8da0030f)
-    (property "Reference" "C119" (at 124.46 71.1263 0)
+    (property "Reference" "C104" (at 124.46 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n" (at 124.46 73.6663 0)
@@ -863,7 +863,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "C119") (unit 1)
+          (reference "C104") (unit 1)
         )
       )
     )

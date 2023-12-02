@@ -163,29 +163,29 @@
         )
       )
     )
-    (symbol "0_transistor_fet:TPH2R408QM,L1Q" (pin_names hide) (in_bom yes) (on_board yes)
+    (symbol "0_transistor_fet:TPW1R306PL,L1Q" (pin_names hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.905 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "TPH2R408QM,L1Q" (at 5.08 0 0)
+      (property "Value" "TPW1R306PL,L1Q" (at 5.08 0 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Footprint" "0_transistor_fet:2-5Q1S" (at 5.08 -1.905 0)
+      (property "Footprint" "0_transistor_fet:2-5S1A" (at 5.08 -1.905 0)
         (effects (font (size 1.27 1.27) italic) (justify left) hide)
       )
-      (property "Datasheet" "https://toshiba.semicon-storage.com/info/TPH2R408QM_datasheet_en_20211224.pdf?did=67915&prodName=TPH2R408QM" (at 0 0 0)
+      (property "Datasheet" "https://www.mouser.ch/datasheet/2/408/TPW1R306PL_datasheet_en_20191021-1915914.pdf" (at 0 0 0)
         (effects (font (size 1.27 1.27)) (justify left) hide)
       )
       (property "ki_keywords" "N-Channel MOSFET Logic-Level" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "ki_description" "N-Channel 80 V 120A (Tc) 3W (Ta), 210W (Tc) Surface Mount 8-SOP Advance (5x5)" (at 0 0 0)
+      (property "ki_description" "N-Channel 60 V 260A (Tc) 170W (Tc) Surface Mount DSOP Advance 2-5S1A" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_fp_filters" "TO?92*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "TPH2R408QM,L1Q_0_1"
+      (symbol "TPW1R306PL,L1Q_0_1"
         (polyline
           (pts
             (xy 0.254 0)
@@ -350,7 +350,7 @@
           (fill (type outline))
         )
       )
-      (symbol "TPH2R408QM,L1Q_1_1"
+      (symbol "TPW1R306PL,L1Q_1_1"
         (pin passive line (at 0 -8.89 90) (length 2.54)
           (name "S" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -2102,10 +2102,42 @@
     )
   )
 
+  (symbol (lib_id "0_transistor_fet:TPW1R306PL,L1Q") (at 224.79 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 079b0a60-5014-489b-97fb-1ffecaa8c4c5)
+    (property "Reference" "Q5" (at 229.87 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TPW1R306PL,L1Q" (at 229.87 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "0_transistor_fet:2-5S1A" (at 229.87 71.755 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/408/TPW1R306PL_datasheet_en_20191021-1915914.pdf" (at 224.79 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 23026ae4-bc5c-48c9-821c-0cd61f5618b5))
+    (pin "2" (uuid 102ce12a-b4a2-4cfa-ac44-d2cfde18a06c))
+    (pin "3" (uuid dc620bfd-3b97-4e7f-b4bc-f72401062fe2))
+    (pin "4" (uuid 1c1d13a8-4959-408a-82fb-3c2c17a61565))
+    (pin "5" (uuid 2273ec03-929d-4f91-8ac1-196f1ab4b2c0))
+    (pin "6" (uuid 46a82812-fed9-4d11-b5c6-390d0a240189))
+    (pin "7" (uuid 2826efec-6268-4f8f-9941-25d90dcc91c8))
+    (pin "8" (uuid 2b2104fe-31d6-4fc9-85bf-06a51661e06a))
+    (instances
+      (project "bldc_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
+          (reference "Q5") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "Device:NetTie_2") (at 220.98 88.9 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 12543098-c6d2-44b7-96fa-07759c55b1f2)
-    (property "Reference" "NT12" (at 220.98 83.82 0)
+    (property "Reference" "NT10" (at 220.98 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SRC_HS_C" (at 220.98 86.36 0)
@@ -2122,7 +2154,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT12") (unit 1)
+          (reference "NT10") (unit 1)
         )
       )
     )
@@ -2131,7 +2163,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 58.42 88.9 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 139053c0-ffa0-49a6-b596-9339621cc439)
-    (property "Reference" "NT6" (at 58.42 83.82 0)
+    (property "Reference" "NT4" (at 58.42 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SRC_HS_A" (at 58.42 86.36 0)
@@ -2148,7 +2180,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT6") (unit 1)
+          (reference "NT4") (unit 1)
         )
       )
     )
@@ -2157,7 +2189,7 @@
   (symbol (lib_id "Device:C") (at 101.6 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1b5e27e8-09ea-4481-b01f-6aefde216e80)
-    (property "Reference" "C102" (at 97.79 93.98 0)
+    (property "Reference" "C89" (at 97.79 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7 100V" (at 97.79 96.52 0)
@@ -2174,7 +2206,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "C102") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -2183,7 +2215,7 @@
   (symbol (lib_id "Device:R_Small") (at 64.77 133.35 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1e318ff4-053c-4137-943d-9ed06707573d)
-    (property "Reference" "R34" (at 67.31 132.08 0)
+    (property "Reference" "R11" (at 67.31 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0m5" (at 67.31 134.62 0)
@@ -2200,35 +2232,35 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R34") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "0_transistor_fet:TPH2R408QM,L1Q") (at 62.23 109.22 0) (unit 1)
+  (symbol (lib_id "0_transistor_fet:TPW1R306PL,L1Q") (at 62.23 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
-    (uuid 2e3b76dd-037f-4d70-bf48-93c57f78715c)
+    (uuid 25bea936-511c-439c-9531-779264b46b95)
     (property "Reference" "Q2" (at 67.31 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "TPH2R408QM,L1Q" (at 67.31 110.49 0)
-      (effects (font (size 1.016 1.016)) (justify left))
+    (property "Value" "TPW1R306PL,L1Q" (at 67.31 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "0_transistor_fet:2-5Q1S" (at 67.31 111.125 0)
+    (property "Footprint" "0_transistor_fet:2-5S1A" (at 67.31 111.125 0)
       (effects (font (size 1.27 1.27) italic) (justify left) hide)
     )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/TPH2R408QM_datasheet_en_20211224.pdf?did=67915&prodName=TPH2R408QM" (at 62.23 109.22 0)
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/408/TPW1R306PL_datasheet_en_20191021-1915914.pdf" (at 62.23 109.22 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (pin "1" (uuid 4240e38b-8f20-45e0-9f47-5b0148cb1f17))
-    (pin "2" (uuid 3fc676b5-181d-495b-88f0-d46c2e0bc4a0))
-    (pin "3" (uuid a9219960-e400-4f3b-8d74-dd2f2131e17e))
-    (pin "4" (uuid bb84e6d7-359a-4edf-942a-23a4ab0a37d5))
-    (pin "5" (uuid b66ed28c-82f8-42a6-b83f-f8bcabddad76))
-    (pin "6" (uuid 1b95be02-a940-4ad7-84ce-0cb495815485))
-    (pin "7" (uuid bf1fb13d-456a-4105-91b4-122902fb10cd))
-    (pin "8" (uuid 0da5c6c7-0482-4ac7-b1b5-d7369cca61ea))
+    (pin "1" (uuid ebe51328-84b3-4d21-8be0-2c2ca94b768a))
+    (pin "2" (uuid 37b9f8ea-9f25-407a-8ce5-2eec47cefd77))
+    (pin "3" (uuid efa1d63d-ae8e-49d1-a559-fe50e27cefe0))
+    (pin "4" (uuid bd4d2770-553c-469f-a8e9-fdcbcd6e13ac))
+    (pin "5" (uuid 111ba358-3863-4157-bb0d-5be9ab306a8c))
+    (pin "6" (uuid 1994914f-6b8f-4537-904f-bc157858950d))
+    (pin "7" (uuid 785a6266-7948-4abc-997a-31e5e5f1722b))
+    (pin "8" (uuid 2ba04b35-4277-47f9-8deb-caf16cc0f403))
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
@@ -2241,7 +2273,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 140.97 139.7 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2ffb622f-c36d-433b-9dd8-64e0920d979d)
-    (property "Reference" "NT11" (at 140.97 134.62 0)
+    (property "Reference" "NT9" (at 140.97 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SHNTB_N" (at 140.97 137.16 0)
@@ -2258,7 +2290,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT11") (unit 1)
+          (reference "NT9") (unit 1)
         )
       )
     )
@@ -2267,7 +2299,7 @@
   (symbol (lib_id "Device:R_Small") (at 124.46 69.85 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 317a04f7-6fa8-4bdf-adff-88e29a3a1533)
-    (property "Reference" "R35" (at 124.46 74.93 90)
+    (property "Reference" "R12" (at 124.46 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7R5" (at 124.46 72.39 90)
@@ -2284,7 +2316,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R35") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -2293,7 +2325,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 38.1 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 31f83256-4889-4b1c-b095-2989a98c8348)
-    (property "Reference" "D6" (at 40.64 131.7625 90)
+    (property "Reference" "D1" (at 40.64 131.7625 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BAT41KFILM" (at 40.64 134.3025 90)
@@ -2310,7 +2342,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D6") (unit 1)
+          (reference "D1") (unit 1)
         )
       )
     )
@@ -2319,7 +2351,7 @@
   (symbol (lib_id "Device:C_Small") (at 166.37 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3611b826-0dca-4833-b218-eebbc09129b9)
-    (property "Reference" "C103" (at 163.83 93.98 0)
+    (property "Reference" "C90" (at 163.83 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n X7R 100V" (at 163.83 96.52 0)
@@ -2336,7 +2368,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "C103") (unit 1)
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -2345,7 +2377,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 205.74 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3ce3f851-424f-4ae5-894b-621924da077a)
-    (property "Reference" "D13" (at 205.4225 55.88 0)
+    (property "Reference" "D8" (at 205.4225 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT41KFILM" (at 205.4225 58.42 0)
@@ -2362,7 +2394,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D13") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -2371,7 +2403,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 200.66 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3d0ad5c2-85eb-47a9-aaf4-1df9f7e0c2ea)
-    (property "Reference" "D12" (at 203.2 131.7625 90)
+    (property "Reference" "D7" (at 203.2 131.7625 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BAT41KFILM" (at 203.2 134.3025 90)
@@ -2388,7 +2420,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D12") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2397,7 +2429,7 @@
   (symbol (lib_id "Device:R_Small") (at 205.74 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 3d774961-3237-4b7d-a7bd-475c62d40bac)
-    (property "Reference" "R39" (at 205.74 114.3 90)
+    (property "Reference" "R16" (at 205.74 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7R5" (at 205.74 111.76 90)
@@ -2414,7 +2446,71 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R39") (unit 1)
+          (reference "R16") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "0_transistor_fet:TPW1R306PL,L1Q") (at 143.51 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 40bc54b4-54da-4434-8997-1111ac25b2bd)
+    (property "Reference" "Q4" (at 148.59 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TPW1R306PL,L1Q" (at 148.59 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "0_transistor_fet:2-5S1A" (at 148.59 111.125 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/408/TPW1R306PL_datasheet_en_20191021-1915914.pdf" (at 143.51 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 9cd4f26b-9075-4e5e-a556-bb03d1f6cbb7))
+    (pin "2" (uuid 1b1ee4bc-5d40-4e64-9ffd-40cd0427c28c))
+    (pin "3" (uuid 293fb947-dc91-4391-98d6-077dccda55f6))
+    (pin "4" (uuid b4578683-696c-48b9-8f51-ceecb88dd52f))
+    (pin "5" (uuid 625fc8fb-dd88-422e-8263-c79ad5c8ba5a))
+    (pin "6" (uuid 480da16e-14c0-4900-85e8-667861f053ae))
+    (pin "7" (uuid 3ff6f2f5-f276-4030-979a-95436dbb1b98))
+    (pin "8" (uuid 38df3563-2401-483d-bc08-cd31ca3f4876))
+    (instances
+      (project "bldc_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
+          (reference "Q4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "0_transistor_fet:TPW1R306PL,L1Q") (at 224.79 109.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 455a05ae-ae32-45ad-81a1-34fe2a8d93d9)
+    (property "Reference" "Q6" (at 229.87 107.95 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TPW1R306PL,L1Q" (at 229.87 110.49 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "0_transistor_fet:2-5S1A" (at 229.87 111.125 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/408/TPW1R306PL_datasheet_en_20191021-1915914.pdf" (at 224.79 109.22 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 5d6d1a02-3ba1-4d77-8a20-9ad150b01a34))
+    (pin "2" (uuid eb9f7669-f609-4b72-83cc-f75956f2a290))
+    (pin "3" (uuid 595d2a8b-d1f4-460f-be94-a3ea99c54a30))
+    (pin "4" (uuid dfb61311-c134-4404-8fa1-3b0f04026a03))
+    (pin "5" (uuid c543a81d-6e3d-4bce-b911-b6e2be903da4))
+    (pin "6" (uuid 6d92168f-8cfd-4c1e-b535-e48d18356dce))
+    (pin "7" (uuid 3fd5b391-5c7d-409e-94ba-29f7f8524ca2))
+    (pin "8" (uuid a72331ce-b18e-4367-981f-a7776f7b51cd))
+    (instances
+      (project "bldc_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
+          (reference "Q6") (unit 1)
         )
       )
     )
@@ -2423,7 +2519,7 @@
   (symbol (lib_id "power:GND") (at 38.1 151.13 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 49becba7-ceb6-404a-91ff-d4e54559c493)
-    (property "Reference" "#PWR058" (at 38.1 157.48 0)
+    (property "Reference" "#PWR036" (at 38.1 157.48 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 38.1 156.21 0)
@@ -2439,7 +2535,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR036") (unit 1)
         )
       )
     )
@@ -2448,7 +2544,7 @@
   (symbol (lib_id "0_connectors:Solder Pad") (at 237.49 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6090e9ee-dadf-41d2-8331-c3f7fba522b8)
-    (property "Reference" "J13" (at 237.49 74.93 0)
+    (property "Reference" "J5" (at 237.49 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Phase C" (at 237.49 77.47 0)
@@ -2464,7 +2560,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "J13") (unit 1)
+          (reference "J5") (unit 1)
         )
       )
     )
@@ -2473,7 +2569,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 140.97 127 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 629de23c-9f8a-43eb-845f-f93728b52966)
-    (property "Reference" "NT10" (at 140.97 121.92 0)
+    (property "Reference" "NT8" (at 140.97 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SHNTB_P" (at 140.97 124.46 0)
@@ -2490,39 +2586,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT10") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0_transistor_fet:TPH2R408QM,L1Q") (at 143.51 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 67a0a474-9616-42ca-a01a-82dd486f7f45)
-    (property "Reference" "Q3" (at 148.59 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TPH2R408QM,L1Q" (at 148.59 71.12 0)
-      (effects (font (size 1.016 1.016)) (justify left))
-    )
-    (property "Footprint" "0_transistor_fet:2-5Q1S" (at 148.59 71.755 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/TPH2R408QM_datasheet_en_20211224.pdf?did=67915&prodName=TPH2R408QM" (at 143.51 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 111fac83-3250-4506-8121-65bd91ba9c2a))
-    (pin "2" (uuid 79ec6278-5fe7-43e6-86cd-549542d023df))
-    (pin "3" (uuid 61e41542-bf36-44d7-b966-7affed8ce1ca))
-    (pin "4" (uuid e125cb08-2178-46a7-b33a-84f9374c78da))
-    (pin "5" (uuid aa527872-353b-43e3-bc35-148e756bd0eb))
-    (pin "6" (uuid 3a3c6429-a1c9-48fc-a18d-3482f2306695))
-    (pin "7" (uuid 2525907f-4bdc-432c-b634-311d8e356888))
-    (pin "8" (uuid de921063-a914-4b4d-aa7b-b1420feec24b))
-    (instances
-      (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "Q3") (unit 1)
+          (reference "NT8") (unit 1)
         )
       )
     )
@@ -2531,7 +2595,7 @@
   (symbol (lib_id "Device:R_Small") (at 227.33 133.35 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6ce31590-4481-4408-9030-cb210b337c8a)
-    (property "Reference" "R40" (at 229.87 132.08 0)
+    (property "Reference" "R17" (at 229.87 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0m5" (at 229.87 134.62 0)
@@ -2548,39 +2612,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R40") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0_transistor_fet:TPH2R408QM,L1Q") (at 62.23 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 6dec7b14-8de8-48df-ad1a-647404d7b787)
-    (property "Reference" "Q1" (at 67.31 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TPH2R408QM,L1Q" (at 67.31 71.12 0)
-      (effects (font (size 1.016 1.016)) (justify left))
-    )
-    (property "Footprint" "0_transistor_fet:2-5Q1S" (at 67.31 71.755 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/TPH2R408QM_datasheet_en_20211224.pdf?did=67915&prodName=TPH2R408QM" (at 62.23 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid fd38f3df-37eb-4a8b-8bf5-69966d3102fa))
-    (pin "2" (uuid 60b715d2-7128-41c9-9f83-120a26d0afa4))
-    (pin "3" (uuid 84e6b915-c718-454e-a36a-060cde9d4d24))
-    (pin "4" (uuid ea3402cb-fbc8-4d40-b230-54eaafe1684a))
-    (pin "5" (uuid 291951d9-3207-49be-bc45-03b54bb9fff9))
-    (pin "6" (uuid 6f28299b-53b4-405a-826e-2d0c6e4e114f))
-    (pin "7" (uuid f9372aad-e88d-4b6d-9460-0de8499f79ea))
-    (pin "8" (uuid 772a1f9f-433e-49ea-a9a3-0e171329c38e))
-    (instances
-      (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "Q1") (unit 1)
+          (reference "R17") (unit 1)
         )
       )
     )
@@ -2589,7 +2621,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 69.85 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 71426392-5b1d-49f1-9639-b025f883c19d)
-    (property "Reference" "R32" (at 43.18 74.93 90)
+    (property "Reference" "R9" (at 43.18 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7R5" (at 43.18 72.39 90)
@@ -2606,7 +2638,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R32") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2615,7 +2647,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 222.25 139.7 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7718e4d7-5889-4991-a320-6092e17bfc16)
-    (property "Reference" "NT14" (at 222.25 134.62 0)
+    (property "Reference" "NT12" (at 222.25 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SHNTC_N" (at 222.25 137.16 0)
@@ -2632,7 +2664,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT14") (unit 1)
+          (reference "NT12") (unit 1)
         )
       )
     )
@@ -2641,7 +2673,7 @@
   (symbol (lib_id "Device:C_Small") (at 85.09 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 77c489b5-0062-4cb9-8fee-2b8f597b8d73)
-    (property "Reference" "C101" (at 82.55 93.98 0)
+    (property "Reference" "C88" (at 82.55 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n X7R 100V" (at 82.55 96.52 0)
@@ -2658,7 +2690,39 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "C101") (unit 1)
+          (reference "C88") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "0_transistor_fet:TPW1R306PL,L1Q") (at 143.51 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 7d16af21-1597-48e3-9812-254cb39471e2)
+    (property "Reference" "Q3" (at 148.59 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TPW1R306PL,L1Q" (at 148.59 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "0_transistor_fet:2-5S1A" (at 148.59 71.755 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/408/TPW1R306PL_datasheet_en_20191021-1915914.pdf" (at 143.51 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 15da567a-e68a-4bfb-aeb2-324e0034a7dc))
+    (pin "2" (uuid 0dc47c32-99dc-464c-8b28-402801c3ff30))
+    (pin "3" (uuid 83613557-075f-47c8-9c34-7952d7ca33da))
+    (pin "4" (uuid 28ac938c-da92-4638-8e3a-5dac0571f246))
+    (pin "5" (uuid 31b680b7-5da3-4fcd-a24c-aca803ea9fd2))
+    (pin "6" (uuid 9dc5783f-a5c8-42bc-8611-24c48b283e38))
+    (pin "7" (uuid d56dca7b-ae54-49b3-aad0-e496f8bb57e1))
+    (pin "8" (uuid 9d59c2ba-90c3-4fdf-92c7-76351b4b29c6))
+    (instances
+      (project "bldc_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
+          (reference "Q3") (unit 1)
         )
       )
     )
@@ -2667,7 +2731,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 43.18 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 890ca72f-aaa2-45b7-8386-b8f333bdb5cd)
-    (property "Reference" "D7" (at 42.8625 55.88 0)
+    (property "Reference" "D2" (at 42.8625 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT41KFILM" (at 42.8625 58.42 0)
@@ -2684,39 +2748,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D7") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0_transistor_fet:TPH2R408QM,L1Q") (at 143.51 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 8b4dac7c-a425-444b-9c13-3a167dfd741e)
-    (property "Reference" "Q4" (at 148.59 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TPH2R408QM,L1Q" (at 148.59 110.49 0)
-      (effects (font (size 1.016 1.016)) (justify left))
-    )
-    (property "Footprint" "0_transistor_fet:2-5Q1S" (at 148.59 111.125 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/TPH2R408QM_datasheet_en_20211224.pdf?did=67915&prodName=TPH2R408QM" (at 143.51 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 275a983a-780c-413e-8941-646c1c2ad258))
-    (pin "2" (uuid 4061f973-b0ba-4750-ac24-9c747a19c00c))
-    (pin "3" (uuid 3c39c5ec-a15b-4c19-9f0d-f5ae3b5a83de))
-    (pin "4" (uuid 80fef434-ad19-4e94-869a-a1b58c3c04be))
-    (pin "5" (uuid 00a4160f-d476-49c6-9f05-c193b3653913))
-    (pin "6" (uuid 645f66be-1b4d-4a3b-ba44-ccc6bbace3a6))
-    (pin "7" (uuid a26a80eb-f18c-4b73-9296-191d40c54a24))
-    (pin "8" (uuid 880e3951-b26f-4493-96c2-a450ab4ad81f))
-    (instances
-      (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "Q4") (unit 1)
+          (reference "D2") (unit 1)
         )
       )
     )
@@ -2725,7 +2757,7 @@
   (symbol (lib_id "Device:R_Small") (at 43.18 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9672c818-5816-4eaf-8efa-1fe27f6d7d5c)
-    (property "Reference" "R33" (at 43.18 114.3 90)
+    (property "Reference" "R10" (at 43.18 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7R5" (at 43.18 111.76 90)
@@ -2742,7 +2774,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R33") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2751,7 +2783,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 124.46 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 97314e8e-a124-4e74-a424-503815a70ded)
-    (property "Reference" "D11" (at 124.1425 95.25 0)
+    (property "Reference" "D6" (at 124.1425 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT41KFILM" (at 124.1425 97.79 0)
@@ -2768,7 +2800,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D11") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -2777,7 +2809,7 @@
   (symbol (lib_id "Device:R_Small") (at 124.46 109.22 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 9a79cb14-9725-46d2-b001-660f92bf8469)
-    (property "Reference" "R36" (at 124.46 114.3 90)
+    (property "Reference" "R13" (at 124.46 114.3 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7R5" (at 124.46 111.76 90)
@@ -2794,39 +2826,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R36") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0_transistor_fet:TPH2R408QM,L1Q") (at 224.79 109.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 9f43c60c-e5e2-4f5e-9055-5d17112a628a)
-    (property "Reference" "Q6" (at 229.87 107.95 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TPH2R408QM,L1Q" (at 229.87 110.49 0)
-      (effects (font (size 1.016 1.016)) (justify left))
-    )
-    (property "Footprint" "0_transistor_fet:2-5Q1S" (at 229.87 111.125 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/TPH2R408QM_datasheet_en_20211224.pdf?did=67915&prodName=TPH2R408QM" (at 224.79 109.22 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 64b27062-d399-48d9-813d-cf36cdb3762b))
-    (pin "2" (uuid 31d4b754-7884-4967-8666-67211a1d6c19))
-    (pin "3" (uuid e3a84310-82a8-46ba-a999-fc21203af69b))
-    (pin "4" (uuid bab0b3e1-867f-4b9c-b5c4-fab1acb0e33d))
-    (pin "5" (uuid 549f8253-67e6-49d1-89df-75b5e5838488))
-    (pin "6" (uuid c84bdf88-3821-4c2f-bd1f-ee489d423854))
-    (pin "7" (uuid c0095d54-1bf7-46ee-a70d-e2b82acf8f73))
-    (pin "8" (uuid 582cc1de-45b4-446d-89e9-c23c77adf6f6))
-    (instances
-      (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "Q6") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2835,7 +2835,7 @@
   (symbol (lib_id "Device:C") (at 266.7 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a04ca77e-5297-4d42-bdfe-db8f6ae90498)
-    (property "Reference" "C106" (at 262.89 93.98 0)
+    (property "Reference" "C93" (at 262.89 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7 100V" (at 262.89 96.52 0)
@@ -2852,7 +2852,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "C106") (unit 1)
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -2861,7 +2861,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 59.69 127 180) (unit 1)
     (in_bom no) (on_board yes) (dnp no)
     (uuid a7a5b4a8-81e6-469b-87d1-cde4694cb5f3)
-    (property "Reference" "NT7" (at 59.69 121.92 0)
+    (property "Reference" "NT5" (at 59.69 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SHNTA_P" (at 59.69 124.46 0)
@@ -2878,7 +2878,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT7") (unit 1)
+          (reference "NT5") (unit 1)
         )
       )
     )
@@ -2887,7 +2887,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 124.46 62.23 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid aaa39841-2533-4cda-80be-5b1edb9f1e20)
-    (property "Reference" "D10" (at 124.1425 55.88 0)
+    (property "Reference" "D5" (at 124.1425 55.88 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT41KFILM" (at 124.1425 58.42 0)
@@ -2904,7 +2904,39 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D10") (unit 1)
+          (reference "D5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "0_transistor_fet:TPW1R306PL,L1Q") (at 62.23 69.85 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid adba123e-d008-4c78-9b63-d573b1444558)
+    (property "Reference" "Q1" (at 67.31 68.58 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "TPW1R306PL,L1Q" (at 67.31 71.12 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "0_transistor_fet:2-5S1A" (at 67.31 71.755 0)
+      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    )
+    (property "Datasheet" "https://www.mouser.ch/datasheet/2/408/TPW1R306PL_datasheet_en_20191021-1915914.pdf" (at 62.23 69.85 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (pin "1" (uuid 018656f4-121a-4d4f-876c-4f8aedfa6685))
+    (pin "2" (uuid 3ca60887-cca9-4a83-a670-d31e0b400f6c))
+    (pin "3" (uuid 5236dcb3-ef29-4dc7-b5bc-a60c420ebb2c))
+    (pin "4" (uuid 1fe181d4-5a6b-4451-9ac0-247111b2fdbb))
+    (pin "5" (uuid c82617e7-2a72-44f2-b0e7-e7dfafadf3a3))
+    (pin "6" (uuid 4d60e321-4e50-46ca-92a3-f130b3f94fb4))
+    (pin "7" (uuid 226402e8-572f-4162-8e85-5e317344f399))
+    (pin "8" (uuid d26442aa-ce63-45b4-b0e2-b4affe20b116))
+    (instances
+      (project "bldc_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
+          (reference "Q1") (unit 1)
         )
       )
     )
@@ -2913,7 +2945,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 59.69 139.7 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b7cbf377-5777-4a38-ba12-44daeedae7ba)
-    (property "Reference" "NT8" (at 59.69 134.62 0)
+    (property "Reference" "NT6" (at 59.69 134.62 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SHNTA_N" (at 59.69 137.16 0)
@@ -2930,7 +2962,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT8") (unit 1)
+          (reference "NT6") (unit 1)
         )
       )
     )
@@ -2939,7 +2971,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 119.38 133.35 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b92a5ddd-48de-40aa-8494-dc62b4451682)
-    (property "Reference" "D9" (at 121.92 131.7625 90)
+    (property "Reference" "D4" (at 121.92 131.7625 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "BAT41KFILM" (at 121.92 134.3025 90)
@@ -2956,7 +2988,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D9") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -2965,7 +2997,7 @@
   (symbol (lib_id "0_connectors:Solder Pad") (at 74.93 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid bb5e086d-3682-4fc4-a2c7-b7e9b573b52e)
-    (property "Reference" "J11" (at 74.93 74.93 0)
+    (property "Reference" "J3" (at 74.93 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Phase A" (at 74.93 77.47 0)
@@ -2981,7 +3013,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "J11") (unit 1)
+          (reference "J3") (unit 1)
         )
       )
     )
@@ -2990,7 +3022,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 139.7 88.9 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bef57f4d-30ae-4811-80e2-602f32a2c347)
-    (property "Reference" "NT9" (at 139.7 83.82 0)
+    (property "Reference" "NT7" (at 139.7 83.82 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SRC_HS_B" (at 139.7 86.36 0)
@@ -3007,7 +3039,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT9") (unit 1)
+          (reference "NT7") (unit 1)
         )
       )
     )
@@ -3016,7 +3048,7 @@
   (symbol (lib_id "Device:NetTie_2") (at 222.25 127 0) (unit 1)
     (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c99cc557-1d49-4c94-b807-5447626ab927)
-    (property "Reference" "NT13" (at 222.25 121.92 0)
+    (property "Reference" "NT11" (at 222.25 121.92 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SHNTC_P" (at 222.25 124.46 0)
@@ -3033,7 +3065,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "NT13") (unit 1)
+          (reference "NT11") (unit 1)
         )
       )
     )
@@ -3042,7 +3074,7 @@
   (symbol (lib_id "Device:R_Small") (at 146.05 133.35 180) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cda29ba3-5cb2-4004-a653-4deda67aebc9)
-    (property "Reference" "R37" (at 148.59 132.08 0)
+    (property "Reference" "R14" (at 148.59 132.08 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "0m5" (at 148.59 134.62 0)
@@ -3059,7 +3091,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R37") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -3068,7 +3100,7 @@
   (symbol (lib_id "0_power_symbols:+VBAT") (at 38.1 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ce0bc7dc-04f3-4ed8-a3c3-35ae5e4d2e47)
-    (property "Reference" "#PWR057" (at 38.1 48.26 0)
+    (property "Reference" "#PWR035" (at 38.1 48.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+VBAT" (at 38.1 39.37 0)
@@ -3084,39 +3116,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "#PWR057") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "0_transistor_fet:TPH2R408QM,L1Q") (at 224.79 69.85 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid d203fff2-d2cd-42a5-8868-b883476bb025)
-    (property "Reference" "Q5" (at 229.87 68.58 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "TPH2R408QM,L1Q" (at 229.87 71.12 0)
-      (effects (font (size 1.016 1.016)) (justify left))
-    )
-    (property "Footprint" "0_transistor_fet:2-5Q1S" (at 229.87 71.755 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
-    )
-    (property "Datasheet" "https://toshiba.semicon-storage.com/info/TPH2R408QM_datasheet_en_20211224.pdf?did=67915&prodName=TPH2R408QM" (at 224.79 69.85 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-    (pin "1" (uuid 37f95e00-3b19-475e-be5f-4cb809cff707))
-    (pin "2" (uuid b2f542f1-d135-420f-b8cb-d52202b44474))
-    (pin "3" (uuid e6cd8549-7048-423a-8cdf-1aa15d8f7b58))
-    (pin "4" (uuid 160a51fd-a35e-4271-99a8-5e19b0b5afe2))
-    (pin "5" (uuid f3ed2e35-e8cf-45e1-8a00-b7f54ac2582d))
-    (pin "6" (uuid e0845a13-2876-4e5d-94e3-2bda5cd8dae3))
-    (pin "7" (uuid fd93beff-cb8d-4547-8a82-4a2f4bae8e83))
-    (pin "8" (uuid f9cb2fc7-51b8-46f6-969a-4c99dd570189))
-    (instances
-      (project "bldc_controller"
-        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "Q5") (unit 1)
+          (reference "#PWR035") (unit 1)
         )
       )
     )
@@ -3125,7 +3125,7 @@
   (symbol (lib_id "Device:C") (at 182.88 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid df4d63e6-6b1a-4e8c-b978-c6a375f20bab)
-    (property "Reference" "C104" (at 179.07 93.98 0)
+    (property "Reference" "C91" (at 179.07 93.98 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7 100V" (at 179.07 96.52 0)
@@ -3142,7 +3142,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "C104") (unit 1)
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -3151,7 +3151,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 43.18 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e3b644fe-4e0d-4039-a4a9-7dfc323c19e6)
-    (property "Reference" "D8" (at 42.8625 95.25 0)
+    (property "Reference" "D3" (at 42.8625 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT41KFILM" (at 42.8625 97.79 0)
@@ -3168,7 +3168,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D8") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -3177,7 +3177,7 @@
   (symbol (lib_id "Device:C_Small") (at 247.65 95.25 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ed3a2eda-0957-4cdb-be64-4e0cf8dce566)
-    (property "Reference" "C105" (at 245.11 93.9863 0)
+    (property "Reference" "C92" (at 245.11 93.9863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n X7R 100V" (at 245.11 96.5263 0)
@@ -3194,7 +3194,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "C105") (unit 1)
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -3203,7 +3203,7 @@
   (symbol (lib_id "0_diode:BAT41KFILM") (at 205.74 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f0af9a59-7a12-4da2-a19c-bc45f59f709c)
-    (property "Reference" "D14" (at 205.4225 95.25 0)
+    (property "Reference" "D9" (at 205.4225 95.25 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT41KFILM" (at 205.4225 97.79 0)
@@ -3220,7 +3220,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "D14") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -3229,7 +3229,7 @@
   (symbol (lib_id "Device:R_Small") (at 205.74 69.85 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fd090efa-18ac-4158-b887-91af8b30fd48)
-    (property "Reference" "R38" (at 205.74 74.93 90)
+    (property "Reference" "R15" (at 205.74 74.93 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "7R5" (at 205.74 72.39 90)
@@ -3246,7 +3246,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "R38") (unit 1)
+          (reference "R15") (unit 1)
         )
       )
     )
@@ -3255,7 +3255,7 @@
   (symbol (lib_id "0_connectors:Solder Pad") (at 156.21 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff0eaf97-275f-4b44-a031-68216a9972bb)
-    (property "Reference" "J12" (at 156.21 74.93 0)
+    (property "Reference" "J4" (at 156.21 74.93 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Phase B" (at 156.21 77.47 0)
@@ -3271,7 +3271,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3/4a9c9b06-3536-46ef-a76d-6cac03a1fe38"
-          (reference "J12") (unit 1)
+          (reference "J4") (unit 1)
         )
       )
     )

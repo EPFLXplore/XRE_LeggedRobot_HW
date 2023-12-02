@@ -445,7 +445,7 @@
   (symbol (lib_id "power:GND") (at 196.85 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 50ff8d7c-eb64-4069-90a5-1ec8093eaa96)
-    (property "Reference" "#PWR078" (at 196.85 99.06 0)
+    (property "Reference" "#PWR024" (at 196.85 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 97.79 0)
@@ -461,7 +461,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
-          (reference "#PWR078") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -496,7 +496,7 @@
   (symbol (lib_id "0_diode:SMBJ51CD-M3/H") (at 123.19 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67e45989-15eb-48c1-b245-83d03f80b556)
-    (property "Reference" "U11" (at 125.73 78.74 90)
+    (property "Reference" "U6" (at 125.73 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMBJ51CD-M3/H" (at 125.73 81.28 90)
@@ -513,16 +513,16 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
-          (reference "U11") (unit 1)
+          (reference "U6") (unit 1)
         )
       )
     )
   )
 
   (symbol (lib_id "Device:C_Polarized") (at 186.69 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6b52c521-73cb-4d01-8e79-23f56abcedca)
-    (property "Reference" "C118" (at 190.5 77.851 0)
+    (property "Reference" "C80" (at 190.5 77.851 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u 100V" (at 190.5 80.391 0)
@@ -542,7 +542,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
-          (reference "C118") (unit 1)
+          (reference "C80") (unit 1)
         )
       )
     )
@@ -551,7 +551,7 @@
   (symbol (lib_id "0_diode:SMBJ51CD-M3/H") (at 146.05 80.01 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7c4aac40-3189-4812-9594-9c74389d6048)
-    (property "Reference" "U1" (at 148.59 78.74 90)
+    (property "Reference" "U7" (at 148.59 78.74 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SMBJ51CD-M3/H" (at 148.59 81.28 90)
@@ -568,7 +568,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
-          (reference "U1") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -601,9 +601,9 @@
   )
 
   (symbol (lib_id "Device:C_Polarized") (at 168.91 80.01 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f25e1d2b-9ee0-47cf-b1b1-24676d7eecf3)
-    (property "Reference" "C117" (at 172.72 77.851 0)
+    (property "Reference" "C79" (at 172.72 77.851 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47u 100V" (at 172.72 80.391 0)
@@ -623,7 +623,7 @@
     (instances
       (project "bldc_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
-          (reference "C117") (unit 1)
+          (reference "C79") (unit 1)
         )
       )
     )
