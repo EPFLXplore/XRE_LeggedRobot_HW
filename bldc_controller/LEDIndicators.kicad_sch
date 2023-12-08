@@ -9,7 +9,6 @@
     (date "2023-10-15")
     (rev "${REVISION}")
     (company "${COMPANY}")
-    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -295,19 +294,19 @@
   )
 
   (label "LED1_A" (at 148.59 85.09 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 528ddf64-8bf8-41b7-8799-ffd3563b62b3)
   )
   (label "LED1" (at 132.08 97.79 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 81fbc446-3b85-40a8-9e46-a70c6c23341b)
   )
   (label "LED2" (at 132.08 102.87 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 85316032-851d-4306-bf3b-c417bb6409ed)
   )
   (label "LED2_A" (at 162.56 85.09 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid ce1d960e-34d7-4b55-873b-4222f1d61884)
   )
 

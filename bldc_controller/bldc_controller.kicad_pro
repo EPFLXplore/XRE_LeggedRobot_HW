@@ -820,7 +820,7 @@
       "version": 1
     },
     "net_format_name": "KiCad",
-    "page_layout_descr_file": "",
+    "page_layout_descr_file": "template\\XRE_Legged_Template.kicad_wks",
     "plot_directory": "plot/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -917,9 +917,12 @@
     ]
   ],
   "text_variables": {
-    "AUTHOR": "Vincent Nguyen",
-    "BOARD_NAME": "Anemos Motion Controller",
+    "BOARD_NAME": "??? Controller",
     "COMPANY": "EPFL Xplore",
+    "DESIGNER": "Vincent Nguyen",
+    "PROJECT_NAME": "Chienpanzée",
+    "RELEASE_DATE": "08-DEC-2023",
+    "REVIEWER": "",
     "REVISION": "1.0",
     "VARIANT": "Preliminary"
   }

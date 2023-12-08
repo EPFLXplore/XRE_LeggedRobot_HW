@@ -9,7 +9,6 @@
     (date "2023-10-15")
     (rev "${REVISION}")
     (company "${COMPANY}")
-    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols

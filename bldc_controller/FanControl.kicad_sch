@@ -9,7 +9,6 @@
     (date "2023-11-19")
     (rev "${REVISION}")
     (company "${COMPANY}")
-    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -639,24 +638,24 @@
   )
 
   (label "FAN_OUT" (at 146.05 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 3bd021d3-b293-46cf-aad1-6aca52a7cbef)
   )
   (label "FAN_GATE" (at 165.1 91.44 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 7af2eb96-60af-44c2-9e59-a5b5e4ebf66c)
   )
   (label "FAN_~{IN}" (at 118.11 93.98 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 904ea58a-f675-49ab-8092-c11cc9e5e748)
   )
 
   (hierarchical_label "FAN_SW" (shape output) (at 185.42 82.55 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.254) bold) (justify left))
     (uuid 092cb7c6-c439-42ba-b0dd-bfc636802d68)
   )
   (hierarchical_label "FAN_CTRL" (shape input) (at 114.3 88.9 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify right))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.254) bold) (justify right))
     (uuid 109d8f0f-db84-4150-96bd-240a3eeafb74)
   )
 

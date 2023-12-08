@@ -8,7 +8,6 @@
     (title "Power Sequencing")
     (rev "${REVISION}")
     (company "${COMPANY}")
-    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols

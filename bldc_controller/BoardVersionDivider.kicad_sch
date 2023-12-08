@@ -9,7 +9,6 @@
     (date "2023-10-14")
     (rev "${REVISION}")
     (company "${COMPANY}")
-    (comment 3 "Author: ${AUTHOR}")
   )
 
   (lib_symbols
@@ -271,7 +270,7 @@
   )
 
   (hierarchical_label "BOARD_VERSION" (shape output) (at 162.56 83.82 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left))
     (uuid 3b7b90f7-7df7-458a-a090-b9c853d88572)
   )
 
