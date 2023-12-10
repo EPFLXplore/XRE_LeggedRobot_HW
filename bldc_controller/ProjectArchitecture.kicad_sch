@@ -991,7 +991,7 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 255 255 150 0.5000))
     (uuid 07dcaf51-abc9-470d-8bd8-30b1c54b6fbd)
-    (property "Sheetname" "Misc - Board Version Divider" (at 248.92 171.6909 0)
+    (property "Sheetname" "Misc - Board Version Divider, DAC" (at 248.92 171.6909 0)
       (effects (font (size 1.905 1.905) bold) (justify left bottom))
     )
     (property "Sheetfile" "BoardVersionDivider.kicad_sch" (at 248.92 183.4646 0)

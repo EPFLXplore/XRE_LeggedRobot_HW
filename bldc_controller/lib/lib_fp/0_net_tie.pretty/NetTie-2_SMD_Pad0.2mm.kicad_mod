@@ -10,17 +10,10 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7d3f32cc-376c-40f6-9aa0-200a5fd1daa7)
   )
-  (fp_poly
-    (pts
-      (xy -0.2 -0.1)
-      (xy 0.2 -0.1)
-      (xy 0.2 0.1)
-      (xy -0.2 0.1)
-    )
-
-    (stroke (width 0) (type solid)) (fill solid) (layer "F.Cu") (tstamp e81347d6-0abb-4629-9b5b-090cd2ee95be))
   (pad "1" smd circle (at -0.2 0) (size 0.2 0.2) (layers "F.Cu")
     (clearance 0.01) (tstamp 46afe6e0-a061-427c-a8b9-e32e6d5b062d))
+  (pad "1" smd rect (at 0 0 270) (size 0.2 0.4) (layers "F.Cu")
+    (clearance 0.01) (tstamp 281b3795-4826-4180-b780-3132a2e03ce7))
   (pad "2" smd circle (at 0.2 0) (size 0.2 0.2) (layers "F.Cu")
     (clearance 0.01) (tstamp ba99fc0d-6f35-44d3-95f4-6a90800d53f1))
 )

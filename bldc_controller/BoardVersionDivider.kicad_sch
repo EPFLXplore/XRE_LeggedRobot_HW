@@ -233,6 +233,13 @@
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify right))
     (uuid 7463ccd4-88b0-4949-9db8-054932363fb5)
   )
+  (text_box "DESIGN NOTE:\nPin is also used at compile time to output analog debug data (DAC)."
+    (at 119.38 84.455 0) (size 26.67 11.43)
+    (stroke (width 0.8) (type solid) (color 200 200 200 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
+    (uuid 806ba2e1-0ae0-4388-9393-86ba9f8887b3)
+  )
   (text_box "100k"
     (at 139.7 115.57 0) (size 10.16 3.81)
     (stroke (width -0.0001) (type default))

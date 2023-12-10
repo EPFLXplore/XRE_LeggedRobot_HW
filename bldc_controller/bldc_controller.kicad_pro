@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 4.15,
-          "width": 5.85
+          "drill": 0.0,
+          "height": 2.7,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -869,7 +869,7 @@
     ],
     [
       "07dcaf51-abc9-470d-8bd8-30b1c54b6fbd",
-      "Misc - Board Version Divider"
+      "Misc - Board Version Divider, DAC"
     ],
     [
       "37954a46-d14f-4062-b94e-09ed11854078",
@@ -917,8 +917,8 @@
     ]
   ],
   "text_variables": {
-    "BOARD_NAME": "??? Controller",
-    "COMPANY": "EPFL Xplore",
+    "BOARD_NAME": "ɣ Gamma Controller",
+    "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
     "PROJECT_NAME": "Chienpanzée",
     "RELEASE_DATE": "08-DEC-2023",
