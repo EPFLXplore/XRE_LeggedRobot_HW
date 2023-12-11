@@ -13,6 +13,8 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 27d830a4-98dd-425e-8f86-01c53949aee4)
   )
+  (fp_line (start -3.11 -2.635) (end -3.11 -3.11)
+    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7ccc2302-c6f3-4108-a889-cff87037aced))
   (fp_line (start -3.11 3.11) (end -3.11 2.635)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 93c53758-bcf3-44f4-9f5a-de88d8e3c76f))
   (fp_line (start -2.635 -3.11) (end -3.11 -3.11)
@@ -27,6 +29,8 @@
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 7caf1668-74c1-41da-994e-3197ce3c9a1a))
   (fp_line (start 3.11 3.11) (end 3.11 2.635)
     (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp 378d258f-c292-42d6-9654-44aa043a55c7))
+  (fp_circle (center -3.375 -3.375) (end -3.245711 -3.375)
+    (stroke (width 0.1) (type solid)) (fill solid) (layer "F.SilkS") (tstamp e540b2d1-88fa-4b19-a29a-8b1a7e81fcdb))
   (fp_line (start -3.62 -3.62) (end -3.62 3.62)
     (stroke (width 0.05) (type solid)) (layer "F.CrtYd") (tstamp 47eb13b9-505e-430d-947d-f41ac638b0b0))
   (fp_line (start -3.62 3.62) (end 3.62 3.62)
@@ -108,7 +112,7 @@
   (pad "41" thru_hole circle (at 0.685 1.825) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 462243d5-421c-41ea-bd72-30b4b30a0058))
   (pad "41" thru_hole circle (at 1.825 -0.685) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp b08f07cc-94cd-425a-babc-be97876d4d9d))
   (pad "41" thru_hole circle (at 1.825 0.685) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 06445876-3a0e-4cc7-b0a8-ed12aef81eac))
-  (model "${KIPRJMOD}/lib/3d_models/WQFN-40.stp"
+  (model "${KIPRJMOD}/lib/3d_models/QFN127P600-8N.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

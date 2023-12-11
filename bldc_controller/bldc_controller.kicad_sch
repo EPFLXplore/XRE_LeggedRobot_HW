@@ -531,10 +531,10 @@
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
     (uuid 13eb0b07-00a1-4d61-8da3-582545eb29a8)
-    (property "Sheetname" "Power Sequencing" (at 340.36 312.6609 0)
+    (property "Sheetname" "Power - Sequencing" (at 340.36 312.6609 0)
       (effects (font (face "Times New Roman") (size 1.905 1.905) bold (color 0 0 0 1)) (justify left bottom))
     )
-    (property "Sheetfile" "PowerSequencing.kicad_sch" (at 341.63 314.96 0)
+    (property "Sheetfile" "Power - Sequencing.kicad_sch" (at 341.63 314.96 0)
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -551,7 +551,7 @@
     (property "Sheetname" "Block Diagram" (at 299.72 301.2309 0)
       (effects (font (face "Times New Roman") (size 1.905 1.905) bold (color 0 0 0 1)) (justify left bottom))
     )
-    (property "Sheetfile" "BlockDiagram.kicad_sch" (at 300.99 303.53 0)
+    (property "Sheetfile" "Block Diagram.kicad_sch" (at 300.99 303.53 0)
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -568,7 +568,7 @@
     (property "Sheetname" "Revision History" (at 340.36 300.99 0)
       (effects (font (face "Times New Roman") (size 1.905 1.905) bold (color 0 0 0 1)) (justify left bottom))
     )
-    (property "Sheetfile" "RevisionHistory.kicad_sch" (at 340.995 303.53 0)
+    (property "Sheetfile" "Revision History.kicad_sch" (at 340.995 303.53 0)
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
@@ -585,7 +585,7 @@
     (property "Sheetname" "Project Architecture" (at 299.72 312.6609 0)
       (effects (font (face "Times New Roman") (size 1.905 1.905) bold (color 0 0 0 1)) (justify left bottom))
     )
-    (property "Sheetfile" "ProjectArchitecture.kicad_sch" (at 300.99 314.96 0)
+    (property "Sheetfile" "Project Architecture.kicad_sch" (at 300.99 314.96 0)
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
