@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 4.15,
-          "width": 5.85
+          "drill": 0.0,
+          "height": 1.3,
+          "width": 0.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.3
         }
       },
       "diff_pair_dimensions": [
@@ -697,7 +697,15 @@
       "CHASSIS": "rgb(134, 119, 210)",
       "GND": "rgb(74, 90, 126)"
     },
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "+VBAT": "High Power",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA": "High Power",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB": "High Power",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC": "High Power",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A": "High Power",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B": "High Power",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C": "High Power"
+    },
     "netclass_patterns": [
       {
         "netclass": "RS422 Diff Pair",
@@ -782,6 +790,30 @@
       {
         "netclass": "GND",
         "pattern": "GND"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/VIN_5V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/VIN_12V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/F_VBAT_12V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/F_VBAT_5V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/F_VIN_5V"
+      },
+      {
+        "netclass": "High Power",
+        "pattern": "/Project Architecture/Power - Generation/F_VIN_12V"
       }
     ]
   },
@@ -884,7 +916,7 @@
       "Sensing - Battery"
     ],
     [
-      "0b35d49a-f427-44f5-b50c-cb0dbba96dec",
+      "9d5dddd8-2f86-4eaa-a196-d6c612b385ec",
       "Sensing - Position"
     ],
     [
@@ -921,7 +953,7 @@
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
     "PROJECT_NAME": "Chienpanzée",
-    "RELEASE_DATE": "08-DEC-2023",
+    "RELEASE_DATE": "XX.XX.XX",
     "REVIEWER": "",
     "REVISION": "1.0",
     "VARIANT": "Preliminary"
