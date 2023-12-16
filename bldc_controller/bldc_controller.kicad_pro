@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.3,
-          "width": 0.75
+          "height": 0.55,
+          "width": 0.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.3
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -55,7 +55,15 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "copper_edge_clearance|134200001|67904200|aa82e4e1-4d6b-4d06-86dd-8165664626b3|c0e68741-dfe8-4029-82f0-74b11e883001",
+        "courtyards_overlap|130347784|111002642|6442073d-c40f-4dc9-8c6d-62bd32083b71|ea25d7f2-bcc8-4b3c-9f4a-558df7741e5d",
+        "courtyards_overlap|143450001|69700001|3e7b8523-404b-4c6d-8bab-3e9b1f37f245|8cf38cac-3d21-46ed-b85a-4de9c5cef766",
+        "courtyards_overlap|160000001|69700001|1a00927a-0ba9-4625-a9c8-9246bb72022c|596e2607-2529-4476-8cfc-b8ffeed6f11b",
+        "courtyards_overlap|169080365|112295763|7460f8f0-c8ea-4a32-81b2-71d03b9a50fc|865196ab-4385-4006-a847-18e3cb3e5bfa",
+        "courtyards_overlap|172529074|99425004|6264d4b1-3957-4ac0-b5e5-e6de57edfd22|7460f8f0-c8ea-4a32-81b2-71d03b9a50fc",
+        "courtyards_overlap|174369999|98763730|1188f39b-8096-410e-8b13-39028ce41599|7460f8f0-c8ea-4a32-81b2-71d03b9a50fc"
+      ],
       "meta": {
         "version": 2
       },
@@ -610,37 +618,6 @@
       "/Project Architecture/Interface - Interconnects/SWDIO": "rgb(89, 145, 220)",
       "/Project Architecture/Interface - RS-422/RS422_DE": "rgb(56, 228, 255)",
       "/Project Architecture/Interface - RS-422/RS422_~{RE}": "rgb(56, 228, 255)",
-      "/Project Architecture/MCU - IO/BOARD_VERSION": "rgb(140, 140, 140)",
-      "/Project Architecture/MCU - IO/DRV_CS": "rgb(139, 0, 255)",
-      "/Project Architecture/MCU - IO/DRV_MISO": "rgb(139, 0, 255)",
-      "/Project Architecture/MCU - IO/DRV_MOSI": "rgb(139, 0, 255)",
-      "/Project Architecture/MCU - IO/DRV_SCLK": "rgb(139, 0, 255)",
-      "/Project Architecture/MCU - IO/FAN_CTRL": "rgb(31, 202, 0)",
-      "/Project Architecture/MCU - IO/FILTER_SOA": "rgb(194, 193, 118)",
-      "/Project Architecture/MCU - IO/FILTER_SOB": "rgb(127, 194, 127)",
-      "/Project Architecture/MCU - IO/FILTER_SOC": "rgb(127, 191, 194)",
-      "/Project Architecture/MCU - IO/LED1": "rgb(255, 194, 185)",
-      "/Project Architecture/MCU - IO/LED2": "rgb(255, 194, 185)",
-      "/Project Architecture/MCU - IO/MOTOR_ENABLE": "rgb(139, 0, 255)",
-      "/Project Architecture/MCU - IO/MOTOR_FAULT": "rgb(139, 0, 255)",
-      "/Project Architecture/MCU - IO/MOTOR_HIZ": "rgb(139, 0, 255)",
-      "/Project Architecture/MCU - IO/PC0": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PC1": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PC12": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PC3": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PC5": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PC7": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PC8": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PC9": "rgb(212, 239, 234)",
-      "/Project Architecture/MCU - IO/PWM_PHASEA": "rgb(194, 193, 118)",
-      "/Project Architecture/MCU - IO/PWM_PHASEB": "rgb(127, 194, 127)",
-      "/Project Architecture/MCU - IO/PWM_PHASEC": "rgb(127, 191, 194)",
-      "/Project Architecture/MCU - IO/SENSE_TEMP_FET": "rgb(255, 95, 0)",
-      "/Project Architecture/MCU - IO/SENSE_TEMP_MOT": "rgb(255, 95, 0)",
-      "/Project Architecture/MCU - IO/SENSE_VBAT": "rgb(255, 95, 0)",
-      "/Project Architecture/MCU - IO/SOA": "rgb(194, 193, 118)",
-      "/Project Architecture/MCU - IO/SOB": "rgb(127, 194, 127)",
-      "/Project Architecture/MCU - IO/SOC": "rgb(127, 191, 194)",
       "/Project Architecture/Motor Control - Top Level/CPH": "rgb(212, 239, 234)",
       "/Project Architecture/Motor Control - Top Level/CPL": "rgb(212, 239, 234)",
       "/Project Architecture/Motor Control - Top Level/DVDD": "rgb(212, 239, 234)",
@@ -676,11 +653,8 @@
       "/Project Architecture/Power - Generation/ADJ_A3V3": "rgb(255, 236, 45)",
       "/Project Architecture/Power - Generation/BOOT_12V": "rgb(255, 0, 134)",
       "/Project Architecture/Power - Generation/FB_12V": "rgb(255, 0, 134)",
-      "/Project Architecture/Power - Generation/FB_3V3": "rgb(255, 162, 75)",
       "/Project Architecture/Power - Generation/FB_5V": "rgb(199, 70, 104)",
       "/Project Architecture/Power - Generation/FB_DIV_12V": "rgb(255, 0, 134)",
-      "/Project Architecture/Power - Generation/LX_5V": "rgb(199, 70, 104)",
-      "/Project Architecture/Power - Generation/MODE_3V3": "rgb(255, 162, 75)",
       "/Project Architecture/Power - Generation/MODE_5V": "rgb(199, 70, 104)",
       "/Project Architecture/Power - Generation/PG_12V": "rgb(255, 0, 134)",
       "/Project Architecture/Power - Generation/PG_3V3": "rgb(255, 162, 75)",
@@ -688,8 +662,6 @@
       "/Project Architecture/Power - Generation/SW_3V3": "rgb(255, 162, 75)",
       "/Project Architecture/Power - Generation/VCC_12V": "rgb(255, 0, 134)",
       "/Project Architecture/Power - Generation/VCC_5V": "rgb(199, 70, 104)",
-      "/Project Architecture/Power - Generation/VID_3V3": "rgb(255, 162, 75)",
-      "/Project Architecture/Power - Generation/~{RST}_5V": "rgb(199, 70, 104)",
       "/Project Architecture/Sensing - Position/COMM_VDD": "rgb(209, 179, 255)",
       "/Project Architecture/Sensing - Position/DIS_VDD3V": "rgb(209, 179, 255)",
       "/Project Architecture/User - LED Indicators/LED1_A": "rgb(255, 194, 185)",
