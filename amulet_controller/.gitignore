@@ -1,0 +1,9 @@
+amulet_controller-backups
+\#auto_saved_files#
+amulet_controller.xml
+amulet_controller.lib
+*.lck
+*.bak
+*.ini
+*.kicad_sch-bak
+fp-info-cache
