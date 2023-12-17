@@ -519,7 +519,7 @@
     )
     (pin "1" (uuid b4c1181e-e87e-49cc-96e6-bfce7fdf2b8b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "#PWR086") (unit 1)
         )
@@ -533,19 +533,34 @@
     (property "Reference" "C120" (at 114.3 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330n X7R 100V" (at 114.3 92.7163 0)
+    (property "Value" "10n X7R 100V" (at 114.3 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 111.76 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 111.76 91.44 0)
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/HMR105B7103KV-F_SS.pdf" (at 111.76 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 111.76 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Taiyo Yuden" (at 111.76 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "HMR105B7103KV-F" (at 111.76 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 111.76 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "587-HMR105B7103KV-FCT-ND" (at 111.76 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4a24eb71-9d59-449f-8191-889bbae59723))
     (pin "2" (uuid cfdee5ff-8322-4c01-8509-34faf6a9db6b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "C120") (unit 1)
         )
@@ -554,7 +569,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 107.95 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 29329ba3-7cbe-456e-ab4e-8b504a4f3865)
     (property "Reference" "H1" (at 110.49 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -568,9 +583,12 @@
     (property "Datasheet" "~" (at 107.95 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 107.95 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5f437a36-fc3d-4eee-9ecc-e96d05a1f060))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "H1") (unit 1)
         )
@@ -595,7 +613,7 @@
     )
     (pin "1" (uuid 7eb31e5b-1e0a-4dfc-8c23-5de3edcf20b9))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
           (reference "#FLG01") (unit 1)
         )
@@ -623,7 +641,7 @@
     )
     (pin "1" (uuid 4922c199-a11a-4505-9648-3738a4ab21ef))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "#PWR085") (unit 1)
         )
@@ -648,7 +666,7 @@
     )
     (pin "1" (uuid 79a658f9-1b5b-44fc-994d-0b3ed679827d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "#PWR087") (unit 1)
         )
@@ -668,13 +686,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 167.64 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 167.64 91.44 0)
+    (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X" (at 167.64 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402" (at 167.64 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 167.64 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2GE0R00X" (at 167.64 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 167.64 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P0.0JCT-ND" (at 167.64 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ae641628-4aba-417a-ad48-f266db9af9e4))
     (pin "2" (uuid aa28ead0-7d4a-4465-bc61-3524c8051dfc))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "R48") (unit 1)
         )
@@ -688,19 +721,34 @@
     (property "Reference" "C122" (at 194.31 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330n X7R 100V" (at 194.31 92.7163 0)
+    (property "Value" "10n X7R 100V" (at 194.31 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 191.77 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 191.77 91.44 0)
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/HMR105B7103KV-F_SS.pdf" (at 191.77 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 191.77 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Taiyo Yuden" (at 191.77 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "HMR105B7103KV-F" (at 191.77 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 191.77 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "587-HMR105B7103KV-FCT-ND" (at 191.77 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid ab2f31b3-b21c-4100-be81-a5f3d3f195b6))
     (pin "2" (uuid 55aa79bf-827e-40cf-8101-7164b74e2ceb))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "C122") (unit 1)
         )
@@ -725,7 +773,7 @@
     )
     (pin "1" (uuid 39c86b06-30e3-49cb-9409-93a35f90ece3))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "#PWR089") (unit 1)
         )
@@ -739,19 +787,34 @@
     (property "Reference" "C121" (at 153.67 90.1763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "330n X7R 100V" (at 153.67 92.7163 0)
+    (property "Value" "10n X7R 100V" (at 153.67 92.7163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 151.13 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 151.13 91.44 0)
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2615/HMR105B7103KV-F_SS.pdf" (at 151.13 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "10000 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 151.13 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Taiyo Yuden" (at 151.13 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "HMR105B7103KV-F" (at 151.13 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 151.13 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "587-HMR105B7103KV-FCT-ND" (at 151.13 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 05361846-5ff6-4e0c-a56f-8b5657edd1bb))
     (pin "2" (uuid 47aef6cb-4daf-4f08-a507-f1cb3afe3e6f))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "C121") (unit 1)
         )
@@ -776,7 +839,7 @@
     )
     (pin "1" (uuid 378d8403-6ab5-449c-97b1-611049a026fd))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "#PWR090") (unit 1)
         )
@@ -796,13 +859,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 128.27 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 128.27 91.44 0)
+    (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X" (at 128.27 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402" (at 128.27 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 128.27 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2GE0R00X" (at 128.27 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 128.27 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P0.0JCT-ND" (at 128.27 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 12e057e7-50b6-4197-ad23-e71e99de38a2))
     (pin "2" (uuid b8d2b0eb-d7c0-4469-a56b-bf936a4843fb))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "R47") (unit 1)
         )
@@ -827,7 +905,7 @@
     )
     (pin "1" (uuid 9fd4e9a0-0d06-4323-b470-bb5267f624c2))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "#PWR088") (unit 1)
         )
@@ -836,7 +914,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 147.32 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cee263f1-e1c0-47f1-b93c-9ab5ca0c061f)
     (property "Reference" "H2" (at 149.86 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -850,9 +928,12 @@
     (property "Datasheet" "~" (at 147.32 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 147.32 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 72953a50-489f-4178-9f38-da2d280c654b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "H2") (unit 1)
         )
@@ -872,13 +953,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 208.28 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 208.28 91.44 0)
+    (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X" (at 208.28 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402" (at 208.28 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 208.28 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2GE0R00X" (at 208.28 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 208.28 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P0.0JCT-ND" (at 208.28 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 09087cd0-2ef2-456c-bdfb-fedfe6ab9565))
     (pin "2" (uuid 0ba878e7-9d29-4c98-ba2f-e900e3603347))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "R49") (unit 1)
         )
@@ -887,7 +983,7 @@
   )
 
   (symbol (lib_id "Mechanical:MountingHole_Pad") (at 187.96 81.28 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ee8acd0c-9945-4277-bcc2-dbaecf67e0a7)
     (property "Reference" "H3" (at 190.5 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -901,9 +997,12 @@
     (property "Datasheet" "~" (at 187.96 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 187.96 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 1c79def5-ba48-44b9-a5e9-b08c50641432))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
           (reference "H3") (unit 1)
         )

@@ -1,4 +1,4 @@
-(footprint "LMR36006FSCQRNXRQ1" (version 20221018) (generator pcbnew)
+(footprint "LMR36006" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "RNX0012B_FFW")
   (tags "Integrated Circuit")

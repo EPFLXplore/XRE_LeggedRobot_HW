@@ -760,10 +760,13 @@
     (property "Datasheet" "~" (at 187.96 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 187.96 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 926b4294-f6fe-4c91-97e9-aff42c512d64))
     (pin "2" (uuid 3da77c8c-c70d-4ec6-aec9-4928020f8514))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "NT13") (unit 1)
         )
@@ -788,7 +791,7 @@
     )
     (pin "1" (uuid 1b9c7867-8d18-488b-8350-e03aae90092b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "#PWR042") (unit 1)
         )
@@ -808,13 +811,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 96.012 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 97.79 101.6 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 97.79 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 10K OHM 1% 1/16W 0402 50PPM" (at 97.79 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "YAGEO" (at 97.79 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "RT0402FRE0710KL" (at 97.79 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 97.79 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "YAG1233CT-ND" (at 97.79 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 731db052-4d2d-440f-a5a7-209dc636a129))
     (pin "2" (uuid f27fea8b-1f7c-414c-8627-94c348250784))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "R22") (unit 1)
         )
@@ -839,7 +857,7 @@
     )
     (pin "1" (uuid 51008ed4-8372-4433-8f5e-d243d29238a7))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
           (reference "#PWR06") (unit 1)
         )
@@ -862,13 +880,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 174.752 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 176.53 101.6 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 176.53 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 10K OHM 1% 1/16W 0402 50PPM" (at 176.53 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "YAGEO" (at 176.53 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "RT0402FRE0710KL" (at 176.53 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 176.53 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "YAG1233CT-ND" (at 176.53 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4b347f6c-6d18-44f3-9424-ed804f9051ea))
     (pin "2" (uuid 4648aadf-6f42-46bb-ab5e-22a75d4b8820))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "R23") (unit 1)
         )
@@ -882,19 +915,34 @@
     (property "Reference" "C94" (at 115.57 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 115.57 102.87 0)
+    (property "Value" "100n X7R 50V" (at 115.57 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 112.7252 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 111.76 101.6 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 111.76 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 111.76 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 111.76 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 111.76 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 111.76 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 111.76 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 340d72f3-9b94-4866-b8bb-840763f9345d))
     (pin "2" (uuid b8aa477e-e81d-4e2b-9712-a5ec31b5ed9a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "C94") (unit 1)
         )
@@ -914,13 +962,28 @@
     (property "Footprint" "0_diode_smd:D_SOD-523" (at 189.865 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf" (at 194.31 87.63 0)
+    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5b/cd/d8/0a/45/56/41/6c/CD00130227.pdf/files/CD00130227.pdf/jcr:content/translations/en.CD00130227.pdf" (at 194.31 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Diode 100 V 200mA Surface Mount SOD-523" (at 194.31 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "STMicroelectronics" (at 194.31 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "BAT41KFILM" (at 194.31 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 194.31 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "497-5556-1-ND" (at 194.31 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 92cea13d-27c0-4c95-82a8-a813884212b8))
     (pin "2" (uuid 13f48363-0480-405e-beac-86e028dc80d6))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D17") (unit 1)
         )
@@ -948,7 +1011,7 @@
     )
     (pin "1" (uuid 15326b89-bae6-402e-98a8-09b928a7cdb2))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "#PWR040") (unit 1)
         )
@@ -968,13 +1031,28 @@
     (property "Footprint" "0_diode_smd:D_SOD-523" (at 116.205 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf" (at 120.65 85.09 0)
+    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5b/cd/d8/0a/45/56/41/6c/CD00130227.pdf/files/CD00130227.pdf/jcr:content/translations/en.CD00130227.pdf" (at 120.65 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Diode 100 V 200mA Surface Mount SOD-523" (at 120.65 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "STMicroelectronics" (at 120.65 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "BAT41KFILM" (at 120.65 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 120.65 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "497-5556-1-ND" (at 120.65 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 36a64a98-8d14-41ac-9274-39baeaac9bdd))
     (pin "2" (uuid 46d49e80-fc36-4c8c-9311-2857d3d5be0c))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D17") (unit 1)
         )
@@ -997,13 +1075,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 97.79 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 97.79 81.28 0)
+    (property "Datasheet" "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/thermistor/r01e.ashx" (at 97.79 81.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "THERMISTOR NTC 47KOHM 4050K 0402" (at 97.79 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 97.79 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "NCP15WB473F03RC" (at 97.79 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 97.79 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-4802-1-ND" (at 97.79 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f9d81673-3d35-44d1-8624-e31f75d00832))
     (pin "2" (uuid a005f504-3e76-475b-b81b-fb540ee3c46a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "TH1") (unit 1)
         )
@@ -1028,7 +1121,7 @@
     )
     (pin "1" (uuid f6af4e0a-3cfb-4d64-93a8-8d7c0f08fe03))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
           (reference "#PWR06") (unit 1)
         )
@@ -1054,10 +1147,13 @@
     (property "Datasheet" "~" (at 187.96 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 187.96 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 464def98-bc0f-4890-981e-e3c5dcfa1e5e))
     (pin "2" (uuid d9c65bce-2dcf-48ff-8dcb-3ea98559b6a8))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "NT14") (unit 1)
         )
@@ -1071,19 +1167,34 @@
     (property "Reference" "C95" (at 194.31 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 194.31 102.87 0)
+    (property "Value" "100n X7R 50V" (at 194.31 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 191.4652 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 190.5 101.6 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 190.5 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 190.5 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 190.5 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 190.5 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 190.5 101.6 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 190.5 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 196eb7ca-dda3-4f6f-8880-74c056712e42))
     (pin "2" (uuid eed5174f-362d-49ea-a89f-22c50b2279b0))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
           (reference "C95") (unit 1)
         )

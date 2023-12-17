@@ -671,7 +671,7 @@
     )
     (pin "1" (uuid 73c4e0f3-a4d4-45d2-b8e0-f0732813c4cc))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
           (reference "#PWR052") (unit 1)
         )
@@ -685,19 +685,34 @@
     (property "Reference" "C100" (at 130.81 58.4263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 130.81 60.9663 0)
+    (property "Value" "100n X7R 50V" (at 130.81 60.9663 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 128.27 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 128.27 59.69 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 128.27 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 128.27 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 128.27 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 128.27 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 128.27 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 128.27 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 73c892bf-77a2-4044-8125-47e6eaa0bc37))
     (pin "2" (uuid f488072c-0b40-4bc7-8101-c397c39d569d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
           (reference "C100") (unit 1)
         )
@@ -722,7 +737,7 @@
     )
     (pin "1" (uuid da1888d4-20cf-4dd7-8f0a-e433e143dbf7))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
           (reference "#PWR050") (unit 1)
         )
@@ -747,7 +762,7 @@
     )
     (pin "1" (uuid 4f3a52d6-03bd-40f4-b352-3c344c014aeb))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
           (reference "#PWR051") (unit 1)
         )
@@ -770,6 +785,21 @@
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd30.pdf" (at 144.78 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "SN65HVD3x 3.3-V Full-Duplex RS-485 Drivers and Receivers" (at 146.05 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Texas Instruments" (at 146.05 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SN65HVD35DR" (at 146.05 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 146.05 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "296-18706-1-ND" (at 146.05 85.09 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 670b247e-57f1-418c-8cb7-66e9c911810c))
     (pin "10" (uuid a4912a21-bd8a-4bfc-9ed5-0c2ce7d5fac9))
     (pin "11" (uuid ead0bd9a-ebb6-4791-a973-9b43b6a85958))
@@ -785,7 +815,7 @@
     (pin "8" (uuid 35ff11c9-30c3-470d-bec9-2c85582862fa))
     (pin "9" (uuid 87094105-3ba0-48af-b37d-5fff7703123b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
           (reference "U11") (unit 1)
         )

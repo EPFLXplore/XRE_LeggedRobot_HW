@@ -1195,13 +1195,13 @@
     (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
     (uuid 49903bd0-4fe5-409e-9640-9c17858247f4)
   )
-  (label "DVDD" (at 194.31 90.17 0) (fields_autoplaced)
-    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
-    (uuid 4c970ebe-2b47-4aa9-8ed6-2801352ab838)
-  )
   (label "CPL" (at 153.67 97.79 180) (fields_autoplaced)
     (effects (font (face "Arial") (size 1.27 1.27)) (justify right bottom))
     (uuid 5bc72ad1-28d9-4973-b061-2ddd993095ef)
+  )
+  (label "DVDD" (at 189.23 90.17 0) (fields_autoplaced)
+    (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
+    (uuid 5e4dcef9-7372-4fd1-ab9d-7e88f2303516)
   )
   (label "SA_P" (at 190.5 123.19 0) (fields_autoplaced)
     (effects (font (face "Arial") (size 1.27 1.27)) (justify left bottom))
@@ -1310,7 +1310,7 @@
     )
     (pin "1" (uuid 471d23a2-8e6a-4fcd-8079-9fb75dc77bff))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR031") (unit 1)
         )
@@ -1335,7 +1335,7 @@
     )
     (pin "1" (uuid 54447cc2-6105-4ee5-b7e2-71c58be25e65))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR026") (unit 1)
         )
@@ -1355,13 +1355,28 @@
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 130.81 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 130.81 161.29 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71C104KA55-01.pdf" (at 130.81 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 16V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 130.81 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 130.81 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71C104KA55D" (at 130.81 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 130.81 161.29 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-4759-1-ND" (at 130.81 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3007fe2f-efa9-412c-aeae-2f718e2905a7))
     (pin "2" (uuid af991217-2e74-494d-8358-d453fc3ea3d4))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "C83") (unit 1)
         )
@@ -1386,7 +1401,7 @@
     )
     (pin "1" (uuid c631a8ae-59a0-4f94-8f87-572b7dabce2b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR029") (unit 1)
         )
@@ -1403,16 +1418,31 @@
     (property "Value" "100n X7R 100V" (at 143.51 74.93 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "0_capacitor_smd:C_0402_1005_DensitySpaced" (at 146.05 73.66 0)
+    (property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh" (at 146.05 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 146.05 73.66 0)
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf" (at 146.05 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)" (at 146.05 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Taiyo Yuden" (at 146.05 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "HMK107B7104KAHT" (at 146.05 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 146.05 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "587-6009-1-ND" (at 146.05 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 20138f5b-37dd-4dcb-a319-eff97f7e51fd))
     (pin "2" (uuid b636ef01-76aa-4862-b9db-0e7f30d43bee))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "C85") (unit 1)
         )
@@ -1429,16 +1459,31 @@
     (property "Value" "1u X7R 25V" (at 142.24 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 145.0848 113.03 0)
+    (property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh" (at 145.0848 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 146.05 109.22 0)
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2146/TMK107AB7105KAHT_SS.pdf" (at 146.05 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" (at 146.05 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Taiyo Yuden" (at 146.05 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "TMK107AB7105KAHT" (at 146.05 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 146.05 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "587-3467-1-ND" (at 146.05 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 111f04ff-2a0f-4da3-9a78-01f6eed94eb2))
     (pin "2" (uuid 82f4035d-9b48-4a94-8539-c8b9ca69428d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "C86") (unit 1)
         )
@@ -1463,7 +1508,7 @@
     )
     (pin "1" (uuid 5b6d5116-e864-4bd1-baa1-2f8e1b630d6d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR033") (unit 1)
         )
@@ -1488,7 +1533,7 @@
     )
     (pin "1" (uuid be3608be-9b99-4f0c-910c-df5510887599))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR030") (unit 1)
         )
@@ -1508,13 +1553,28 @@
     (property "Footprint" "0_capacitor_smd:C_1206_3216_DensityHighest" (at 124.7648 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 125.73 73.66 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRJ31CZ72A475KE01-01.pdf" (at 125.73 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "4.7 µF ±10% 100V Ceramic Capacitor X7R 1206 (3216 Metric)" (at 125.73 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 125.73 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GRJ31CZ72A475KE01L" (at 125.73 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 125.73 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-GRJ31CZ72A475KE01LCT-ND" (at 125.73 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid abf117e0-ca62-4568-bcc1-76c9a2fef320))
     (pin "2" (uuid ce17b32f-0f89-450e-9258-e9026dd11d9d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "C82") (unit 1)
         )
@@ -1528,19 +1588,34 @@
     (property "Reference" "C87" (at 196.85 95.25 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u X7R 16V" (at 196.85 97.79 0)
+    (property "Value" "1u X7R 6.3V" (at 196.85 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 195.2752 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 194.31 96.52 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT155R70J105KE01-01.pdf" (at 194.31 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 µF ±10% 6.3V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 194.31 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 194.31 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GRT155R70J105KE01D" (at 194.31 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 194.31 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-18216-1-ND" (at 194.31 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5833148a-4b4f-49ac-9979-beebc58e43a2))
     (pin "2" (uuid 12e251ec-e679-4102-ae3e-4b5b748c8e67))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "C87") (unit 1)
         )
@@ -1560,13 +1635,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 101.092 189.23 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 102.87 189.23 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 102.87 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 2K OHM 1% 1/10W 0402" (at 102.87 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 102.87 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF2001X" (at 102.87 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 102.87 189.23 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P2.00KLCT-ND" (at 102.87 189.23 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6596de85-1833-46b1-a6a5-012d65f0b4d7))
     (pin "2" (uuid 68f38448-8446-4fe1-ab6e-b6e66431dea4))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "R7") (unit 1)
         )
@@ -1583,16 +1673,31 @@
     (property "Value" "1u X7R 25V" (at 101.6 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "0_capacitor_smd:C_0402_1005_DensitySpaced" (at 104.4448 82.55 0)
+    (property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh" (at 104.4448 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 105.41 78.74 0)
+    (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/2146/TMK107AB7105KAHT_SS.pdf" (at 105.41 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 µF ±10% 25V Ceramic Capacitor X7R 0603 (1608 Metric)" (at 105.41 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Taiyo Yuden" (at 105.41 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "TMK107AB7105KAHT" (at 105.41 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 105.41 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "587-3467-1-ND" (at 105.41 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c3cab581-22b1-46b1-9c69-c2c289277e50))
     (pin "2" (uuid 84e1a59e-9c9f-4263-84e0-a62260aa8449))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "C81") (unit 1)
         )
@@ -1617,7 +1722,7 @@
     )
     (pin "1" (uuid 73c5abf7-7020-4626-b4b7-8270c64e1b86))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR027") (unit 1)
         )
@@ -1634,16 +1739,31 @@
     (property "Value" "47n X7R 100V" (at 135.89 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 138.43 96.52 0)
+    (property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh" (at 138.43 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 138.43 96.52 0)
+    (property "Datasheet" "https://connect.kemet.com:7667/gateway/IntelliData-ComponentDocumentation/1.0/download/datasheet/C0603C473K1RECAUTO" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.047 µF ±10% 100V Ceramic Capacitor X7R 0603 (1608 Metric)" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "KEMET" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "C0603C473K1RECAUTO" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 138.43 96.52 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "399-14764-1-ND" (at 138.43 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f85f8305-a12c-4df3-9441-5469975a5260))
     (pin "2" (uuid d77b2513-73dc-4bf4-85aa-d02fc37d10fb))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "C84") (unit 1)
         )
@@ -1668,7 +1788,7 @@
     )
     (pin "1" (uuid 8c384b23-41df-4871-b4b1-4fc85cd92a7f))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR034") (unit 1)
         )
@@ -1689,6 +1809,21 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/drv8353f.pdf" (at 171.45 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "DRV835xF 100-V Three-Phase Smart Gate Driver" (at 171.45 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Texas Instruments" (at 171.45 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "DRV8353FSRTAR" (at 171.45 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 171.45 175.26 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "296-DRV8353FSRTARCT-ND" (at 171.45 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cd2fac5b-db4a-43b8-876e-f73734abd10d))
@@ -1733,7 +1868,7 @@
     (pin "8" (uuid 798ff7fa-f32c-4331-9823-8a346ca5829d))
     (pin "9" (uuid 0efbde56-cf30-4564-b6a8-7d0c9e06e9de))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "U8") (unit 1)
         )
@@ -1758,7 +1893,7 @@
     )
     (pin "1" (uuid 344b6684-8688-458f-98b6-d2febbe3d5c0))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR025") (unit 1)
         )
@@ -1778,13 +1913,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 121.412 111.76 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 123.19 111.76 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 123.19 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 2K OHM 1% 1/10W 0402" (at 123.19 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 123.19 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF2001X" (at 123.19 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 123.19 111.76 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P2.00KLCT-ND" (at 123.19 111.76 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 06208789-d795-4901-876c-02dcfadb1a32))
     (pin "2" (uuid 80918fca-239d-41ec-b17e-c46b6c908a6f))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "R8") (unit 1)
         )
@@ -1809,7 +1959,7 @@
     )
     (pin "1" (uuid 026b41cb-51e6-4a41-911f-df484d5e128e))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
           (reference "#PWR028") (unit 1)
         )
@@ -1888,7 +2038,7 @@
       (uuid aaf35aff-85a9-4637-b603-4ba048563124)
     )
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3" (page "9"))
       )
     )

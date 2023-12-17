@@ -6566,7 +6566,7 @@
     )
     (pin "1" (uuid 52e9a744-ddb7-4363-97f2-0fc74072b79f))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
           (reference "#PWR024") (unit 1)
         )
@@ -6586,13 +6586,28 @@
     (property "Footprint" "0_connectors:AMASS_XT60PW-M_1x02_P7.20mm_Horizontal" (at 115.57 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 115.57 87.63 0)
+    (property "Datasheet" "https://www.tme.eu/Document/b13629717d44ae038681dba08d18c0b6/XT60PW-M.pdf" (at 115.57 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Socket; DC supply; XT60; male; PIN: 2; on PCBs; THT; yellow; 30A; 500V" (at 115.57 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "AMASS" (at 115.57 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "XT60PW-M" (at 115.57 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Transfer Multisort Elektronik" (at 115.57 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "XT60PW-M" (at 115.57 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid a34b9e33-e9d6-4f2a-8b30-222068b1e891))
     (pin "2" (uuid c3e40b44-76e3-443f-807b-6c14bc4ff571))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
           (reference "J2") (unit 1)
         )
@@ -6615,10 +6630,25 @@
     (property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf" (at 142.24 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "Surface-Mount TRANSZORB® Transient Voltage Suppressors" (at 135.89 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 135.89 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SMBJ51CD-M3/H" (at 135.89 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 135.89 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "SMBJ51CD-M3/HGICT-ND" (at 135.89 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 084f492b-3a68-4a7a-90a7-8e8ac6648725))
     (pin "2" (uuid 77c4e3bb-3a90-4275-ba8f-4d0fa52452ea))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
           (reference "U6") (unit 1)
         )
@@ -6641,10 +6671,25 @@
     (property "Datasheet" "https://www.vishay.com/docs/87606/smbj5cdthrusmbj120cd.pdf" (at 165.1 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "Surface-Mount TRANSZORB® Transient Voltage Suppressors" (at 158.75 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 158.75 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SMBJ51CD-M3/H" (at 158.75 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 158.75 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "SMBJ51CD-M3/HGICT-ND" (at 158.75 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 82abc9c5-cb0c-4ec9-9eb0-1ceb7dc230f0))
     (pin "2" (uuid 0d6018f8-eb98-491b-8cdb-fb61e8ce1023))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
           (reference "U7") (unit 1)
         )
@@ -6664,13 +6709,28 @@
     (property "Footprint" "0_connectors:AMASS_XT60PW-F_1x02_P7.20mm_Horizontal" (at 115.57 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 115.57 78.74 0)
+    (property "Datasheet" "https://www.tme.eu/Document/1191bc2fa3aee3c446e5a895fd8f7983/XT60PW-F.pdf" (at 115.57 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Socket; DC supply; XT60; female; PIN: 2; on PCBs; THT; yellow; 30A" (at 115.57 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "AMASS" (at 115.57 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "XT60PW-F" (at 115.57 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Transfer Multisort Elektronik" (at 115.57 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "XT60PW-F" (at 115.57 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a3332fc-681a-4d43-9a97-07b9a4b66d9f))
     (pin "2" (uuid 2356b2d3-2059-476e-89aa-26181d06f66a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/957e9462-5e63-4479-b30f-86013896ffc2"
           (reference "J1") (unit 1)
         )

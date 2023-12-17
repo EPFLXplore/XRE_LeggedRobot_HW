@@ -1793,19 +1793,34 @@
     (property "Reference" "C2" (at 107.95 76.2063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 107.95 78.7463 0)
+    (property "Value" "100n X7R 50V" (at 107.95 78.7463 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 105.41 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 105.41 77.47 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 105.41 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 105.41 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 105.41 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 105.41 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 105.41 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 105.41 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 19b50d06-7856-47dd-9d5b-378fd5633695))
     (pin "2" (uuid 32cb8713-7938-4c24-8d48-347da20f6c01))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C2") (unit 1)
         )
@@ -1819,19 +1834,34 @@
     (property "Reference" "C10" (at 152.4 97.7963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 152.4 100.3363 0)
+    (property "Value" "100n X7R 50V" (at 152.4 100.3363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 149.86 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 149.86 99.06 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 149.86 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 149.86 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 149.86 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 149.86 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 149.86 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 149.86 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2a89129c-940f-4db6-a1df-64c7b59e76a1))
     (pin "2" (uuid fc0ec35c-4a45-4d48-b25d-bbce4a45143a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C10") (unit 1)
         )
@@ -1845,19 +1875,34 @@
     (property "Reference" "C6" (at 135.89 76.2063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 135.89 78.7463 0)
+    (property "Value" "100n X7R 50V" (at 135.89 78.7463 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 133.35 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 133.35 77.47 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 133.35 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 133.35 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 133.35 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 133.35 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 133.35 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 133.35 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5f2e2f58-51d0-455a-a3aa-6a57c1754291))
     (pin "2" (uuid 84c198ff-6b3b-4004-a2af-a3b0110f3c1a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C6") (unit 1)
         )
@@ -1878,6 +1923,21 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
     (property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32g474re.pdf" (at 175.26 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Arm® Cortex®-M4 32-bit MCU+FPU, 170 MHz / 213 DMIPS, 128 KB SRAM, rich analog, math acc, 184 ps 12 chan Hi-res timer" (at 179.07 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "STMicroelectronics" (at 179.07 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "STM32G474RET3" (at 179.07 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 179.07 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "497-STM32G474RET3-ND" (at 179.07 72.39 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5fdf1578-5cca-4ef4-864a-1439290b954f))
@@ -1945,7 +2005,7 @@
     (pin "8" (uuid affb7edc-5d2b-4684-8293-c738f6b20c4c))
     (pin "9" (uuid a0381cf2-7524-43b9-b9f2-9d139c29dd46))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "U1") (unit 1)
         )
@@ -1959,19 +2019,34 @@
     (property "Reference" "C5" (at 135.89 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4u7 X7R 25V" (at 135.89 119.38 0)
+    (property "Value" "4u7 X5R 25V" (at 135.89 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 133.0452 121.92 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 132.08 118.11 0)
+    (property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "4.7 µF ±20% 25V Ceramic Capacitor X5R 0402 (1005 Metric)" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "KYOCERA AVX" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "04023D475MAT2A" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 132.08 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "478-04023D475MAT2ACT-ND" (at 132.08 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 72e3c716-b160-42f4-8797-2702f57a5c43))
     (pin "2" (uuid 3ad40117-6070-4cf0-b74d-f6eae0fdda2d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C5") (unit 1)
         )
@@ -1991,16 +2066,28 @@
     (property "Footprint" "0_resistor_smd:R_0805_2012_DensityHigh" (at 113.03 104.648 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 113.03 102.87 0)
+    (property "Datasheet" "https://www.we-online.com/katalog/datasheet/742792096.pdf" (at 113.03 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer Part Number" "742792096" (at 113.03 97.79 90)
       (effects (font (size 1.27 1.27)))
     )
+    (property "Description" "1 kOhms @ 100 MHz 1 Signal Line Ferrite Bead 0805 (2012 Metric) 1A 300mOhm" (at 113.03 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Würth Elektronik" (at 113.03 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 113.03 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "732-4648-1-ND" (at 113.03 102.87 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7c0f73de-924b-4504-bcdd-3352f661bb86))
     (pin "2" (uuid 9030b621-403e-4e78-8e7d-956313053949))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a7a72571-5668-47fa-9b3e-b97c6816a3b6"
           (reference "FB3") (unit 1)
         )
@@ -2028,7 +2115,7 @@
     )
     (pin "1" (uuid 6bfffa47-522d-4226-8e6c-7fa1c472dea8))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR09") (unit 1)
         )
@@ -2042,19 +2129,34 @@
     (property "Reference" "C4" (at 137.16 97.79 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u X7R 100V" (at 137.16 100.33 0)
+    (property "Value" "1u X7R 10V" (at 137.16 100.33 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 134.3152 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 133.35 99.06 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf" (at 133.35 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 133.35 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 133.35 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GRM155Z71A105KE01J" (at 133.35 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 133.35 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-GRM155Z71A105KE01JCT-ND" (at 133.35 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b11eb819-7e00-43e1-b132-992606f9181c))
     (pin "2" (uuid eda94f16-c452-4be8-bcb2-d1dba92f4d2a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C4") (unit 1)
         )
@@ -2079,7 +2181,7 @@
     )
     (pin "1" (uuid a45d23d1-5606-43ee-b1ae-dfd777e9765a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR07") (unit 1)
         )
@@ -2104,7 +2206,7 @@
     )
     (pin "1" (uuid c3db4894-7d81-4da5-a6d6-04ecbc8768b7))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR012") (unit 1)
         )
@@ -2118,19 +2220,34 @@
     (property "Reference" "C130" (at 107.95 107.95 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u X7R 100V" (at 107.95 110.49 0)
+    (property "Value" "1u X7R 10V" (at 107.95 110.49 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 105.1052 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 104.14 109.22 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf" (at 104.14 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 104.14 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 104.14 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GRM155Z71A105KE01J" (at 104.14 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 104.14 109.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-GRM155Z71A105KE01JCT-ND" (at 104.14 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4a602220-e4f0-4aaf-a0d3-801f868d58ca))
     (pin "2" (uuid 5eac1a26-6101-473e-bcfe-8b790a58fb22))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C130") (unit 1)
         )
@@ -2144,19 +2261,34 @@
     (property "Reference" "C7" (at 152.4 54.61 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "1u X7R 100V" (at 152.4 57.15 0)
+    (property "Value" "1u X7R 10V" (at 152.4 57.15 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 149.5552 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 148.59 55.88 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155Z71A105KE01-01A.pdf" (at 148.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "1 µF ±10% 10V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 148.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 148.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GRM155Z71A105KE01J" (at 148.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 148.59 55.88 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-GRM155Z71A105KE01JCT-ND" (at 148.59 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 7d6c969b-f861-4c67-a2c5-91345e2a22c2))
     (pin "2" (uuid 6e6d524b-59cf-42c2-86ce-d8fdb4c34fe2))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C7") (unit 1)
         )
@@ -2181,7 +2313,7 @@
     )
     (pin "1" (uuid 73d4cffc-3e9f-4851-b3ba-c0da55848c8a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR08") (unit 1)
         )
@@ -2206,7 +2338,7 @@
     )
     (pin "1" (uuid 8a2b5273-ebe4-458a-bc7c-af092b92c7af))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR013") (unit 1)
         )
@@ -2220,19 +2352,34 @@
     (property "Reference" "C9" (at 149.86 76.2063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 149.86 78.7463 0)
+    (property "Value" "100n X7R 50V" (at 149.86 78.7463 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 147.32 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 147.32 77.47 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 147.32 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 147.32 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 147.32 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 147.32 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 147.32 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 147.32 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b690b6cb-1c7d-4eee-84b3-ec1159999215))
     (pin "2" (uuid a8eec1e9-ca62-405c-b621-962162da9dc1))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C9") (unit 1)
         )
@@ -2246,19 +2393,34 @@
     (property "Reference" "C8" (at 151.13 116.8463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 151.13 119.3863 0)
+    (property "Value" "100n X7R 50V" (at 151.13 119.3863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 148.59 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 148.59 118.11 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 148.59 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 148.59 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 148.59 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 148.59 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 148.59 118.11 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 148.59 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4efa3150-3831-4f31-b6d9-9e499148a9e5))
     (pin "2" (uuid 50407b12-3463-4e60-b1cf-9bcd7e053f6c))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C8") (unit 1)
         )
@@ -2283,7 +2445,7 @@
     )
     (pin "1" (uuid a68a941b-e2a6-492e-8552-a8a34070dedf))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR015") (unit 1)
         )
@@ -2308,7 +2470,7 @@
     )
     (pin "1" (uuid 75812664-cf01-4cc3-b23d-73f6d2aecd88))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c"
           (reference "#FLG01") (unit 1)
         )
@@ -2342,7 +2504,7 @@
     )
     (pin "1" (uuid 9324f701-9c98-4faa-9020-fdbedfa70f63))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR014") (unit 1)
         )
@@ -2356,19 +2518,34 @@
     (property "Reference" "C3" (at 121.92 76.2063 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 121.92 78.7463 0)
+    (property "Value" "100n X7R 50V" (at 121.92 78.7463 0)
       (effects (font (size 1 1)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 119.38 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 119.38 77.47 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 119.38 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 119.38 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 119.38 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 119.38 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 119.38 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 119.38 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4b72e498-0f57-46b4-b028-70f4b54d0985))
     (pin "2" (uuid 3dde3f2d-6cf5-43a8-a750-17dc0f380044))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C3") (unit 1)
         )
@@ -2382,19 +2559,34 @@
     (property "Reference" "C1" (at 92.71 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4u7 X7R 25V" (at 92.71 78.74 0)
+    (property "Value" "4u7 X7R 16V" (at 92.71 78.74 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh" (at 89.8652 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 88.9 77.47 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71C475KE21-01A.pdf" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "4.7 µF ±10% 16V Ceramic Capacitor X7R 0603 (1608 Metric)" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GRM188Z71C475KE21J" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 88.9 77.47 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-GRM188Z71C475KE21JCT-ND" (at 88.9 77.47 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d4e3f930-ee2e-4433-8830-2397ee4f8f96))
     (pin "2" (uuid ebaacc26-6eae-4a56-80b0-0f1963f2b731))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "C1") (unit 1)
         )
@@ -2419,7 +2611,7 @@
     )
     (pin "1" (uuid cebd8672-10f4-4250-b383-bce1ef222657))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR010") (unit 1)
         )
@@ -2444,7 +2636,7 @@
     )
     (pin "1" (uuid 30e310e6-6920-462a-bbb9-2d0daf34eaec))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/7d5a1283-086b-46b0-8df7-a9850521fb5e"
           (reference "#PWR011") (unit 1)
         )

@@ -291,10 +291,13 @@
     (property "Datasheet" "~" (at 149.86 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 149.86 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5b86436e-f49d-42b6-aa00-83a6cf876484))
     (pin "2" (uuid 01cd8fd4-d32e-4920-b3d2-96bb41441e16))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
           (reference "R19") (unit 1)
         )
@@ -319,7 +322,7 @@
     )
     (pin "1" (uuid ef838d9d-8d11-4139-be72-9cc6ef621ac3))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
           (reference "#PWR037") (unit 1)
         )
@@ -339,13 +342,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 148.082 69.85 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 149.86 69.85 0)
+    (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 149.86 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100K OHM 1% 1/16W 0402" (at 149.86 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "YAGEO" (at 149.86 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "RT0402FRE07100KL" (at 149.86 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 149.86 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "YAG2307CT-ND" (at 149.86 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b14eedbe-8e91-4bc1-b746-8c2a7c053605))
     (pin "2" (uuid 1fb930c5-93e3-4235-92d1-9bfa7e0acff4))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
           (reference "R18") (unit 1)
         )
@@ -370,7 +388,7 @@
     )
     (pin "1" (uuid 3b782887-e955-44a5-a6ad-058fc79d0d3b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
           (reference "#PWR032") (unit 1)
         )

@@ -1013,19 +1013,34 @@
     (property "Reference" "C79" (at 53.34 91.4463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 53.34 93.9863 0)
+    (property "Value" "100n X7R 50V" (at 53.34 93.9863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 50.8 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 50.8 92.71 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 50.8 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 50.8 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 50.8 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 50.8 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 50.8 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 50.8 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 2b28995c-af34-447a-9dfc-313ab09e23af))
     (pin "2" (uuid df25d959-c81c-4a95-95b2-f8c8f369da31))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "C79") (unit 1)
         )
@@ -1045,13 +1060,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 74.93 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 74.93 68.58 0)
+    (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X" (at 74.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402" (at 74.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 74.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2GE0R00X" (at 74.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 74.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P0.0JCT-ND" (at 74.93 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 68cfc83c-a23d-4b10-a020-a9f603492a1b))
     (pin "2" (uuid 0c7fe17d-eacf-4800-b911-5ed132dc3e64))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "R26") (unit 1)
         )
@@ -1065,19 +1095,34 @@
     (property "Reference" "C97" (at 223.52 73.66 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10u X7R 6.3V" (at 223.52 76.2 0)
+    (property "Value" "10u X7R 25V" (at 223.52 76.2 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0805_2012_DensityHighest" (at 221.9452 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 220.98 74.93 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71E106KE15-01.pdf" (at 220.98 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "10 µF ±10% 25V Ceramic Capacitor X7R 0805 (2012 Metric)" (at 220.98 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 220.98 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GRM21BZ71E106KE15L" (at 220.98 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 220.98 74.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-GRM21BZ71E106KE15LCT-ND" (at 220.98 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid fae29246-e489-45bf-89e7-84fe9da891ff))
     (pin "2" (uuid 90ac858b-f90f-4dbd-a9f0-f4a72d3e4b14))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "C97") (unit 1)
         )
@@ -1102,7 +1147,7 @@
     )
     (pin "1" (uuid 4a0e562b-32db-4400-9d29-fc024b429356))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR045") (unit 1)
         )
@@ -1127,7 +1172,7 @@
     )
     (pin "1" (uuid b17df90c-ca67-4b47-830d-0956e023bea2))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#FLG06") (unit 1)
         )
@@ -1152,7 +1197,7 @@
     )
     (pin "1" (uuid 419d2625-3202-4f75-bd20-3a4bb008b7e5))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR046") (unit 1)
         )
@@ -1175,6 +1220,21 @@
     (property "Datasheet" "https://ams.com/documents/20143/36005/AS5047P_DS000324_3-00.pdf" (at 97.79 107.95 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "14-Bit On-Axis Magnetic Rotary Position Sensor with 12-Bit Decimal and Binary Incremental Pulse Count for 28krpm High Speed Capability" (at 78.74 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "ams-OSRAM USA INC." (at 78.74 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "AS5047P-ATSM" (at 78.74 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 78.74 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "AS5047P-ATSMCT-ND" (at 78.74 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 729225b1-77ab-4c34-9849-5dc55f87739f))
     (pin "10" (uuid c38320c2-b580-49dd-931f-1959f8e26f3a))
     (pin "11" (uuid f01dd04b-c5e6-492a-8bdc-4b3fc2feafc9))
@@ -1190,7 +1250,7 @@
     (pin "8" (uuid fa7a4206-51e9-4741-84c6-39cf257ffad2))
     (pin "9" (uuid 5a89dccd-23d3-470c-922c-f27999612816))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "U9") (unit 1)
         )
@@ -1215,7 +1275,7 @@
     )
     (pin "1" (uuid 411c3190-753e-46f8-918a-4734051d8376))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR048") (unit 1)
         )
@@ -1238,6 +1298,21 @@
     (property "Datasheet" "https://ams.com/documents/20143/36005/AS5048_DS000298_4-00.pdf" (at 259.08 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "14-bit Magnetic Rotary Encoder, I2C Interface" (at 204.47 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "ams-OSRAM USA INC." (at 204.47 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "AS5048B-HTSP-500" (at 204.47 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 204.47 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "AS5048B-HTSP-500CT-ND" (at 204.47 93.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 86944c30-f01f-4c40-8bda-8310c714efe0))
     (pin "10" (uuid 089d2835-deaa-4d15-8e33-1e0a4a3a7ccf))
     (pin "11" (uuid 701d1533-d703-4384-a090-5c6149ea9e6a))
@@ -1253,7 +1328,7 @@
     (pin "8" (uuid a199b09b-ecb1-46cc-8583-24513cd1e81c))
     (pin "9" (uuid a9c759c8-07f9-478a-9ca7-f5beada3a19f))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "U10") (unit 1)
         )
@@ -1273,13 +1348,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 201.93 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 201.93 68.58 0)
+    (property "Datasheet" "https://industrial.panasonic.com/ww/products/pt/general-purpose-chip-resistors/models/ERJ2GE0R00X" (at 201.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 0 OHM JUMPER 1/10W 0402" (at 201.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 201.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2GE0R00X" (at 201.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 201.93 68.58 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P0.0JCT-ND" (at 201.93 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid da3afcda-2077-4788-b351-f8c6328da03c))
     (pin "2" (uuid 83c86b3b-a7e7-4d94-8cd0-a5e4302f822e))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "R27") (unit 1)
         )
@@ -1304,7 +1394,7 @@
     )
     (pin "1" (uuid a4f17c37-0080-4559-a3c9-01146dad945d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR047") (unit 1)
         )
@@ -1329,7 +1419,7 @@
     )
     (pin "1" (uuid f8e28cb6-a538-47a5-8dd8-82677f161a9e))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR049") (unit 1)
         )
@@ -1354,7 +1444,7 @@
     )
     (pin "1" (uuid 45bfe4eb-a936-43b3-bfe1-caf809478229))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#FLG05") (unit 1)
         )
@@ -1368,19 +1458,34 @@
     (property "Reference" "C80" (at 177.8 91.4463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 177.8 93.9863 0)
+    (property "Value" "100n X7R 50V" (at 177.8 93.9863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 175.26 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 175.26 92.71 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 175.26 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 175.26 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 175.26 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 175.26 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 175.26 92.71 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 175.26 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e30ca5f0-a4b3-4e6f-9444-3b4493973685))
     (pin "2" (uuid f92b913f-9e2f-441e-a873-06d21999985e))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "C80") (unit 1)
         )

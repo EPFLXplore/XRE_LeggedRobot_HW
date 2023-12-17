@@ -31568,6 +31568,21 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD4USB5B-TTS.pdf" (at 96.52 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "5.5V (Typ) Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount, Wettable Flank DFN2510D-10" (at 96.52 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia USA Inc." (at 96.52 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "PESD4USB5B-TTSX" (at 96.52 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 96.52 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "1727-PESD4USB5B-TTSXCT-ND" (at 96.52 191.77 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid b041656b-ea32-42fb-9bfd-c0d794d8ce0a))
     (pin "8" (uuid 601d0b85-4420-4b6b-93f4-4de1a17aacb5))
     (pin "1" (uuid d04ca9ff-28f0-4cfa-8648-bf45310cfb0b))
@@ -31579,7 +31594,7 @@
     (pin "7" (uuid c8df1d4f-5b6a-44a5-b70f-2b994f0a1c5a))
     (pin "9" (uuid 7eb4f121-7084-47fc-b69a-950cb01056b3))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D15") (unit 1)
         )
@@ -31593,19 +31608,34 @@
     (property "Reference" "C107" (at 85.09 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 85.09 59.6963 0)
+    (property "Value" "100n X7R 50V" (at 85.09 59.6963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 82.55 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 82.55 58.42 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 82.55 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 82.55 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 82.55 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 82.55 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 82.55 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 82.55 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid cb2e1dba-d485-42be-a9ac-15607074ee99))
     (pin "2" (uuid ee99e025-f74d-40f3-8512-872768531e63))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C107") (unit 1)
         )
@@ -31630,7 +31660,7 @@
     )
     (pin "1" (uuid ec1d953b-894a-441e-a4c4-9496dbc4524a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR061") (unit 1)
         )
@@ -31650,14 +31680,29 @@
     (property "Footprint" "0_package_SOT_TO_SMD:SOT95P230X117-3N" (at 279.4 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/54/CDSOT23_SM712-1635169.pdf" (at 281.94 207.01 0)
+    (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CDSOT23-SM712.pdf" (at 281.94 207.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "26V, 14V Clamp 17A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3" (at 279.4 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Bourns Inc." (at 279.4 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "CDSOT23-SM712" (at 279.4 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 279.4 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "CDSOT23-SM712CT-ND" (at 279.4 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5c5a9a8e-4b78-412c-ba0c-dfb14ba78988))
     (pin "2" (uuid d787cb8c-854b-4b06-97c3-6210d990756a))
     (pin "3" (uuid 77a28621-40ff-4fba-bb0d-b169d00e82c0))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D21") (unit 1)
         )
@@ -31677,13 +31722,28 @@
     (property "Footprint" "0_diode_smd:D_SOD-523" (at 175.895 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf" (at 171.45 59.69 0)
+    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5b/cd/d8/0a/45/56/41/6c/CD00130227.pdf/files/CD00130227.pdf/jcr:content/translations/en.CD00130227.pdf" (at 171.45 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Diode 100 V 200mA Surface Mount SOD-523" (at 171.45 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "STMicroelectronics" (at 171.45 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "BAT41KFILM" (at 171.45 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 171.45 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "497-5556-1-ND" (at 171.45 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f49ee823-7307-45d7-aab9-40d2f002c019))
     (pin "2" (uuid 2480447c-c63a-4249-868e-f7041be380df))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D19") (unit 1)
         )
@@ -31697,19 +31757,31 @@
     (property "Reference" "C119" (at 361.95 81.2863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4u7 X7R 25V" (at 361.95 83.8263 0)
+    (property "Value" "4n7 X7R 100V" (at 361.95 83.8263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 359.41 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 359.41 82.55 0)
+    (property "Datasheet" "https://www.murata.com/-/media/webrenewal/support/library/catalog/products/k35e.ashx?la=en-us&cvid=20200508021757000000" (at 359.41 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "4700 pF ±10% 100V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 359.41 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 359.41 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R72A472KA37D" (at 359.41 82.55 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 359.41 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 396bb2cd-26ac-415d-86bd-529ee6790758))
     (pin "2" (uuid aff24825-5d73-4ae8-b874-1d4088e9d456))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C119") (unit 1)
         )
@@ -31729,13 +31801,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 156.21 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 156.21 67.31 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 156.21 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 2K OHM 1% 1/10W 0402" (at 156.21 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 156.21 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF2001X" (at 156.21 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 156.21 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P2.00KLCT-ND" (at 156.21 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 3a3f3c78-6f78-4eaa-8b7c-b6124ef2db25))
     (pin "2" (uuid 78cbe81b-a64a-432b-956e-f03e68e14891))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R39") (unit 1)
         )
@@ -31755,13 +31842,28 @@
     (property "Footprint" "0_resistor_smd:R_0603_1608_DensityHigh" (at 344.17 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 344.17 83.82 0)
+    (property "Datasheet" "https://www.rohm.com/datasheet?p=ESR01MZPF&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key" (at 344.17 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" (at 344.17 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Rohm Semiconductor" (at 344.17 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ESR03EZPF60R4" (at 344.17 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 344.17 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "511-ESR03EZPF60R4CT-ND" (at 344.17 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1abf4f47-a4d0-42e9-b0c9-900863a3449e))
     (pin "2" (uuid 636e2c32-ee99-4c10-a06c-00e957c62f97))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R44") (unit 1)
         )
@@ -31784,10 +31886,13 @@
     (property "Datasheet" "~" (at 170.18 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 170.18 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid e7f3ef4f-ec47-44a3-b9ba-04bde133c00b))
     (pin "2" (uuid 2b55d89e-bb67-4240-8ecd-e2268fd1fb2b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C115") (unit 1)
         )
@@ -31807,13 +31912,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 139.7 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 83.82 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 139.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 139.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 139.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 139.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 139.7 83.82 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 139.7 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6ed7306c-272a-4d54-82e2-6826b65b4feb))
     (pin "2" (uuid 270e4c45-9e4e-44fa-b867-17b1343f721e))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R32") (unit 1)
         )
@@ -31833,7 +31953,22 @@
     (property "Footprint" "0_connectors:JST_GH_SM06B-GHS-TB_1x06-1MP_P1.25mm_Horizontal" (at 256.54 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 256.54 201.93 0)
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf" (at 256.54 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 6 position 0.049\" (1.25mm)" (at 256.54 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "JST Sales America Inc." (at 256.54 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SM06B-GHS-TB" (at 256.54 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 256.54 201.93 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "455-1568-1-ND" (at 256.54 201.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c8e8f627-6795-4b30-97df-26e3c5303441))
@@ -31844,7 +31979,7 @@
     (pin "6" (uuid 38ef381a-7392-4bda-beb9-c97c69a0e487))
     (pin "MP" (uuid 1a45f087-ea3a-4d0b-b3d0-56afb22bd38d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J9") (unit 1)
         )
@@ -31869,7 +32004,7 @@
     )
     (pin "1" (uuid f179139b-defe-4ef7-a6c4-0823e90e66a5))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR069") (unit 1)
         )
@@ -31894,7 +32029,7 @@
     )
     (pin "1" (uuid 3902eb20-6106-4431-90c6-faa21a90e9ab))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR078") (unit 1)
         )
@@ -31919,7 +32054,7 @@
     )
     (pin "1" (uuid 04ef24e2-0725-4655-9fa3-55b60c27bb22))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR070") (unit 1)
         )
@@ -31944,7 +32079,7 @@
     )
     (pin "1" (uuid 1b3abca9-8678-4d48-8b6e-863d040e8ec1))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR092") (unit 1)
         )
@@ -31969,7 +32104,7 @@
     )
     (pin "1" (uuid c3cfc6c8-23cd-495c-a816-4a6e52e24df3))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR064") (unit 1)
         )
@@ -31992,6 +32127,21 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD4USB3U-TTS.pdf" (at 308.61 142.24 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "3.5V (Typ) Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount, Wettable Flank DFN2510D-10" (at 308.61 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia USA Inc." (at 308.61 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "PESD4USB3U-TTSX" (at 308.61 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 308.61 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "1727-PESD4USB3U-TTSXCT-ND" (at 308.61 160.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid 5cf2260c-89f8-4c00-bc45-7f056720fb9c))
     (pin "8" (uuid 560e1469-342c-4ccc-b0f1-155d337776f2))
     (pin "1" (uuid f6cb87d7-68f5-4bdd-942c-591c938b927f))
@@ -32003,7 +32153,7 @@
     (pin "7" (uuid 03f685f9-e9dd-4848-8bd5-cbd6e1c8395a))
     (pin "9" (uuid f46d8e5c-f270-493d-9c13-4eae744e0c94))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D24") (unit 1)
         )
@@ -32028,7 +32178,7 @@
     )
     (pin "1" (uuid 58dfff39-494f-45c6-8165-cb1078b9bd0c))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR079") (unit 1)
         )
@@ -32053,7 +32203,7 @@
     )
     (pin "1" (uuid 99a49aec-79b9-4ab3-b02e-94cac585e971))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR080") (unit 1)
         )
@@ -32073,13 +32223,28 @@
     (property "Footprint" "0_diode_smd:D_SOD-523" (at 160.655 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf" (at 156.21 156.21 0)
+    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5b/cd/d8/0a/45/56/41/6c/CD00130227.pdf/files/CD00130227.pdf/jcr:content/translations/en.CD00130227.pdf" (at 156.21 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Diode 100 V 200mA Surface Mount SOD-523" (at 156.21 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "STMicroelectronics" (at 156.21 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "BAT41KFILM" (at 156.21 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 156.21 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "497-5556-1-ND" (at 156.21 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 223e6f59-fa7f-4781-a6e3-c32f9ef4e4ac))
     (pin "2" (uuid 2e5178de-561e-4a6e-b73e-b9e2b5f50ebd))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D18") (unit 1)
         )
@@ -32102,10 +32267,13 @@
     (property "Datasheet" "~" (at 152.4 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 152.4 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5be29e32-bff8-4193-a9a8-bbd57864c85e))
     (pin "2" (uuid e9968d8f-a489-4486-94e3-79e52fc7a2e0))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C111") (unit 1)
         )
@@ -32130,7 +32298,7 @@
     )
     (pin "1" (uuid 585cc600-f513-4e03-9d16-4f18a3673e3c))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR063") (unit 1)
         )
@@ -32153,11 +32321,26 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-U.pdf" (at 312.42 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "42V Clamp 2.6A (8/20µs) Ipp Tvs Diode Surface Mount SOT-323" (at 308.61 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia USA Inc." (at 308.61 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "PESD2CANFD24V-UX" (at 308.61 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 308.61 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "1727-PESD2CANFD24V-UXCT-ND" (at 308.61 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid 2b6ce091-48fd-4d18-bacb-2f5b1028f122))
     (pin "1" (uuid 063e6980-cf15-455b-94e9-911bec14a33d))
     (pin "2" (uuid d8cd3f24-722a-4cac-9410-32f858bdf30c))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D23") (unit 1)
         )
@@ -32180,11 +32363,26 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD2CANFD24V-U.pdf" (at 287.02 83.185 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "42V Clamp 2.6A (8/20µs) Ipp Tvs Diode Surface Mount SOT-323" (at 283.21 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia USA Inc." (at 283.21 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "PESD2CANFD24V-UX" (at 283.21 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 283.21 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "1727-PESD2CANFD24V-UXCT-ND" (at 283.21 83.185 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid e2913870-5a76-4418-a524-810504d1562e))
     (pin "1" (uuid 38c03ce9-d988-4595-baeb-8ca0bad1ac58))
     (pin "2" (uuid e56ddff0-d970-498b-a374-daf019780922))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D22") (unit 1)
         )
@@ -32204,7 +32402,22 @@
     (property "Footprint" "0_connectors:JST_GH_SM07B-GHS-TB_1x07-1MP_P1.25mm_Horizontal" (at 50.8 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 50.8 176.53 0)
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf" (at 50.8 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 7 position 0.049\" (1.25mm)" (at 50.8 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "JST Sales America Inc." (at 50.8 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SM07B-GHS-TB" (at 50.8 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 50.8 176.53 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "455-1569-1-ND" (at 50.8 176.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e1693f39-44f8-49c8-bc6c-9598aa069a27))
@@ -32216,7 +32429,7 @@
     (pin "7" (uuid 34413030-d7d4-4962-b9d4-b3a5490e9482))
     (pin "MP" (uuid c4a7c819-e308-4e1f-9e62-fb05238ca554))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J7") (unit 1)
         )
@@ -32236,13 +32449,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 142.24 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 142.24 177.8 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 142.24 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 142.24 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 142.24 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 142.24 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 142.24 177.8 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 142.24 177.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 14ee6ebd-d141-4d56-8dd1-213ecb1cfa0a))
     (pin "2" (uuid 42c00bb1-50ab-41b4-9ca8-cca338147b46))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R36") (unit 1)
         )
@@ -32265,10 +32493,13 @@
     (property "Datasheet" "~" (at 143.51 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 143.51 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 9e93c035-d70b-4ae1-9c0d-6764b7e9a7ca))
     (pin "2" (uuid ea3d8095-24fb-4032-b106-120fce54129a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C109") (unit 1)
         )
@@ -32293,7 +32524,7 @@
     )
     (pin "1" (uuid cdf3e09f-4da6-4964-8148-eaed5ed8448c))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR073") (unit 1)
         )
@@ -32316,10 +32547,13 @@
     (property "Datasheet" "~" (at 149.86 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 149.86 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 336eb618-e7aa-4c70-aaff-110cb796cae9))
     (pin "2" (uuid 67c6d286-f84b-46fb-bd34-3aa8f5443f45))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C110") (unit 1)
         )
@@ -32344,7 +32578,7 @@
     )
     (pin "1" (uuid 29f6b2d7-2ddd-4241-a95b-47eab1a75eaf))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR068") (unit 1)
         )
@@ -32358,19 +32592,34 @@
     (property "Reference" "C98" (at 274.32 191.7763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 274.32 194.3163 0)
+    (property "Value" "100n X7R 50V" (at 274.32 194.3163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 271.78 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 271.78 193.04 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 271.78 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 271.78 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 271.78 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 271.78 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 271.78 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 271.78 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 10b49c8c-fe63-4738-bdce-f5c860791458))
     (pin "2" (uuid 9f1b3cb8-5b88-4524-8d24-2b19a3188df8))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C98") (unit 1)
         )
@@ -32395,7 +32644,7 @@
     )
     (pin "1" (uuid 49dc908c-841f-4bbb-b820-2505e4bbf7cd))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR082") (unit 1)
         )
@@ -32409,19 +32658,34 @@
     (property "Reference" "C105" (at 64.77 57.1563 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 64.77 59.6963 0)
+    (property "Value" "100n X7R 50V" (at 64.77 59.6963 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 62.23 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 62.23 58.42 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 62.23 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 62.23 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 62.23 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 62.23 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 62.23 58.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 62.23 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 27a6e6aa-652c-4448-b5a7-79415d135ff4))
     (pin "2" (uuid ab2179fe-3020-4717-b64d-a97b46b26960))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C105") (unit 1)
         )
@@ -32441,13 +32705,28 @@
     (property "Footprint" "0_diode_smd:D_SOD-523" (at 160.655 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf" (at 156.21 59.69 0)
+    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5b/cd/d8/0a/45/56/41/6c/CD00130227.pdf/files/CD00130227.pdf/jcr:content/translations/en.CD00130227.pdf" (at 156.21 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Diode 100 V 200mA Surface Mount SOD-523" (at 156.21 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "STMicroelectronics" (at 156.21 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "BAT41KFILM" (at 156.21 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 156.21 59.69 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "497-5556-1-ND" (at 156.21 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 0426a88d-53d7-42c9-a1d9-3edadc832204))
     (pin "2" (uuid 6a0275e4-cf84-4f34-ab18-b71f6b2e6343))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D17") (unit 1)
         )
@@ -32467,13 +32746,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 142.24 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 142.24 185.42 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 142.24 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 142.24 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 142.24 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 142.24 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 142.24 185.42 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 142.24 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8b8710c6-4ada-4dd8-abc2-07154220c418))
     (pin "2" (uuid 82c95804-af34-4083-a452-44ff84850bc2))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R38") (unit 1)
         )
@@ -32493,14 +32787,29 @@
     (property "Footprint" "0_connectors:1054301203" (at 260.35 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 260.35 67.31 0)
+    (property "Datasheet" "https://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF" (at 260.35 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.098\" (2.50mm)" (at 260.35 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Molex" (at 260.35 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "1054301203" (at 260.35 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 260.35 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "WM26098CT-ND" (at 260.35 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid bd844760-40be-4802-80f1-084b9e127940))
     (pin "2" (uuid b338e5fc-49cf-4093-b7dd-53ca34bdbab8))
     (pin "3" (uuid 87ef9266-2446-4c9b-8000-138a5566d580))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J11") (unit 1)
         )
@@ -32520,13 +32829,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 171.45 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 171.45 165.1 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 171.45 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 2K OHM 1% 1/10W 0402" (at 171.45 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 171.45 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF2001X" (at 171.45 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 171.45 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P2.00KLCT-ND" (at 171.45 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid d836b1fb-f94a-4309-80f8-cf55b60f8eb4))
     (pin "2" (uuid cece99fc-aeb8-40a0-9907-17cdef7cc1ac))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R42") (unit 1)
         )
@@ -32551,7 +32875,7 @@
     )
     (pin "1" (uuid b29b4baf-58a5-4be1-9099-1ad91ff7c6c4))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR071") (unit 1)
         )
@@ -32571,13 +32895,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 331.47 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 331.47 198.12 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 331.47 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 331.47 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 331.47 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 331.47 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 331.47 198.12 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 331.47 198.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9aaa8ef5-fc2c-4b30-ab1b-088c8dd58ee4))
     (pin "2" (uuid 16467f2c-1655-4cbe-b958-376a19771a87))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R45") (unit 1)
         )
@@ -32597,13 +32936,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 139.7 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 87.63 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 139.7 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 139.7 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 139.7 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 139.7 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 139.7 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 139.7 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid f2c76484-31cb-46a3-97a4-d5ceb80bf71c))
     (pin "2" (uuid 497e728b-249b-49c8-82c3-008ac41ca85a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R33") (unit 1)
         )
@@ -32617,19 +32971,34 @@
     (property "Reference" "C99" (at 288.29 138.4363 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 288.29 140.9763 0)
+    (property "Value" "100n X7R 50V" (at 288.29 140.9763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 285.75 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 285.75 139.7 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 285.75 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 285.75 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 285.75 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 285.75 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 285.75 139.7 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 285.75 139.7 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 9a75a5e2-73f9-4c4a-9bf5-9053fb2ec151))
     (pin "2" (uuid 3a27fa22-78cb-4141-8f4c-c44c17dff135))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C99") (unit 1)
         )
@@ -32654,7 +33023,7 @@
     )
     (pin "1" (uuid 16be5b42-9684-48f1-b7e7-2ea2286584c0))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR065") (unit 1)
         )
@@ -32674,13 +33043,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 139.7 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 91.44 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 139.7 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 139.7 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 139.7 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 139.7 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 139.7 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 139.7 91.44 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5e6ffaa9-c2ba-4f3b-8344-0fb996b029e3))
     (pin "2" (uuid 533a5cf9-c774-42d1-9356-04b5921d8d95))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R34") (unit 1)
         )
@@ -32705,7 +33089,7 @@
     )
     (pin "1" (uuid bb954699-da27-47b7-9c7d-0e36c2d135a6))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR074") (unit 1)
         )
@@ -32730,7 +33114,7 @@
     )
     (pin "1" (uuid bb54d2a6-dcf8-47f8-80a8-d7157a7bb2f3))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR083") (unit 1)
         )
@@ -32750,13 +33134,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 156.21 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 156.21 165.1 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 156.21 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 2K OHM 1% 1/10W 0402" (at 156.21 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 156.21 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF2001X" (at 156.21 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 156.21 165.1 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P2.00KLCT-ND" (at 156.21 165.1 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b873b755-3cf9-4dc8-a431-0091f849c71e))
     (pin "2" (uuid f18a4f18-ec7c-4325-988e-1f2f3448f735))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R40") (unit 1)
         )
@@ -32779,10 +33178,13 @@
     (property "Datasheet" "~" (at 161.29 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 161.29 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6ee42109-d409-4242-a830-0aaa9fbf9db1))
     (pin "2" (uuid 02ec0830-8a65-425c-b7ae-54cef5061745))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C113") (unit 1)
         )
@@ -32802,13 +33204,28 @@
     (property "Footprint" "0_resistor_smd:R_0603_1608_DensityHigh" (at 344.17 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 344.17 73.66 0)
+    (property "Datasheet" "https://www.rohm.com/datasheet?p=ESR01MZPF&dist=Digi-key&media=referral&source=digi-key.com&campaign=Digi-key" (at 344.17 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "60.4 Ohms ±1% 0.25W, 1/4W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film" (at 344.17 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Rohm Semiconductor" (at 344.17 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ESR03EZPF60R4" (at 344.17 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 344.17 73.66 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "511-ESR03EZPF60R4CT-ND" (at 344.17 73.66 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 066137df-f367-405b-8413-863299a651ab))
     (pin "2" (uuid 7a8e3cea-62b0-49a7-8924-5b2b15afaf39))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R43") (unit 1)
         )
@@ -32831,10 +33248,13 @@
     (property "Datasheet" "~" (at 158.75 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 158.75 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 6f0610c6-6610-4aed-a3b7-bd8fabc3508c))
     (pin "2" (uuid 4c07c37e-655e-4b1f-9ba1-791bb406f2bd))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C112") (unit 1)
         )
@@ -32854,14 +33274,29 @@
     (property "Footprint" "0_connectors:1054301203" (at 260.35 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 260.35 86.36 0)
+    (property "Datasheet" "https://www.literature.molex.com/SQLImages/kelmscott/Molex/PDF_Images/987651-1223.PDF" (at 260.35 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 3 position 0.098\" (2.50mm)" (at 260.35 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Molex" (at 260.35 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "1054301203" (at 260.35 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 260.35 86.36 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "WM26098CT-ND" (at 260.35 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 118f385d-34c1-4453-b56f-c1bdc98c3f85))
     (pin "2" (uuid a465c79a-4aa6-479a-8d69-c78151ccb055))
     (pin "3" (uuid 2b961091-7f3d-42d5-96b9-1c854509d469))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J12") (unit 1)
         )
@@ -32886,7 +33321,7 @@
     )
     (pin "1" (uuid 31c6d5f7-cc50-4326-aa47-3afa8064c1b6))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR062") (unit 1)
         )
@@ -32900,19 +33335,34 @@
     (property "Reference" "C108" (at 85.09 154.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 85.09 157.4863 0)
+    (property "Value" "100n X7R 50V" (at 85.09 157.4863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 82.55 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 82.55 156.21 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 82.55 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 82.55 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 82.55 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 82.55 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 82.55 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 82.55 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 33f083d9-0f25-4b77-9af5-732207bc5ea5))
     (pin "2" (uuid 50c163d4-4dd7-42e7-a6d5-3563e3c4b8a8))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C108") (unit 1)
         )
@@ -32926,19 +33376,34 @@
     (property "Reference" "C106" (at 64.77 154.9463 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 64.77 157.4863 0)
+    (property "Value" "100n X7R 50V" (at 64.77 157.4863 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 62.23 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 62.23 156.21 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 62.23 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 62.23 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 62.23 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 62.23 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 62.23 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 62.23 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 323d078f-c493-454d-a6a8-8bf039e3e275))
     (pin "2" (uuid fbb69a41-f468-4f3d-a58e-80229d358141))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C106") (unit 1)
         )
@@ -32958,13 +33423,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 139.7 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 76.2 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 139.7 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 139.7 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 139.7 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 139.7 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 139.7 76.2 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 139.7 76.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid dba798e0-532b-47c7-97e8-8294d909d64c))
     (pin "2" (uuid 8b032055-f5ef-443f-b31e-d6d07ede8588))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R30") (unit 1)
         )
@@ -32989,7 +33469,7 @@
     )
     (pin "1" (uuid c2cd1d3e-bf45-4305-ad51-1ac320cdb5de))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR066") (unit 1)
         )
@@ -33014,7 +33494,7 @@
     )
     (pin "1" (uuid 5e068c2a-ec21-4fc3-9762-c4efa3da800f))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR072") (unit 1)
         )
@@ -33037,6 +33517,21 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD4USB3U-TTS.pdf" (at 111.76 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "3.5V (Typ) Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount, Wettable Flank DFN2510D-10" (at 111.76 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia USA Inc." (at 111.76 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "PESD4USB3U-TTSX" (at 111.76 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 111.76 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "1727-PESD4USB3U-TTSXCT-ND" (at 111.76 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid bdb69176-6359-4376-908b-fdf90fb1e064))
     (pin "8" (uuid 9245098e-250d-4925-bc39-4146da0f552c))
     (pin "1" (uuid 052a91b2-39d0-48b6-afac-8d8fbcd975e3))
@@ -33048,7 +33543,7 @@
     (pin "7" (uuid 099caf28-ff08-4113-84b3-588e2f1b722a))
     (pin "9" (uuid 02f55c27-c3ac-4d54-8e34-7b700dee9d1e))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D16") (unit 1)
         )
@@ -33080,6 +33575,12 @@
     (property "Supplier Part Number 1" "CAS220JCT-ND" (at 334.01 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "SWITCH SLIDE DPDT 100MA 6V" (at 334.01 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nidec Components Corporation" (at 334.01 69.85 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 7677b9a4-c5f2-447d-a0b6-c6c2cb6a47d4))
     (pin "2" (uuid 712b56cf-e951-497b-a41d-736b7387eea8))
     (pin "3" (uuid ba0a3423-c9d8-4f4b-9747-428efecfb95e))
@@ -33087,7 +33588,7 @@
     (pin "5" (uuid f61de044-024d-41d4-894c-2ead43a814ba))
     (pin "6" (uuid 0e3c910b-e762-40df-bfc8-6b1b69e132c9))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "SW1") (unit 1)
         )
@@ -33117,7 +33618,22 @@
     (property "Footprint" "0_connectors:JST_GH_SM05B-GHS-TB_1x05-1MP_P1.25mm_Horizontal" (at 271.78 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 271.78 148.59 0)
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf" (at 271.78 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 5 position 0.049\" (1.25mm)" (at 271.78 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "JST Sales America Inc." (at 271.78 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SM05B-GHS-TB" (at 271.78 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 271.78 148.59 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "455-SM05B-GHS-TBCT-ND" (at 271.78 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 14bb49a1-dd8f-42f1-966b-317630e15313))
@@ -33127,7 +33643,7 @@
     (pin "5" (uuid e2b018da-51e2-4f0a-bc85-75591016c2fa))
     (pin "MP" (uuid 782c2b6a-5753-4e9e-a789-dbd56da9771b))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J13") (unit 1)
         )
@@ -33141,20 +33657,35 @@
     (property "Reference" "J8" (at 54.61 247.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "JST S2B-PH-SM4-TB" (at 54.61 250.19 0)
+    (property "Value" "S2B-PH-SM4-TB" (at 54.61 250.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "0_connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 55.88 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 55.88 254 0)
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" (at 55.88 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)" (at 55.88 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "JST Sales America Inc." (at 55.88 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "S2B-PH-SM4-TB" (at 55.88 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 55.88 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "455-S2B-PH-SM4-TBCT-ND" (at 55.88 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 417044c5-77bd-4f06-8430-89825bc4e87e))
     (pin "2" (uuid 8c13dd84-16b6-4c4b-9e88-032db3bf60b1))
     (pin "MP" (uuid c2c4c41e-1d65-452f-a877-0e5fb5635515))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J8") (unit 1)
         )
@@ -33177,10 +33708,13 @@
     (property "Datasheet" "~" (at 167.64 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 167.64 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid f2c80dfd-ad02-4ca9-ba4e-bcac10efa23a))
     (pin "2" (uuid 6cdb137a-7895-4aa7-9676-bde143bd8b6c))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C114") (unit 1)
         )
@@ -33200,13 +33734,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 142.24 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 142.24 181.61 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 142.24 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 142.24 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 142.24 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 142.24 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 142.24 181.61 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 142.24 181.61 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 1e1df99b-b353-4b6a-8aa7-b36ead4e6b36))
     (pin "2" (uuid 31e2f923-8d8e-4697-bc85-877ceb1d2720))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R37") (unit 1)
         )
@@ -33226,13 +33775,28 @@
     (property "Footprint" "0_diode_smd:D_SOD-523" (at 175.895 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/389/bat41-1848934.pdf" (at 171.45 156.21 0)
+    (property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/5b/cd/d8/0a/45/56/41/6c/CD00130227.pdf/files/CD00130227.pdf/jcr:content/translations/en.CD00130227.pdf" (at 171.45 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Diode 100 V 200mA Surface Mount SOD-523" (at 171.45 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "STMicroelectronics" (at 171.45 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "BAT41KFILM" (at 171.45 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 171.45 156.21 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "497-5556-1-ND" (at 171.45 156.21 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 8fe5cb8f-ce74-40a0-a536-dc023d19b30e))
     (pin "2" (uuid b28d09e6-6f46-4904-96ef-f9285c7f59a2))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D20") (unit 1)
         )
@@ -33257,7 +33821,7 @@
     )
     (pin "1" (uuid c72fb987-887e-47dc-9243-04dfc9b4d110))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR077") (unit 1)
         )
@@ -33277,13 +33841,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 142.24 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 142.24 173.99 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 142.24 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 142.24 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 142.24 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 142.24 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 142.24 173.99 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 142.24 173.99 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5b1b94d6-3a19-4676-abe9-eb59ab76bfb7))
     (pin "2" (uuid 43a3e2e0-7efb-4261-b555-5ed9d68351b6))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R35") (unit 1)
         )
@@ -33308,7 +33887,7 @@
     )
     (pin "1" (uuid efbd8a1d-6da5-4e9b-a2c6-4411f756d0de))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR084") (unit 1)
         )
@@ -33340,6 +33919,12 @@
     (property "Supplier Part Number 1" "CAS220JCT-ND" (at 334.01 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "SWITCH SLIDE DPDT 100MA 6V" (at 334.01 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nidec Components Corporation" (at 334.01 87.63 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 2d999b13-513a-4f5f-889c-1b05b22a2b67))
     (pin "2" (uuid 3f3b5d03-d02d-4f48-ae0a-9da03faa31ea))
     (pin "3" (uuid e596a67d-db7e-446f-8d0e-d271023f4bcd))
@@ -33347,7 +33932,7 @@
     (pin "5" (uuid 0b3f2169-4fb4-4280-b824-070aa162dc93))
     (pin "6" (uuid 34968d21-bfa2-46b0-a5bd-fba8ed2e89d2))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "SW1") (unit 2)
         )
@@ -33380,6 +33965,21 @@
     (property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/PESD4USB5B-TTS.pdf" (at 77.47 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "5.5V (Typ) Clamp 7A (8/20µs) Ipp Tvs Diode Surface Mount, Wettable Flank DFN2510D-10" (at 77.47 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Nexperia USA Inc." (at 77.47 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "PESD4USB5B-TTSX" (at 77.47 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 77.47 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "1727-PESD4USB5B-TTSXCT-ND" (at 77.47 99.06 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "3" (uuid 022775ca-cf9d-432e-a1dc-cd9cdd607a73))
     (pin "8" (uuid 532ed184-5620-4d02-a25e-091b4dee7c0c))
     (pin "1" (uuid f6148180-eac5-4a09-9189-17287d6801be))
@@ -33391,7 +33991,7 @@
     (pin "7" (uuid 3026f4de-d25e-4740-8f12-2f6072dfae6b))
     (pin "9" (uuid e613d5da-09b0-412f-8854-7b6cb2f17437))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D14") (unit 1)
         )
@@ -33405,19 +34005,34 @@
     (property "Reference" "C123" (at 185.42 255.2763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 185.42 257.8163 0)
+    (property "Value" "100n X7R 50V" (at 185.42 257.8163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 182.88 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 182.88 256.54 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 182.88 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 182.88 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 182.88 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 182.88 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 182.88 256.54 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 182.88 256.54 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid df9bae85-e545-4bf3-8605-61241b087f01))
     (pin "2" (uuid e4123b94-3243-4dfb-88a9-d1404a00478e))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C123") (unit 1)
         )
@@ -33442,7 +34057,7 @@
     )
     (pin "1" (uuid 69fcd647-e9db-4e42-8c7e-1fe9987feb52))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR075") (unit 1)
         )
@@ -33467,7 +34082,7 @@
     )
     (pin "1" (uuid 8d393237-7804-4487-a642-31389fc11db5))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR091") (unit 1)
         )
@@ -33492,7 +34107,7 @@
     )
     (pin "1" (uuid 34cd211d-4305-49ab-9a9c-7e689a450835))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR076") (unit 1)
         )
@@ -33512,14 +34127,29 @@
     (property "Footprint" "0_package_SOT_TO_SMD:SOT95P230X117-3N" (at 308.61 229.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "https://www.mouser.ch/datasheet/2/54/CDSOT23_SM712-1635169.pdf" (at 311.15 207.01 0)
+    (property "Datasheet" "https://www.bourns.com/docs/Product-Datasheets/CDSOT23-SM712.pdf" (at 311.15 207.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "26V, 14V Clamp 17A (8/20µs) Ipp Tvs Diode Surface Mount SOT-23-3" (at 308.61 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Bourns Inc." (at 308.61 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "CDSOT23-SM712" (at 308.61 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 308.61 220.98 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "CDSOT23-SM712CT-ND" (at 308.61 220.98 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5f6cc5ac-d28d-4292-9450-ad9a66149894))
     (pin "2" (uuid b6bc5f22-8582-4d59-b711-a96c028a2dfb))
     (pin "3" (uuid 91664678-e6c7-4a41-a4c7-7a9522cff87d))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "D25") (unit 1)
         )
@@ -33539,13 +34169,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 139.7 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 139.7 80.01 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 139.7 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 139.7 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 139.7 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 139.7 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 139.7 80.01 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 139.7 80.01 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e1fe3f10-044c-46e1-b39a-067f626e9f27))
     (pin "2" (uuid 3b8d5fd4-ea8a-48af-b3fe-2133f5abc0e9))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R31") (unit 1)
         )
@@ -33570,7 +34215,7 @@
     )
     (pin "1" (uuid 5e161a43-a369-452e-9d41-f89e069838df))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR081") (unit 1)
         )
@@ -33593,10 +34238,13 @@
     (property "Datasheet" "~" (at 179.07 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 179.07 100.33 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid cc4e996a-df01-402d-a8fe-1111da91c059))
     (pin "2" (uuid cc71bf11-840e-4c31-a91b-aabe324979dc))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C117") (unit 1)
         )
@@ -33616,7 +34264,22 @@
     (property "Footprint" "0_connectors:JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal" (at 50.8 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 50.8 78.74 0)
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eGH.pdf" (at 50.8 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 8 position 0.049\" (1.25mm)" (at 50.8 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "JST Sales America Inc." (at 50.8 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "SM08B-GHS-TB" (at 50.8 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 50.8 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "455-1570-1-ND" (at 50.8 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 6528088c-a33e-496f-8d18-40b8a4632960))
@@ -33629,7 +34292,7 @@
     (pin "8" (uuid 038f6e3e-9d53-49af-ab43-25b77a9c4fe3))
     (pin "MP" (uuid edb166cd-2e0f-4a1b-a6b9-0260c86fa17a))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J6") (unit 1)
         )
@@ -33643,20 +34306,35 @@
     (property "Reference" "J10" (at 160.02 247.65 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "JST S2B-PH-SM4-TB" (at 160.02 250.19 0)
+    (property "Value" "S2B-PH-SM4-TB" (at 160.02 250.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "0_connectors:JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal" (at 161.29 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 161.29 254 0)
+    (property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf" (at 161.29 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "Connector Header Surface Mount, Right Angle 2 position 0.079\" (2.00mm)" (at 161.29 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "JST Sales America Inc." (at 161.29 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "S2B-PH-SM4-TB" (at 161.29 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 161.29 254 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "455-S2B-PH-SM4-TBCT-ND" (at 161.29 254 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 571ae626-6dac-4f7f-baf8-a383a3f1a139))
     (pin "2" (uuid 8d7c21d3-0542-404e-a672-1a9a92d289e1))
     (pin "MP" (uuid 43b996b7-58aa-40ae-9db4-d0e5c93142fd))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J10") (unit 1)
         )
@@ -33670,19 +34348,34 @@
     (property "Reference" "C118" (at 290.83 153.6763 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "100n X7R 100V" (at 290.83 156.2163 0)
+    (property "Value" "100n X7R 50V" (at 290.83 156.2163 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_capacitor_smd:C_0402_1005_DensityHigh" (at 288.29 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 288.29 154.94 0)
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GCM155R71H104KE02-01.pdf" (at 288.29 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "0.1 µF ±10% 50V Ceramic Capacitor X7R 0402 (1005 Metric)" (at 288.29 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Murata Electronics" (at 288.29 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "GCM155R71H104KE02J" (at 288.29 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 288.29 154.94 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "490-14514-1-ND" (at 288.29 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid b385bf9f-f4cd-48fa-bfdd-7d5d4c6eabb1))
     (pin "2" (uuid a0be5f7e-d831-4b8f-9b7e-55d5e1664271))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C118") (unit 1)
         )
@@ -33705,10 +34398,13 @@
     (property "Datasheet" "~" (at 260.35 53.34 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 260.35 53.34 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid 5d8e354f-d190-455b-8d3a-ae7cc67c5893))
     (pin "2" (uuid 59839ecc-ead5-4fe3-b521-8a31ff15b164))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "J14") (unit 1)
         )
@@ -33728,13 +34424,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 171.45 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 171.45 67.31 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 171.45 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 2K OHM 1% 1/10W 0402" (at 171.45 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Vishay" (at 171.45 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF2001X" (at 171.45 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 171.45 67.31 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P2.00KLCT-ND" (at 171.45 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid aea920b1-3f1c-4c67-99f3-341453dee795))
     (pin "2" (uuid 1ce77634-e074-4ae9-a303-ca5ee02dc068))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R41") (unit 1)
         )
@@ -33759,7 +34470,7 @@
     )
     (pin "1" (uuid add45f78-2d3d-41ac-a988-8974410b2afd))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR067") (unit 1)
         )
@@ -33779,13 +34490,28 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 331.47 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 331.47 208.28 0)
+    (property "Datasheet" "https://industrial.panasonic.com/cdbs/www-data/pdf/RDA0000/AOA0000C304.pdf" (at 331.47 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Description" "RES SMD 100 OHM 1% 1/10W 0402" (at 331.47 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer" "Panasonic Electronic Components" (at 331.47 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Manufacturer Part Number" "ERJ-2RKF1000X" (at 331.47 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier 1" "Digikey" (at 331.47 208.28 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Supplier Part Number 1" "P100LCT-ND" (at 331.47 208.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 4b8c2720-b8de-4ed0-a1b8-71cd8e9a038b))
     (pin "2" (uuid 17e0642d-7326-4786-92a0-d03bcf0e7e04))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "R46") (unit 1)
         )
@@ -33808,10 +34534,13 @@
     (property "Datasheet" "~" (at 176.53 193.04 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (property "Description" "" (at 176.53 193.04 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
     (pin "1" (uuid ef718c4e-1d29-477e-a245-f996566f05c7))
     (pin "2" (uuid 99f5b2c4-627f-4dad-81fa-80bd76cbe7a6))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "C116") (unit 1)
         )
@@ -33836,7 +34565,7 @@
     )
     (pin "1" (uuid 3c25c215-74c1-498b-9dc1-7fdb1dfa2db9))
     (instances
-      (project "bldc_controller"
+      (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/d359abe5-ae6a-4888-8140-3e6566d20c15"
           (reference "#PWR038") (unit 1)
         )
