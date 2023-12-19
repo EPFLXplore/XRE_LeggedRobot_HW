@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.7,
-          "height": 4.15,
-          "width": 5.85
+          "drill": 0.0,
+          "height": 0.55,
+          "width": 0.55
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -80,7 +80,7 @@
         "item_on_disabled_layer": "error",
         "items_not_allowed": "error",
         "length_out_of_range": "error",
-        "lib_footprint_issues": "warning",
+        "lib_footprint_issues": "ignore",
         "lib_footprint_mismatch": "warning",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
@@ -93,12 +93,12 @@
         "shorting_items": "error",
         "silk_edge_clearance": "warning",
         "silk_over_copper": "warning",
-        "silk_overlap": "warning",
+        "silk_overlap": "ignore",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "warning",
         "starved_thermal": "error",
-        "text_height": "warning",
-        "text_thickness": "warning",
+        "text_height": "ignore",
+        "text_thickness": "ignore",
         "through_hole_pad_without_hole": "error",
         "too_many_vias": "error",
         "track_dangling": "warning",
@@ -619,8 +619,8 @@
       "/Project Architecture/MCU - IOs/FILTER_SOA": "rgb(194, 193, 118)",
       "/Project Architecture/MCU - IOs/FILTER_SOB": "rgb(127, 194, 127)",
       "/Project Architecture/MCU - IOs/FILTER_SOC": "rgb(127, 191, 194)",
-      "/Project Architecture/MCU - IOs/LED1": "rgb(255, 173, 191)",
-      "/Project Architecture/MCU - IOs/LED2": "rgb(255, 173, 191)",
+      "/Project Architecture/MCU - IOs/LED_DBG": "rgb(255, 194, 185)",
+      "/Project Architecture/MCU - IOs/LED_PWR": "rgb(255, 194, 185)",
       "/Project Architecture/MCU - IOs/MOTOR_ENABLE": "rgb(150, 34, 255)",
       "/Project Architecture/MCU - IOs/MOTOR_FAULT": "rgb(150, 34, 255)",
       "/Project Architecture/MCU - IOs/MOTOR_HIZ": "rgb(150, 34, 255)",
@@ -696,8 +696,12 @@
       "/Project Architecture/Power - Generation/VOS_3V3": "rgb(255, 162, 75)",
       "/Project Architecture/Sensing - Position/COMM_VDD": "rgb(209, 179, 255)",
       "/Project Architecture/Sensing - Position/DIS_VDD3V": "rgb(209, 179, 255)",
-      "/Project Architecture/User - LED Indicators/LED1_A": "rgb(255, 194, 185)",
-      "/Project Architecture/User - LED Indicators/LED2_A": "rgb(255, 194, 185)",
+      "/Project Architecture/User - LED Indicators/DBG_G": "rgb(255, 194, 185)",
+      "/Project Architecture/User - LED Indicators/LED_DBG_A": "rgb(255, 194, 185)",
+      "/Project Architecture/User - LED Indicators/LED_DBG_K": "rgb(255, 194, 185)",
+      "/Project Architecture/User - LED Indicators/LED_PWR_A": "rgb(255, 194, 185)",
+      "/Project Architecture/User - LED Indicators/LED_PWR_K": "rgb(255, 194, 185)",
+      "/Project Architecture/User - LED Indicators/PWR_G": "rgb(255, 194, 185)",
       "CHASSIS": "rgb(134, 119, 210)",
       "GND": "rgb(74, 90, 126)"
     },

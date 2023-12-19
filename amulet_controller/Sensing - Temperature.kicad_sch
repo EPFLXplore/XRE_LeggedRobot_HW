@@ -655,7 +655,7 @@
   )
 
   (text_box "LAYOUT NOTE:\nNTCs must be placed close and thermally coupled to relevant heat source. Route away from noisy traces."
-    (at 83.82 124.46 0) (size 29.21 13.97)
+    (at 83.82 119.38 0) (size 29.21 13.97)
     (stroke (width 1) (type solid) (color 0 0 255 1))
     (fill (type none))
     (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
@@ -704,7 +704,7 @@
     (uuid c299bf0a-d3d4-4b6a-9c33-eaca6157678b)
   )
   (text_box "DESIGN NOTE:\nNominal B-Constant 4050-4099K"
-    (at 115.57 124.46 0) (size 29.21 13.97)
+    (at 115.57 119.38 0) (size 29.21 13.97)
     (stroke (width 0.8) (type solid) (color 200 200 200 1))
     (fill (type none))
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
@@ -763,8 +763,8 @@
     (property "Description" "" (at 187.96 67.31 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 926b4294-f6fe-4c91-97e9-aff42c512d64))
-    (pin "2" (uuid 3da77c8c-c70d-4ec6-aec9-4928020f8514))
+    (pin "1" (uuid 7a93cf85-9f8b-48d9-aad0-13a58fdfaa46))
+    (pin "2" (uuid 5d80d263-da49-4e73-940a-78217d19c59a))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
@@ -814,7 +814,7 @@
     (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 97.79 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "RES SMD 10K OHM 1% 1/16W 0402 50PPM" (at 97.79 101.6 0)
+    (property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film" (at 97.79 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "YAGEO" (at 97.79 101.6 0)
@@ -829,8 +829,8 @@
     (property "Supplier Part Number 1" "YAG1233CT-ND" (at 97.79 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 731db052-4d2d-440f-a5a7-209dc636a129))
-    (pin "2" (uuid f27fea8b-1f7c-414c-8627-94c348250784))
+    (pin "1" (uuid 75c8b1cc-323f-4d16-b48c-f7a6ce8ebfc0))
+    (pin "2" (uuid b387192b-4474-4714-a50c-b2856fd680de))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
@@ -883,7 +883,7 @@
     (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 176.53 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "RES SMD 10K OHM 1% 1/16W 0402 50PPM" (at 176.53 101.6 0)
+    (property "Description" "10 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film" (at 176.53 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "YAGEO" (at 176.53 101.6 0)
@@ -898,8 +898,8 @@
     (property "Supplier Part Number 1" "YAG1233CT-ND" (at 176.53 101.6 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 4b347f6c-6d18-44f3-9424-ed804f9051ea))
-    (pin "2" (uuid 4648aadf-6f42-46bb-ab5e-22a75d4b8820))
+    (pin "1" (uuid ba0d335e-6b3e-4c98-a3d2-c4bc45feb4d0))
+    (pin "2" (uuid 40dc694e-7145-4780-bf84-f4c22f7466a5))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"
@@ -1078,7 +1078,7 @@
     (property "Datasheet" "https://www.murata.com/~/media/webrenewal/support/library/catalog/products/thermistor/r01e.ashx" (at 97.79 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "THERMISTOR NTC 47KOHM 4050K 0402" (at 97.79 82.55 0)
+    (property "Description" "NTC Thermistor 47k 4050K 0402 (1005 Metric)" (at 97.79 82.55 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "Murata Electronics" (at 97.79 82.55 0)
@@ -1150,8 +1150,8 @@
     (property "Description" "" (at 187.96 74.93 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 464def98-bc0f-4890-981e-e3c5dcfa1e5e))
-    (pin "2" (uuid d9c65bce-2dcf-48ff-8dcb-3ea98559b6a8))
+    (pin "1" (uuid 04391199-0139-46ec-ae89-26a16952f992))
+    (pin "2" (uuid 54639d64-b917-475a-8cc0-9a4f84395388))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/fa34585c-cea0-4980-9405-23c394490fcf"

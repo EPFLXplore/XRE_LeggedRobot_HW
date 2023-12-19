@@ -251,7 +251,7 @@
     (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 134.62 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "RES 4.7K OHM 1% 1/16W 0402 50PPM" (at 134.62 78.74 0)
+    (property "Description" "4.7 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Moisture Resistant Thin Film" (at 134.62 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "YAGEO" (at 134.62 78.74 0)
@@ -266,8 +266,8 @@
     (property "Supplier Part Number 1" "13-RT0402FRE134K7LCT-ND" (at 134.62 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid d625adbc-e02b-4095-9447-d949f806da10))
-    (pin "2" (uuid b32203b4-7b20-4fc6-b84a-9c88c0a64357))
+    (pin "1" (uuid 8a633692-3197-4b8d-9596-728251684343))
+    (pin "2" (uuid c3727018-212d-421b-89fb-4efb4760fa08))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5af28e14-08f4-4265-bd51-d6e5daa4b8a2"
@@ -358,7 +358,7 @@
     (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 134.62 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "RES SMD 100K OHM 1% 1/16W 0402" (at 134.62 63.5 0)
+    (property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film" (at 134.62 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "YAGEO" (at 134.62 63.5 0)
@@ -373,8 +373,8 @@
     (property "Supplier Part Number 1" "YAG2307CT-ND" (at 134.62 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid a2dbebfd-7dc8-4108-830e-763885211c11))
-    (pin "2" (uuid 86086b59-9566-4f84-824b-b50134248ba3))
+    (pin "1" (uuid b4f4dab1-c296-4d3c-a8b0-a53f79d1c64e))
+    (pin "2" (uuid bbb5e30b-38c1-4cbc-a736-526562187c93))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5af28e14-08f4-4265-bd51-d6e5daa4b8a2"

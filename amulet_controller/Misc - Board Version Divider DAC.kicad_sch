@@ -288,14 +288,14 @@
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 148.082 87.63 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 149.86 87.63 0)
+    (property "Datasheet" "" (at 149.86 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Description" "" (at 149.86 87.63 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 5b86436e-f49d-42b6-aa00-83a6cf876484))
-    (pin "2" (uuid 01cd8fd4-d32e-4920-b3d2-96bb41441e16))
+    (pin "1" (uuid e0dcc3da-8fbf-497d-a033-dc33cd6104b5))
+    (pin "2" (uuid 8695bb7e-ae21-48b3-bf2c-eac47ffce6a4))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"
@@ -345,7 +345,7 @@
     (property "Datasheet" "https://www.yageo.com/upload/media/product/app/datasheet/rchip/pyu-rt_1-to-0.01_rohs_l.pdf" (at 149.86 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Description" "RES SMD 100K OHM 1% 1/16W 0402" (at 149.86 69.85 0)
+    (property "Description" "100 kOhms ±1% 0.063W, 1/16W Chip Resistor 0402 (1005 Metric) Thin Film" (at 149.86 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Manufacturer" "YAGEO" (at 149.86 69.85 0)
@@ -360,8 +360,8 @@
     (property "Supplier Part Number 1" "YAG2307CT-ND" (at 149.86 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b14eedbe-8e91-4bc1-b746-8c2a7c053605))
-    (pin "2" (uuid 1fb930c5-93e3-4235-92d1-9bfa7e0acff4))
+    (pin "1" (uuid f7ec5b5b-a527-4e9f-81d5-7cea1dfd05fb))
+    (pin "2" (uuid 57a1770f-2b8c-422a-8ab5-84a2a35be0e4))
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/07dcaf51-abc9-470d-8bd8-30b1c54b6fbd"

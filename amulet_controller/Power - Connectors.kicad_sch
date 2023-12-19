@@ -6521,7 +6521,7 @@
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
     (uuid c20892d6-5080-4c3c-a6c2-62d91e1609d1)
   )
-  (text_box "Power Connectors, TVS diodes and electrolytic bulk capacitors"
+  (text_box "Power Connectors, TVS Diodes"
     (at 80.01 124.46 0) (size 134.62 9.525)
     (stroke (width -0.0001) (type default))
     (fill (type none))
