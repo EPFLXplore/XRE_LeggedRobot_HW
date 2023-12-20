@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.55,
-          "width": 0.55
+          "height": 2.7,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -1025,7 +1025,7 @@
     ],
     [
       "07dcaf51-abc9-470d-8bd8-30b1c54b6fbd",
-      "Misc - Board Version Divider, DAC"
+      "Misc - Board Version, DAC"
     ],
     [
       "37954a46-d14f-4062-b94e-09ed11854078",
