@@ -206,8 +206,8 @@
   (pad "MP" thru_hole roundrect (at -3.15 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1) (tstamp 72366acb-6c86-4134-89df-01ed6e4dc8e0))
   (pad "MP" thru_hole roundrect (at 10.35 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.1) (tstamp de552ae9-cde6-4643-8cc7-9de2579dadae))
   (model "${KIPRJMOD}/lib/3d_models/XT60PW-M.STEP"
-    (offset (xyz 11.35 -1.75 0))
+    (offset (xyz 3.6 38.45 4.3))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 180 0))
+    (rotate (xyz -90 0 0))
   )
 )

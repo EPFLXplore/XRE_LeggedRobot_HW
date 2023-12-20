@@ -6,7 +6,7 @@
 
   (title_block
     (title "User - LED Indicators")
-    (date "2023-10-15")
+    (date "2023-12-19")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )
@@ -1033,7 +1033,7 @@
     (effects (font (face "Times New Roman") (size 6 6) (thickness 1.2) bold (color 162 22 34 1)))
     (uuid 2875c24f-b49b-40db-896a-7ff502597cf9)
   )
-  (text_box "DESIGN NOTE:\nWe aim for a luminosity of 1000 mcd.\n\nLED_DBG (YELLOW) Vf = 2 V\n1000 mcd @ 30 mA\nR = (5V - 2V)/30mA = 100 Ohm\nP = (5V - 2V)*30mA = 90 mW\n\nLED_PWR (GREEN) Vf = 3 V\n1550 mcd @ 25 mA\n1000 mcd @ 13 mA\nR = (5V - 3V)/13mA = 150 Ohm\nP = (5V - 3V)*13mA = 26 mW"
+  (text_box "DESIGN NOTE:\nWe aim for a luminosity of 1000 mcd.\n\nLED_DBG (YELLOW) Vf = 2 V\n1000 mcd @ 30 mA\nR = (5V - 2V)/30mA = 100 Ohm\nP = (5V - 2V)×30mA = 90 mW\n\nLED_PWR (GREEN) Vf = 3 V\n1550 mcd @ 25 mA\n1000 mcd @ 13 mA\nR = (5V - 3V)/13mA = 150 Ohm\nP = (5V - 3V)×13mA = 26 mW"
     (at 110.49 57.15 0) (size 33.02 31.75)
     (stroke (width 0.8) (type solid) (color 200 200 200 1))
     (fill (type none))
@@ -1132,7 +1132,7 @@
           (reference "Q7") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "Q8") (unit 1)
+          (reference "Q7") (unit 1)
         )
       )
     )
@@ -1176,7 +1176,7 @@
           (reference "R30") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "R52") (unit 1)
+          (reference "R22") (unit 1)
         )
       )
     )
@@ -1185,7 +1185,7 @@
   (symbol (lib_id "power:GND") (at 176.53 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 3f04620f-1e3f-46bd-aa8b-9b81042971fa)
-    (property "Reference" "#PWR095" (at 176.53 118.11 0)
+    (property "Reference" "#PWR039" (at 176.53 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 176.53 116.84 0)
@@ -1201,7 +1201,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "#PWR095") (unit 1)
+          (reference "#PWR039") (unit 1)
         )
       )
     )
@@ -1246,7 +1246,7 @@
           (reference "Q7") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "Q9") (unit 1)
+          (reference "Q8") (unit 1)
         )
       )
     )
@@ -1255,7 +1255,7 @@
   (symbol (lib_id "Device:R_Small") (at 198.12 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 632d298e-c941-4a98-b3c9-d9be3a5608e1)
-    (property "Reference" "R53" (at 200.66 66.04 0)
+    (property "Reference" "R26" (at 200.66 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "150R 1% 1/5W" (at 200.66 68.58 0)
@@ -1287,7 +1287,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "R53") (unit 1)
+          (reference "R26") (unit 1)
         )
       )
     )
@@ -1296,7 +1296,7 @@
   (symbol (lib_id "power:+5V") (at 198.12 55.88 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 75c333f7-f539-4729-84d8-9054a4758d71)
-    (property "Reference" "#PWR039" (at 198.12 59.69 0)
+    (property "Reference" "#PWR040" (at 198.12 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 198.12 50.8 0)
@@ -1312,7 +1312,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "#PWR039") (unit 1)
+          (reference "#PWR040") (unit 1)
         )
       )
     )
@@ -1356,7 +1356,7 @@
           (reference "R18") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "R20") (unit 1)
+          (reference "R21") (unit 1)
         )
       )
     )
@@ -1365,7 +1365,7 @@
   (symbol (lib_id "power:GND") (at 128.27 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 81665573-af4a-4049-8dc6-0465e8e3cf8f)
-    (property "Reference" "#PWR093" (at 128.27 118.11 0)
+    (property "Reference" "#PWR038" (at 128.27 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 116.84 0)
@@ -1381,7 +1381,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "#PWR093") (unit 1)
+          (reference "#PWR038") (unit 1)
         )
       )
     )
@@ -1466,7 +1466,7 @@
           (reference "R30") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "R51") (unit 1)
+          (reference "R25") (unit 1)
         )
       )
     )
@@ -1510,7 +1510,7 @@
           (reference "R18") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "R21") (unit 1)
+          (reference "R24") (unit 1)
         )
       )
     )
@@ -1595,7 +1595,7 @@
           (reference "R30") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/37954a46-d14f-4062-b94e-09ed11854078"
-          (reference "R54") (unit 1)
+          (reference "R23") (unit 1)
         )
       )
     )

@@ -6,7 +6,7 @@
 
   (title_block
     (title "MCU - I/Os")
-    (date "2023-10-14")
+    (date "2023-12-20")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )
@@ -3879,13 +3879,6 @@
     (effects (font (size 1.27 1.27) (color 0 0 0 1)) (justify right top))
     (uuid dc274283-e587-450e-98d7-42bf824ed2e7)
   )
-  (text_box "DESIGN NOTE:\nReferences:"
-    (at 267.97 97.79 0) (size 36.83 13.97)
-    (stroke (width 1) (type solid) (color 200 200 200 1))
-    (fill (type none))
-    (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
-    (uuid e129423d-b7cb-482f-86c6-70236aacc45b)
-  )
   (text_box "Auxiliary port 1"
     (at 143.51 60.96 0) (size 10.795 5.715)
     (stroke (width -0.0001) (type default))
@@ -3908,11 +3901,15 @@
     (uuid fe3369ef-ff00-4da9-b2eb-6429c9c80b82)
   )
 
-  (text "Flexible I/O worked examples" (at 269.24 106.68 0)
+  (text "Flexible I/O worked examples" (at 265.43 254 0)
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left bottom) (href "https://jpieper.com/2022/06/30/flexible-i-o-worked-examples/"))
     (uuid 16842e9f-eef2-418b-80ee-4eca09c5cd4a)
   )
-  (text "Flexible I/O source configuration" (at 269.24 109.22 0)
+  (text "References:" (at 265.43 250.19 0)
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.254) bold (color 0 0 0 1)) (justify left bottom))
+    (uuid ca73a951-c39c-4a3c-9e12-06e6bc2f3311)
+  )
+  (text "Flexible I/O source configuration" (at 265.43 256.54 0)
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left bottom) (href "https://jpieper.com/2022/06/28/flexible-i-o-source-configuration/"))
     (uuid ff128f57-01dd-404e-9bb2-8208299d438c)
   )
@@ -4664,7 +4661,7 @@
   (symbol (lib_id "Device:C_Small") (at 170.18 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 24329ca2-5c88-4d16-b36b-3abcae69206b)
-    (property "Reference" "C11" (at 167.64 173.99 0)
+    (property "Reference" "C12" (at 167.64 173.99 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1n X7R 25V" (at 167.64 176.53 0)
@@ -4696,7 +4693,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-          (reference "C11") (unit 1)
+          (reference "C12") (unit 1)
         )
       )
     )
@@ -5146,7 +5143,7 @@
   (symbol (lib_id "Device:C_Small") (at 175.26 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 8c22d6d1-22d7-4546-b2fe-d475803ffa6d)
-    (property "Reference" "C12" (at 175.26 180.34 0)
+    (property "Reference" "C13" (at 175.26 180.34 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1n X7R 25V" (at 175.26 182.88 0)
@@ -5178,7 +5175,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-          (reference "C12") (unit 1)
+          (reference "C13") (unit 1)
         )
       )
     )
@@ -5428,7 +5425,7 @@
   (symbol (lib_id "Device:C_Small") (at 180.34 173.99 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c738152d-c4f0-4f32-98e1-9b9cdbdf0fdb)
-    (property "Reference" "C13" (at 182.88 173.99 0)
+    (property "Reference" "C14" (at 182.88 173.99 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "1n X7R 25V" (at 182.88 176.53 0)
@@ -5460,7 +5457,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/e6015f1e-cbce-46f4-85e1-3d5463a17dc1"
-          (reference "C13") (unit 1)
+          (reference "C14") (unit 1)
         )
       )
     )

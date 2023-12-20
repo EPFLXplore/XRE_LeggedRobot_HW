@@ -6537,7 +6537,7 @@
   )
 
   (hierarchical_label "+VBAT" (shape output) (at 181.61 64.77 0) (fields_autoplaced)
-    (effects (font (face "Arial") (size 1.27 1.27) bold) (justify left))
+    (effects (font (face "Arial") (size 1.27 1.27) bold (color 0 0 0 1)) (justify left))
     (uuid da450079-292c-4c14-a357-8e2e4229f4cf)
   )
 

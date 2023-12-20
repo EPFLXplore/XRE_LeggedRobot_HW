@@ -482,7 +482,7 @@
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
-        "wire_width": 15
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -499,7 +499,7 @@
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
-        "wire_width": 15
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -512,11 +512,11 @@
         "microvia_drill": 0.1,
         "name": "High Power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(200, 50, 50)",
+        "schematic_color": "rgb(177, 11, 198)",
         "track_width": 0.2,
         "via_diameter": 0.7,
         "via_drill": 0.3,
-        "wire_width": 15
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -534,6 +534,74 @@
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 171)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(220, 142, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(212, 0, 32)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power A3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(162, 155, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -822,6 +890,54 @@
       {
         "netclass": "High Power",
         "pattern": "/Project Architecture/Power - Generation/F_VIN_12V"
+      },
+      {
+        "netclass": "Power 12V",
+        "pattern": "+12V"
+      },
+      {
+        "netclass": "Power 12V",
+        "pattern": "/Project Architecture/Power - Generation/SW_12V"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "+3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Power - Generation/SW_3V3"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "+5V"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Power - Generation/SW_5V"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "+A3V3"
+      },
+      {
+        "netclass": "Power A3V3",
+        "pattern": "/Project Architecture/MCU - Power/F_A3V3"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Sensing - Position/COMM_VDD"
+      },
+      {
+        "netclass": "Power 3V3",
+        "pattern": "/Project Architecture/Sensing - Position/DIS_VDD3V"
+      },
+      {
+        "netclass": "GND",
+        "pattern": "/Project Architecture/Interface - Fan Control/FAN_SW"
+      },
+      {
+        "netclass": "Power 5V",
+        "pattern": "/Project Architecture/Power - Generation/F_VIN_3V3"
       }
     ]
   },
@@ -960,8 +1076,8 @@
     "BOARD_NAME": "Λmulet Motion Controller",
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
-    "PROJECT_NAME": "Chienpanzée",
-    "RELEASE_DATE": "XX.XX.XX",
+    "PROJECT_NAME": "Chienpanzé",
+    "RELEASE_DATE": "20 DEC. 2023",
     "REVIEWER": "",
     "REVISION": "1.0",
     "VARIANT": "Preliminary"

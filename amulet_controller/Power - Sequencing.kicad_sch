@@ -6,6 +6,7 @@
 
   (title_block
     (title "Power - Sequencing")
+    (date "2023-12-17")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )

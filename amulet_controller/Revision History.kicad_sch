@@ -6,7 +6,7 @@
 
   (title_block
     (title "Revision History")
-    (date "2023-10-15")
+    (date "2023-12-20")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )
@@ -15,6 +15,14 @@
   )
 
 
+  (polyline (pts (xy 97.79 31.75) (xy 97.79 149.86))
+    (stroke (width 0.635) (type default) (color 0 0 0 1))
+    (uuid 5f29c90a-4bd5-401c-a0f6-a99df09914f4)
+  )
+  (polyline (pts (xy 167.64 31.75) (xy 167.64 149.86))
+    (stroke (width 0.635) (type default) (color 0 0 0 1))
+    (uuid a6b610d4-f09b-4d6e-ac67-0bb3d0e09fbe)
+  )
   (polyline (pts (xy 19.05 31.75) (xy 19.05 190.5))
     (stroke (width 0.635) (type default) (color 0 0 0 1))
     (uuid d98bd22a-837a-4b14-b8b1-ecc667696c58)
@@ -27,18 +35,46 @@
     (effects (font (face "Times New Roman") (size 6 6) (thickness 1.2) bold (color 162 22 34 1)))
     (uuid 20a0a094-ac98-46df-bdac-21d5721f7697)
   )
-  (text_box "Rev 1.0\n\n- Changed CPH-CPL capacitor to 47nF (gate driver)\n\n- Changed FD-CAN transceiver IC\n\n- Added TVS protection and termination switch to FD-CAN\n\n- Added low-side switched 12V 600mA source for external fan\n\n- Added LDO for analog supply\n\n- Changed input power TVS diode to bidirectional and added one diode per connector\n\n- Moved SOx low-pass filter to MCU section. \nShould be placed near MCU to avoid noise coupling into ADC lines.\n\n- Added second onboard I2C magnetic encoder for disambiguation.\n\n- Switched PWM_PHASEA with PWM_PHASEC on STM32G474 pinout for easier routing.\n\n- Changed RS422 pinout on connector\n\n- Added ESD protection to all interfaces\n\n- Added overvoltage protection on thermistor ADC inputs\n\n- Changed buck regulators and added Pi filters\n\n- Doubled bulk capacitance using 10uF X6S ceramics"
-    (at 22.86 31.75 0) (size 124.46 129.54)
+  (text_box "- Changed CPH-CPL capacitor to 47nF (gate driver).\n\n- Changed FD-CAN transceiver IC.\n\n- Changed FETs for top cooled variant.\n\n- Added TVS protection and termination switch to FD-CAN.\n\n- Added low-side switched 12V 600mA source for external fan.\n\n- Added LDO for analog supply.\n\n- Changed input power TVS diode to bidirectional and added one diode per connector.\n\n- Moved SOx low-pass filter to MCU section. \nShould be placed near MCU to avoid noise coupling into ADC lines.\n\n- Added second onboard I2C magnetic encoder for disambiguation.\n\n- Switched PWM_PHASEA with PWM_PHASEC on STM32G474 pinout for easier routing.\n\n- Changed RS422 pinout on connector.\n\n- Added ESD protection to all interfaces.\n\n- Added overvoltage protection on thermistor ADC inputs.\n\n- Changed buck regulators to optimize for low noise.\n\n- Added Pi filters to inputs of buck regulators and MCU analog supply.\n\n- Added decoupling caps next to power pins of connectors."
+    (at 22.86 40.64 0) (size 64.77 134.62)
     (stroke (width -0.0001) (type default))
     (fill (type none))
     (effects (font (face "Arial") (size 1.905 1.905) (color 0 0 0 1)) (justify left top))
     (uuid 212b625e-4169-46f2-a2fc-afc6cbef07cd)
   )
-  (text_box ""
-    (at 152.4 31.75 0) (size 128.27 129.54)
+  (text_box "xx.xx.xx - xxx"
+    (at 168.91 31.75 0) (size 57.15 7.62)
     (stroke (width -0.0001) (type default))
     (fill (type none))
-    (effects (font (face "Arial") (size 1.905 1.905) bold (color 0 0 0 1)) (justify left top))
-    (uuid 93a40910-83e4-434e-a0b2-3daadb84b199)
+    (effects (font (face "Arial") (size 1.905 1.905) (thickness 0.254) bold) (justify left top))
+    (uuid 61447e65-3862-4ca7-a61e-5d8506cb38bb)
+  )
+  (text_box "- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+    (at 171.45 40.64 0) (size 64.77 115.57)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.905 1.905) (color 0 0 0 1)) (justify left top))
+    (uuid 8ad0acb7-8a2e-40a2-87c7-888a93359ccd)
+  )
+  (text_box "- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________\n\n- _________________________________"
+    (at 101.6 40.64 0) (size 64.77 115.57)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.905 1.905) (color 0 0 0 1)) (justify left top))
+    (uuid 9af8400a-3034-4071-a364-608020db49d5)
+  )
+  (text_box "12 December 2023 - Initial Release"
+    (at 20.32 31.75 0) (size 57.15 7.62)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.905 1.905) (thickness 0.254) bold) (justify left top))
+    (uuid d183a6b7-e8a2-46ec-8c3c-ec3041423bc1)
+  )
+  (text_box "xx.xx.xx - xxx"
+    (at 99.06 31.75 0) (size 57.15 7.62)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.905 1.905) (thickness 0.254) bold) (justify left top))
+    (uuid ed7f1ff6-56f6-4427-ab7f-2ffe27717c3d)
   )
 )

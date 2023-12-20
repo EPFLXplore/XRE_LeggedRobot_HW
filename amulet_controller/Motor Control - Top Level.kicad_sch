@@ -6,7 +6,7 @@
 
   (title_block
     (title "Motor Control - Top Level")
-    (date "2023-10-16")
+    (date "2023-12-20")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )
@@ -1229,7 +1229,7 @@
     (uuid c5ea7e8c-47ab-43c3-b000-caecf31713c0)
   )
   (text_box "Gate Drive"
-    (at 327.66 106.68 0) (size 45.72 6.985)
+    (at 327.66 106.68 0) (size 33.02 6.985)
     (stroke (width -0.0001) (type default))
     (fill (type none))
     (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify left bottom))
@@ -1242,7 +1242,7 @@
     (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
     (uuid d61e42a2-551d-475c-aa81-2988bf7d4731)
   )
-  (text_box "Power Stage"
+  (text_box "Three-Phase Inverter"
     (at 215.9 205.74 0) (size 96.52 9.525)
     (stroke (width -0.0001) (type default))
     (fill (type none))
@@ -1257,7 +1257,7 @@
     (uuid f2b7c51c-10b4-4da7-93f9-60e297bb56de)
   )
   (text_box "Kelvin Sense"
-    (at 327.66 142.24 0) (size 45.72 6.985)
+    (at 327.66 142.24 0) (size 27.94 6.985)
     (stroke (width -0.0001) (type default))
     (fill (type none))
     (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify left bottom))
@@ -1497,7 +1497,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP43") (unit 1)
+          (reference "TP63") (unit 1)
         )
       )
     )
@@ -1550,7 +1550,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP49") (unit 1)
+          (reference "TP69") (unit 1)
         )
       )
     )
@@ -1584,7 +1584,7 @@
   (symbol (lib_id "Device:C_Small") (at 110.49 156.21 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 15a3988f-5592-44bd-93ee-037363ae019f)
-    (property "Reference" "C83" (at 107.95 156.21 0)
+    (property "Reference" "C90" (at 107.95 156.21 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n X7R 16V" (at 107.95 158.75 0)
@@ -1616,7 +1616,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "C83") (unit 1)
+          (reference "C90") (unit 1)
         )
       )
     )
@@ -1644,7 +1644,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP52") (unit 1)
+          (reference "TP72") (unit 1)
         )
       )
     )
@@ -1678,7 +1678,7 @@
   (symbol (lib_id "Device:C_Small") (at 125.73 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 2bffa3c8-21d6-4992-82c4-fb8c4cc1bb83)
-    (property "Reference" "C85" (at 123.19 67.31 0)
+    (property "Reference" "C92" (at 123.19 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n X7R 100V" (at 123.19 69.85 0)
@@ -1710,7 +1710,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "C85") (unit 1)
+          (reference "C92") (unit 1)
         )
       )
     )
@@ -1719,7 +1719,7 @@
   (symbol (lib_id "Device:C") (at 125.73 104.14 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 324db7d6-992c-443c-9622-24e7bb3f5650)
-    (property "Reference" "C86" (at 121.92 102.87 0)
+    (property "Reference" "C93" (at 121.92 102.87 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u X7R 25V" (at 121.92 105.41 0)
@@ -1751,7 +1751,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "C86") (unit 1)
+          (reference "C93") (unit 1)
         )
       )
     )
@@ -1760,7 +1760,7 @@
   (symbol (lib_id "power:GND") (at 146.05 196.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 34cb9756-393b-4439-93a4-3595a19a80e2)
-    (property "Reference" "#PWR033" (at 146.05 203.2 0)
+    (property "Reference" "#PWR032" (at 146.05 203.2 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 201.93 0)
@@ -1776,7 +1776,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "#PWR033") (unit 1)
+          (reference "#PWR032") (unit 1)
         )
       )
     )
@@ -1810,7 +1810,7 @@
   (symbol (lib_id "Device:C") (at 105.41 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4870df29-ebd5-40e7-a231-39e0fefa25d5)
-    (property "Reference" "C82" (at 101.6 67.31 0)
+    (property "Reference" "C89" (at 101.6 67.31 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7 X7R 100V" (at 101.6 69.85 0)
@@ -1842,7 +1842,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "C82") (unit 1)
+          (reference "C89") (unit 1)
         )
       )
     )
@@ -1870,7 +1870,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP53") (unit 1)
+          (reference "TP73") (unit 1)
         )
       )
     )
@@ -1879,7 +1879,7 @@
   (symbol (lib_id "Device:C") (at 173.99 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 539abd4f-72ae-4dcd-93b5-4cb3c5787d10)
-    (property "Reference" "C87" (at 176.53 90.17 0)
+    (property "Reference" "C94" (at 176.53 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u X7R 6.3V" (at 176.53 92.71 0)
@@ -1911,7 +1911,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "C87") (unit 1)
+          (reference "C94") (unit 1)
         )
       )
     )
@@ -1920,7 +1920,7 @@
   (symbol (lib_id "Device:R") (at 82.55 184.15 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6dd5ab46-f8c7-4b8b-854a-6db67a5a900c)
-    (property "Reference" "R7" (at 85.09 182.88 0)
+    (property "Reference" "R8" (at 85.09 182.88 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k 1%" (at 85.09 185.42 0)
@@ -1952,7 +1952,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
@@ -1980,7 +1980,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP46") (unit 1)
+          (reference "TP66") (unit 1)
         )
       )
     )
@@ -1989,7 +1989,7 @@
   (symbol (lib_id "Device:C") (at 85.09 73.66 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 92d0c727-a26c-410b-86d6-3cc0c7e712c8)
-    (property "Reference" "C81" (at 81.28 72.39 0)
+    (property "Reference" "C88" (at 81.28 72.39 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1u X7R 25V" (at 81.28 74.93 0)
@@ -2021,7 +2021,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "C81") (unit 1)
+          (reference "C88") (unit 1)
         )
       )
     )
@@ -2055,7 +2055,7 @@
   (symbol (lib_id "Device:C_Small") (at 118.11 91.44 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 95387798-aeb0-4c47-acf0-76609ab36610)
-    (property "Reference" "C84" (at 115.57 90.17 0)
+    (property "Reference" "C91" (at 115.57 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "47n X7R 100V" (at 115.57 92.71 0)
@@ -2087,7 +2087,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "C84") (unit 1)
+          (reference "C91") (unit 1)
         )
       )
     )
@@ -2096,7 +2096,7 @@
   (symbol (lib_id "power:GND") (at 173.99 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a16c1a1f-1ed7-49c4-8f64-beb0accef449)
-    (property "Reference" "#PWR034" (at 173.99 102.87 0)
+    (property "Reference" "#PWR033" (at 173.99 102.87 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 173.99 101.6 0)
@@ -2112,7 +2112,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "#PWR034") (unit 1)
+          (reference "#PWR033") (unit 1)
         )
       )
     )
@@ -2140,7 +2140,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP45") (unit 1)
+          (reference "TP65") (unit 1)
         )
       )
     )
@@ -2168,7 +2168,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP40") (unit 1)
+          (reference "TP60") (unit 1)
         )
       )
     )
@@ -2196,7 +2196,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP51") (unit 1)
+          (reference "TP71") (unit 1)
         )
       )
     )
@@ -2329,7 +2329,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP42") (unit 1)
+          (reference "TP62") (unit 1)
         )
       )
     )
@@ -2357,7 +2357,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP48") (unit 1)
+          (reference "TP68") (unit 1)
         )
       )
     )
@@ -2366,7 +2366,7 @@
   (symbol (lib_id "Device:R") (at 102.87 106.68 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid dff54e2a-ce22-4699-b69b-e0c053060d98)
-    (property "Reference" "R8" (at 105.41 105.41 0)
+    (property "Reference" "R9" (at 105.41 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "2k 1%" (at 105.41 107.95 0)
@@ -2398,7 +2398,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2426,7 +2426,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP39") (unit 1)
+          (reference "TP59") (unit 1)
         )
       )
     )
@@ -2454,7 +2454,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP50") (unit 1)
+          (reference "TP70") (unit 1)
         )
       )
     )
@@ -2507,7 +2507,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP44") (unit 1)
+          (reference "TP64") (unit 1)
         )
       )
     )
@@ -2535,7 +2535,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP47") (unit 1)
+          (reference "TP67") (unit 1)
         )
       )
     )
@@ -2563,7 +2563,7 @@
           (reference "TP1") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5bcbc7e4-0942-415e-ab04-e1cd42538fc3"
-          (reference "TP41") (unit 1)
+          (reference "TP61") (unit 1)
         )
       )
     )

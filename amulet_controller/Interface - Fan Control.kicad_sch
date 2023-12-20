@@ -711,7 +711,7 @@
   (symbol (lib_id "Device:C") (at 104.14 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 40e53a1f-7245-4f96-bd17-5d01fa1fb9d5)
-    (property "Reference" "C103" (at 107.95 71.12 0)
+    (property "Reference" "C110" (at 107.95 71.12 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "4u7 X7R 16V" (at 107.95 73.66 0)
@@ -743,7 +743,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "C103") (unit 1)
+          (reference "C110") (unit 1)
         )
       )
     )
@@ -752,7 +752,7 @@
   (symbol (lib_id "Device:R_Small") (at 160.02 91.44 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 436345e9-3a15-474a-86ff-06d999f774f0)
-    (property "Reference" "R29" (at 160.02 86.36 90)
+    (property "Reference" "R34" (at 160.02 86.36 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "10R 1%" (at 160.02 88.9 90)
@@ -784,7 +784,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "R29") (unit 1)
+          (reference "R34") (unit 1)
         )
       )
     )
@@ -793,7 +793,7 @@
   (symbol (lib_id "power:GND") (at 104.14 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 683e69f2-0e7e-4764-bfc7-d78303bfc95e)
-    (property "Reference" "#PWR058" (at 104.14 85.09 0)
+    (property "Reference" "#PWR059" (at 104.14 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 83.82 0)
@@ -809,7 +809,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -818,7 +818,7 @@
   (symbol (lib_id "power:+5V") (at 135.89 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7615ab05-b5a6-451f-910b-f8cc50a7347c)
-    (property "Reference" "#PWR059" (at 135.89 68.58 0)
+    (property "Reference" "#PWR060" (at 135.89 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 135.89 59.69 0)
@@ -834,7 +834,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -843,7 +843,7 @@
   (symbol (lib_id "power:GND") (at 135.89 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82a92d1e-e7fd-49a7-81b1-8b058a443e13)
-    (property "Reference" "#PWR060" (at 135.89 114.3 0)
+    (property "Reference" "#PWR061" (at 135.89 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 113.03 0)
@@ -859,7 +859,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -931,7 +931,7 @@
           (reference "TP8") (unit 1)
         )
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "TP54") (unit 1)
+          (reference "TP74") (unit 1)
         )
       )
     )
@@ -940,7 +940,7 @@
   (symbol (lib_id "0_transistor_fet:PMV90ENER") (at 179.07 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid cc5891be-2a1e-4eab-9fb8-42d7b7118aa2)
-    (property "Reference" "Q7" (at 185.42 90.7415 0)
+    (property "Reference" "Q9" (at 185.42 90.7415 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "PMV90ENER" (at 185.42 93.2815 0)
@@ -973,7 +973,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "Q7") (unit 1)
+          (reference "Q9") (unit 1)
         )
       )
     )
@@ -982,7 +982,7 @@
   (symbol (lib_id "Device:C_Small") (at 120.65 72.39 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e5f5057f-e1ed-4a4f-b0f6-723a8da0030f)
-    (property "Reference" "C104" (at 123.19 71.1263 0)
+    (property "Reference" "C111" (at 123.19 71.1263 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100n X7R 50V" (at 123.19 73.6663 0)
@@ -1014,7 +1014,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "C104") (unit 1)
+          (reference "C111") (unit 1)
         )
       )
     )
