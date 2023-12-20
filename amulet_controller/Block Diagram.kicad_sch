@@ -1908,7 +1908,7 @@
     (effects (font (face "Arial") (size 3.048 3.048) bold (color 255 255 255 1)))
     (uuid a5dfea43-92a3-4c4a-a914-eb784ef96d73)
   )
-  (text_box "(GREEN)"
+  (text_box "(GREEN, YELLOW)"
     (at 276.225 213.995 0) (size 35.56 7.62)
     (stroke (width -0.0001) (type default))
     (fill (type none))

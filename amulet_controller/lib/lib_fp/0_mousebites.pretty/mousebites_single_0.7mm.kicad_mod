@@ -1,6 +1,6 @@
 (footprint "mousebites_single_0.7mm" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr through_hole board_only exclude_from_pos_files exclude_from_bom)
   (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.1)))
     (tstamp 37d12971-83cb-4cac-a7aa-151d7e91b8f4)
