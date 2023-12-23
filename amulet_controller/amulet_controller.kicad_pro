@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 2.7,
-          "width": 1.0
+          "height": 0.4,
+          "width": 1.235
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -111,7 +111,7 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.19999999999999998,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.25,
         "min_hole_clearance": 0.254,
@@ -123,7 +123,7 @@
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.25,
-        "min_track_width": 0.15,
+        "min_track_width": 0.19999999999999998,
         "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5499999999999999,
         "solder_mask_clearance": 0.0,
@@ -950,7 +950,7 @@
       "step": "step/bldc_controller.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "template/XRE_Legged_Template_Fab.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1061,7 +1061,7 @@
     ],
     [
       "c35a2394-f5db-4d2b-a6ba-34798059bc1f",
-      "Mechanical - Holes"
+      "Misc - Holes, Fiducials"
     ],
     [
       "13eb0b07-00a1-4d61-8da3-582545eb29a8",
@@ -1077,7 +1077,7 @@
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
     "PROJECT_NAME": "Chienpanzé",
-    "RELEASE_DATE": "20 DEC. 2023",
+    "RELEASE_DATE": "Dec. 23rd 2023",
     "REVIEWER": "",
     "REVISION": "1.0",
     "VARIANT": "Preliminary"

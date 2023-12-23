@@ -19,4 +19,5 @@
   (lib (name "0_package_SO")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_package_SO.pretty")(options "")(descr ""))
   (lib (name "0_led_smd")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_led_smd.pretty")(options "")(descr ""))
   (lib (name "0_testpoint")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_testpoint.pretty")(options "")(descr ""))
+  (lib (name "0_fiducials")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_fiducials.pretty")(options "")(descr ""))
 )
