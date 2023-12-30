@@ -20,5 +20,5 @@
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp f02f025d-d308-4e0d-bc6c-e230724bf915))
   (fp_circle (center 0 0) (end 0.25 0)
     (stroke (width 0) (type solid)) (fill solid) (layer "User.3") (tstamp 2c096501-aef0-4f5c-bad2-60daf32a6003))
-  (pad "1" smd circle (at 0 0) (size 0.5 0.5) (layers "F.Cu" "F.Mask") (tstamp bab732e9-e79a-410d-8a2b-e7d9e8d299bb))
+  (pad "1" smd circle (at 0 0) (size 0.5 0.5) (property pad_prop_testpoint) (layers "F.Cu" "F.Mask") (tstamp bab732e9-e79a-410d-8a2b-e7d9e8d299bb))
 )

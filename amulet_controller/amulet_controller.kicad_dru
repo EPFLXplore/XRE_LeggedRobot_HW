@@ -104,7 +104,7 @@
 (constraint edge_clearance (min 0.3mm))
 (condition "A.Type == 'track'"))
 
-# ----------------------------------- silkscreen ----------------------------------------------------
+# ----------------------------------- Silkscreen ----------------------------------------------------
 (rule "Minimum Text"
 (constraint text_thickness (min 0.15mm))
 (constraint text_height (min 0.8mm))
@@ -114,3 +114,13 @@
 (constraint silk_clearance (min 0.15mm))
 (layer outer)
 (condition "A.Type == 'pad' && (B.Type == 'text' || B.Type == 'graphic')"))
+
+# ----------------------------------- Test Points Courtyard -----------------------------------------
+(rule "Test Point Courtyard Exclusion"
+(constraint courtyard_clearance (min -1mm))
+(condition "A.Reference =='TP*'"))
+
+# ----------------------------------- Fiducials Courtyard -------------------------------------------
+(rule "Test Point Courtyard Exclusion"
+(constraint courtyard_clearance (min -1mm))
+(condition "A.Reference =='FM*'"))

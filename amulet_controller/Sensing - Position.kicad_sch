@@ -943,6 +943,13 @@
     (effects (font (face "Arial") (size 1.27 1.27) (color 0 0 0 1)) (justify left top))
     (uuid 766fdca9-31be-48d6-95d6-1af98650fe63)
   )
+  (text_box "LAYOUT NOTE:\nPlace commutation encoder at the center of the board. \nRight now it is quite close to current-carrying traces but the chip should be immune to stray magnetic fields."
+    (at 99.06 101.6 0) (size 35.56 17.78)
+    (stroke (width 1) (type solid) (color 0 0 255 1))
+    (fill (type none))
+    (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
+    (uuid 782b7052-f0af-4edb-adf3-32d97486b168)
+  )
   (text_box "DESIGN NOTE:\nAS5047P senses magnet mounted on planetary sun gear, for commutation.\nAS5048B senses magnet mounted on shaft with same reduction factor as planetary gearbox for disambiguation."
     (at 30.48 137.16 0) (size 49.53 13.97)
     (stroke (width 0.8) (type solid) (color 200 200 200 1))
@@ -1133,7 +1140,7 @@
   (symbol (lib_id "power:+3V3") (at 50.8 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16971fe4-17e8-46f6-a23f-04eb5cb1b7c7)
-    (property "Reference" "#PWR046" (at 50.8 69.85 0)
+    (property "Reference" "#PWR047" (at 50.8 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 50.8 60.96 0)
@@ -1149,7 +1156,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
-          (reference "#PWR046") (unit 1)
+          (reference "#PWR047") (unit 1)
         )
       )
     )
@@ -1183,7 +1190,7 @@
   (symbol (lib_id "power:GND") (at 50.8 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6187a1e6-a86b-4df7-8c07-f62424d44f8b)
-    (property "Reference" "#PWR047" (at 50.8 116.84 0)
+    (property "Reference" "#PWR048" (at 50.8 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 50.8 115.57 0)
@@ -1199,7 +1206,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
-          (reference "#PWR047") (unit 1)
+          (reference "#PWR048") (unit 1)
         )
       )
     )
@@ -1208,7 +1215,7 @@
   (symbol (lib_id "0_sensor:AS5047P") (at 78.74 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6358db80-3b91-4235-afe2-0a2a23ec06f6)
-    (property "Reference" "U9" (at 71.12 80.01 0)
+    (property "Reference" "U7" (at 71.12 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AS5047P" (at 71.12 82.55 0)
@@ -1252,7 +1259,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
-          (reference "U9") (unit 1)
+          (reference "U7") (unit 1)
         )
       )
     )
@@ -1261,7 +1268,7 @@
   (symbol (lib_id "power:GND") (at 175.26 111.76 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6931377f-24e3-4b1e-9225-a61f006531aa)
-    (property "Reference" "#PWR049" (at 175.26 118.11 0)
+    (property "Reference" "#PWR050" (at 175.26 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 175.26 116.84 0)
@@ -1277,7 +1284,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
-          (reference "#PWR049") (unit 1)
+          (reference "#PWR050") (unit 1)
         )
       )
     )
@@ -1286,7 +1293,7 @@
   (symbol (lib_id "Sensor_Magnetic:AS5048B") (at 204.47 93.98 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 787d7d70-72ef-48ff-8f1a-ef44230db6cd)
-    (property "Reference" "U10" (at 193.04 85.09 0)
+    (property "Reference" "U8" (at 193.04 85.09 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "AS5048B" (at 193.04 87.63 0)
@@ -1330,7 +1337,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
-          (reference "U10") (unit 1)
+          (reference "U8") (unit 1)
         )
       )
     )
@@ -1380,7 +1387,7 @@
   (symbol (lib_id "power:+3V3") (at 175.26 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 8d84ff86-9781-4dc9-a7c1-6b58e6df803c)
-    (property "Reference" "#PWR048" (at 175.26 69.85 0)
+    (property "Reference" "#PWR049" (at 175.26 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 175.26 60.96 0)
@@ -1396,7 +1403,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
-          (reference "#PWR048") (unit 1)
+          (reference "#PWR049") (unit 1)
         )
       )
     )
@@ -1405,7 +1412,7 @@
   (symbol (lib_id "power:GND") (at 220.98 80.01 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a0aaaa5e-def1-4cc0-9228-f1d88c0078c0)
-    (property "Reference" "#PWR050" (at 220.98 86.36 0)
+    (property "Reference" "#PWR051" (at 220.98 86.36 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 85.09 0)
@@ -1421,7 +1428,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
-          (reference "#PWR050") (unit 1)
+          (reference "#PWR051") (unit 1)
         )
       )
     )

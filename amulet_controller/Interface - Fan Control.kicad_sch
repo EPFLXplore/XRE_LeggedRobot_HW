@@ -793,7 +793,7 @@
   (symbol (lib_id "power:GND") (at 104.14 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 683e69f2-0e7e-4764-bfc7-d78303bfc95e)
-    (property "Reference" "#PWR059" (at 104.14 85.09 0)
+    (property "Reference" "#PWR060" (at 104.14 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 104.14 83.82 0)
@@ -809,7 +809,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR059") (unit 1)
+          (reference "#PWR060") (unit 1)
         )
       )
     )
@@ -818,7 +818,7 @@
   (symbol (lib_id "power:+5V") (at 135.89 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 7615ab05-b5a6-451f-910b-f8cc50a7347c)
-    (property "Reference" "#PWR060" (at 135.89 68.58 0)
+    (property "Reference" "#PWR061" (at 135.89 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 135.89 59.69 0)
@@ -834,7 +834,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR060") (unit 1)
+          (reference "#PWR061") (unit 1)
         )
       )
     )
@@ -843,7 +843,7 @@
   (symbol (lib_id "power:GND") (at 135.89 107.95 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 82a92d1e-e7fd-49a7-81b1-8b058a443e13)
-    (property "Reference" "#PWR061" (at 135.89 114.3 0)
+    (property "Reference" "#PWR062" (at 135.89 114.3 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 135.89 113.03 0)
@@ -859,7 +859,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "#PWR061") (unit 1)
+          (reference "#PWR062") (unit 1)
         )
       )
     )
@@ -868,7 +868,7 @@
   (symbol (lib_id "0_gate_driver:DGD0216WT-7") (at 135.89 91.44 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid adf2080e-debc-4cee-a58e-501516191c29)
-    (property "Reference" "U13" (at 138.43 99.06 0)
+    (property "Reference" "U11" (at 138.43 99.06 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DGD0216WT-7" (at 138.43 101.6 0)
@@ -903,7 +903,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a6cb2049-0230-448a-abe7-a100286c1c6c"
-          (reference "U13") (unit 1)
+          (reference "U11") (unit 1)
         )
       )
     )

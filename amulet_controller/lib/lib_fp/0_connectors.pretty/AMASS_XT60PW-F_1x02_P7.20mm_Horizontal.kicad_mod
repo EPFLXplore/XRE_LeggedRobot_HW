@@ -211,8 +211,8 @@
   (pad "2" thru_hole circle (at -4.57 0.51 270) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 53ccb64b-b9d2-43c7-83be-2373e4e548d1))
   (pad "2" thru_hole circle (at -4.57 1.02 270) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp a9049dc6-3735-4098-9f2d-ad943d1953ad))
   (pad "2" thru_hole circle (at -4.57 1.53 270) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 8fe12b81-f00e-41e6-9d7c-4b2a827304b1))
-  (pad "MP" thru_hole rect (at -10.35 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp c3c499b1-9227-4e4b-9982-f9f1aa6203b9))
-  (pad "MP" thru_hole rect (at 3.15 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp fb30f9bb-6a0b-4d8a-82b0-266eab794bc6))
+  (pad "MP1" thru_hole rect (at 3.15 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp fb30f9bb-6a0b-4d8a-82b0-266eab794bc6))
+  (pad "MP2" thru_hole rect (at -10.35 -6) (size 0.9 2) (drill oval 0.6 1.7) (layers "*.Cu" "*.Mask") (tstamp c3c499b1-9227-4e4b-9982-f9f1aa6203b9))
   (model "${KIPRJMOD}/lib/3d_models/XT60-PW-F.step"
     (offset (xyz -3.6 -0.55 4.3))
     (scale (xyz 1 1 1))

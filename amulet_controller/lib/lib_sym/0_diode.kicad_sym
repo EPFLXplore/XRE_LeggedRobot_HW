@@ -65,7 +65,7 @@
     )
   )
   (symbol "SMBJ51CD-M3/H" (pin_numbers hide) (pin_names hide) (in_bom yes) (on_board yes)
-    (property "Reference" "U" (at 0 5.08 0)
+    (property "Reference" "D" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SMBJ51CD-M3/H" (at 0 2.54 0)

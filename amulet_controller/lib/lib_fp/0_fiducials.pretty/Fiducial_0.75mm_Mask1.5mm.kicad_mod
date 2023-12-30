@@ -13,6 +13,6 @@
   )
   (fp_circle (center 0 0) (end 1 0)
     (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp faa34fc2-5193-43cd-bffb-a8ddc50f0fcd))
-  (pad "" smd circle (at 0 0) (size 0.75 0.75) (layers "F.Cu" "F.Mask")
+  (pad "" smd circle (at 0 0) (size 0.75 0.75) (property pad_prop_fiducial_glob) (layers "F.Cu" "F.Mask")
     (solder_mask_margin 0.375) (clearance 0.375) (tstamp 58eb7706-8ffb-47bb-9539-04ffb600b016))
 )

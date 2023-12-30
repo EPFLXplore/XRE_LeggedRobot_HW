@@ -105,7 +105,7 @@
   (pad "41" thru_hole circle (at -0.685 0.685) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 84cbd717-9aa7-4a7f-b9e7-ef9e7b181101))
   (pad "41" thru_hole circle (at -0.685 1.825) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp b40a8edb-add6-4ca8-8a46-daf6c123db15))
   (pad "41" smd rect (at 0 0) (size 4.1 4.1) (layers "B.Cu") (tstamp 913411f3-e88f-4ad9-946c-ef167b098c99))
-  (pad "41" smd roundrect (at 0 0) (size 4.2 4.2) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.025) (tstamp bd979ab4-4fbd-45f7-87dd-d3a8204f5eee))
+  (pad "41" smd roundrect (at 0 0) (size 4.2 4.2) (property pad_prop_heatsink) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.025) (tstamp bd979ab4-4fbd-45f7-87dd-d3a8204f5eee))
   (pad "41" thru_hole circle (at 0.685 -1.825) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 55aab239-4ddb-454a-99d6-18ed9a363881))
   (pad "41" thru_hole circle (at 0.685 -0.685) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp aee71a3d-fb3e-40e5-84ac-18092174b5f7))
   (pad "41" thru_hole circle (at 0.685 0.685) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 19968113-eda0-4789-be09-b8aa69aa2b56))

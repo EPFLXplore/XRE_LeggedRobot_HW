@@ -570,7 +570,7 @@
   (symbol (lib_id "0_interface_can:TCAN1051HGVDRBRQ1") (at 152.4 95.25 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 1f14a7e7-6e41-4a04-939f-ae5e1e22ac29)
-    (property "Reference" "U12" (at 156.21 105.41 0)
+    (property "Reference" "U10" (at 156.21 105.41 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TCAN1051HGVDRBRQ1" (at 156.21 107.95 0)
@@ -609,7 +609,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
-          (reference "U12") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -618,7 +618,7 @@
   (symbol (lib_id "power:+3V3") (at 134.62 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2d5d59fb-0824-48f2-a604-b9cb7c92c8d9)
-    (property "Reference" "#PWR055" (at 134.62 68.58 0)
+    (property "Reference" "#PWR056" (at 134.62 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 134.62 59.69 0)
@@ -634,7 +634,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
-          (reference "#PWR055") (unit 1)
+          (reference "#PWR056") (unit 1)
         )
       )
     )
@@ -643,7 +643,7 @@
   (symbol (lib_id "power:GND") (at 129.54 113.03 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 45f83982-ac98-4dff-a0ae-defbb0bb3df3)
-    (property "Reference" "#PWR054" (at 129.54 119.38 0)
+    (property "Reference" "#PWR055" (at 129.54 119.38 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 129.54 118.11 0)
@@ -659,7 +659,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
-          (reference "#PWR054") (unit 1)
+          (reference "#PWR055") (unit 1)
         )
       )
     )
@@ -668,7 +668,7 @@
   (symbol (lib_id "power:GND") (at 134.62 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 4ae6e5eb-a9a2-42c4-b20c-708b39a77b8b)
-    (property "Reference" "#PWR056" (at 134.62 83.82 0)
+    (property "Reference" "#PWR057" (at 134.62 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 82.55 0)
@@ -684,7 +684,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
-          (reference "#PWR056") (unit 1)
+          (reference "#PWR057") (unit 1)
         )
       )
     )
@@ -693,7 +693,7 @@
   (symbol (lib_id "power:GND") (at 170.18 77.47 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 94f7cf3d-b58c-42e2-91be-693a6cfcdf44)
-    (property "Reference" "#PWR058" (at 170.18 83.82 0)
+    (property "Reference" "#PWR059" (at 170.18 83.82 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 170.18 82.55 0)
@@ -709,7 +709,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
-          (reference "#PWR058") (unit 1)
+          (reference "#PWR059") (unit 1)
         )
       )
     )
@@ -759,7 +759,7 @@
   (symbol (lib_id "power:+5V") (at 170.18 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9be7039a-b8a0-4895-8612-5b4ae235a810)
-    (property "Reference" "#PWR057" (at 170.18 68.58 0)
+    (property "Reference" "#PWR058" (at 170.18 68.58 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+5V" (at 170.18 59.69 0)
@@ -775,7 +775,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/95bf33d9-762c-4d08-af8b-3fad797ffaca"
-          (reference "#PWR057") (unit 1)
+          (reference "#PWR058") (unit 1)
         )
       )
     )

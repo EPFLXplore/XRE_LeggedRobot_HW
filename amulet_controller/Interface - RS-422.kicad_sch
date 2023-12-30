@@ -657,7 +657,7 @@
   (symbol (lib_id "power:+3V3") (at 147.32 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6226abcd-0a72-40dc-8a0a-3da7e24d0dfc)
-    (property "Reference" "#PWR053" (at 147.32 57.15 0)
+    (property "Reference" "#PWR054" (at 147.32 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+3V3" (at 147.32 48.26 0)
@@ -673,7 +673,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
-          (reference "#PWR053") (unit 1)
+          (reference "#PWR054") (unit 1)
         )
       )
     )
@@ -723,7 +723,7 @@
   (symbol (lib_id "power:GND") (at 128.27 64.77 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb44b7c5-3329-42b3-9eeb-05b4d5995b6d)
-    (property "Reference" "#PWR051" (at 128.27 71.12 0)
+    (property "Reference" "#PWR052" (at 128.27 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 69.85 0)
@@ -739,7 +739,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
-          (reference "#PWR051") (unit 1)
+          (reference "#PWR052") (unit 1)
         )
       )
     )
@@ -748,7 +748,7 @@
   (symbol (lib_id "power:GND") (at 146.05 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f03fe810-c2cd-4daa-89dc-4978733f08bf)
-    (property "Reference" "#PWR052" (at 146.05 115.57 0)
+    (property "Reference" "#PWR053" (at 146.05 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 146.05 114.3 0)
@@ -764,7 +764,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
-          (reference "#PWR052") (unit 1)
+          (reference "#PWR053") (unit 1)
         )
       )
     )
@@ -773,7 +773,7 @@
   (symbol (lib_id "0_interface_uart:SN65HVD35DR") (at 146.05 85.09 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid fadb8f36-89de-42be-992e-0d85c012ce54)
-    (property "Reference" "U11" (at 137.16 68.58 0)
+    (property "Reference" "U9" (at 137.16 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "SN65HVD35DR" (at 137.16 71.12 0)
@@ -817,7 +817,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/a62105fd-dfaf-4ee0-a401-8aa0e7120758"
-          (reference "U11") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )

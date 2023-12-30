@@ -321,7 +321,7 @@
   (symbol (lib_id "power:GND") (at 134.62 92.71 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a5a76de5-252f-4d6a-8b16-66a2c5ca2fc1)
-    (property "Reference" "#PWR045" (at 134.62 99.06 0)
+    (property "Reference" "#PWR046" (at 134.62 99.06 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 134.62 97.155 0)
@@ -337,7 +337,7 @@
     (instances
       (project "amulet_controller"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/5af28e14-08f4-4265-bd51-d6e5daa4b8a2"
-          (reference "#PWR045") (unit 1)
+          (reference "#PWR046") (unit 1)
         )
       )
     )
