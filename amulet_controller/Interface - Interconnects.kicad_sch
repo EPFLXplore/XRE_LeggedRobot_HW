@@ -33078,7 +33078,7 @@
   )
 
   (symbol (lib_id "Connector_Generic:Conn_01x03") (at 260.35 50.8 180) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (in_bom no) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6201b179-629b-4bd5-b944-ad85ae11a3f9)
     (property "Reference" "J11" (at 260.35 41.91 0)
       (effects (font (size 1.27 1.27)))
