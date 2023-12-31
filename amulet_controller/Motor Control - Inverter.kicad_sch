@@ -6,7 +6,7 @@
 
   (title_block
     (title "Motor Control - Inverter")
-    (date "2023-12-20")
+    (date "2023-12-31")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )

@@ -6,7 +6,7 @@
 
   (title_block
     (title "Power - Connectors")
-    (date "2023-10-14")
+    (date "2023-12-31")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )

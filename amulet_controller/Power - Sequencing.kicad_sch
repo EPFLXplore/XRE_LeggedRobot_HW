@@ -6,7 +6,7 @@
 
   (title_block
     (title "Power - Sequencing")
-    (date "2023-12-17")
+    (date "2023-12-31")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )
@@ -469,7 +469,7 @@
     (effects (font (face "Times New Roman") (size 2.286 2.286) bold (color 0 0 127 1)))
     (uuid f44a25dd-4d06-4743-b63e-2b77b9291c46)
   )
-  (text_box "LMR36503"
+  (text_box "LMR36506"
     (at 49.53 80.01 0) (size 24.13 7.62)
     (stroke (width 0) (type default) (color 0 0 0 1))
     (fill (type none))
