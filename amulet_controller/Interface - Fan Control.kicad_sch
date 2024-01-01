@@ -915,7 +915,7 @@
     (property "Reference" "TP8" (at 184.15 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "PWM_PHASEA" (at 184.15 80.01 0)
+    (property "Value" "FAN_SW" (at 184.15 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_testpoint:TestPoint_Pad_D0.5mm_Back" (at 186.69 82.55 0)
