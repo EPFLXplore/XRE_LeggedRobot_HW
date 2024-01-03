@@ -6,7 +6,7 @@
 
   (title_block
     (title "Revision History")
-    (date "2023-12-31")
+    (date "2024-01-03")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )
@@ -63,14 +63,14 @@
     (effects (font (face "Arial") (size 1.905 1.905) (color 0 0 0 1)) (justify left top))
     (uuid 9af8400a-3034-4071-a364-608020db49d5)
   )
-  (text_box "12 December 2023 - Initial Release\nVariant: v1.0 Preliminary"
+  (text_box "December 12th 2023 - Initial Release\nVariant: v1.0 Preliminary"
     (at 20.32 31.75 0) (size 57.15 7.62)
     (stroke (width -0.0001) (type default))
     (fill (type none))
     (effects (font (face "Arial") (size 1.905 1.905) (thickness 0.254) bold) (justify left top))
     (uuid d183a6b7-e8a2-46ec-8c3c-ec3041423bc1)
   )
-  (text_box "31 December 2023 - First Revision\nVariant: v1.0 Preliminary"
+  (text_box "January 3rd 2024 - First Revision\nVariant: v1.0 Preliminary"
     (at 99.06 31.75 0) (size 57.15 7.62)
     (stroke (width -0.0001) (type default))
     (fill (type none))

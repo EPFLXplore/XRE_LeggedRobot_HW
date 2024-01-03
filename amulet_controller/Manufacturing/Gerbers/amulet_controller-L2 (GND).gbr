@@ -1,12 +1,12 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,7.0.6*%
-%TF.CreationDate,2023-12-31T16:15:44+01:00*%
+%TF.CreationDate,2024-01-03T21:31:41+01:00*%
 %TF.ProjectId,amulet_controller,616d756c-6574-45f6-936f-6e74726f6c6c,1.0*%
 %TF.SameCoordinates,PX6c3df60PY7735940*%
 %TF.FileFunction,Copper,L2,Inr*%
 %TF.FilePolarity,Positive*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 7.0.6) date 2023-12-31 16:15:44*
+G04 Created by KiCad (PCBNEW 7.0.6) date 2024-01-03 21:31:41*
 %MOMM*%
 %LPD*%
 G01*
@@ -732,7 +732,6 @@ X42025400Y12874900D03*
 X31480400Y27219900D03*
 X27600400Y39974900D03*
 X44135400Y29439900D03*
-X13050400Y38674900D03*
 X51050400Y29409900D03*
 X58152374Y34011727D03*
 X6750400Y46899900D03*

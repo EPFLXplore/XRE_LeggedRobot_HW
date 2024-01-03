@@ -947,7 +947,7 @@
       "idf": "",
       "netlist": "amulet_controller.net",
       "specctra_dsn": "",
-      "step": "step/bldc_controller.step",
+      "step": "STEP/bldc_controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": "template/XRE_Legged_Template_Fab.kicad_wks"
@@ -977,7 +977,7 @@
     },
     "net_format_name": "KiCad",
     "page_layout_descr_file": "template\\XRE_Legged_Template.kicad_wks",
-    "plot_directory": "PDFs/",
+    "plot_directory": "Schematic/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
@@ -1077,9 +1077,9 @@
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
     "PROJECT_NAME": "Chienpanzé",
-    "RELEASE_DATE": "Dec. 31st 2023",
+    "RELEASE_DATE": "Jan. 3rd 2024",
     "REVIEWER": "",
     "REVISION": "1.0",
-    "VARIANT": "Preliminary"
+    "VARIANT": "Checked"
   }
 }

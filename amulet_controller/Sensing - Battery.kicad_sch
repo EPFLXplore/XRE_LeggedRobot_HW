@@ -242,7 +242,7 @@
     (property "Reference" "R30" (at 137.16 77.47 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4.7k 1%" (at 137.16 80.01 0)
+    (property "Value" "4k7 1%" (at 137.16 80.01 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "0_resistor_smd:R_0402_1005_DensityHigh" (at 132.842 78.74 90)
