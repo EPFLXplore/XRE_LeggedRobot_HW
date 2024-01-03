@@ -976,7 +976,7 @@
       "version": 1
     },
     "net_format_name": "KiCad",
-    "page_layout_descr_file": "template\\XRE_Legged_Template.kicad_wks",
+    "page_layout_descr_file": "Templates\\XRE_Legged_Template.kicad_wks",
     "plot_directory": "Schematic/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
