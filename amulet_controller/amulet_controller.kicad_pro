@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.7,
-          "width": 0.6
+          "height": 0.9,
+          "width": 0.65
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -947,7 +947,7 @@
       "idf": "",
       "netlist": "amulet_controller.net",
       "specctra_dsn": "",
-      "step": "STEP/bldc_controller.step",
+      "step": "STEP/amulet_controller.step",
       "vrml": ""
     },
     "page_layout_descr_file": "template/XRE_Legged_Template_Fab.kicad_wks"
