@@ -36,7 +36,7 @@
         "pads": {
           "drill": 0.0,
           "height": 0.9,
-          "width": 0.65
+          "width": 0.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -1077,7 +1077,7 @@
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
     "PROJECT_NAME": "Chienpanzé",
-    "RELEASE_DATE": "Jan. 3rd 2024",
+    "RELEASE_DATE": "25-JAN-2024",
     "REVIEWER": "",
     "REVISION": "1.0",
     "VARIANT": "Checked"
