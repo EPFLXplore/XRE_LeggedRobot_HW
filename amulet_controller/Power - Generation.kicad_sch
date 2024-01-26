@@ -11129,7 +11129,7 @@
     (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
     (uuid cdfc57af-5514-46e2-987b-9066e906df0b)
   )
-  (text_box "DC-Link Bulk Capacitors. 38 x 4.7 uF = 178.6 uF (80 uF at 33V)"
+  (text_box "DC-Link Bulk Capacitors. 48 x 4.7 uF = 225.6 uF (100.8 uF at 33V)"
     (at 220.98 228.6 0) (size 179.07 9.525)
     (stroke (width -0.0001) (type default))
     (fill (type none))

@@ -1526,7 +1526,7 @@
     (effects (font (face "Times New Roman") (size 2.286 2.286) bold (color 0 0 0 1)))
     (uuid 0d410dc7-9a3d-4139-81f3-2512a3538be2)
   )
-  (text_box "~180 uF Bulk Capacitance"
+  (text_box "~225 uF Bulk Capacitance"
     (at 40.005 92.075 0) (size 25.4 10.16)
     (stroke (width -0.0001) (type default))
     (fill (type none))
