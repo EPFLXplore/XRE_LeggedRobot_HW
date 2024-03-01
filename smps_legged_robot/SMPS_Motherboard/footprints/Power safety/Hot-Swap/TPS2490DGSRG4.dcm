@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS2490DGSRG4
+D Hot Swap Voltage Controllers Latchbl Pos Hi-Vltg Pwr-Limiting
+K
+F https://www.ti.com/lit/gpn/tps2490
+$ENDCMP
+#
+#End Doc Library

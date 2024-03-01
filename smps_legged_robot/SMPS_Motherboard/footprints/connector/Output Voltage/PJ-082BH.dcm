@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PJ-082BH
+D DC Power Connectors 2.5mm x 5.5mm horz
+K
+F https://www.mouser.co.uk/datasheet/2/670/pj_082bh-1779031.pdf
+$ENDCMP
+#
+#End Doc Library

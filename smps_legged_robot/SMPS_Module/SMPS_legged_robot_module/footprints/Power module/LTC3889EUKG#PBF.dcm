@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC3889EUKG#PBF
+D IC REG BUCK PROG DL 52QFN
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/LTC3889.pdf
+$ENDCMP
+#
+#End Doc Library

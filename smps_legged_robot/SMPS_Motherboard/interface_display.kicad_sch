@@ -1,0 +1,36 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid bbdc79ed-993c-49bb-b880-c8b471234da6)
+
+  (paper "A5")
+
+  (lib_symbols
+  )
+
+
+  (rectangle (start 54.61 33.02) (end 151.13 89.535)
+    (stroke (width 1) (type default) (color 200 200 200 1))
+    (fill (type none))
+    (uuid 5e83c924-e492-44d1-8151-04b1337aae3b)
+  )
+
+  (text_box "External Connector"
+    (at 55.88 78.74 0) (size 93.98 9.525)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 162 22 34 1)) (justify bottom))
+    (uuid 365bf645-d86c-47d7-840f-8e939ce89aaa)
+  )
+  (text_box "[...] Interface - LED\n"
+    (at 11.43 15.24 0) (size 186.69 12.7)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Times New Roman") (size 6 6) (thickness 1.2) bold (color 162 22 34 1)))
+    (uuid e5900443-f2b6-4f34-94d2-629b680a7877)
+  )
+
+  (hierarchical_label "{DISP}" (shape bidirectional) (at 73.025 51.435 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid da07d1c1-a59e-4708-9924-6373bcb5be07)
+  )
+)

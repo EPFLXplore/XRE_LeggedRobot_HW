@@ -1,0 +1,383 @@
+
+(kicad_symbol_lib (version 20211014) (generator kicad_symbol_editor)
+  (symbol "PESC-02-12-02-01-X-VT-LC" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+    (property "Reference" "J" (id 0) (at -7.62 20.828 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Value" "PESC-02-12-02-01-X-VT-LC" (id 1) (at -7.62 -93.98 0)
+      (effects (font (size 1.27 1.27)) (justify bottom left))
+    )
+    (property "Footprint" "PESC-02-12-02-01-X-VT-LC:SAMTEC_PESC-02-12-02-01-X-VT-LC" (id 2) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "PARTREV" "B" (id 4) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "STANDARD" "Manufacturer Recommendations" (id 5) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MAXIMUM_PACKAGE_HEIGHT" "17.04mm" (id 6) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (property "MANUFACTURER" "Samtec" (id 7) (at 0 0 0)
+      (effects (font (size 1.27 1.27)) (justify bottom) hide)
+    )
+    (symbol "PESC-02-12-02-01-X-VT-LC_0_0"
+      (rectangle (start -7.62 -91.44) (end 7.62 20.32)
+        (stroke (width 0.254)) (fill (type background))
+      )
+      (pin passive line (at -12.7 -25.4 0) (length 5.08)
+        (name "01"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "01"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 17.78 0) (length 5.08)
+        (name "P01"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -27.94 0) (length 5.08)
+        (name "02"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "02"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -2.54 0) (length 5.08)
+        (name "P02"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -30.48 0) (length 5.08)
+        (name "03"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "03"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -33.02 0) (length 5.08)
+        (name "04"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "04"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 10.16 180.0) (length 5.08)
+        (name "05"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "05"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 7.62 180.0) (length 5.08)
+        (name "06"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "06"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 5.08 180.0) (length 5.08)
+        (name "07"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "07"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at 12.7 2.54 180.0) (length 5.08)
+        (name "08"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "08"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -38.1 0) (length 5.08)
+        (name "09"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "09"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -40.64 0) (length 5.08)
+        (name "10"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "10"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -43.18 0) (length 5.08)
+        (name "11"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "11"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin passive line (at -12.7 -45.72 0) (length 5.08)
+        (name "12"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "12"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -50.8 0) (length 5.08)
+        (name "P03"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -71.12 0) (length 5.08)
+        (name "P04"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_1"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 15.24 0) (length 5.08)
+        (name "P01__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 12.7 0) (length 5.08)
+        (name "P01__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 10.16 0) (length 5.08)
+        (name "P01__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 7.62 0) (length 5.08)
+        (name "P01__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 5.08 0) (length 5.08)
+        (name "P01__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 2.54 0) (length 5.08)
+        (name "P01__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 0.0 0) (length 5.08)
+        (name "P01__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P01_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -5.08 0) (length 5.08)
+        (name "P02__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -7.62 0) (length 5.08)
+        (name "P02__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -10.16 0) (length 5.08)
+        (name "P02__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -12.7 0) (length 5.08)
+        (name "P02__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -15.24 0) (length 5.08)
+        (name "P02__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -17.78 0) (length 5.08)
+        (name "P02__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -20.32 0) (length 5.08)
+        (name "P02__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P02_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -53.34 0) (length 5.08)
+        (name "P03__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -55.88 0) (length 5.08)
+        (name "P03__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -58.42 0) (length 5.08)
+        (name "P03__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -60.96 0) (length 5.08)
+        (name "P03__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -63.5 0) (length 5.08)
+        (name "P03__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -66.04 0) (length 5.08)
+        (name "P03__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -68.58 0) (length 5.08)
+        (name "P03__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P03_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -73.66 0) (length 5.08)
+        (name "P04__1"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_2"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -76.2 0) (length 5.08)
+        (name "P04__2"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_3"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -78.74 0) (length 5.08)
+        (name "P04__3"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_4"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -81.28 0) (length 5.08)
+        (name "P04__4"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_5"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -83.82 0) (length 5.08)
+        (name "P04__5"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_6"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -86.36 0) (length 5.08)
+        (name "P04__6"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_7"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+      (pin power_in line (at -12.7 -88.9 0) (length 5.08)
+        (name "P04__7"
+          (effects (font (size 1.016 1.016)))
+        )
+        (number "P04_8"
+          (effects (font (size 1.016 1.016)))
+        )
+      )
+    )
+  )
+)

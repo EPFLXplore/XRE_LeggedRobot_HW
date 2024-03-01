@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTC4372CMS8#TRPBF
+D Power Management Specialized - PMIC Low Icc Ideal Diode Controller w/SHDN
+K
+F https://www.arrow.com/en/products/ltc4372cms8trpbf/analog-devices
+$ENDCMP
+#
+#End Doc Library

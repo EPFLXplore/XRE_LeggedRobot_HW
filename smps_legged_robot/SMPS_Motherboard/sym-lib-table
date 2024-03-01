@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "SIC461ED-T1-GE3")(type "KiCad")(uri "${KIPRJMOD}/footprints/Power module/SIC/SIC461ED-T1-GE3.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS2493PWR")(type "KiCad")(uri "${KIPRJMOD}/footprints/Power safety/Hot-Swap/TPS2493PWR.kicad_sym")(options "")(descr ""))
+  (lib (name "PJ-082BH")(type "KiCad")(uri "${KIPRJMOD}/footprints/connector/Output Voltage/PJ-082BH.kicad_sym")(options "")(descr ""))
+  (lib (name "FTSH-107-01-F-DV-K-P-TR")(type "KiCad")(uri "${KIPRJMOD}/footprints/connector/JTAG/FTSH-107-01-F-DV-K-P-TR.kicad_sym")(options "")(descr ""))
+)

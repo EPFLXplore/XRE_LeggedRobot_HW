@@ -1,0 +1,8 @@
+*-backups
+\#auto_saved_files#
+*.xml
+*.lib
+*.lck
+*.bak
+*.kicad_sch-bak
+fp-info-cache
