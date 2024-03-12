@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "0_encoder")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_encoder.kicad_sym")(options "")(descr ""))
+  (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_connectors.kicad_sym")(options "")(descr ""))
+  (lib (name "0_power_protection")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_power_protection.kicad_sym")(options "")(descr ""))
+  (lib (name "0_logic_gate")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_logic_gate.kicad_sym")(options "")(descr ""))
+  (lib (name "0_led")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_led.kicad_sym")(options "")(descr ""))
+  (lib (name "0_transistor_fet")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_transistor_fet.kicad_sym")(options "")(descr ""))
+)

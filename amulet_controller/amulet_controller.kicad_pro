@@ -729,6 +729,12 @@
       "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHA": "rgb(194, 193, 118)",
       "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHB": "rgb(127, 194, 127)",
       "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/PHC": "rgb(127, 191, 194)",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SNUBH_A": "rgb(194, 193, 118)",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SNUBH_B": "rgb(127, 194, 127)",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SNUBH_C": "rgb(127, 191, 194)",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SNUBL_A": "rgb(194, 193, 118)",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SNUBL_B": "rgb(127, 194, 127)",
+      "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SNUBL_C": "rgb(127, 191, 194)",
       "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_A": "rgb(194, 193, 118)",
       "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B": "rgb(127, 194, 127)",
       "/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C": "rgb(127, 191, 194)",
@@ -947,10 +953,10 @@
       "idf": "",
       "netlist": "amulet_controller.net",
       "specctra_dsn": "",
-      "step": "STEP/amulet_controller.step",
+      "step": "STEP_Blender/amulet_controller.step",
       "vrml": ""
     },
-    "page_layout_descr_file": "template/XRE_Legged_Template_Fab.kicad_wks"
+    "page_layout_descr_file": "Templates/XRE_Legged_Template_Fab.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1077,9 +1083,9 @@
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
     "PROJECT_NAME": "Chienpanzé",
-    "RELEASE_DATE": "25-JAN-2024",
+    "RELEASE_DATE": "12-MAR-2024",
     "REVIEWER": "",
     "REVISION": "1.0",
-    "VARIANT": "Checked"
+    "VARIANT": "Released"
   }
 }
