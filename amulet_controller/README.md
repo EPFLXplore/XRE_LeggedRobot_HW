@@ -1,6 +1,6 @@
 <p align="center" width="100%">
-  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/amulet_logo.svg">
-  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/amulet_logo_light.svg">
+  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/amulet_logo_light.svg">
+  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/amulet_logo.svg">
   <img alt="AMULET logo" width="33%" src="./Logos/amulet_logo.svg">
 </p>
 
