@@ -1,5 +1,5 @@
 <p align="center" width="100%">
-    <img width="33%" src="amulet_controller/Logos/amulet_logo.svg">
+    <img width="33%" src="./Logos/amulet_logo.svg">
 </p>
 
 <h1 align="center">Λ M U L E T</h1>
