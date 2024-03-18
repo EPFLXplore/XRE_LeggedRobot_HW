@@ -7,7 +7,7 @@
 ΛMULET is a high-power brushless motor controller, compatible with the [moteus firmware](https://github.com/mjbots/moteus). It was specifically designed to be integrated in [EPFL Xplore](https://github.com/EPFLXplore)'s Legged Robot actuators.
 
 <p align="center" width="100%">
-    <img src="amulet_controller/Images/amulet_front.png">
+    <img src="./Images/amulet_front.png">
 </p>
 
 ***
@@ -66,17 +66,17 @@ Schematic is hugely inspired by the moteus controllers designed by Josh Pieper. 
 ## PHOTOS
 
 <p align="center" width="100%">
-    <img src="amulet_controller/Images/amulet_stack.png">
+    <img src="./Images/amulet_stack.png">
 </p>
 
 <p align="center" width="100%">
-    <img src="amulet_controller/Images/amulet_logo.png">
+    <img src="./Images/amulet_logo.png">
 </p>
 
 <p align="center" width="100%">
-    <img src="amulet_controller/Images/amulet_connector.png">
+    <img src="./Images/amulet_connector.png">
 </p>
 
 <p align="center" width="100%">
-    <img src="amulet_controller/Images/amulet_back.png">
+    <img src="./Images/amulet_back.png">
 </p>
