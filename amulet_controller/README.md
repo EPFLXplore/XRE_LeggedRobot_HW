@@ -1,5 +1,7 @@
 <p align="center" width="100%">
-    <img width="33%" src="./Logos/amulet_logo.svg">
+  <source media="(prefers-color-scheme: dark)" width="33%" srcset="./Logos/amulet_logo.svg">
+  <source media="(prefers-color-scheme: light)" width="33%" srcset="./Logos/amulet_logo_light.svg">
+  <img alt="AMULET logo" width="33%" src="./Logos/amulet_logo.svg">
 </p>
 
 <h1 align="center">Λ M U L E T</h1>
