@@ -63,6 +63,8 @@ amulet_controller
 
 Schematic is hugely inspired by the moteus controllers designed by Josh Pieper. They were modified to meet our own specifications, and to follow what I personally consider good layout practices.
 
+***
+
 ## PHOTOS
 
 <p align="center" width="100%">
