@@ -1,0 +1,9 @@
+amulet_encoder-backups
+\#auto_saved_files#
+amulet_encoder.xml
+amulet_encoder.lib
+*.lck
+*.bak
+*.ini
+*.kicad_sch-bak
+fp-info-cache
