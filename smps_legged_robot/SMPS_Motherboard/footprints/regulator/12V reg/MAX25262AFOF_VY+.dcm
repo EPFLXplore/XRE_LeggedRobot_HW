@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP MAX25262AFOF_VY+
+D Automotive, 65V, 2A/3A Mini Buck Converter
+K
+F https://www.analog.com/MAX25262/datasheet
+$ENDCMP
+#
+#End Doc Library

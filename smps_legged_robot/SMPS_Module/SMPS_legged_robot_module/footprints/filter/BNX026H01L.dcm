@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP BNX026H01L
+D Murata BNX02 Series, EMI Filter, 50 V dc 1GHz, 15A SMD, Solder Termination, 12.1 x 9.1 x 3.5mm
+K
+F https://www.murata.com/en-us/products/productdetail?partno=BNX026H01%23
+$ENDCMP
+#
+#End Doc Library

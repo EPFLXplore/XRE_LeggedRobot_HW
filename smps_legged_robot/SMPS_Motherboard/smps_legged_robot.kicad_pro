@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.19999999999999998
         }
       },
       "diff_pair_dimensions": [
@@ -185,6 +185,10 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
           "diameter": 0.55,
@@ -453,19 +457,36 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
+        "diff_pair_gap": 0.28,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "CAN Bus",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "+VBAT",
+        "name": "Chassis",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(200, 50, 50)",
+        "schematic_color": "rgb(139, 103, 213)",
         "track_width": 0.2,
         "via_diameter": 0.55,
         "via_drill": 0.25,
-        "wire_width": 15
+        "wire_width": 24
       },
       {
         "bus_width": 12,
@@ -483,6 +504,125 @@
         "via_diameter": 0.55,
         "via_drill": 0.25,
         "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "High Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(177, 11, 198)",
+        "track_width": 0.2,
+        "via_diameter": 0.7,
+        "via_drill": 0.3,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Kelvin Diff Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 12V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(255, 0, 171)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(220, 142, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power 5V",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(212, 0, 32)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Power A3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(162, 155, 0)",
+        "track_width": 0.2,
+        "via_diameter": 0.55,
+        "via_drill": 0.25,
+        "wire_width": 24
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.28,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2032,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "RS422 Diff Pair",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.25,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -508,15 +648,15 @@
         "pattern": "/Project Architecture/Interface - Interconnects/RS422_D+"
       },
       {
-        "netclass": "Default",
+        "netclass": "Chassis",
         "pattern": "CHASSIS"
       },
       {
-        "netclass": "Default",
+        "netclass": "CAN Bus",
         "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_P"
       },
       {
-        "netclass": "Default",
+        "netclass": "CAN Bus",
         "pattern": "/Project Architecture/Interface - FD-CAN/FDCAN_N"
       },
       {
@@ -684,6 +824,14 @@
       "version": 1
     },
     "net_format_name": "KiCad",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 0,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "Templates\\KDT_Template.kicad_wks",
     "plot_directory": "Schematic/",
     "spice_current_sheet_as_root": false,
@@ -713,35 +861,39 @@
     ],
     [
       "7ff8721b-aa5b-400a-ac87-59d1922401fd",
-      "Power - Connectors"
+      "Connector - Power Input"
+    ],
+    [
+      "00331108-f7ff-4054-b63a-a3b87091e381",
+      "Connectors - Rail Out 1"
+    ],
+    [
+      "5a29bfb6-b4d7-47fd-abc2-4cd4771e0d23",
+      "Connectors - Communication"
     ],
     [
       "90980504-ca7e-4d0f-ada1-af3b0bda141f",
-      "Power - Auxiliary"
+      "Power - Local Generation"
     ],
     [
       "59e35bfe-b1e6-4597-9eba-9a77dd1fdb73",
       "Power - Module A"
     ],
     [
-      "80128a2c-e764-40be-a31d-09f0e7f15c4e",
+      "a4fcfc15-f3d3-4184-ac18-79145e786b0e",
       "Power - Module B"
     ],
     [
-      "a433b65b-fcec-45e3-a732-ccb59724cd12",
-      "Connectors - Power Out 2"
+      "22c274db-2ebb-4584-9395-db6ed9f74837",
+      "Power - Precharge"
     ],
     [
-      "00331108-f7ff-4054-b63a-a3b87091e381",
-      "Connectors - Power Out 1"
+      "48a06615-c7eb-4ac4-826a-aa89f8a6f828",
+      "Power - MOS"
     ],
     [
-      "636e54a1-c33f-4801-be14-f415dc0b64ba",
-      "Connectors - Power Out 3"
-    ],
-    [
-      "cefe6259-2937-41be-b813-b640255ce550",
-      "Connectors - Power Out 4"
+      "f8bed094-49f5-4c8b-9292-dff5c7d63420",
+      "Interface - Display"
     ],
     [
       "31cd0ab4-52c9-497e-af88-d70bdc039d4e",
@@ -752,24 +904,20 @@
       "Interface - LED"
     ],
     [
-      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
-      "Power - Sequencing"
-    ],
-    [
-      "f8bed094-49f5-4c8b-9292-dff5c7d63420",
-      "Interface - Display"
-    ],
-    [
-      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
-      "Revision History"
+      "cb800ee9-dbe7-49ad-859e-0a969d5f8a96",
+      "Sensor - Battery"
     ],
     [
       "2842909c-d5c3-4ffc-bc05-73d74b841739",
       "Mechanical Holes"
     ],
     [
-      "5a29bfb6-b4d7-47fd-abc2-4cd4771e0d23",
-      "Connectors - Communication"
+      "13eb0b07-00a1-4d61-8da3-582545eb29a8",
+      "Power - Sequencing"
+    ],
+    [
+      "e7c91631-be85-488a-af7a-f2a810f3fbfe",
+      "Revision History"
     ]
   ],
   "text_variables": {

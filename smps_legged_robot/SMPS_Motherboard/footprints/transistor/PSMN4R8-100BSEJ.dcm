@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PSMN4R8-100BSEJ
+D NEXPERIA - PSMN4R8-100BSEJ - MOSFET, N-CH, 100V, 120A, D2PAK
+K
+F https://assets.nexperia.com/documents/data-sheet/PSMN4R8-100BSE.pdf
+$ENDCMP
+#
+#End Doc Library

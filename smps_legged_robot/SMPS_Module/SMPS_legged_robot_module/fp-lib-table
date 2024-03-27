@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "0_net_tie")(type "KiCad")(uri "C:/One drive/OneDrive/Bureau/Cours EPFL/MASTER/MA2/Semester Project/smps_legged_robot/SMPS_Motherboard/lib/lib_fp/0_net_tie.pretty")(options "")(descr ""))
+)

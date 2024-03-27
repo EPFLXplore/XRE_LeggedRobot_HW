@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 53048-0450
+D 1.25mm Pitch, PicoBlade PCB Header, Single Row, Right-Angle, Through Hole, Gold (Au) Plating, Friction Lock, 4 Circuits, Tape and Reel, 2.30mm PC Tail Length
+K
+F https://www.molex.com/pdm_docs/sd/530480450_sd.pdf
+$ENDCMP
+#
+#End Doc Library

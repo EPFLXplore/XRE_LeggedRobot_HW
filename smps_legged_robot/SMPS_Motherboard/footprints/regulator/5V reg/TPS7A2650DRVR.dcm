@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS7A2650DRVR
+D LDO Voltage Regulators 500-mA 18-V ultra-low-IQ low-dropout (LDO) linear voltage regulator with power good 6-WSON -40 to 125
+K
+F https://www.ti.com/lit/gpn/TPS7A26
+$ENDCMP
+#
+#End Doc Library

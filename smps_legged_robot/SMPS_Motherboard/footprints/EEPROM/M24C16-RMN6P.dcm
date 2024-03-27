@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP M24C16-RMN6P
+D 16 Kbit serial I2C bus EEPROM
+K
+F https://www.st.com/resource/en/datasheet/m24c16-w.pdf
+$ENDCMP
+#
+#End Doc Library

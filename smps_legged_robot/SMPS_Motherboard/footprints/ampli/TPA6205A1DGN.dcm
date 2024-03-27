@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPA6205A1DGN
+D Texas Instruments,TPA6205A1DGN,IC,Audio Texas Instruments TPA6205A1DGN Audio Amplifier IC, Class-AB Mono -70dB, 8-Pin MSOP
+K
+F http://www.ti.com/lit/ds/symlink/tpa6205a1.pdf
+$ENDCMP
+#
+#End Doc Library

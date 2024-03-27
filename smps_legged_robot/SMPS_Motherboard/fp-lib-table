@@ -3,4 +3,6 @@
   (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/footprints.pretty")(options "")(descr ""))
   (lib (name "SIC")(type "KiCad")(uri "${KIPRJMOD}/footprints/Power module/SIC.pretty")(options "")(descr ""))
   (lib (name "lib")(type "KiCad")(uri "${KIPRJMOD}/lib.pretty")(options "")(descr ""))
+  (lib (name "oscillator")(type "KiCad")(uri "${KIPRJMOD}/footprints/oscillator.pretty")(options "")(descr ""))
+  (lib (name "0_net_tie")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_fp/0_net_tie.pretty")(options "")(descr ""))
 )

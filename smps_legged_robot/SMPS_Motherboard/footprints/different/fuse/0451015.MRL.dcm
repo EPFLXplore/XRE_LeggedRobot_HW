@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 0451015.MRL
+D Littelfuse 15A FF Non-Resettable Surface Mount Fuse, 65 V
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_451_453_datasheet.pdf.pdf
+$ENDCMP
+#
+#End Doc Library

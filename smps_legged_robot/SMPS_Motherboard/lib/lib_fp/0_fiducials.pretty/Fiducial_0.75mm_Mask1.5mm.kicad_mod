@@ -1,0 +1,18 @@
+(footprint "Fiducial_0.75mm_Mask1.5mm" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (descr "Circular Fiducial, 0.75mm bare copper, 1.5mm soldermask opening (Level B)")
+  (tags "fiducial")
+  (attr smd exclude_from_bom allow_missing_courtyard)
+  (fp_text reference "REF**" (at 0 -2) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 14fed1b2-45a0-4e95-90f2-21a998a1e644)
+  )
+  (fp_text value "Fiducial_0.75mm_Mask1.5mm" (at 0 2) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp cd765af6-f1d3-4cf2-a62d-6219177875b0)
+  )
+  (fp_circle (center 0 0) (end 1 0)
+    (stroke (width 0.05) (type solid)) (fill none) (layer "F.CrtYd") (tstamp faa34fc2-5193-43cd-bffb-a8ddc50f0fcd))
+  (pad "" smd circle (at 0 0) (size 0.75 0.75) (property pad_prop_fiducial_glob) (layers "F.Cu" "F.Mask")
+    (solder_mask_margin 0.375) (clearance 0.375) (tstamp 58eb7706-8ffb-47bb-9539-04ffb600b016))
+)
