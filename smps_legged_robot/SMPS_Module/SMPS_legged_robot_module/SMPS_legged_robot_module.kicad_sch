@@ -322,7 +322,7 @@
     (effects (font (face "Times New Roman") (size 4 4) (color 0 0 0 1)) (justify left bottom) (href "#39"))
     (uuid 9413d17b-fd74-4a56-8014-ec2904184d8a)
   )
-  (text "Power - EMC input Filter" (at 45.72 114.3 0)
+  (text "Power - Input Filter" (at 45.72 114.3 0)
     (effects (font (face "Times New Roman") (size 4 4) (color 0 0 0 1)) (justify left bottom) (href "#5"))
     (uuid 9413d28a-c2b4-4d73-ae2d-68b4717d1b67)
   )

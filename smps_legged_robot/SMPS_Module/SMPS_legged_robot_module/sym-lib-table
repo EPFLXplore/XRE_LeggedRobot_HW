@@ -3,4 +3,6 @@
   (lib (name "LTC3889EUKG#PBF")(type "KiCad")(uri "${KIPRJMOD}/Power module/LTC3889EUKG#PBF.kicad_sym")(options "")(descr ""))
   (lib (name "LTC4372CMS8#TRPBF")(type "KiCad")(uri "${KIPRJMOD}/footprints/Ideal diode controller/LTC4372CMS8#TRPBF.kicad_sym")(options "")(descr ""))
   (lib (name "New_Library")(type "KiCad")(uri "${KIPRJMOD}/footprints/Isolator/New_Library.kicad_sym")(options "")(descr ""))
+  (lib (name "atternuation_filterr")(type "KiCad")(uri "${KIPRJMOD}/Image/atternuation_filterr.kicad_sym")(options "")(descr ""))
+  (lib (name "Image")(type "KiCad")(uri "${KIPRJMOD}/Image/Image.kicad_sym")(options "")(descr ""))
 )

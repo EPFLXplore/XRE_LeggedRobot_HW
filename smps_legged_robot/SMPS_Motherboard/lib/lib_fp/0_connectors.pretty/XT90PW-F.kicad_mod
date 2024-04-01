@@ -199,4 +199,9 @@
   (pad "2" thru_hole circle (at 8.55 9.2 270) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp dfb8b7fc-d753-4d06-aa49-497352095b4a))
   (pad "2" thru_hole circle (at 8.55 9.7 270) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 6f8dc389-be3b-43d9-acaa-431ff4256ab0))
   (pad "2" thru_hole circle (at 8.55 10.2 270) (size 0.55 0.55) (drill 0.25) (layers "*.Cu") (tstamp 8b476e8d-1c74-4f04-a6d0-f85af0161202))
+  (model "${KIPRJMOD}/lib/3d_models/XT90PW-F.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 -180))
+  )
 )

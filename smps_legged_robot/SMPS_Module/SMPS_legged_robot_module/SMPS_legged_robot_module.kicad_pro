@@ -638,7 +638,7 @@
       "idf": "",
       "netlist": "amulet_controller.net",
       "specctra_dsn": "",
-      "step": "STEP/amulet_controller.step",
+      "step": "STEP/SMPS_module.step",
       "vrml": ""
     },
     "page_layout_descr_file": "Templates/KDT_Template_Fab.kicad_wks"
@@ -695,6 +695,10 @@
       "Power - Connector "
     ],
     [
+      "77888261-b82c-492e-964b-e22da403724a",
+      "Power - Input Filter"
+    ],
+    [
       "996acfbd-05f1-4fa3-a220-90f33c957428",
       "Power - Output Protection"
     ],
@@ -713,6 +717,10 @@
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",
       "Revision History"
+    ],
+    [
+      "bc1061dc-1421-49ed-b9ac-79c83c41ffbe",
+      "Interface - Interconnect"
     ]
   ],
   "text_variables": {
