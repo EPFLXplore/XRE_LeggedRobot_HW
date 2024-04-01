@@ -2001,6 +2001,13 @@
     (uuid a3cce6fd-dd2f-4501-9d8d-143d6b600452)
   )
 
+  (text_box "Back"
+    (at 270.51 134.62 0) (size 58.42 9.525)
+    (stroke (width -0.0001) (type default))
+    (fill (type none))
+    (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 0 0 0 1)) (justify bottom))
+    (uuid 0be6a135-6dfd-44bd-a06c-923a83258a5d)
+  )
   (text_box "RED"
     (at 242.57 81.28 0) (size 19.05 5.08)
     (stroke (width 0) (type default) (color 0 0 0 1))
@@ -2021,13 +2028,6 @@
     (fill (type none))
     (effects (font (face "Times New Roman") (size 1.5 1.5) bold (color 0 0 127 1)))
     (uuid 36533c2a-2c63-4505-9034-d092f5470bfd)
-  )
-  (text_box "DESIGN NOTE:\nThere are no components on the back side."
-    (at 284.48 139.7 0) (size 30.48 16.51)
-    (stroke (width 1) (type solid) (color 200 200 200 1))
-    (fill (type none))
-    (effects (font (face "Arial") (size 2 2) (color 0 0 0 1)) (justify left top))
-    (uuid 42346bd8-0954-4ff1-87a6-d7c9b254e7ad)
   )
   (text_box "GREEN"
     (at 242.57 86.36 0) (size 19.05 5.08)
@@ -2483,6 +2483,64 @@
       (project "amulet_encoder"
         (path "/7ccf8ada-fee6-4b84-aac5-5b2beb2f6969"
           (reference "TP3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 293.37 153.67 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 168cb244-87b0-4d55-966c-3e5c935e5298)
+    (property "Reference" "FM1" (at 293.37 149.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Fiducial" (at 295.91 154.94 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "0_fiducials:Fiducial_1mm_Mask2mm" (at 293.37 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 293.37 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "amulet_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
+          (reference "FM1") (unit 1)
+        )
+      )
+      (project "amulet_encoder"
+        (path "/7ccf8ada-fee6-4b84-aac5-5b2beb2f6969"
+          (reference "FM4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 299.72 153.67 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 1811c1c9-969b-446d-b156-a201e6d3e897)
+    (property "Reference" "FM3" (at 299.72 149.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Fiducial" (at 302.26 154.94 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "0_fiducials:Fiducial_1mm_Mask2mm" (at 299.72 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 299.72 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "amulet_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
+          (reference "FM3") (unit 1)
+        )
+      )
+      (project "amulet_encoder"
+        (path "/7ccf8ada-fee6-4b84-aac5-5b2beb2f6969"
+          (reference "FM5") (unit 1)
         )
       )
     )
@@ -3070,6 +3128,35 @@
       (project "amulet_encoder"
         (path "/7ccf8ada-fee6-4b84-aac5-5b2beb2f6969"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:Fiducial") (at 306.07 153.67 0) (unit 1)
+    (in_bom no) (on_board yes) (dnp no)
+    (uuid 48c65d6d-423e-4432-8d58-2486d2b13755)
+    (property "Reference" "FM5" (at 306.07 149.86 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Fiducial" (at 308.61 154.94 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "0_fiducials:Fiducial_1mm_Mask2mm" (at 306.07 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 306.07 153.67 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "amulet_controller"
+        (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/c35a2394-f5db-4d2b-a6ba-34798059bc1f"
+          (reference "FM5") (unit 1)
+        )
+      )
+      (project "amulet_encoder"
+        (path "/7ccf8ada-fee6-4b84-aac5-5b2beb2f6969"
+          (reference "FM6") (unit 1)
         )
       )
     )
