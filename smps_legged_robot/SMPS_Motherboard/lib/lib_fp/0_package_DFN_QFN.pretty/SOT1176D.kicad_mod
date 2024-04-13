@@ -48,7 +48,7 @@
   (pad "9" smd rect (at 0.425 -0.5 270) (size 0.25 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 719c0f8b-978a-4eed-8bc7-59c0a986c31d))
   (pad "10" smd rect (at 0.425 -1 270) (size 0.25 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 35d399e2-0471-46c1-8da6-009c050c3e38))
   (model "${KIPRJMOD}/lib/3d_models/SOT1176D.step"
-    (offset (xyz -1.9 1.02 1.4))
+    (offset (xyz -1.9 1.02 1.45))
     (scale (xyz 1 1 1))
     (rotate (xyz 90 0 90))
   )

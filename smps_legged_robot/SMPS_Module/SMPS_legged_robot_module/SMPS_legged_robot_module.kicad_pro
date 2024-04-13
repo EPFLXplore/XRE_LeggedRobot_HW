@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 3.2,
-          "height": 6.5,
-          "width": 6.5
+          "drill": 0.0,
+          "height": 0.52,
+          "width": 0.52
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -717,10 +717,6 @@
     [
       "e7c91631-be85-488a-af7a-f2a810f3fbfe",
       "Revision History"
-    ],
-    [
-      "bc1061dc-1421-49ed-b9ac-79c83c41ffbe",
-      "Interface - Interconnect"
     ]
   ],
   "text_variables": {
