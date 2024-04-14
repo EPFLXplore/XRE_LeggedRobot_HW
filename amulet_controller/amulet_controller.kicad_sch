@@ -14,18 +14,18 @@
   (lib_symbols
   )
 
-  (bus_alias "RS422" (members "RS422_R+" "RS422_R-" "RS422_D-" "RS422_D+"))
-  (bus_alias "DRV_SPI" (members "DRV_SCLK" "DRV_MISO" "DRV_MOSI" "DRV_CS"))
+  (bus_alias "FDCAN_TTL" (members "FDCAN_RX" "FDCAN_TX"))
   (bus_alias "SWD" (members "SWCLK" "SWDIO" "NRST"))
+  (bus_alias "CURRENT_SENSE" (members "SOA" "SOB" "SOC"))
   (bus_alias "RS422_TTL" (members "RS422_~{RE}" "RS422_DE"))
-  (bus_alias "AUX2" (members "AUX2_A" "AUX2_B" "AUX2_C" "AUX2_D" "AUX2_I2C_PULLUP"))
+  (bus_alias "DRV_SPI" (members "DRV_SCLK" "DRV_MISO" "DRV_MOSI" "DRV_CS"))
   (bus_alias "LED" (members "LED_DBG" "LED_PWR"))
   (bus_alias "SENSE_TEMP" (members "SENSE_TEMP_MOT" "SENSE_TEMP_FET"))
   (bus_alias "AUX1" (members "AUX1_A" "AUX1_B" "AUX1_C" "AUX1_D" "AUX1_E" "AUX1_I2C_PULLUP" "POS_SENSOR_CS"))
-  (bus_alias "CURRENT_SENSE" (members "SOA" "SOB" "SOC"))
+  (bus_alias "RS422" (members "RS422_R+" "RS422_R-" "RS422_D-" "RS422_D+"))
   (bus_alias "PWM_PHASE" (members "PWM_PHASEA" "PWM_PHASEB" "PWM_PHASEC"))
-  (bus_alias "FDCAN_TTL" (members "FDCAN_RX" "FDCAN_TX"))
   (bus_alias "FDCAN" (members "FDCAN_P" "FDCAN_N"))
+  (bus_alias "AUX2" (members "AUX2_A" "AUX2_B" "AUX2_C" "AUX2_D" "AUX2_I2C_PULLUP"))
 
   (polyline (pts (xy 215.9 73.66) (xy 233.68 73.66))
     (stroke (width 1) (type dot) (color 0 0 0 1))
@@ -40003,7 +40003,7 @@
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "20"))
       )
     )
@@ -40020,7 +40020,7 @@
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "2"))
       )
     )
@@ -40037,7 +40037,7 @@
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "21"))
       )
     )
@@ -40054,7 +40054,7 @@
       (effects (font (face "Arial") (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c" (page "3"))
       )
     )

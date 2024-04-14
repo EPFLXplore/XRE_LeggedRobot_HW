@@ -1047,7 +1047,7 @@
     (pin "1" (uuid 2b28995c-af34-447a-9dfc-313ab09e23af))
     (pin "2" (uuid df25d959-c81c-4a95-95b2-f8c8f369da31))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "C104") (unit 1)
         )
@@ -1088,7 +1088,7 @@
     (pin "1" (uuid 68cfc83c-a23d-4b10-a020-a9f603492a1b))
     (pin "2" (uuid 0c7fe17d-eacf-4800-b911-5ed132dc3e64))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "R31") (unit 1)
         )
@@ -1129,7 +1129,7 @@
     (pin "1" (uuid fae29246-e489-45bf-89e7-84fe9da891ff))
     (pin "2" (uuid 90ac858b-f90f-4dbd-a9f0-f4a72d3e4b14))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "C106") (unit 1)
         )
@@ -1154,7 +1154,7 @@
     )
     (pin "1" (uuid 4a0e562b-32db-4400-9d29-fc024b429356))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR047") (unit 1)
         )
@@ -1179,7 +1179,7 @@
     )
     (pin "1" (uuid b17df90c-ca67-4b47-830d-0956e023bea2))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#FLG010") (unit 1)
         )
@@ -1204,7 +1204,7 @@
     )
     (pin "1" (uuid 419d2625-3202-4f75-bd20-3a4bb008b7e5))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR048") (unit 1)
         )
@@ -1257,7 +1257,7 @@
     (pin "8" (uuid fa7a4206-51e9-4741-84c6-39cf257ffad2))
     (pin "9" (uuid 5a89dccd-23d3-470c-922c-f27999612816))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "U7") (unit 1)
         )
@@ -1282,7 +1282,7 @@
     )
     (pin "1" (uuid 411c3190-753e-46f8-918a-4734051d8376))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR050") (unit 1)
         )
@@ -1335,7 +1335,7 @@
     (pin "8" (uuid a199b09b-ecb1-46cc-8583-24513cd1e81c))
     (pin "9" (uuid a9c759c8-07f9-478a-9ca7-f5beada3a19f))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "U8") (unit 1)
         )
@@ -1376,7 +1376,7 @@
     (pin "1" (uuid da3afcda-2077-4788-b351-f8c6328da03c))
     (pin "2" (uuid 83c86b3b-a7e7-4d94-8cd0-a5e4302f822e))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "R32") (unit 1)
         )
@@ -1401,7 +1401,7 @@
     )
     (pin "1" (uuid a4f17c37-0080-4559-a3c9-01146dad945d))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR049") (unit 1)
         )
@@ -1426,7 +1426,7 @@
     )
     (pin "1" (uuid f8e28cb6-a538-47a5-8dd8-82677f161a9e))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#PWR051") (unit 1)
         )
@@ -1451,7 +1451,7 @@
     )
     (pin "1" (uuid 45bfe4eb-a936-43b3-bfe1-caf809478229))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "#FLG09") (unit 1)
         )
@@ -1492,7 +1492,7 @@
     (pin "1" (uuid e30ca5f0-a4b3-4e6f-9444-3b4493973685))
     (pin "2" (uuid f92b913f-9e2f-441e-a873-06d21999985e))
     (instances
-      (project "amulet_controller"
+      (project "pcb2blender_tmp"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/9d5dddd8-2f86-4eaa-a196-d6c612b385ec"
           (reference "C105") (unit 1)
         )
