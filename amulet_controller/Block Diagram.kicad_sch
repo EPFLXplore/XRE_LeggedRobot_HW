@@ -6,7 +6,7 @@
 
   (title_block
     (title "Block Diagram")
-    (date "2024-01-03")
+    (date "2024-04-13")
     (rev "${REVISION}")
     (company "${COMPANY}")
   )

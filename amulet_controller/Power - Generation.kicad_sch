@@ -6,7 +6,7 @@
 
   (title_block
     (title "Power - Generation")
-    (date "2023-01-03")
+    (date "2024-04-13")
     (rev "${REVISION}")
     (company "${COMPANY}")
     (comment 1 "+12V (600 mA): Fan power")
@@ -11066,7 +11066,7 @@
     (effects (font (face "Arial") (size 1.27 1.27) (thickness 0.4) bold (color 0 0 255 1)) (justify left top))
     (uuid 7ae52e3e-b5c9-4cb1-b6ab-dc2343d851bf)
   )
-  (text_box "Capacitor Parameters"
+  (text_box "Capacitor and Ferrite Bead Parameters"
     (at 21.59 270.51 0) (size 156.21 9.525)
     (stroke (width -0.0001) (type default))
     (fill (type none))
