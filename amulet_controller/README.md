@@ -41,9 +41,10 @@ amulet_controller
 ├── Images           # Pictures and screenshots
 ├── Logos            # Xplore and Amulet logos
 ├── Manufacturing
-│   |── Assembly     # Position files, BOM, fabrication document
+│   |── Assembly     # Position files, BOM, assembly document
 |   |   └── ibom     # HTML BOM
-|   └── Gerbers      # Gerbers and drill files
+|   └── Fabrication  # Fabrication document and testpoints positions
+|       └── Gerbers  # Gerbers
 ├── STEP_Blender     # 3D STEP and pcb2blender file
 ├── Schematic        # PDF of schematic
 ├── Templates        # Title block templates
