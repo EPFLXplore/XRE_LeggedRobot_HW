@@ -1281,7 +1281,7 @@
     (property "Value" "110n X7R 100V" (at 227.965 108.585 0)
       (effects (font (size 1.016 1.016)) (justify left))
     )
-    (property "Footprint" "0_capacitor_smd:C_0603_1608_DensityHigh" (at 226.3902 111.125 0)
+    (property "Footprint" "0_capacitor_smd:C_1206_3216_DensityHigh" (at 226.3902 111.125 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/21/HMK107B7104KAHT_SS.pdf" (at 225.425 107.315 0)

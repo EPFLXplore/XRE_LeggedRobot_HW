@@ -1020,7 +1020,7 @@
     (property "Datasheet" "" (at 156.845 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid b9e7134c-0149-48f0-8c3d-4fa11e4328fe))
+    (pin "1" (uuid ae97adfc-7b00-4699-bfb8-99c53a001c07))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1048,7 +1048,7 @@
     (property "Datasheet" "" (at 149.86 81.915 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 8d96e798-17ad-4995-bfd2-92f7cfdbdbc2))
+    (pin "1" (uuid 13b5b36a-0b0a-43d5-aad6-a7d3d6ef5f4d))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1091,8 +1091,8 @@
     (property "Supplier Part Number 1" "490-14514-1-ND" (at 114.3 116.205 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 2759464f-73a9-4da7-9b28-975536dc6e40))
-    (pin "2" (uuid 9e465942-61de-4ba5-9e56-18dc832e430f))
+    (pin "1" (uuid 06db8c75-708c-436f-90c9-c1092e3656a2))
+    (pin "2" (uuid 3b8dfe0c-f697-4c4b-bb96-88fadcd8ffaf))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/31cd0ab4-52c9-497e-af88-d70bdc039d4e"
@@ -1141,22 +1141,22 @@
     (property "Manufacturer_Part_Number" "10159558-410421RLF" (at 194.31 869.215 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "MP1" (uuid bec89802-5ac2-4197-845b-514a9f0c69e2))
-    (pin "MP2" (uuid b19690b4-b833-403a-8ca0-7bcd65ac14b9))
-    (pin "P1" (uuid 5556d636-a429-4971-8519-cde6bdbcc390))
-    (pin "P2" (uuid 88e8fbd4-ac86-4e9b-a30a-4aeab7140177))
-    (pin "P3" (uuid 88d8d7d6-6a61-4156-b17b-f2fba838141e))
-    (pin "P4" (uuid d3e72656-98a3-4b34-86aa-731a3fb5713b))
-    (pin "S1" (uuid f9b39a6b-c09c-4645-b184-7af2bce7ed94))
-    (pin "S10" (uuid 71ba4122-34d9-4f93-ac90-8aee00a59414))
-    (pin "S2" (uuid 802be526-bd29-4989-a1b0-96c486788817))
-    (pin "S3" (uuid 76bafb7c-74f4-419c-93d0-b7bc3700d179))
-    (pin "S4" (uuid f5e7e7be-3ca2-4b4e-964f-6e676759afc5))
-    (pin "S5" (uuid 573fea21-dfaa-4b81-a606-180d833c2749))
-    (pin "S6" (uuid 911b9a97-1a53-44e3-ac92-6c0979e37f69))
-    (pin "S7" (uuid 6b99acd0-1cd2-41ad-aa39-73cf3509e5ef))
-    (pin "S8" (uuid c07f93f0-6de9-4780-a98c-adeb2b56daee))
-    (pin "S9" (uuid d09ae445-de37-4ac1-93e3-3ef8f5aece85))
+    (pin "MP1" (uuid 500a4225-72cd-4c60-939d-c837db8a6ac6))
+    (pin "MP2" (uuid bfc0caa0-0024-4740-bf32-7b305d039fd2))
+    (pin "P1" (uuid 4ffa0c86-28b4-466e-b76f-ee2c13c6ffbc))
+    (pin "P2" (uuid 5e6b3625-9f16-4386-8c6e-36b00183f825))
+    (pin "P3" (uuid 7dbd8896-779f-4956-8c58-fff855749e85))
+    (pin "P4" (uuid df07b98e-d278-4227-b3c1-aeb3219656dc))
+    (pin "S1" (uuid fd84c13d-e766-445b-909b-47f2f37fb364))
+    (pin "S10" (uuid 5f8416ef-3e3f-496e-a764-962bca5ffeaa))
+    (pin "S2" (uuid cf3af473-9d89-41ef-ad6c-c1e697ae6520))
+    (pin "S3" (uuid 26e18c18-436c-44dd-96a8-69268215bf8d))
+    (pin "S4" (uuid 62c064d5-b3ab-4ee2-b92b-554e9a0d1a67))
+    (pin "S5" (uuid 8b13c3b4-133a-47cd-bf92-586ff5bb1ec9))
+    (pin "S6" (uuid 66db8bb4-911f-4afc-a0b9-a249b92375f4))
+    (pin "S7" (uuid 3cb2a730-08be-478b-a57b-569de0d6c11e))
+    (pin "S8" (uuid 814d9c72-37ab-4c5d-af62-4bd032e92c88))
+    (pin "S9" (uuid aa2b158b-e832-401f-ac29-efbe8501cacc))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1199,16 +1199,16 @@
     (property "Supplier Part Number 1" "1727-PESD4USB5B-TBSXCT-ND" (at 136.525 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 4a100db8-b397-4ce7-822a-b28756479c20))
-    (pin "8" (uuid a7b6e207-0b38-493a-abc1-9613b73f1cd2))
-    (pin "1" (uuid f18fd160-3f12-4309-9154-cd6673c201b3))
-    (pin "10" (uuid f9ef3eb1-c084-4fe2-adcd-87b92c1f86f7))
-    (pin "2" (uuid cf8ca0f4-b02f-4792-8fe1-2d3c9d746555))
-    (pin "4" (uuid 66299915-7ae1-4d9b-bdb6-84b87c5212ec))
-    (pin "5" (uuid da84f5fb-a8ef-4f5a-88d7-3a0638e4384b))
-    (pin "6" (uuid 86f4df3a-a68d-427c-9cc8-121ea3d559ba))
-    (pin "7" (uuid be03956f-bfb5-435f-b526-0338529e0730))
-    (pin "9" (uuid ef064ddf-a865-4bda-8d38-88818b256767))
+    (pin "3" (uuid fe1ec976-e1c3-4178-85f4-f72942507e1d))
+    (pin "8" (uuid 8ef0542f-3c9a-4d27-8b6f-e41ffd4d1a4a))
+    (pin "1" (uuid 5b590b69-c375-4c46-b79c-82d25df3a11f))
+    (pin "10" (uuid 391cf758-20d6-404e-88de-bc69abd4ec17))
+    (pin "2" (uuid 14fdea60-f3ee-4c19-8ba9-c57f347e1c2f))
+    (pin "4" (uuid 947f5931-1eee-4d67-a0cc-2e6c2daf829c))
+    (pin "5" (uuid bb8da224-5736-40c0-84ea-64e7fd6650fe))
+    (pin "6" (uuid 5550ac55-aa0d-44f5-936c-fe46c674fd1e))
+    (pin "7" (uuid a9e4bb5d-6e4d-47db-95b9-af2a6076e960))
+    (pin "9" (uuid 906675f9-40fa-4716-b01a-e7dcf60a6d1f))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1236,7 +1236,7 @@
     (property "Datasheet" "" (at 114.3 107.315 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 47c1a5fb-9da7-44e2-b7d7-06de45744180))
+    (pin "1" (uuid 64b80c22-cd31-4b7d-8b45-3a354de40967))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1264,7 +1264,7 @@
     (property "Datasheet" "" (at 151.765 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 6ec32354-a902-439a-a3bb-22763327d243))
+    (pin "1" (uuid bd4c9227-41ea-467d-ad12-6ceaa98561a0))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1292,7 +1292,7 @@
     (property "Datasheet" "" (at 114.3 124.46 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid e7023234-5083-42ad-a05f-170da9be5c78))
+    (pin "1" (uuid b49fda23-d725-4dc0-9572-23e6e43f1ae0))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1335,16 +1335,16 @@
     (property "Supplier Part Number 1" "1727-PESD4USB5B-TBSXCT-ND" (at 167.005 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid 7286d452-28ea-449f-8593-c7af8317df11))
-    (pin "8" (uuid d9a5aaa5-76f3-4662-91dd-2cef760b57ae))
-    (pin "1" (uuid dab376ab-a9a5-442c-b0d3-7da9b4539f94))
-    (pin "10" (uuid b66eab06-6bc5-43bd-b604-16764b2f8813))
-    (pin "2" (uuid 39c56c82-9112-4680-84a0-8f04ed94e7af))
-    (pin "4" (uuid 863a35f7-6414-4521-82f2-c9bfe390fea7))
-    (pin "5" (uuid ec651ff7-d53d-47b0-8a2c-4e2f742f3a87))
-    (pin "6" (uuid 863a66e7-4b80-404e-bfe0-b2c845967b80))
-    (pin "7" (uuid b13370d4-e06a-4509-8df7-2a083cac3880))
-    (pin "9" (uuid dd32d6f1-2137-40cc-b38d-bba0b089a62f))
+    (pin "3" (uuid 0024514c-8408-4c66-b44b-5d883005125c))
+    (pin "8" (uuid e9248d58-0ea2-405d-8ea4-7efbd0dc0a85))
+    (pin "1" (uuid 4da432b9-f0cc-4808-9ea8-5fef6775c727))
+    (pin "10" (uuid 18483d79-2364-4ab8-bb7a-f3b838c3dcf8))
+    (pin "2" (uuid 0f0e9cd4-0c1e-4b66-a3cd-23c661d49047))
+    (pin "4" (uuid 797ce895-2be8-459c-a269-c220338b4798))
+    (pin "5" (uuid 005d9e56-8f21-488b-9ede-dba036cfb182))
+    (pin "6" (uuid 31a9edcd-8832-4de6-a7aa-ce51f825e4f9))
+    (pin "7" (uuid f5d53ba5-f857-44f9-a312-f3de25f8c37a))
+    (pin "9" (uuid 70d0060b-b1b6-4378-92ee-09b30a1ea446))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1387,8 +1387,8 @@
     (property "Supplier Part Number 1" "587-6009-1-ND" (at 149.86 78.105 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid 90845cd6-3f6c-488d-967c-8bcbf12be756))
-    (pin "2" (uuid 355f108f-91b3-43ac-a2f3-e2599a186d9a))
+    (pin "1" (uuid 479448b5-050c-4859-808c-cedf5c7eef73))
+    (pin "2" (uuid 3f45d89d-274f-4329-b91f-5e118147497f))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1431,8 +1431,8 @@
     (property "Manufacturer_Part_Number" "0451015.MRL" (at 137.16 870.485 0)
       (effects (font (size 1.27 1.27)) (justify left top) hide)
     )
-    (pin "1" (uuid c9849164-1190-4ef4-bc29-4cd05f902b1e))
-    (pin "2" (uuid 09bdc8c1-c6bd-4445-8bd1-c4e72b0965cd))
+    (pin "1" (uuid 7b2b17b1-fb6d-4247-bb5f-ef41c7e9b075))
+    (pin "2" (uuid 0ba34d35-d60c-47cc-bf9d-6d097e95d1d1))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"
@@ -1475,16 +1475,16 @@
     (property "Supplier Part Number 1" "1727-PESD4USB5B-TBSXCT-ND" (at 151.13 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "3" (uuid e1689700-92e5-4478-8fa4-f00459969a16))
-    (pin "8" (uuid 6e6afa48-7348-4792-9cd0-badb09f63a97))
-    (pin "1" (uuid 999f0700-c0d6-4650-9f41-27a02e30bda8))
-    (pin "10" (uuid 6abc2d55-4893-4a88-9048-faa6268d226b))
-    (pin "2" (uuid dc566146-b369-4758-9b67-e072efbe78e1))
-    (pin "4" (uuid 99712d55-6271-45d1-a9b5-42e0068574f5))
-    (pin "5" (uuid 456f369f-6cec-42a1-941c-e7a84e65fd1d))
-    (pin "6" (uuid f721ad2e-6e1a-4570-a844-02a68feab3c3))
-    (pin "7" (uuid ad5e3cd2-e0fd-4706-a62f-0c973b08379e))
-    (pin "9" (uuid 03217a1b-48bd-4428-9a82-944289e19326))
+    (pin "3" (uuid 81f0f463-c13c-40b7-884b-a62b326bd612))
+    (pin "8" (uuid 780f994c-e003-428c-bb49-3504e489b2eb))
+    (pin "1" (uuid ca95811a-3116-4432-aca5-ac55b3f193f4))
+    (pin "10" (uuid e12bf10e-2365-40be-bf01-736a42bdaa57))
+    (pin "2" (uuid 2975db80-ae2d-46bc-875a-fb70a3cbbc5d))
+    (pin "4" (uuid 68650c04-fe36-4f56-92b6-eb2a56835c90))
+    (pin "5" (uuid df70baca-ded8-413c-97f9-fbec9313a668))
+    (pin "6" (uuid 6860cbf7-11aa-4560-806b-0b54de380dbf))
+    (pin "7" (uuid 02de158a-6232-4520-80fd-716bce68c3c3))
+    (pin "9" (uuid 3d281005-d0d3-4157-b4c7-31f307622cb9))
     (instances
       (project "smps_legged_robot"
         (path "/0650c7a8-acba-429c-9f8e-eec0baf0bc1c/fede4c36-00cc-4d3d-b71c-5243ba232202/59e35bfe-b1e6-4597-9eba-9a77dd1fdb73"

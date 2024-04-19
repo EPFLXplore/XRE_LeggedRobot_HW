@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.55,
-          "width": 0.55
+          "height": 0.9,
+          "width": 0.75
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -74,7 +74,7 @@
         "footprint": "error",
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
-        "hole_near_hole": "error",
+        "hole_near_hole": "ignore",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
