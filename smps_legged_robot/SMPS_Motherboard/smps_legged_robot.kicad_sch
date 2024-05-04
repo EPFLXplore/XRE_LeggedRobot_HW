@@ -463,7 +463,7 @@
     (effects (font (face "Times New Roman") (size 4 4) (color 0 0 0 1)) (justify left bottom) (href "#33"))
     (uuid e5564811-ffd2-4bd9-9644-ff1dc80ebf87)
   )
-  (text "Sensor - Batterie" (at 144.78 152.4 0)
+  (text "Sensor - Battery\n" (at 144.78 152.4 0)
     (effects (font (face "Times New Roman") (size 4 4) (color 0 0 0 1)) (justify left bottom) (href "#20"))
     (uuid e58de9a8-7551-4002-91cc-eb758bb6876c)
   )

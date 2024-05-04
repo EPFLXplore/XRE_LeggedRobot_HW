@@ -419,7 +419,7 @@
     (effects (font (face "Times New Roman") (size 2.54 2.54) (thickness 0.508) bold (color 162 22 34 1)) (justify bottom))
     (uuid 43022f11-698e-4c8d-bb0c-27324b5ba2c2)
   )
-  (text_box "[20-21] Sensor - Batterie"
+  (text_box "[20] Sensor - Battery\n"
     (at 12.065 14.605 0) (size 186.055 12.7)
     (stroke (width -0.0001) (type default))
     (fill (type none))

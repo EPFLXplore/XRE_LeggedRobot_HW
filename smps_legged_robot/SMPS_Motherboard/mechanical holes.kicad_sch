@@ -801,7 +801,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 50.8 47.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 33b52af0-a65e-40c7-a68a-62ea2cc75626)
     (property "Reference" "C2202" (at 53.34 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1136,7 +1136,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 24.13 47.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 70b1e731-109d-4fcb-bab8-86a95f6927d4)
     (property "Reference" "C2201" (at 26.67 46.355 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1212,7 +1212,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 123.19 47.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 8b499b99-e0a3-4aeb-94b8-a1b5af09fc8e)
     (property "Reference" "C2103" (at 125.73 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1288,7 +1288,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 96.52 47.625 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid 93180643-201c-4e10-8c0f-ce4ee72914d5)
     (property "Reference" "C2102" (at 99.06 47.625 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1557,7 +1557,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 96.52 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid b44d39ff-8ea3-4596-a4c9-3e2c5b3b87d3)
     (property "Reference" "C2104" (at 99.06 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1774,7 +1774,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 23.495 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid d70df9f7-6455-45da-990b-40ad6264ee84)
     (property "Reference" "C2203" (at 26.035 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1850,7 +1850,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 123.19 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid e6972db6-dd9d-43a7-8620-524b1aef9280)
     (property "Reference" "C2105" (at 125.73 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))
@@ -1950,7 +1950,7 @@
   )
 
   (symbol (lib_id "Device:C_Small") (at 50.8 71.755 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
+    (in_bom no) (on_board yes) (dnp yes)
     (uuid ef91e888-8575-42c6-93ae-1684cd129d57)
     (property "Reference" "C2204" (at 53.34 71.755 0)
       (effects (font (size 1.27 1.27)) (justify left))

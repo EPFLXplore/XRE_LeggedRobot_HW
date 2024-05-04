@@ -18,4 +18,5 @@
   (lib (name "0_connectors")(type "KiCad")(uri "${KIPRJMOD}/lib/lib_sym/0_connectors.kicad_sym")(options "")(descr ""))
   (lib (name "PSMN4R8-100BSEJ")(type "KiCad")(uri "${KIPRJMOD}/footprints/transistor/PSMN4R8-100BSEJ.kicad_sym")(options "")(descr ""))
   (lib (name "2024-04-07_09-28-25")(type "KiCad")(uri "${KIPRJMOD}/footprints/transistor/2024-04-07_09-28-25.kicad_sym")(options "")(descr ""))
+  (lib (name "FSV10150V")(type "KiCad")(uri "${KIPRJMOD}/footprints/Diode/FSV10150V.kicad_sym")(options "")(descr ""))
 )

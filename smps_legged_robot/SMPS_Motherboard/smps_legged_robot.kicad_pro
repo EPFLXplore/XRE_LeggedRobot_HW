@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.9,
-          "width": 0.75
+          "height": 0.6,
+          "width": 0.25
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.6
         }
       },
       "diff_pair_dimensions": [
@@ -53,6 +53,26 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.4096,
+          "via_gap": 0.0,
+          "width": 0.204
+        },
+        {
+          "gap": 0.231,
+          "via_gap": 0.0,
+          "width": 0.2164
+        },
+        {
+          "gap": 0.2288,
+          "via_gap": 0.0,
+          "width": 0.2355
+        },
+        {
+          "gap": 0.2082,
+          "via_gap": 0.0,
+          "width": 0.2896
         }
       ],
       "drc_exclusions": [],
@@ -900,8 +920,8 @@
       "Interface - FAN "
     ],
     [
-      "e4cd61b1-1be7-4d88-b13e-e994f79dc832",
-      "Interface - LED"
+      "5708efe0-3225-4aa6-83e3-7a901575b87e",
+      "Interface - Temperature Sensor"
     ],
     [
       "cb800ee9-dbe7-49ad-859e-0a969d5f8a96",
