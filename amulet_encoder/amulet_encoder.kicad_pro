@@ -34,9 +34,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.762,
-          "height": 1.524,
-          "width": 1.524
+          "drill": 0.5,
+          "height": 1.0,
+          "width": 1.0
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,9 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "solder_mask_bridge|138252360|104050000|822ce985-0dc5-476f-9daf-9d858ea06bd4|2d04ab5b-c168-4092-8b6f-79ddd1394c1c"
+      ],
       "meta": {
         "version": 2
       },
@@ -549,10 +551,10 @@
       "idf": "",
       "netlist": "amulet_encoder.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "STEP_Blender/amulet_encoder.step",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "Templates/XRE_Legged_Template_Fab.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -598,6 +600,7 @@
     "BOARD_NAME": "Λmulet Off-Axis Encoder",
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
+    "DOC_TYPE": "Fabrication",
     "PROJECT_NAME": "Chienpanzé",
     "RELEASE_DATE": "06-FEB-2024",
     "REVIEWER": "",

@@ -964,5 +964,5 @@
   (line (name "") (start 112.489 44.0022) (end 43.489 44.0022))
   (line (name "") (start 188.989 44.0022) (end 146.989 44.0022))
   (line (name "") (start 188.989 44.0022) (end 188.989 2.0022))
-  (tbtext "${BOARD_NAME} Fabrication Document" (name "") (pos 269.989 180.502) (font (face "Times New Roman") (size 4 4)))
+  (tbtext "${BOARD_NAME} ${DOC_TYPE} Document" (name "") (pos 269.989 180.502) (font (face "Times New Roman") (size 4 4)))
 )
