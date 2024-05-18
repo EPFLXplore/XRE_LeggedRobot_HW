@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.6,
-          "width": 0.25
+          "height": 1.4,
+          "width": 0.3
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,24 +55,24 @@
           "width": 0.0
         },
         {
+          "gap": 0.2288,
+          "via_gap": 0.0,
+          "width": 0.2126
+        },
+        {
           "gap": 0.4096,
           "via_gap": 0.0,
-          "width": 0.204
+          "width": 0.2225
         },
         {
           "gap": 0.231,
           "via_gap": 0.0,
-          "width": 0.2164
-        },
-        {
-          "gap": 0.2288,
-          "via_gap": 0.0,
-          "width": 0.2355
+          "width": 0.2316
         },
         {
           "gap": 0.2082,
           "via_gap": 0.0,
-          "width": 0.2896
+          "width": 0.2637
         }
       ],
       "drc_exclusions": [],

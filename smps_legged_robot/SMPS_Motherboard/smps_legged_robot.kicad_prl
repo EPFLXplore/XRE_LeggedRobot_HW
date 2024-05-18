@@ -1,11 +1,11 @@
 {
   "board": {
-    "active_layer": 2,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "images": 0.6,
@@ -64,8 +64,8 @@
       39,
       40
     ],
-    "visible_layers": "fffffff_7fffffe0",
-    "zone_display_mode": 1
+    "visible_layers": "00002f0_ffffffe1",
+    "zone_display_mode": 0
   },
   "meta": {
     "filename": "smps_legged_robot.kicad_prl",
