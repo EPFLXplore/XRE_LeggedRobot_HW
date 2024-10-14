@@ -1,0 +1,34 @@
+Layer ID,Layer name,User name
+0,F.Cu,
+1,In1.Cu,
+2,In2.Cu,
+3,In3.Cu,
+4,In4.Cu,
+31,B.Cu,
+32,B.Adhes,B.Adhesive
+33,F.Adhes,F.Adhesive
+34,B.Paste,
+35,F.Paste,
+36,B.SilkS,B.Silkscreen
+37,F.SilkS,F.Silkscreen
+38,B.Mask,
+39,F.Mask,
+40,Dwgs.User,Title Page Text
+41,Cmts.User,User.Comments
+42,Eco1.User,F.DNP
+43,Eco2.User,B.DNP
+44,Edge.Cuts,
+45,Margin,
+46,B.CrtYd,B.Courtyard
+47,F.CrtYd,F.Courtyard
+48,B.Fab,
+49,F.Fab,
+50,User.1,Drill Map
+51,User.2,F.TestPoint
+52,User.3,B.TestPoint
+53,User.4,F.Assembly Text
+54,User.5,B.Assembly Text
+55,User.6,F.Dimensions
+56,User.7,B.Dimensions
+57,User.8,F.TestPointList
+58,User.9,B.TestPointList

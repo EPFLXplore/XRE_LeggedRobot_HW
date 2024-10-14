@@ -1,0 +1,54 @@
+# KiBot configuration file for KDT_Hierarchical Template
+# KiCad 8.0
+
+kibot:
+  version: 1
+
+global:
+  out_dir: 'Generated'
+  filters:
+    - filter: 'Ignore environment.vars missing. kibot#528'
+      number: 9
+    - filter: Ignore missing KiCad 3D models, not in docker images
+      number: 10
+    - filter: 'Ignore multiple schematics warning (hierarchical schematic). kibot#594'
+      number: 44
+
+# preflight:
+#   check_zone_fills: true
+#   # Save ERC and DRC reports in Reports folders, in both HTML
+#   erc:
+#     category: 'schematics'
+#     dir: 'Reports'
+#     format: 'HTML, RPT'
+#     output: 'report_%f-%i%I%v.%x'
+#   drc:
+#     category: 'pcb'
+#     dir: 'Reports'
+#     format: 'HTML, RPT'
+#     output: 'report_%f-%i%I%v.%x'
+
+outputs:
+
+# # Schematic PDF
+# - name: pdf_schematic
+#   comment: Schematic in PDF format
+#   type: pdf_sch_print
+#   dir: Schematic
+
+- name: netlist
+  comment: Schematic netlist in KiCad format
+  type: netlist
+
+# Interactive HTML Bill Of Materials
+- name: html_bom_interactive
+  comment: Interactive BOM in HTML format
+  type: ibom
+  dir: Manufacturing/Assembly
+  options:
+    extra_data_file: '%F.net'
+    dark_mode: true
+    show_fields: 'Value,Footprint,Manufacturer Part Number'
+    group_fields: 'Value,Manufacturer Part Number'
+    show_fabrication: true
+    highlight_pin1: "selected"

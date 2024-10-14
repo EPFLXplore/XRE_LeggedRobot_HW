@@ -1,0 +1,390 @@
+** Drc report for amulet_controller.kicad_pcb **
+** Created on 2024-10-14T23:41:14+0200 **
+
+** Found 110 DRC violations **
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)
+    @(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(129.96 mm, 84.840001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_N] of NT12 on L1 (Sig, PWR)
+    @(129.76 mm, 85.79 mm): Pad 1 [GND] of R18 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(136.130445 mm, 93.156811 mm): Polygon on F.Mask
+    @(136.0504 mm, 93.9001 mm): Via [/Project Architecture/Power - Generation/VOS_3V3] on L1 (Sig, PWR) - L6 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(157.7504 mm, 84.865 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SA_N] of NT6 on L1 (Sig, PWR)
+    @(157.5754 mm, 85.79 mm): Pad 1 [GND] of R12 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(151.8996 mm, 84.0399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_P] of NT8 on L1 (Sig, PWR)
+    @(152.1 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B] of R15 on L1 (Sig, PWR)
+[solder_mask_bridge]: Front solder mask aperture bridges items with different nets
+    ; warning
+    @(151.8996 mm, 84.8399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_N] of NT9 on L1 (Sig, PWR)
+    @(152.1 mm, 85.79 mm): Pad 1 [GND] of R15 on L1 (Sig, PWR)
+[lib_footprint_mismatch]: Footprint '1054301203' does not match copy in library '0_connectors'.
+    ; warning
+    @(156.7504 mm, 54.1001 mm): Footprint J12
+[lib_footprint_mismatch]: Footprint '1054301203' does not match copy in library '0_connectors'.
+    ; warning
+    @(140.2504 mm, 54.1001 mm): Footprint J13
+[lib_footprint_mismatch]: Footprint 'SOT-23-3' does not match copy in library '0_package_SOT_TO_SMD'.
+    ; warning
+    @(148.5004 mm, 115.8001 mm): Footprint Q9
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(169.8004 mm, 84.2501 mm): Footprint C68
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(144.1004 mm, 88.8001 mm): Footprint C104
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(142.5 mm, 68.1 mm): Footprint C87
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(142.500001 mm, 74.100001 mm): Footprint C51
+[lib_footprint_mismatch]: Footprint 'JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal' does not match copy in library '0_connectors'.
+    ; warning
+    @(157.2004 mm, 117.0001 mm): Footprint J9
+[lib_footprint_mismatch]: Footprint 'R_0603_1608_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(123.67 mm, 69.8 mm): Footprint R53
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(154.5 mm, 68.1 mm): Footprint C65
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(142.5 mm, 70.1 mm): Footprint C31
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(173.8004 mm, 84.2501 mm): Footprint C85
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(127.1504 mm, 80.3001 mm): Footprint C78
+[lib_footprint_mismatch]: Footprint 'R_0402_1005_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(143.7004 mm, 90.1001 mm): Footprint R31
+[lib_footprint_mismatch]: Footprint 'DIOM4336X24N' does not match copy in library '0_diode_smd'.
+    ; warning
+    @(167.6 mm, 65.5 mm): Footprint D2
+[lib_footprint_mismatch]: Footprint 'R_0805_2012_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(123.4004 mm, 92.0001 mm): Footprint C52
+[lib_footprint_mismatch]: Footprint 'L_Coilcraft_LPS3314' does not match copy in library '0_inductor_smd'.
+    ; warning
+    @(133.0504 mm, 92.8001 mm): Footprint L3
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(132.8504 mm, 88.1001 mm): Footprint C55
+[lib_footprint_mismatch]: Footprint 'C_0805_2012_DensityHighest' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(129.475401 mm, 93.775097 mm): Footprint C83
+[lib_footprint_mismatch]: Footprint 'SOT95P280X145-5N' does not match copy in library '0_package_SOT_TO_SMD'.
+    ; warning
+    @(139.0579 mm, 91.990097 mm): Footprint U5
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(169.8 mm, 78.25 mm): Footprint C86
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(127.1504 mm, 86.3001 mm): Footprint C74
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(177.8004 mm, 82.2501 mm): Footprint C80
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(169.8004 mm, 80.2501 mm): Footprint C70
+[lib_footprint_mismatch]: Footprint 'R_0603_1608_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(173.33 mm, 69.8 mm): Footprint R54
+[lib_footprint_mismatch]: Footprint 'AMASS_XT60PW-F_1x02_P7.20mm_Horizontal' does not match copy in library '0_connectors'.
+    ; warning
+    @(153.1504 mm, 64.7501 mm): Footprint J1
+[lib_footprint_mismatch]: Footprint 'SOIC-14 5.4mm' does not match copy in library '0_package_SO'.
+    ; warning
+    @(137.893636 mm, 100.606652 mm): Footprint U9
+[lib_footprint_mismatch]: Footprint 'R_0402_1005_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(168.090891 mm, 95.287362 mm): Footprint R32
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(162.1504 mm, 88.0751 mm): Footprint C63
+[lib_footprint_mismatch]: Footprint 'C_0603_1608_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(141.8004 mm, 92.3001 mm): Footprint C84
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(123.1504 mm, 86.3001 mm): Footprint C73
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(169.8004 mm, 82.2501 mm): Footprint C69
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(119.1504 mm, 82.3001 mm): Footprint C33
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(127.15 mm, 78.3 mm): Footprint C49
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(173.8004 mm, 86.2501 mm): Footprint C72
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(134.8504 mm, 88.1001 mm): Footprint C57
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(142.107906 mm, 90.690096 mm): Footprint C76
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(123.1504 mm, 82.3001 mm): Footprint C71
+[lib_footprint_mismatch]: Footprint 'SOP-14_4.4x5mm_P0.65mm_H1.2mm' does not match copy in library '0_package_SO'.
+    ; warning
+    @(148.5004 mm, 90.0001 mm): Footprint U7
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(158.1504 mm, 88.0751 mm): Footprint C61
+[lib_footprint_mismatch]: Footprint 'AMASS_XT60PW-M_1x02_P7.20mm_Horizontal' does not match copy in library '0_connectors'.
+    ; warning
+    @(143.8504 mm, 64.7501 mm): Footprint J2
+[lib_footprint_mismatch]: Footprint 'C_0603_1608_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(145.2504 mm, 110.3501 mm): Footprint C110
+[lib_footprint_mismatch]: Footprint 'D_SOD-523' does not match copy in library '0_diode_smd'.
+    ; warning
+    @(138.5404 mm, 110.8826 mm): Footprint D14
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(143.500001 mm, 84.369998 mm): Footprint C47
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(147.500001 mm, 84.37 mm): Footprint C44
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(131.7254 mm, 100.6251 mm): Footprint C107
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(135.0704 mm, 111.2301 mm): Footprint C102
+[lib_footprint_mismatch]: Footprint 'R_0402_1005_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(148.5004 mm, 104.2001 mm): Footprint R20
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(123.1504 mm, 84.3001 mm): Footprint C53
+[lib_footprint_mismatch]: Footprint 'D_SOD-523' does not match copy in library '0_diode_smd'.
+    ; warning
+    @(137.0704 mm, 110.8801 mm): Footprint D15
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(177.8004 mm, 84.2501 mm): Footprint C81
+[lib_footprint_mismatch]: Footprint 'R_0402_1005_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(136.057205 mm, 104.907813 mm): Footprint R49
+[lib_footprint_mismatch]: Footprint 'R_0402_1005_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(133.60001 mm, 102.450617 mm): Footprint R48
+[lib_footprint_mismatch]: Footprint 'R_0603_1608_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(148.5004 mm, 113.0601 mm): Footprint R34
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(149.5 mm, 84.37 mm): Footprint C43
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(127.1504 mm, 82.3001 mm): Footprint C77
+[lib_footprint_mismatch]: Footprint 'R_0402_1005_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(148.5004 mm, 105.0101 mm): Footprint R19
+[lib_footprint_mismatch]: Footprint 'C_0603_1608_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(136.3504 mm, 92.3001 mm): Footprint C60
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(142.5 mm, 72.1 mm): Footprint C32
+[lib_footprint_mismatch]: Footprint 'R_0805_2012_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(125.0004 mm, 92.0001 mm): Footprint FB4
+[lib_footprint_mismatch]: Footprint 'C_0805_2012_DensityHighest' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(126.725397 mm, 92.000098 mm): Footprint C56
+[lib_footprint_mismatch]: Footprint 'R_0402_1005_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(135.9204 mm, 111.2301 mm): Footprint R28
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(145.500001 mm, 84.369999 mm): Footprint C46
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(173.8004 mm, 80.2501 mm): Footprint C79
+[lib_footprint_mismatch]: Footprint 'SOP-14_4.4x5mm_P0.65mm_H1.2mm' does not match copy in library '0_package_SO'.
+    ; warning
+    @(166.253518 mm, 100.25 mm): Footprint U8
+[lib_footprint_mismatch]: Footprint 'WSON-8-1EP_2x2mm_P0.5mm_EP0.9x1.6mm_ThermalVias' does not match copy in library '0_package_SON'.
+    ; warning
+    @(129.275399 mm, 91.625097 mm): Footprint U4
+[lib_footprint_mismatch]: Footprint 'DIOM4336X24N' does not match copy in library '0_diode_smd'.
+    ; warning
+    @(129.4 mm, 65.5 mm): Footprint D1
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(136.8504 mm, 88.1001 mm): Footprint C58
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(119.1504 mm, 84.3001 mm): Footprint C39
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(164.1504 mm, 88.0751 mm): Footprint C64
+[lib_footprint_mismatch]: Footprint 'C_0805_2012_DensityHighest' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(169.823417 mm, 96.750096 mm): Footprint C106
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(154.5 mm, 74.1 mm): Footprint C34
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(154.5 mm, 72.1 mm): Footprint C35
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(153.5 mm, 84.37 mm): Footprint C41
+[lib_footprint_mismatch]: Footprint 'C_0603_1608_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(124.56 mm, 68.93 mm): Footprint C131
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(173.8004 mm, 82.2501 mm): Footprint C82
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(127.1504 mm, 84.3001 mm): Footprint C75
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(123.1504 mm, 80.3001 mm): Footprint C54
+[lib_footprint_mismatch]: Footprint 'C_0603_1608_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(172.44 mm, 68.93 mm): Footprint C132
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(160.1504 mm, 88.0751 mm): Footprint C62
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(141.5 mm, 84.37 mm): Footprint C48
+[lib_footprint_mismatch]: Footprint 'TestPoint_Pad_D0.5mm_Back' does not match copy in library '0_testpoint'.
+    ; warning
+    @(150.339375 mm, 112.209435 mm): Footprint TP35
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(155.5 mm, 84.37 mm): Footprint C40
+[lib_footprint_mismatch]: Footprint 'SOT-23-5' does not match copy in library '0_package_SOT_TO_SMD'.
+    ; warning
+    @(148.5004 mm, 110.3001 mm): Footprint U11
+[lib_footprint_mismatch]: Footprint 'JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal' does not match copy in library '0_connectors'.
+    ; warning
+    @(139.8004 mm, 117.0001 mm): Footprint J8
+[lib_footprint_mismatch]: Footprint 'R_0805_2012_DensityHigh' does not match copy in library '0_resistor_smd'.
+    ; warning
+    @(124.2004 mm, 94.2001 mm): Footprint C45
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(151.5 mm, 84.369999 mm): Footprint C42
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(151.640401 mm, 116.390103 mm): Footprint C125
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(138.8504 mm, 88.1001 mm): Footprint C59
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(154.5 mm, 70.1 mm): Footprint C36
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(167.653385 mm, 96.045133 mm): Footprint C105
+[lib_footprint_mismatch]: Footprint 'C_1206_3216_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(169.8004 mm, 86.2501 mm): Footprint C67
+[lib_footprint_mismatch]: Footprint 'C_0402_1005_DensityHigh' does not match copy in library '0_capacitor_smd'.
+    ; warning
+    @(146.3504 mm, 110.6501 mm): Footprint C111
+[copper_edge_clearance]: Board edge clearance violation (board setup constraints edge clearance 0.25 mm; actual 0.249999 mm)
+    ; error (excluded)
+    @(132.3003 mm, 58.2043 mm): Arc on Edge.Cuts
+    @(133.5004 mm, 58.7501 mm): PTH pad MP2 [CHASSIS] of J2
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(170.8504 mm, 87.9001 mm): Footprint U10
+    @(172.6404 mm, 96.4501 mm): Footprint J6
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(156.7504 mm, 54.1001 mm): Footprint J12
+    @(160.2004 mm, 61.2501 mm): Footprint D24
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(140.2504 mm, 54.1001 mm): Footprint J13
+    @(143.6504 mm, 61.2501 mm): Footprint D25
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(147.9 mm, 117.35 mm): Footprint C130
+    @(148.5004 mm, 122.0001 mm): Footprint H1
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(171.650401 mm, 90.100103 mm): Footprint C108
+    @(172.6404 mm, 96.4501 mm): Footprint J6
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(130.822731 mm, 107.70277 mm): Footprint J10
+    @(124.3404 mm, 96.4701 mm): Footprint J7
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(172.6404 mm, 96.4501 mm): Footprint J6
+    @(166.1754 mm, 107.6751 mm): Footprint J14
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(167.6 mm, 65.5 mm): Footprint D2
+    @(153.1504 mm, 64.7501 mm): Footprint J1
+[courtyards_overlap]: Courtyards overlap
+    ; error (excluded)
+    @(143.8504 mm, 64.7501 mm): Footprint J2
+    @(129.4 mm, 65.5 mm): Footprint D1
+[clearance]: Clearance violation (board minimum clearance 0.2000 mm; actual 0.0379 mm)
+    ; error (excluded)
+    @(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)
+    @(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)
+
+** Found 0 unconnected pads **
+
+** Found 11 Footprint errors **
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(167.451041 mm, 92.1712 mm): Footprint C116
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(131.320291 mm, 98.127833 mm): Footprint C117
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(167.243984 mm, 92.943938 mm): Footprint C118
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(130.701025 mm, 95.809613 mm): Footprint C119
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(166.620577 mm, 95.251212 mm): Footprint C120
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(130.493965 mm, 95.036872 mm): Footprint C121
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(166.413521 mm, 96.023949 mm): Footprint C122
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(129.866333 mm, 92.694503 mm): Footprint C123
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(165.802015 mm, 98.344758 mm): Footprint C124
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(149.1 mm, 117.35 mm): Footprint R52
+[footprint_symbol_mismatch]: Footprint attributes don't match symbol: 'Do not populate' settings differ.
+    ; warning
+    @(173.33 mm, 69.8 mm): Footprint R54
+
+** End of Report **
