@@ -84,18 +84,18 @@ outputs:
 
 
 # XLSX BOM with costs
-# - name: costs_bom_xlsx
-#   comment: Costs Bill of Materials in XLSX format
-#   type: bom
-#   dir: Manufacturing/Assembly
-#   options:
-#     format: XLSX
-#     count_smd_tht: true
-#     xlsx:
-#       title: 'Bill of Materials'
-#       logo: false
-#       style: modern-green
-#       kicost: true
-#       # specs: true
-#       # kicost_api_disable: KitSpace
-#     # pre_transform: _kicost_rename
+- name: costs_bom_xlsx
+  comment: Costs Bill of Materials in XLSX format
+  type: bom
+  dir: Manufacturing/Assembly
+  options:
+    format: XLSX
+    count_smd_tht: true
+    xlsx:
+      title: 'Bill of Materials'
+      logo: false
+      style: modern-green
+      kicost: true
+      # specs: true
+      # kicost_api_disable: KitSpace
+    # pre_transform: _kicost_rename
