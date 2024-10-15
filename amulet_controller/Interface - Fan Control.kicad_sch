@@ -2240,7 +2240,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bba51a0f-108e-42c0-b7b3-6c4013fb9eb8")
-		(property "Reference" "TP8"
+		(property "Reference" "TP74"
 			(at 184.15 77.47 0)
 			(effects
 				(font

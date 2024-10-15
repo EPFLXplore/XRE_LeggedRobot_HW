@@ -4109,7 +4109,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "07cabfc7-6d7a-4442-aba8-31eb32c26d8e")
-		(property "Reference" "TP1"
+		(property "Reference" "TP63"
 			(at 350.52 128.27 90)
 			(effects
 				(font
@@ -4245,7 +4245,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "11f8e89a-cfd2-43bb-ba04-9ef90bae1e94")
-		(property "Reference" "TP1"
+		(property "Reference" "TP69"
 			(at 350.52 154.94 90)
 			(effects
 				(font
@@ -4487,7 +4487,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1a37f94d-1be5-4a14-8fa7-6d09171af964")
-		(property "Reference" "TP1"
+		(property "Reference" "TP72"
 			(at 350.52 165.1 90)
 			(effects
 				(font
@@ -5075,7 +5075,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "49ec465d-c057-44c3-aab7-848201e62dfb")
-		(property "Reference" "TP1"
+		(property "Reference" "TP73"
 			(at 350.52 167.64 90)
 			(effects
 				(font
@@ -5356,7 +5356,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "73e1a502-c29c-4a71-8c54-893d7b835eaf")
-		(property "Reference" "TP1"
+		(property "Reference" "TP66"
 			(at 350.52 137.16 90)
 			(effects
 				(font
@@ -5771,7 +5771,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "adfdbc53-6681-4e69-8445-cea05058c0e0")
-		(property "Reference" "TP1"
+		(property "Reference" "TP65"
 			(at 350.52 134.62 90)
 			(effects
 				(font
@@ -5841,7 +5841,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae84843a-8892-4d1d-bd0d-7b3c5ba048f8")
-		(property "Reference" "TP1"
+		(property "Reference" "TP60"
 			(at 350.52 119.38 90)
 			(effects
 				(font
@@ -5911,7 +5911,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b3053cca-49f8-407e-831e-7c651c552e02")
-		(property "Reference" "TP1"
+		(property "Reference" "TP71"
 			(at 350.52 161.29 90)
 			(effects
 				(font
@@ -6268,7 +6268,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7ba47b2-0ad5-4310-9b06-44438ae1c99c")
-		(property "Reference" "TP1"
+		(property "Reference" "TP62"
 			(at 350.52 125.73 90)
 			(effects
 				(font
@@ -6338,7 +6338,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d11fd7da-88fc-45c6-9a6c-90a17efc1a70")
-		(property "Reference" "TP1"
+		(property "Reference" "TP68"
 			(at 350.52 152.4 90)
 			(effects
 				(font
@@ -6514,7 +6514,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e43a76d1-4ed0-497e-b544-04e03884dc73")
-		(property "Reference" "TP1"
+		(property "Reference" "TP59"
 			(at 350.52 116.84 90)
 			(effects
 				(font
@@ -6584,7 +6584,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e80cdb8a-be19-47d3-a9ee-359680b276e5")
-		(property "Reference" "TP1"
+		(property "Reference" "TP70"
 			(at 350.52 158.75 90)
 			(effects
 				(font
@@ -6721,7 +6721,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ed689295-6080-4a02-a3cc-a46ce9bbec04")
-		(property "Reference" "TP1"
+		(property "Reference" "TP64"
 			(at 350.52 130.81 90)
 			(effects
 				(font
@@ -6791,7 +6791,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f864cbef-bc74-47ff-85e7-bc4e33d1da74")
-		(property "Reference" "TP1"
+		(property "Reference" "TP67"
 			(at 350.52 139.7 90)
 			(effects
 				(font
@@ -6861,7 +6861,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fa25829a-7064-4e89-9e88-20b6aafa7e6d")
-		(property "Reference" "TP1"
+		(property "Reference" "TP61"
 			(at 350.52 121.92 90)
 			(effects
 				(font

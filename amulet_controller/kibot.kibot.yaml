@@ -14,7 +14,8 @@ global:
     - filter: 'Ignore multiple schematics warning (hierarchical schematic). kibot#594'
       number: 44
 
-# preflight:
+preflight:
+  update_xml: true
 #   check_zone_fills: true
 #   # Save ERC and DRC reports in Reports folders, in both HTML
 #   erc:
@@ -35,6 +36,9 @@ outputs:
 #   comment: Schematic in PDF format
 #   type: pdf_sch_print
 #   dir: Schematic
+#   options:
+#     background_color: true
+#     color_theme: 'Altium_Theme'
 
 - name: netlist
   comment: Schematic netlist in KiCad format
@@ -52,3 +56,46 @@ outputs:
     group_fields: 'Value,Manufacturer Part Number'
     show_fabrication: true
     highlight_pin1: "selected"
+
+# Classical CSV BOM
+- name: bom_csv
+  comment: Bill of Materials in CSV format
+  type: bom
+  dir: Manufacturing/Assembly
+  options:
+    format: CSV
+    csv:
+      hide_pcb_info: true
+      hide_stats_info: true
+    group_fields: ['Manufacturer Part Number']
+
+    columns:
+      - "Row"
+      - "Quantity Per PCB"
+      - "References"
+      - "Value"
+      - "Datasheet"
+      - "Footprint"
+      - "Description"
+      - "Manufacturer"
+      - "Manufacturer Part Number"
+      - "Supplier 1"
+      - "Supplier Part Number 1"
+
+
+# XLSX BOM with costs
+# - name: costs_bom_xlsx
+#   comment: Costs Bill of Materials in XLSX format
+#   type: bom
+#   dir: Manufacturing/Assembly
+#   options:
+#     format: XLSX
+#     count_smd_tht: true
+#     xlsx:
+#       title: 'Bill of Materials'
+#       logo: false
+#       style: modern-green
+#       kicost: true
+#       # specs: true
+#       # kicost_api_disable: KitSpace
+#     # pre_transform: _kicost_rename

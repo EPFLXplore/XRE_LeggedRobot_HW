@@ -5806,7 +5806,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0fec98a1-76f4-48ad-a8e7-8b12baa1fa5f")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 72.39 62.23 0)
 			(effects
 				(font
@@ -8507,7 +8507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96df38ca-3c57-4af9-9eb4-1b8786d34e6d")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 234.95 62.23 0)
 			(effects
 				(font
@@ -9243,7 +9243,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0ffa6f6-102b-4c81-92aa-72fc411c7ddb")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 234.95 101.6 0)
 			(effects
 				(font
@@ -9665,7 +9665,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c0877f52-8385-4f3e-b00f-597c8d1b2046")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 153.67 62.23 0)
 			(effects
 				(font
@@ -10241,7 +10241,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d5c1d79f-c4f4-4172-8e68-f539ea134cf0")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 153.67 101.6 0)
 			(effects
 				(font
@@ -10354,7 +10354,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d7fe585d-3fd7-44bf-a6bc-8c0f8efdd03b")
-		(property "Reference" "R30"
+		(property "Reference" "R23"
 			(at 72.39 101.6 0)
 			(effects
 				(font
