@@ -4,6 +4,14 @@
 kibot:
   version: 1
 
+filters:
+  - name: only_testpoints
+    comment: "Select only testpoints"
+    type: generic
+    include_only:
+      - column: Reference
+        regex: "TP"
+
 global:
   out_dir: 'Generated'
   filters:
@@ -14,17 +22,18 @@ global:
     - filter: 'Ignore multiple schematics warning (hierarchical schematic). kibot#594'
       number: 44
 
+
 preflight:
   update_xml: true
 #   check_zone_fills: true
 #   # Save ERC and DRC reports in Reports folders, in both HTML
 #   erc:
-#     category: 'schematics'
+#     category: 'Schematics'
 #     dir: 'Reports'
 #     format: 'HTML, RPT'
 #     output: 'report_%f-%i%I%v.%x'
 #   drc:
-#     category: 'pcb'
+#     category: 'PCB'
 #     dir: 'Reports'
 #     format: 'HTML, RPT'
 #     output: 'report_%f-%i%I%v.%x'
@@ -58,7 +67,8 @@ outputs:
     highlight_pin1: "selected"
 
 # Classical CSV BOM
-- name: bom_csv
+# Make sure to update PCB from schematic to get correct fields
+- name: csv_bom
   comment: Bill of Materials in CSV format
   type: bom
   dir: Manufacturing/Assembly
@@ -84,7 +94,7 @@ outputs:
 
 
 # XLSX BOM with costs
-- name: costs_bom_xlsx
+- name: xlsx_costs_bom
   comment: Costs Bill of Materials in XLSX format
   type: bom
   dir: Manufacturing/Assembly
@@ -99,3 +109,222 @@ outputs:
       # specs: true
       # kicost_api_disable: KitSpace
     # pre_transform: _kicost_rename
+
+
+# Gerbers (layers)
+- name: gbr_gerbers
+  comment: Gerbers in GBR format
+  type: gerber
+  category: 'PCB/Fabrication/Gerbers'
+  dir: Manufacturing/Fabrication/Gerbers
+  layers: ['copper', 'Edge.Cuts', 'F.Silkscreen', 'F.Mask', 'F.Paste', 'B.Silkscreen', 'B.Mask', 'B.Paste']
+  options:
+    subtract_mask_from_silk: true
+    plot_footprint_refs: false
+    plot_footprint_values: false
+
+# Excellon drill map
+- name: dxf_drill_map
+  comment: Drill in Excellon format
+  type: excellon
+  category: 'PCB/Fabrication/Gerbers'
+  dir: Manufacturing/Fabrication/Gerbers
+  options:
+    pth_and_npth_single_file: true
+    map: 'dxf'
+    output: '%f-PTH%I%v.%x' # will be overwritten with next step
+
+# Excellon drill map
+- name: drl_pth_npth
+  comment: Drill in Excellon format
+  type: excellon
+  category: 'PCB/Fabrication/Gerbers'
+  dir: Manufacturing/Fabrication/Gerbers
+  options:
+    pth_and_npth_single_file: false
+    pth_id: 'PTH'
+    npth_id: 'NPTH'
+
+# Testpoints XLSX
+- name: xlsx_testpoints
+  comment: "Testpoint report"
+  type: bom
+  dir: Testing/Testpoints
+  options:
+    output: '%f-testpoints%I%v.%x'
+    pre_transform: ['_kicost_rename']
+    exclude_filter: 'only_testpoints'
+    dnf_filter: '_null'
+    exclude_marked_in_sch: false
+    group_fields: []
+    sort_style: ref
+    use_aux_axis_as_origin: true
+    ignore_dnf: false
+    format: XLSX
+    xlsx:
+      title: 'Testpoints Report'
+      logo: false
+    footprint_type_values: 'SMT,THRU,'
+    columns:
+      - field: References
+        name: Testpoint Ref.
+      - field: Net Name
+        name: Net
+      - field: Net Class        
+      - field: Footprint X
+        name: X
+      - field: Footprint Y
+        name: Y
+      - field: Footprint Side
+        name: Side
+      - field: Footprint Type
+        name: Pad Type
+      - field: Value
+      - field: Footprint
+
+# Testpoints CSV
+- name: csv_testpoints
+  comment: "Testpoint report in CSV format"
+  type: bom
+  dir: Testing/Testpoints
+  options:
+    output: '%f-testpoints%I%v.%x'
+    pre_transform: ['_kicost_rename']
+    exclude_filter: 'only_testpoints'
+    dnf_filter: '_null'
+    exclude_marked_in_sch: false
+    group_fields: []
+    sort_style: ref
+    use_aux_axis_as_origin: true
+    ignore_dnf: false
+    format: CSV
+    footprint_type_values: 'SMT,THRU,'
+    columns:
+      - field: References
+        name: Testpoint Ref.
+      - field: Net Name
+        name: Net
+      - field: Net Class        
+      - field: Footprint X
+        name: X
+      - field: Footprint Y
+        name: Y
+      - field: Footprint Side
+        name: Side
+      - field: Footprint Type
+        name: Pad Type
+      - field: Value
+      - field: Footprint
+
+# Fabrication PDF file
+
+# Assembly PDF file
+- name: pdf_assembly_top
+  comment: Assembly Top document in PDF format
+  type: pcb_print
+  category: Manufacturing/Assembly
+  dir: Manufacturing/Assembly
+  options:
+    color_theme: 'Altium_Theme'
+    output: '%f-assembly_top%I%v.%x'
+    format: 'PDF'
+    title: 'Assembly Document'
+    realistic_solder_mask: false
+    dpi: 1200
+    dnf_filter: _kibom_dnf_Config
+    sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
+
+    pages:
+      - scaling: 1.0
+        page_id: '1'
+        title: Top Assembly
+        sheet: Top Assembly
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: F.Cu
+            color: '#EEDAB5'
+          - layer: F.Mask
+            color: '#B9B9B9'
+          - layer: F.Paste
+            color: '#E1A98E'
+          - layer: F.Silkscreen
+            color: '#DB9DE1'
+          - layer: F.Fab
+            color: '#744679'
+          - layer: User.4
+            description: Top Assembly Text
+            color: '#000000'
+
+- name: pdf_assembly_bottom
+  comment: Assembly Bottom document in PDF format
+  type: pcb_print
+  category: Manufacturing/Assembly
+  dir: Manufacturing/Assembly
+  options:
+    color_theme: 'Altium_Theme'
+    output: '%f-assembly_bottom%I%v.%x'
+    format: 'PDF'
+    title: 'Assembly Document'
+    realistic_solder_mask: false
+    dpi: 1200
+    dnf_filter: _kibom_dnf_Config
+    sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
+
+    pages:
+      - scaling: 1.0
+        mirror: true
+        mirror_pcb_text: false
+        page_id: '2'
+        title: Bottom Assembly
+        sheet: Bottom Assembly
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: B.Cu
+            color: '#D5DBF4'
+          - layer: B.Mask
+            color: '#B9B9B9'
+          - layer: B.Paste
+            color: '#BCB9DD'
+          - layer: B.Silkscreen
+            color: '#DB9DE1'
+          - layer: B.Fab
+            color: '#400080'
+          - layer: User.5
+            description: Bottom Assembly Text
+            color: '#000000'
+        
+
+
+# Fabrication output ZIP file (contains drill map DXF)
+- name: compress_gerbers
+  comment: Generates a ZIP file with .gbr and .drl fabrication files
+  type: compress
+  category: Manufacturing/Fabrication/Gerbers
+  dir: Manufacturing/Fabrication
+  options:
+    output: '%f-GERBERS%I%v.%x'
+    move_files: true
+    files:
+      - source: 'Manufacturing/Fabrication/Gerbers/*'
+        dest: '/'
+
+# Position file for Pick & Place
+- name: csv_position
+  comment: Position file in CSV format
+  type: position
+  category: Manufacturing/Assembly
+  dir: Manufacturing/Assembly
+  options:
+    format: 'CSV'
+    only_smd: false # IMPORTANT TO CHANGE IF NECESSARY
+    output: '%f-CPL%I%v.%x'
+    separate_files_for_front_and_back: false
+
