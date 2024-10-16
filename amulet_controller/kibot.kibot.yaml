@@ -331,10 +331,6 @@ outputs:
         layers:
           - layer: F.Cu
             color: '#CA0000'
-          # - layer: F.Fab
-          #   plot_footprint_refs: false
-          #   plot_footprint_values: false
-          #   color: '#818181'
       - scaling: 1.0
         page_id: '2'
         title: Fabrication Layers
@@ -345,10 +341,18 @@ outputs:
         layers:
           - layer: F.Cu
             color: '#CA0000'
-          - layer: F.Fab
-            plot_footprint_refs: false
-            plot_footprint_values: false
-            color: '#818181'     
+          - layer: In2.Cu
+      - scaling: 1.0
+        page_id: '3'
+        title: Fabrication Layers
+        sheet: L1 (Sig, PWR)
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#77D56C"
+        layers:
+          - layer: F.Cu
+            color: '#CA0000'
+          - layer: Margin
 
 # # Assembly PDF file
 # - name: pdf_assembly_top
