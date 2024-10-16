@@ -216,90 +216,222 @@ outputs:
       - field: Value
       - field: Footprint
 
-# Fabrication PDF file
+# # Fabrication PDF file
+# - name: pdf_fabrication_top
+#   comment: Fabrication Top document in PDF format
+#   type: pcb_print
+#   category: Manufacturing/Fabrication
+#   dir: Manufacturing/Fabrication
+#   options:
+#     color_theme: 'Altium_Theme'
+#     output: '%f-fabrication_top%I%v.%x'
+#     format: 'PDF'
+#     title: 'Fabrication Document'
+#     realistic_solder_mask: false
+#     dpi: 1200
+#     dnf_filter: _kibom_dnf_Config
+#     # sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
 
-# Assembly PDF file
-- name: pdf_assembly_top
-  comment: Assembly Top document in PDF format
+#     pages:
+#       - scaling: 1.0
+#         page_id: '1'
+#         title: Top Fabrication
+#         sheet: Top Fabrication
+#         sheet_reference_color: '#000000'
+#         colored_holes: true
+#         holes_color: "#FFFFFF"
+#         layers:
+#           - layer: Edge.Cuts
+#             color: '#000000'
+#           - layer: F.Cu
+#             color: '#F2F2F2'
+#           - layer: F.Mask
+#             color: '#E2E2E2'
+#           - layer: F.Paste
+#             color: '#E2E2E2'
+#           - layer: F.Silkscreen
+#             color: '#DBDBDB'
+#           - layer: F.Fab
+#             plot_footprint_refs: false
+#             plot_footprint_values: false
+#             color: '#818181'
+#           - layer: User.6
+#             description: Top Dimensions
+#             color: '#000000'
+
+# - name: pdf_fabrication_bottom
+#   comment: Fabrication Bottom document in PDF format
+#   type: pcb_print
+#   category: Manufacturing/Fabrication
+#   dir: Manufacturing/Fabrication
+#   options:
+#     color_theme: 'Altium_Theme'
+#     output: '%f-fabrication_bottom%I%v.%x'
+#     format: 'PDF'
+#     title: 'Fabrication Document'
+#     realistic_solder_mask: false
+#     dpi: 1200
+#     dnf_filter: _kibom_dnf_Config
+#     # sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
+
+#     pages:
+#       - scaling: 1.0
+#         mirror: true
+#         mirror_pcb_text: false
+#         page_id: '2'
+#         title: Bottom Fabrication
+#         sheet: Bottom Fabrication
+#         sheet_reference_color: '#000000'
+#         colored_holes: true
+#         holes_color: "#FFFFFF"
+#         layers:
+#           - layer: Edge.Cuts
+#             color: '#000000'
+#           - layer: B.Cu
+#             color: '#F2F2F2'
+#           - layer: B.Mask
+#             color: '#E2E2E2'
+#           - layer: B.Paste
+#             color: '#E2E2E2'
+#           - layer: B.Silkscreen
+#             color: '#DBDBDB'
+#           - layer: B.Fab
+#             plot_footprint_refs: false
+#             plot_footprint_values: false
+#             color: '#818181'
+#           - layer: User.7
+#             description: Bottom Dimensions
+#             color: '#000000'
+
+- name: pdf_fabrication_layers
+  comment: Fabrication Layers PDF format
   type: pcb_print
-  category: Manufacturing/Assembly
-  dir: Manufacturing/Assembly
+  category: Manufacturing/Fabrication
+  dir: Manufacturing/Fabrication
   options:
-    color_theme: 'Altium_Theme'
-    output: '%f-assembly_top%I%v.%x'
+    # color_theme: 'Altium_Theme'
+    colored_pads: false
+    colored_vias: false
+    output: '%f-fabrication_layers%I%v.%x'
     format: 'PDF'
-    title: 'Assembly Document'
+    title: 'Fabrication Document'
     realistic_solder_mask: false
     dpi: 1200
     dnf_filter: _kibom_dnf_Config
-    sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
+    # sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
 
     pages:
       - scaling: 1.0
         page_id: '1'
-        title: Top Assembly
-        sheet: Top Assembly
+        title: Fabrication Layers
+        sheet: L1 (Sig, PWR)
         sheet_reference_color: '#000000'
         colored_holes: true
-        holes_color: "#FFFFFF"
+        holes_color: "#77D56C"
         layers:
-          - layer: Edge.Cuts
-            color: '#000000'
           - layer: F.Cu
-            color: '#EEDAB5'
-          - layer: F.Mask
-            color: '#B9B9B9'
-          - layer: F.Paste
-            color: '#E1A98E'
-          - layer: F.Silkscreen
-            color: '#DB9DE1'
-          - layer: F.Fab
-            color: '#744679'
-          - layer: User.4
-            description: Top Assembly Text
-            color: '#000000'
-
-- name: pdf_assembly_bottom
-  comment: Assembly Bottom document in PDF format
-  type: pcb_print
-  category: Manufacturing/Assembly
-  dir: Manufacturing/Assembly
-  options:
-    color_theme: 'Altium_Theme'
-    output: '%f-assembly_bottom%I%v.%x'
-    format: 'PDF'
-    title: 'Assembly Document'
-    realistic_solder_mask: false
-    dpi: 1200
-    dnf_filter: _kibom_dnf_Config
-    sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
-
-    pages:
+            color: '#CA0000'
+          # - layer: F.Fab
+          #   plot_footprint_refs: false
+          #   plot_footprint_values: false
+          #   color: '#818181'
       - scaling: 1.0
-        mirror: true
-        mirror_pcb_text: false
         page_id: '2'
-        title: Bottom Assembly
-        sheet: Bottom Assembly
+        title: Fabrication Layers
+        sheet: L1 (Sig, PWR)
         sheet_reference_color: '#000000'
         colored_holes: true
-        holes_color: "#FFFFFF"
+        holes_color: "#77D56C"
         layers:
-          - layer: Edge.Cuts
-            color: '#000000'
-          - layer: B.Cu
-            color: '#D5DBF4'
-          - layer: B.Mask
-            color: '#B9B9B9'
-          - layer: B.Paste
-            color: '#BCB9DD'
-          - layer: B.Silkscreen
-            color: '#DB9DE1'
-          - layer: B.Fab
-            color: '#400080'
-          - layer: User.5
-            description: Bottom Assembly Text
-            color: '#000000'
+          - layer: F.Cu
+            color: '#CA0000'
+          - layer: F.Fab
+            plot_footprint_refs: false
+            plot_footprint_values: false
+            color: '#818181'     
+
+# # Assembly PDF file
+# - name: pdf_assembly_top
+#   comment: Assembly Top document in PDF format
+#   type: pcb_print
+#   category: Manufacturing/Assembly
+#   dir: Manufacturing/Assembly
+#   options:
+#     color_theme: 'Altium_Theme'
+#     output: '%f-assembly_top%I%v.%x'
+#     format: 'PDF'
+#     title: 'Assembly Document'
+#     realistic_solder_mask: false
+#     dpi: 1200
+#     dnf_filter: _kibom_dnf_Config
+#     # sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
+
+#     pages:
+#       - scaling: 1.0
+#         page_id: '1'
+#         title: Top Assembly
+#         sheet: Top Assembly
+#         sheet_reference_color: '#000000'
+#         colored_holes: true
+#         holes_color: "#FFFFFF"
+#         layers:
+#           - layer: Edge.Cuts
+#             color: '#000000'
+#           - layer: F.Cu
+#             color: '#EEDAB5'
+#           - layer: F.Mask
+#             color: '#B9B9B9'
+#           - layer: F.Paste
+#             color: '#E1A98E'
+#           - layer: F.Silkscreen
+#             color: '#DB9DE1'
+#           - layer: F.Fab
+#             color: '#744679'
+#           - layer: User.4
+#             description: Top Assembly Text
+#             color: '#000000'
+
+# - name: pdf_assembly_bottom
+#   comment: Assembly Bottom document in PDF format
+#   type: pcb_print
+#   category: Manufacturing/Assembly
+#   dir: Manufacturing/Assembly
+#   options:
+#     color_theme: 'Altium_Theme'
+#     output: '%f-assembly_bottom%I%v.%x'
+#     format: 'PDF'
+#     title: 'Assembly Document'
+#     realistic_solder_mask: false
+#     dpi: 1200
+#     dnf_filter: _kibom_dnf_Config
+#     # sheet_reference_layout: "${KIPRJMOD}/Templates/XRE_Legged_Template_Fab.kicad_wks"
+
+#     pages:
+#       - scaling: 1.0
+#         mirror: true
+#         mirror_pcb_text: false
+#         page_id: '2'
+#         title: Bottom Assembly
+#         sheet: Bottom Assembly
+#         sheet_reference_color: '#000000'
+#         colored_holes: true
+#         holes_color: "#FFFFFF"
+#         layers:
+#           - layer: Edge.Cuts
+#             color: '#000000'
+#           - layer: B.Cu
+#             color: '#D5DBF4'
+#           - layer: B.Mask
+#             color: '#B9B9B9'
+#           - layer: B.Paste
+#             color: '#BCB9DD'
+#           - layer: B.Silkscreen
+#             color: '#DB9DE1'
+#           - layer: B.Fab
+#             color: '#400080'
+#           - layer: User.5
+#             description: Bottom Assembly Text
+#             color: '#000000'
         
 
 
