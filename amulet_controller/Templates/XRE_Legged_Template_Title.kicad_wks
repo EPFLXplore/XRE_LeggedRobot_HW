@@ -948,7 +948,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${TITLE}"
+	(tbtext "${SHEETNAME}"
 		(name "")
 		(pos 145.489 16.502)
 		(font
@@ -1027,12 +1027,21 @@
 		(start 188.989 44.0022)
 		(end 188.989 2.0022)
 	)
-	(tbtext "${BOARD_NAME} Fabrication Document"
+	(tbtext "${BOARD_NAME} ${TITLE} Document"
 		(name "")
 		(pos 269.989 180.502)
 		(font
 			(face "Times New Roman")
-			(size 4 4)
+			(size 4 4) bold)
+	)
+	(tbtext "${LAYER}"
+		(name "")
+		(pos 138.6322 159.1072)
+		(font
+			(face "Times New Roman")
+			(size 3.226 3.226) bold
+			(color 0 0 0 1)
 		)
+		(justify center)
 	)
 )

@@ -1027,7 +1027,7 @@
 		(start 188.989 44.0022)
 		(end 188.989 2.0022)
 	)
-	(tbtext "${BOARD_NAME} Fabrication Document"
+	(tbtext "${BOARD_NAME} Assembly Document"
 		(name "")
 		(pos 269.989 180.502)
 		(font
