@@ -7,3 +7,5 @@ amulet_controller.lib
 *.ini
 *.kicad_sch-bak
 fp-info-cache
+
+*Zone.Identifier
