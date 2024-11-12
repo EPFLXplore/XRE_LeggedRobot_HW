@@ -6,63 +6,108 @@ kibot:
 
 import:
 
-# Global parameters ==========================================================
+  # Global parameters ==========================================================
   - file: kibot_globals.yaml
     definitions:
-      OUTPUT_DIR: '@OUTPUT_DIR@'
-      LAYER_DNP_TOP: '@LAYER_DNP_TOP@'
-      LAYER_DNP_BOTTOM: '@LAYER_DNP_BOTTOM@'
+      OUTPUT_DIR: @OUTPUT_DIR@
+      LAYER_DNP_TOP: @LAYER_DNP_TOP@
+      LAYER_DNP_BOTTOM: @LAYER_DNP_BOTTOM@
 
   # Filters ====================================================================
-  # - file: kibot_filt_testpoints.yaml
-  #   definitions:
-  #     NAME: '@FILT_TP_ONLY@'
-  #     COMMENT: Exclude only testpoints
+  - file: kibot_filt_testpoints.yaml
+    definitions:
+      NAME: @FILT_TP_ONLY@
+      COMMENT: Exclude only testpoints
     
-# - file: kibot_filt_testpoints.yaml
-#   definitions:
-#     NAME: '@FILT_TP_TOP_ONLY@'
-#     COMMENT: "Select only top testpoints"
-#     EXLUDE_TOP: true
-#     EXCLUDE_REFS: '@EXCLUDE_REFS@'
+  - file: kibot_filt_testpoints.yaml
+    definitions:
+      NAME: @FILT_TP_TOP_ONLY@
+      COMMENT: Select only top testpoints
+      EXCLUDE_BOTTOM: true
+      EXCLUDE_REFS: @EXCLUDE_REFS@
 
-# - file: kibot_filt_testpoints.yaml
-#   definitions:
-#     NAME: '@FILT_TP_BOTTOM_ONLY@'
-#     COMMENT: "Select only bottom testpoints"
-#     EXLUDE_BOTTOM: true
-#     EXCLUDE_REFS: '@EXCLUDE_REFS@'
+  - file: kibot_filt_testpoints.yaml
+    definitions:
+      NAME: @FILT_TP_BOTTOM_ONLY@
+      COMMENT: Select only bottom testpoints
+      EXCLUDE_TOP: true
+      EXCLUDE_REFS: @EXCLUDE_REFS@
 
 # Preflights =================================================================
 
-# # Generate ERC Report
-# - file: kibot_pre_erc_report.yaml
-#   definitions:
-#     CATEGORY: '@SCHEMATIC_DIR@'
-#     DIR: '@REPORT_DIR@'
+  # Generate ERC Report
+  - file: kibot_pre_erc_report.yaml
+    definitions:
+      CATEGORY: @SCHEMATIC_DIR@
+      DIR: @REPORT_DIR@
 
-# # Generate DRC Report
-# - file: kibot_pre_drc_report.yaml
-#   definitions:
-#     CATEGORY: '@SCHEMATIC_DIR@'
-#     DIR: '@REPORT_DIR@'
+  # Generate DRC Report
+  - file: kibot_pre_drc_report.yaml
+    definitions:
+      CATEGORY: @SCHEMATIC_DIR@
+      DIR: @REPORT_DIR@
 
-# # Draw stackup table in PCB
-# - file: kibot_pre_draw_stackup.yaml
-#   definitions:
-#     GERBER_OUTPUT: '@GERBER_OUTPUT@'
-#     NOTE: '@STACKUP_TABLE_NOTE@'
+  # Draw stackup table in PCB. Needs gerber output
+  - file: kibot_pre_draw_stackup.yaml
+    definitions:
+      GERBER_OUTPUT: @GERBER_OUTPUT@
+      NOTE: @STACKUP_TABLE_NOTE@
 
-# # Include tables in PCB for testpoint lists
-# - file: kibot_pre_include_table.yaml
-#   definitions:
-#     NAME: '@CSV_TP_TOP_OUTPUT@'
+  # Include tables in PCB for testpoint lists
+  - file: kibot_pre_include_table.yaml
+    definitions:
+      NAME_TP_TOP: @CSV_TP_TOP_OUTPUT@
+      NAME_TP_BOTTOM: @CSV_TP_BOTTOM_OUTPUT@
 
-# - file: kibot_pre_include_table_inverted.yaml
-#   definitions:
-#     NAME: '@CSV_TP_BOTTOM_OUTPUT@'
 
 # Generated outputs ============================================================
+
+  # Netlist
+  - file: kibot_out_netlist.yaml
+    definitions:
+      NAME: @NETLIST_OUTPUT@
+      COMMENT: Schematic netlist in KiCad format
+
+  # Gerbers
+  - file: kibot_out_gerber.yaml
+    definitions:
+      NAME: @GERBER_OUTPUT@
+      COMMENT: Gerbers in GBR format
+      DIR: @FABRICATION_DIR@/Gerbers
+
+  # Testpoint lists
+  - file: kibot_out_csv_testpoints.yaml
+    definitions:
+      NAME: @CSV_TP_OUTPUT@
+      COMMENT: Testpoint report in CSV format
+      CATEGORY: @TESTING_DIR@/Testpoints
+      EXCLUDE_FILTER: @FILT_TP_ONLY@
+
+  - file: kibot_out_csv_testpoints_simple.yaml
+    definitions:
+      NAME: @CSV_TP_TOP_OUTPUT@
+      COMMENT: Top testpoint report in CSV format
+      CATEGORY: @TESTING_DIR@/Testpoints
+      SUFFIX: -top
+      EXCLUDE_FILTER: @FILT_TP_TOP_ONLY@
+
+  - file: kibot_out_csv_testpoints_simple.yaml
+    definitions:
+      NAME: @CSV_TP_BOTTOM_OUTPUT@
+      COMMENT: Bottom testpoint report in CSV format
+      CATEGORY: @TESTING_DIR@/Testpoints
+      SUFFIX: -bottom
+      EXCLUDE_FILTER: @FILT_TP_BOTTOM_ONLY@
+
+  # Bill of Materials (BoM)
+  # - file: kibot_out_csv_bom.yaml
+
+# # Interactive HTML BOM. Needs netlist.
+# - file: kibot_out_html_bom.yaml
+#   definitions:
+#     NAME: '@HTML_BOM_OUTPUT@'
+#     COMMENT: 'Interactive BOM in HTML format'
+#     DIR: '@ASSEMBLY_DIR@'
 
 # # Schematic in PDF format
 # - file: kibot_out_pdf_schematic.yaml
@@ -73,54 +118,47 @@ import:
 #     DIR: '@SCHEMATIC_DIR@'
 #     CATEGORY: '@SCHEMATIC_DIR@'
 
-# # Netlist
-# - file: kibot_out_netlist.yaml
-#   definitions:
-#     NAME: '@NETLIST_OUTPUT@'
-#     COMMENT: 'Schematic netlist in KiCad format'
-
-# # Interactive HTML BOM. Needs netlist.
-# - file: kibot_out_html_bom.yaml
-#   definitions:
-#     NAME: '@HTML_BOM_OUTPUT@'
-#     COMMENT: 'Interactive BOM in HTML format'
-#     DIR: '@ASSEMBLY_DIR@'
-
+...
 definitions:
 
   # Output directories =========================================================
 
   # Root
-  OUTPUT_DIR: ../Generated_alt
+  OUTPUT_DIR: Generated_alt
 
   # Relative to root
-  # REPORT_DIR: 'Reports'
-  # SCHEMATIC_DIR: 'Schematic'
-  # MANUFACTURING_DIR: 'Manufacturing'
-  # ASSEMBLY_DIR: '@MANUFACTURING_DIR@/Assembly'
+  REPORT_DIR: Reports
+  SCHEMATIC_DIR: Schematic
+  MANUFACTURING_DIR: Manufacturing
+  ASSEMBLY_DIR: '@MANUFACTURING_DIR@/Assembly'
+  FABRICATION_DIR: '@MANUFACTURING_DIR@/Fabrication'
+  TESTING_DIR: Testing
 
   # Filters names ==============================================================
   FILT_TP_ONLY: only_testpoints
-  # FILT_TP_TOP_ONLY: 'only_testpoints_top'
-  # FILT_TP_BOTTOM_ONLY: 'only_testpoints_bottom'
+  FILT_TP_TOP_ONLY: only_testpoints_top
+  FILT_TP_BOTTOM_ONLY: only_testpoints_bottom
 
-  # # References to exlude from testpoint highlighting
-  # EXCLUDE_REFS: "MB*"
+  # References to exlude from testpoint highlighting
+  EXCLUDE_REFS: '[MB*]'
 
   # # Preflight parameters =======================================================
-  # STACKUP_TABLE_NOTE: "external layer thicknesses are specified after plating"
+  STACKUP_TABLE_NOTE: external layer thicknesses are specified after plating
 
   # # Output names  ==============================================================
-  # CSV_TP_TOP_OUTPUT: 'csv_testpoints_top'
-  # CSV_TP_BOTTOM_OUTPUT: 'csv_testpoints_bottom'
-  # GERBER_OUTPUT: 'gbr_gerbers'
+
+
   # PDF_SCHEMATIC_OUTPUT: 'pdf_schematic'
-  # NETLIST_OUTPUT: 'netlist'
-  # HTML_BOM_OUTPUT: 'html_bom_interactive'
+  NETLIST_OUTPUT: netlist
+  GERBER_OUTPUT: gbr_gerbers
+  CSV_TP_OUTPUT: csv_testpoints
+  CSV_TP_TOP_OUTPUT: csv_testpoints_top
+  CSV_TP_BOTTOM_OUTPUT: csv_testpoints_bottom
+  # HTML_BOM_OUTPUT: html_bom_interactive
 
-  # # Schematic parameters =======================================================
-  # COLOR_THEME: 'Altium_Theme'
+  # Schematic parameters =======================================================
+  COLOR_THEME: Altium_Theme
 
-  # # Layer names. Should match user-defined names in the PCB.  ==================
+  # Layer names. Should match user-defined names in the PCB.  ==================
   LAYER_DNP_TOP: F.DNP
   LAYER_DNP_BOTTOM: B.DNP

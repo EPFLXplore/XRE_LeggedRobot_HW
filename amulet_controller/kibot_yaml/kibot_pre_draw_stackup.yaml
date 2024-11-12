@@ -19,7 +19,8 @@ preflight:
       - 'layer_type'
       - 'gerber'
     note: '@NOTE@'
-  
+
+...
 definitions:
-  GERBER_OUTPUT: 'gbr_gerbers'
-  NOTE: "external layer thicknesses are specified after plating"
+  GERBER_OUTPUT: gbr_gerbers
+  NOTE: external layer thicknesses are specified after plating

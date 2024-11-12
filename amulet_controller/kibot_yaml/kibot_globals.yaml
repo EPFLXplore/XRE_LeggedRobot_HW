@@ -1,4 +1,5 @@
 # KiBot Globals
+# https://kibot.readthedocs.io/en/latest/configuration/global.html
 
 kibot:
   version: 1
@@ -15,6 +16,7 @@ global:
     - filter: 'Ignore multiple schematics warning (hierarchical schematic). kibot#594'
       number: 44
 
+...
 definitions:
   OUTPUT_DIR: ../Generated
   LAYER_DNP_TOP: F.DNP

@@ -1,0 +1,45 @@
+# KiBot output for generating CSV Tespoints
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/bom.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: '@NAME@'
+  comment: '@COMMENT@'
+  type: bom
+  category: '@CATEGORY@'
+  dir: '@DIR@'
+  options:
+    output: '%f-testpoints@SUFFIX@%I%v.%x'
+    csv:
+      hide_pcb_info: True
+      hide_stats_info: True
+    pre_transform: ['_kicost_rename']
+    exclude_filter: '@EXCLUDE_FILTER@'
+    dnf_filter: '_null'
+    exclude_marked_in_sch: false
+    group_fields: []
+    sort_style: ref
+    use_aux_axis_as_origin: true
+    ignore_dnf: false
+    format: CSV
+    footprint_type_values: 'SMT,THRU,'
+    columns:
+      - field: References
+        name: Ref.
+      - field: Value
+        name: Net     
+      - field: Footprint X
+        name: X
+      - field: Footprint Y
+        name: Y
+
+...
+definitions:
+  NAME: csv_testpoints
+  COMMENT: Testpoint report in CSV format
+  DIR: Testing/Testpoints
+  CATEGORY: Testing/Testpoints
+  SUFFIX: ""
+  EXCLUDE_FILTER: only_testpoints

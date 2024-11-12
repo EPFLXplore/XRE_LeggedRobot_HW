@@ -4,11 +4,12 @@
 kibot:
   version: 1
 
-output:
+outputs:
 - name: '@NAME@'
   comment: '@COMMENT@'
   type: netlist
 
+...
 definitions:
-  NAME: 'netlist'
-  COMMENT: 'Schematic netlist in KiCad format'
+  NAME: netlist
+  COMMENT: Schematic netlist in KiCad format

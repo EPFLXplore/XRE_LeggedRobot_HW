@@ -7,14 +7,24 @@ kibot:
 preflight:
   include_table:
     outputs:
-      - name: '@NAME@'
+      - name: '@NAME_TP_TOP@'
         text_alignment: 'left'
-        invert_columns_order: False
+        invert_columns_order: false
         border_width: 0.2
         header_rule_width: 0.2
         horizontal_rule_width: 0
         vertical_rule_width: 0
         top_rule_width: 0
+      - name: '@NAME_TP_BOTTOM@'
+        text_alignment: 'right'
+        invert_columns_order: true
+        border_width: 0.2
+        header_rule_width: 0.2
+        horizontal_rule_width: 0
+        vertical_rule_width: 0
+        top_rule_width: 0  
 
+...
 definitions:
-  NAME: csv_testpoints_top
+  NAME_TP_TOP: csv_testpoints_top
+  NAME_TP_BOTTOM: csv_testpoints_bottom

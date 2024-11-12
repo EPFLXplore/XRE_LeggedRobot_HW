@@ -1,0 +1,23 @@
+# KiBot output for generating Gerber files
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/gerber.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: '@NAME@'
+  comment: '@COMMENT@'
+  type: gerber
+  category: '@DIR@'
+  dir: '@DIR@'
+  layers: ['copper', 'Edge.Cuts', 'F.Silkscreen', 'F.Mask', 'F.Paste', 'B.Silkscreen', 'B.Mask', 'B.Paste']
+  options:
+    subtract_mask_from_silk: true
+    plot_footprint_refs: false
+    plot_footprint_values: false
+
+...
+definitions:
+  NAME: gbr_gerbers
+  COMMENT: Gerbers in GBR format
+  DIR: Manufacturing/Fabrication/Gerbers

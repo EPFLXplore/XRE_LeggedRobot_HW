@@ -11,6 +11,7 @@ preflight:
     format: 'HTML, RPT'
     output: 'report_%f-%i%I%v.%x'
 
+...
 definitions:
-  CATEGORY: 'Schematic'
-  DIR: 'Reports'
+  CATEGORY: Schematic
+  DIR: Reports

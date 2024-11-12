@@ -9,16 +9,17 @@ filters:
   - name: '@NAME@'
     comment: '@COMMENT@'
     type: generic
-    # exclude_top: @EXCLUDE_TOP@
-    # exclude_bottom: @EXCLUDE_BOTTOM@
+    exclude_top: @EXCLUDE_TOP@
+    exclude_bottom: @EXCLUDE_BOTTOM@
     include_only:
       - column: Reference
         regex: "TP"
-    # exclude_refs: '@EXCLUDE_REFS@'
+    exclude_refs: @EXCLUDE_REFS@
 
+...
 definitions:
-  COMMENT: "Select only testpoints"
+  COMMENT: Select only testpoints
   NAME: only_testpoints
   EXCLUDE_TOP: false
   EXCLUDE_BOTTOM: false
-  EXCLUDE_REFS: [""]
+  EXCLUDE_REFS: '[MB*]'
