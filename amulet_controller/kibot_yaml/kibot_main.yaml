@@ -6,7 +6,8 @@ kibot:
 
 import:
 
-  # Global parameters ==========================================================
+# Global parameters ==========================================================
+  
   - file: kibot_globals.yaml
     definitions:
       OUTPUT_DIR: @OUTPUT_DIR@
@@ -14,6 +15,7 @@ import:
       LAYER_DNP_BOTTOM: @LAYER_DNP_BOTTOM@
 
   # Filters ====================================================================
+  
   - file: kibot_filt_testpoints.yaml
     definitions:
       NAME: @FILT_TP_ONLY@
