@@ -1,0 +1,22 @@
+# KiBot output for generating schematics in PDF format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/pdf_sch_print.html
+
+kibot:
+  version: 1
+
+output:
+- name: '@NAME@'
+  comment: '@COMMENT@'
+  type: pdf_sch_print
+  dir: '@DIR@'
+  category: '@CATEGORY@'
+  options:
+    background_color: true
+    color_theme: '@COLOR_THEME@'
+
+definitions:
+  NAME: 'pdf_schematic'
+  COMMENT: 'Schematic in PDF format'
+  COLOR_THEME: 'Altium_Theme'
+  DIR: 'Schematic'
+  CATEGORY: 'Schematic'

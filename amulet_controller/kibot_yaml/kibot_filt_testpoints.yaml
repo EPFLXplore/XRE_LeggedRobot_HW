@@ -1,0 +1,24 @@
+# KiBot Filter for testpoints
+# These filters are used for multiple outputs to highlight testpoints
+# or generate testpoint lists for top and bottom layers
+
+kibot:
+  version: 1
+
+filters:
+  - name: '@NAME@'
+    comment: '@COMMENT@'
+    type: generic
+    # exclude_top: @EXCLUDE_TOP@
+    # exclude_bottom: @EXCLUDE_BOTTOM@
+    include_only:
+      - column: Reference
+        regex: "TP"
+    # exclude_refs: '@EXCLUDE_REFS@'
+
+definitions:
+  COMMENT: "Select only testpoints"
+  NAME: only_testpoints
+  EXCLUDE_TOP: false
+  EXCLUDE_BOTTOM: false
+  EXCLUDE_REFS: [""]

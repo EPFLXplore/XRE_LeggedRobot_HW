@@ -1,0 +1,20 @@
+# KiBot preflight for Include Table feature
+# https://kibot.readthedocs.io/en/latest/configuration/preflights/include_table.html
+
+kibot:
+  version: 1
+
+preflight:
+  include_table:
+    outputs:
+      - name: '@NAME@'
+        text_alignment: 'left'
+        invert_columns_order: False
+        border_width: 0.2
+        header_rule_width: 0.2
+        horizontal_rule_width: 0
+        vertical_rule_width: 0
+        top_rule_width: 0
+
+definitions:
+  NAME: csv_testpoints_top

@@ -1,0 +1,25 @@
+# KiBot preflight for Draw Fancy Stackup feature
+# https://kibot.readthedocs.io/en/latest/configuration/preflights/draw_fancy_stackup.html
+
+kibot:
+  version: 1
+
+preflight:
+  update_xml: true
+  draw_fancy_stackup:
+    gerber: '@GERBER_OUTPUT@'
+    gerber_extension_only: True
+    draw_stackup: True
+    draw_vias: True
+    columns:
+      - 'material'
+      - 'layer'
+      - 'thickness'
+      - 'dielectric'
+      - 'layer_type'
+      - 'gerber'
+    note: '@NOTE@'
+  
+definitions:
+  GERBER_OUTPUT: 'gbr_gerbers'
+  NOTE: "external layer thicknesses are specified after plating"

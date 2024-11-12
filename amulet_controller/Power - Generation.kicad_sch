@@ -16664,6 +16664,7 @@
 			(at 71.12 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -16673,6 +16674,7 @@
 			(at 71.12 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -16682,6 +16684,7 @@
 			(at 69.5452 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16691,6 +16694,7 @@
 			(at 68.58 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16700,6 +16704,7 @@
 			(at 68.58 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16709,6 +16714,7 @@
 			(at 68.58 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16718,6 +16724,7 @@
 			(at 68.58 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16727,6 +16734,7 @@
 			(at 68.58 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16736,6 +16744,7 @@
 			(at 68.58 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16770,6 +16779,7 @@
 			(at 64.77 158.75 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16779,6 +16789,7 @@
 			(at 64.77 157.48 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16788,6 +16799,7 @@
 			(at 64.77 152.4 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16797,6 +16809,7 @@
 			(at 64.77 152.4 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16806,6 +16819,7 @@
 			(at 64.77 152.4 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16836,6 +16850,7 @@
 			(at 133.35 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -16845,6 +16860,7 @@
 			(at 133.35 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -16854,6 +16870,7 @@
 			(at 130.81 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16863,6 +16880,7 @@
 			(at 130.81 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16872,6 +16890,7 @@
 			(at 130.81 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16881,6 +16900,7 @@
 			(at 130.81 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16890,6 +16910,7 @@
 			(at 130.81 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16899,6 +16920,7 @@
 			(at 130.81 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16908,6 +16930,7 @@
 			(at 130.81 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16941,6 +16964,7 @@
 			(at 337.82 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -16950,6 +16974,7 @@
 			(at 337.82 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -16959,6 +16984,7 @@
 			(at 337.5152 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16968,6 +16994,7 @@
 			(at 336.55 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16977,6 +17004,7 @@
 			(at 336.55 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16986,6 +17014,7 @@
 			(at 336.55 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -16995,6 +17024,7 @@
 			(at 336.55 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17004,6 +17034,7 @@
 			(at 336.55 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17013,6 +17044,7 @@
 			(at 336.55 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17047,6 +17079,7 @@
 			(at 339.09 106.68 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -17055,6 +17088,7 @@
 			(at 339.09 109.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -17063,6 +17097,7 @@
 			(at 339.09 104.14 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17072,6 +17107,7 @@
 			(at 339.09 109.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17081,6 +17117,7 @@
 			(at 339.09 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17090,6 +17127,7 @@
 			(at 339.09 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17099,6 +17137,7 @@
 			(at 339.09 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17108,6 +17147,7 @@
 			(at 339.09 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17117,6 +17157,7 @@
 			(at 339.09 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17159,6 +17200,7 @@
 			(at 297.18 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17168,6 +17210,7 @@
 			(at 297.18 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -17177,6 +17220,7 @@
 			(at 296.8752 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17186,6 +17230,7 @@
 			(at 295.91 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17195,6 +17240,7 @@
 			(at 295.91 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17204,6 +17250,7 @@
 			(at 295.91 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17213,6 +17260,7 @@
 			(at 295.91 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17222,6 +17270,7 @@
 			(at 295.91 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17231,6 +17280,7 @@
 			(at 295.91 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17264,6 +17314,7 @@
 			(at 378.46 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17273,6 +17324,7 @@
 			(at 378.46 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -17282,6 +17334,7 @@
 			(at 378.1552 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17291,6 +17344,7 @@
 			(at 377.19 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17300,6 +17354,7 @@
 			(at 377.19 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17309,6 +17364,7 @@
 			(at 377.19 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17318,6 +17374,7 @@
 			(at 377.19 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17327,6 +17384,7 @@
 			(at 377.19 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17336,6 +17394,7 @@
 			(at 377.19 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17369,6 +17428,7 @@
 			(at 317.5 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17378,6 +17438,7 @@
 			(at 317.5 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -17387,6 +17448,7 @@
 			(at 317.1952 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17396,6 +17458,7 @@
 			(at 316.23 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17405,6 +17468,7 @@
 			(at 316.23 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17414,6 +17478,7 @@
 			(at 316.23 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17423,6 +17488,7 @@
 			(at 316.23 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17432,6 +17498,7 @@
 			(at 316.23 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17441,6 +17508,7 @@
 			(at 316.23 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17474,6 +17542,7 @@
 			(at 231.14 212.09 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17483,6 +17552,7 @@
 			(at 227.33 207.01 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17492,6 +17562,7 @@
 			(at 231.14 205.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17501,6 +17572,7 @@
 			(at 231.14 205.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17510,6 +17582,7 @@
 			(at 231.14 205.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17540,6 +17613,7 @@
 			(at 327.66 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17549,6 +17623,7 @@
 			(at 327.66 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -17558,6 +17633,7 @@
 			(at 327.3552 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17567,6 +17643,7 @@
 			(at 326.39 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17576,6 +17653,7 @@
 			(at 326.39 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17585,6 +17663,7 @@
 			(at 326.39 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17594,6 +17673,7 @@
 			(at 326.39 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17603,6 +17683,7 @@
 			(at 326.39 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17612,6 +17693,7 @@
 			(at 326.39 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17646,6 +17728,7 @@
 			(at 158.75 112.395 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17655,6 +17738,7 @@
 			(at 158.75 109.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17664,6 +17748,7 @@
 			(at 158.75 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17673,6 +17758,7 @@
 			(at 158.75 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17682,6 +17768,7 @@
 			(at 158.75 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17712,6 +17799,7 @@
 			(at 256.54 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17721,6 +17809,7 @@
 			(at 256.54 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -17730,6 +17819,7 @@
 			(at 256.2352 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17739,6 +17829,7 @@
 			(at 255.27 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17748,6 +17839,7 @@
 			(at 255.27 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17757,6 +17849,7 @@
 			(at 255.27 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17766,6 +17859,7 @@
 			(at 255.27 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17775,6 +17869,7 @@
 			(at 255.27 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17784,6 +17879,7 @@
 			(at 255.27 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17817,6 +17913,7 @@
 			(at 308.61 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17826,6 +17923,7 @@
 			(at 308.61 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -17835,6 +17933,7 @@
 			(at 307.0352 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17844,6 +17943,7 @@
 			(at 306.07 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17853,6 +17953,7 @@
 			(at 306.07 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17862,6 +17963,7 @@
 			(at 306.07 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17871,6 +17973,7 @@
 			(at 306.07 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17880,6 +17983,7 @@
 			(at 306.07 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17889,6 +17993,7 @@
 			(at 306.07 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17923,6 +18028,7 @@
 			(at 222.25 123.19 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17932,6 +18038,7 @@
 			(at 222.25 125.73 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -17941,6 +18048,7 @@
 			(at 217.932 124.46 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17950,6 +18058,7 @@
 			(at 219.71 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17959,6 +18068,7 @@
 			(at 219.71 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17968,6 +18078,7 @@
 			(at 219.71 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17977,6 +18088,7 @@
 			(at 219.71 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17986,6 +18098,7 @@
 			(at 219.71 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -17995,6 +18108,7 @@
 			(at 219.71 124.46 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18028,6 +18142,7 @@
 			(at 200.66 185.42 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18037,6 +18152,7 @@
 			(at 205.74 185.42 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18046,6 +18162,7 @@
 			(at 195.58 190.5 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18055,6 +18172,7 @@
 			(at 195.58 190.5 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18064,6 +18182,7 @@
 			(at 195.58 185.42 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18098,6 +18217,7 @@
 			(at 162.56 139.7 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18107,6 +18227,7 @@
 			(at 162.56 142.24 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18116,6 +18237,7 @@
 			(at 160.9852 144.78 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18125,6 +18247,7 @@
 			(at 160.02 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18134,6 +18257,7 @@
 			(at 160.02 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18143,6 +18267,7 @@
 			(at 160.02 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18152,6 +18277,7 @@
 			(at 160.02 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18161,6 +18287,7 @@
 			(at 160.02 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18170,6 +18297,7 @@
 			(at 160.02 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18203,6 +18331,7 @@
 			(at 236.22 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18212,6 +18341,7 @@
 			(at 236.22 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -18221,6 +18351,7 @@
 			(at 235.9152 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18230,6 +18361,7 @@
 			(at 234.95 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18239,6 +18371,7 @@
 			(at 234.95 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18248,6 +18381,7 @@
 			(at 234.95 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18257,6 +18391,7 @@
 			(at 234.95 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18266,6 +18401,7 @@
 			(at 234.95 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18275,6 +18411,7 @@
 			(at 234.95 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18308,6 +18445,7 @@
 			(at 388.62 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18317,6 +18455,7 @@
 			(at 388.62 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -18326,6 +18465,7 @@
 			(at 388.3152 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18335,6 +18475,7 @@
 			(at 387.35 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18344,6 +18485,7 @@
 			(at 387.35 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18353,6 +18495,7 @@
 			(at 387.35 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18362,6 +18505,7 @@
 			(at 387.35 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18371,6 +18515,7 @@
 			(at 387.35 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18380,6 +18525,7 @@
 			(at 387.35 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18413,6 +18559,7 @@
 			(at 246.38 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18422,6 +18569,7 @@
 			(at 246.38 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -18431,6 +18579,7 @@
 			(at 246.0752 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18440,6 +18589,7 @@
 			(at 245.11 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18449,6 +18599,7 @@
 			(at 245.11 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18458,6 +18609,7 @@
 			(at 245.11 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18467,6 +18619,7 @@
 			(at 245.11 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18476,6 +18629,7 @@
 			(at 245.11 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18485,6 +18639,7 @@
 			(at 245.11 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18519,6 +18674,7 @@
 			(at 311.15 157.48 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18528,6 +18684,7 @@
 			(at 311.15 156.21 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18537,6 +18694,7 @@
 			(at 311.15 151.13 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18546,6 +18704,7 @@
 			(at 311.15 151.13 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18555,6 +18714,7 @@
 			(at 311.15 151.13 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18585,6 +18745,7 @@
 			(at 347.98 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18594,6 +18755,7 @@
 			(at 347.98 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -18603,6 +18765,7 @@
 			(at 347.6752 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18612,6 +18775,7 @@
 			(at 346.71 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18621,6 +18785,7 @@
 			(at 346.71 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18630,6 +18795,7 @@
 			(at 346.71 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18639,6 +18805,7 @@
 			(at 346.71 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18648,6 +18815,7 @@
 			(at 346.71 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18657,6 +18825,7 @@
 			(at 346.71 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18690,6 +18859,7 @@
 			(at 337.82 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18699,6 +18869,7 @@
 			(at 337.82 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -18708,6 +18879,7 @@
 			(at 337.5152 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18717,6 +18889,7 @@
 			(at 336.55 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18726,6 +18899,7 @@
 			(at 336.55 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18735,6 +18909,7 @@
 			(at 336.55 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18744,6 +18919,7 @@
 			(at 336.55 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18753,6 +18929,7 @@
 			(at 336.55 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18762,6 +18939,7 @@
 			(at 336.55 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18795,6 +18973,7 @@
 			(at 347.98 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18804,6 +18983,7 @@
 			(at 347.98 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -18813,6 +18993,7 @@
 			(at 347.6752 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18822,6 +19003,7 @@
 			(at 346.71 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18831,6 +19013,7 @@
 			(at 346.71 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18840,6 +19023,7 @@
 			(at 346.71 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18849,6 +19033,7 @@
 			(at 346.71 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18858,6 +19043,7 @@
 			(at 346.71 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18867,6 +19053,7 @@
 			(at 346.71 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18901,6 +19088,7 @@
 			(at 317.5 50.165 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18910,6 +19098,7 @@
 			(at 317.5 46.99 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18919,6 +19108,7 @@
 			(at 317.5 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18928,6 +19118,7 @@
 			(at 317.5 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18937,6 +19128,7 @@
 			(at 317.5 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -18975,6 +19167,7 @@
 			(at 200.66 265.43 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18984,6 +19177,7 @@
 			(at 205.74 265.43 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -18993,6 +19187,7 @@
 			(at 195.58 270.51 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19002,6 +19197,7 @@
 			(at 195.58 270.51 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19011,6 +19207,7 @@
 			(at 195.58 265.43 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19045,6 +19242,7 @@
 			(at 297.18 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19054,6 +19252,7 @@
 			(at 297.18 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -19063,6 +19262,7 @@
 			(at 296.8752 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19072,6 +19272,7 @@
 			(at 295.91 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19081,6 +19282,7 @@
 			(at 295.91 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19090,6 +19292,7 @@
 			(at 295.91 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19099,6 +19302,7 @@
 			(at 295.91 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19108,6 +19312,7 @@
 			(at 295.91 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19117,6 +19322,7 @@
 			(at 295.91 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19150,6 +19356,7 @@
 			(at 281.94 41.91 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -19158,6 +19365,7 @@
 			(at 281.94 44.45 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -19166,6 +19374,7 @@
 			(at 281.94 53.848 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19175,6 +19384,7 @@
 			(at 281.94 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19184,6 +19394,7 @@
 			(at 281.94 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19193,6 +19404,7 @@
 			(at 281.94 46.99 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -19201,6 +19413,7 @@
 			(at 281.94 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19210,6 +19423,7 @@
 			(at 281.94 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19219,6 +19433,7 @@
 			(at 281.94 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19252,6 +19467,7 @@
 			(at 208.28 55.88 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19261,6 +19477,7 @@
 			(at 208.28 58.42 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -19270,6 +19487,7 @@
 			(at 205.74 57.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19279,6 +19497,7 @@
 			(at 205.74 57.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19288,6 +19507,7 @@
 			(at 205.74 57.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19297,6 +19517,7 @@
 			(at 205.74 57.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19306,6 +19527,7 @@
 			(at 205.74 57.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19315,6 +19537,7 @@
 			(at 205.74 57.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19324,6 +19547,7 @@
 			(at 205.74 57.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19358,6 +19582,7 @@
 			(at 224.79 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -19367,6 +19592,7 @@
 			(at 224.79 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -19376,6 +19602,7 @@
 			(at 225.552 66.04 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19385,6 +19612,7 @@
 			(at 227.33 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19394,6 +19622,7 @@
 			(at 227.33 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19403,6 +19632,7 @@
 			(at 227.33 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19412,6 +19642,7 @@
 			(at 227.33 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19421,6 +19652,7 @@
 			(at 227.33 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19430,6 +19662,7 @@
 			(at 227.33 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19467,6 +19700,7 @@
 			(at 200.66 228.6 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19476,6 +19710,7 @@
 			(at 205.74 228.6 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19485,6 +19720,7 @@
 			(at 195.58 233.68 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19494,6 +19730,7 @@
 			(at 195.58 233.68 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19503,6 +19740,7 @@
 			(at 195.58 228.6 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19537,6 +19775,7 @@
 			(at 266.7 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19546,6 +19785,7 @@
 			(at 266.7 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -19555,6 +19795,7 @@
 			(at 266.3952 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19564,6 +19805,7 @@
 			(at 265.43 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19573,6 +19815,7 @@
 			(at 265.43 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19582,6 +19825,7 @@
 			(at 265.43 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19591,6 +19835,7 @@
 			(at 265.43 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19600,6 +19845,7 @@
 			(at 265.43 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19609,6 +19855,7 @@
 			(at 265.43 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19642,6 +19889,7 @@
 			(at 236.22 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19651,6 +19899,7 @@
 			(at 236.22 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -19660,6 +19909,7 @@
 			(at 235.9152 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19669,6 +19919,7 @@
 			(at 234.95 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19678,6 +19929,7 @@
 			(at 234.95 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19687,6 +19939,7 @@
 			(at 234.95 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19696,6 +19949,7 @@
 			(at 234.95 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19705,6 +19959,7 @@
 			(at 234.95 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19714,6 +19969,7 @@
 			(at 234.95 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19747,6 +20003,7 @@
 			(at 378.46 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19756,6 +20013,7 @@
 			(at 378.46 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -19765,6 +20023,7 @@
 			(at 378.1552 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19774,6 +20033,7 @@
 			(at 377.19 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19783,6 +20043,7 @@
 			(at 377.19 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19792,6 +20053,7 @@
 			(at 377.19 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19801,6 +20063,7 @@
 			(at 377.19 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19810,6 +20073,7 @@
 			(at 377.19 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19819,6 +20083,7 @@
 			(at 377.19 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19852,6 +20117,7 @@
 			(at 200.66 257.81 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19861,6 +20127,7 @@
 			(at 205.74 257.81 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -19870,6 +20137,7 @@
 			(at 195.58 262.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19879,6 +20147,7 @@
 			(at 195.58 262.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19888,6 +20157,7 @@
 			(at 195.58 257.81 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19923,6 +20193,7 @@
 			(at 184.15 105.41 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -19931,6 +20202,7 @@
 			(at 184.15 107.95 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -19939,6 +20211,7 @@
 			(at 213.36 235.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -19949,6 +20222,7 @@
 			(at 213.36 335.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -19959,6 +20233,7 @@
 			(at 184.15 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19968,6 +20243,7 @@
 			(at 213.36 835.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -19978,6 +20254,7 @@
 			(at 213.36 935.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -19988,6 +20265,7 @@
 			(at 184.15 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -19997,6 +20275,7 @@
 			(at 184.15 140.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20061,6 +20340,7 @@
 			(at 199.39 83.185 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20070,6 +20350,7 @@
 			(at 199.39 80.01 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20079,6 +20360,7 @@
 			(at 199.39 85.09 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20088,6 +20370,7 @@
 			(at 199.39 85.09 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20097,6 +20380,7 @@
 			(at 199.39 85.09 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20127,6 +20411,7 @@
 			(at 327.66 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20136,6 +20421,7 @@
 			(at 327.66 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -20145,6 +20431,7 @@
 			(at 327.3552 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20154,6 +20441,7 @@
 			(at 326.39 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20163,6 +20451,7 @@
 			(at 326.39 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20172,6 +20461,7 @@
 			(at 326.39 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20181,6 +20471,7 @@
 			(at 326.39 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20190,6 +20481,7 @@
 			(at 326.39 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20199,6 +20491,7 @@
 			(at 326.39 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20233,6 +20526,7 @@
 			(at 364.49 127.0063 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20242,6 +20536,7 @@
 			(at 364.49 129.5463 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20251,6 +20546,7 @@
 			(at 361.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20260,6 +20556,7 @@
 			(at 361.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20269,6 +20566,7 @@
 			(at 361.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20278,6 +20576,7 @@
 			(at 361.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20287,6 +20586,7 @@
 			(at 361.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20296,6 +20596,7 @@
 			(at 361.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20305,6 +20606,7 @@
 			(at 361.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20338,6 +20640,7 @@
 			(at 200.66 270.51 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20347,6 +20650,7 @@
 			(at 205.74 270.51 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20356,6 +20660,7 @@
 			(at 195.58 275.59 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20365,6 +20670,7 @@
 			(at 195.58 275.59 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20374,6 +20680,7 @@
 			(at 195.58 270.51 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20409,6 +20716,7 @@
 			(at 48.26 50.165 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20418,6 +20726,7 @@
 			(at 48.26 46.99 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20427,6 +20736,7 @@
 			(at 48.26 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20436,6 +20746,7 @@
 			(at 48.26 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20445,6 +20756,7 @@
 			(at 48.26 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20483,6 +20795,7 @@
 			(at 358.14 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20492,6 +20805,7 @@
 			(at 358.14 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -20501,6 +20815,7 @@
 			(at 357.8352 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20510,6 +20825,7 @@
 			(at 356.87 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20519,6 +20835,7 @@
 			(at 356.87 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20528,6 +20845,7 @@
 			(at 356.87 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20537,6 +20855,7 @@
 			(at 356.87 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20546,6 +20865,7 @@
 			(at 356.87 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20555,6 +20875,7 @@
 			(at 356.87 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20588,6 +20909,7 @@
 			(at 292.1 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20597,6 +20919,7 @@
 			(at 292.1 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -20606,6 +20929,7 @@
 			(at 290.5252 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20615,6 +20939,7 @@
 			(at 289.56 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20624,6 +20949,7 @@
 			(at 289.56 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20633,6 +20959,7 @@
 			(at 289.56 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20642,6 +20969,7 @@
 			(at 289.56 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20651,6 +20979,7 @@
 			(at 289.56 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20660,6 +20989,7 @@
 			(at 289.56 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20694,6 +21024,7 @@
 			(at 64.77 95.25 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20703,6 +21034,7 @@
 			(at 64.77 93.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20712,6 +21044,7 @@
 			(at 64.77 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20721,6 +21054,7 @@
 			(at 64.77 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20730,6 +21064,7 @@
 			(at 64.77 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20760,6 +21095,7 @@
 			(at 200.66 255.27 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20769,6 +21105,7 @@
 			(at 205.74 255.27 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20778,6 +21115,7 @@
 			(at 195.58 260.35 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20787,6 +21125,7 @@
 			(at 195.58 260.35 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20796,6 +21135,7 @@
 			(at 195.58 255.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20831,6 +21171,7 @@
 			(at 273.05 95.25 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20840,6 +21181,7 @@
 			(at 273.05 93.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20849,6 +21191,7 @@
 			(at 273.05 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20858,6 +21201,7 @@
 			(at 273.05 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20867,6 +21211,7 @@
 			(at 273.05 88.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20897,6 +21242,7 @@
 			(at 287.02 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -20906,6 +21252,7 @@
 			(at 287.02 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -20915,6 +21262,7 @@
 			(at 286.7152 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20924,6 +21272,7 @@
 			(at 285.75 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20933,6 +21282,7 @@
 			(at 285.75 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20942,6 +21292,7 @@
 			(at 285.75 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20951,6 +21302,7 @@
 			(at 285.75 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20960,6 +21312,7 @@
 			(at 285.75 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -20969,6 +21322,7 @@
 			(at 285.75 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21002,6 +21356,7 @@
 			(at 347.98 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21011,6 +21366,7 @@
 			(at 347.98 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -21020,6 +21376,7 @@
 			(at 347.6752 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21029,6 +21386,7 @@
 			(at 346.71 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21038,6 +21396,7 @@
 			(at 346.71 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21047,6 +21406,7 @@
 			(at 346.71 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21056,6 +21416,7 @@
 			(at 346.71 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21065,6 +21426,7 @@
 			(at 346.71 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21074,6 +21436,7 @@
 			(at 346.71 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21107,6 +21470,7 @@
 			(at 87.63 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21116,6 +21480,7 @@
 			(at 87.63 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -21125,6 +21490,7 @@
 			(at 84.7852 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21134,6 +21500,7 @@
 			(at 83.82 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21143,6 +21510,7 @@
 			(at 83.82 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21152,6 +21520,7 @@
 			(at 83.82 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21161,6 +21530,7 @@
 			(at 83.82 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21170,6 +21540,7 @@
 			(at 83.82 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21179,6 +21550,7 @@
 			(at 83.82 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21213,6 +21585,7 @@
 			(at 222.25 133.35 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21222,6 +21595,7 @@
 			(at 222.25 135.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21231,6 +21605,7 @@
 			(at 217.932 134.62 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21240,6 +21615,7 @@
 			(at 219.71 134.62 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21249,6 +21625,7 @@
 			(at 219.71 134.62 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21258,6 +21635,7 @@
 			(at 219.71 134.62 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21267,6 +21645,7 @@
 			(at 219.71 134.62 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21276,6 +21655,7 @@
 			(at 219.71 134.62 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21285,6 +21665,7 @@
 			(at 219.71 134.62 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21318,6 +21699,7 @@
 			(at 368.3 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21327,6 +21709,7 @@
 			(at 368.3 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -21336,6 +21719,7 @@
 			(at 367.9952 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21345,6 +21729,7 @@
 			(at 367.03 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21354,6 +21739,7 @@
 			(at 367.03 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21363,6 +21749,7 @@
 			(at 367.03 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21372,6 +21759,7 @@
 			(at 367.03 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21381,6 +21769,7 @@
 			(at 367.03 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21390,6 +21779,7 @@
 			(at 367.03 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21423,6 +21813,7 @@
 			(at 71.12 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21432,6 +21823,7 @@
 			(at 71.12 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -21441,6 +21833,7 @@
 			(at 69.5452 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21450,6 +21843,7 @@
 			(at 68.58 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21459,6 +21853,7 @@
 			(at 68.58 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21468,6 +21863,7 @@
 			(at 68.58 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21477,6 +21873,7 @@
 			(at 68.58 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21486,6 +21883,7 @@
 			(at 68.58 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21495,6 +21893,7 @@
 			(at 68.58 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21528,6 +21927,7 @@
 			(at 200.66 262.89 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21537,6 +21937,7 @@
 			(at 205.74 262.89 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21546,6 +21947,7 @@
 			(at 195.58 267.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21555,6 +21957,7 @@
 			(at 195.58 267.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21564,6 +21967,7 @@
 			(at 195.58 262.89 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21598,6 +22002,7 @@
 			(at 327.66 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21607,6 +22012,7 @@
 			(at 327.66 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -21616,6 +22022,7 @@
 			(at 327.3552 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21625,6 +22032,7 @@
 			(at 326.39 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21634,6 +22042,7 @@
 			(at 326.39 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21643,6 +22052,7 @@
 			(at 326.39 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21652,6 +22062,7 @@
 			(at 326.39 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21661,6 +22072,7 @@
 			(at 326.39 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21670,6 +22082,7 @@
 			(at 326.39 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21703,6 +22116,7 @@
 			(at 237.49 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21712,6 +22126,7 @@
 			(at 237.49 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -21721,6 +22136,7 @@
 			(at 235.9152 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21730,6 +22146,7 @@
 			(at 234.95 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21739,6 +22156,7 @@
 			(at 234.95 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21748,6 +22166,7 @@
 			(at 234.95 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21757,6 +22176,7 @@
 			(at 234.95 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21766,6 +22186,7 @@
 			(at 234.95 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21775,6 +22196,7 @@
 			(at 234.95 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21808,6 +22230,7 @@
 			(at 358.14 44.45 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -21817,6 +22240,7 @@
 			(at 358.14 46.99 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -21826,6 +22250,7 @@
 			(at 360.68 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21835,6 +22260,7 @@
 			(at 360.68 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21844,6 +22270,7 @@
 			(at 360.68 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21853,6 +22280,7 @@
 			(at 358.14 49.53 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -21862,6 +22290,7 @@
 			(at 360.68 52.07 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21871,6 +22300,7 @@
 			(at 360.68 52.07 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21880,6 +22310,7 @@
 			(at 360.68 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21913,6 +22344,7 @@
 			(at 287.02 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -21922,6 +22354,7 @@
 			(at 287.02 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -21931,6 +22364,7 @@
 			(at 286.7152 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21940,6 +22374,7 @@
 			(at 285.75 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21949,6 +22384,7 @@
 			(at 285.75 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21958,6 +22394,7 @@
 			(at 285.75 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21967,6 +22404,7 @@
 			(at 285.75 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21976,6 +22414,7 @@
 			(at 285.75 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -21985,6 +22424,7 @@
 			(at 285.75 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22018,6 +22458,7 @@
 			(at 86.36 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22027,6 +22468,7 @@
 			(at 86.36 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -22036,6 +22478,7 @@
 			(at 84.7852 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22045,6 +22488,7 @@
 			(at 83.82 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22054,6 +22498,7 @@
 			(at 83.82 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22063,6 +22508,7 @@
 			(at 83.82 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22072,6 +22518,7 @@
 			(at 83.82 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22081,6 +22528,7 @@
 			(at 83.82 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22090,6 +22538,7 @@
 			(at 83.82 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22123,6 +22572,7 @@
 			(at 119.38 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22132,6 +22582,7 @@
 			(at 119.38 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -22141,6 +22592,7 @@
 			(at 117.8052 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22150,6 +22602,7 @@
 			(at 116.84 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22159,6 +22612,7 @@
 			(at 116.84 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22168,6 +22622,7 @@
 			(at 116.84 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22177,6 +22632,7 @@
 			(at 116.84 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22186,6 +22642,7 @@
 			(at 116.84 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22195,6 +22652,7 @@
 			(at 116.84 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22228,6 +22686,7 @@
 			(at 76.2 104.14 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -22236,6 +22695,7 @@
 			(at 76.2 106.68 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -22244,6 +22704,7 @@
 			(at 76.2 116.078 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22253,6 +22714,7 @@
 			(at 76.2 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22262,6 +22724,7 @@
 			(at 76.2 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22271,6 +22734,7 @@
 			(at 76.2 109.22 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -22279,6 +22743,7 @@
 			(at 76.2 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22288,6 +22753,7 @@
 			(at 76.2 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22297,6 +22763,7 @@
 			(at 76.2 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22330,6 +22797,7 @@
 			(at 200.66 241.3 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22339,6 +22807,7 @@
 			(at 205.74 241.3 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22348,6 +22817,7 @@
 			(at 195.58 246.38 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22357,6 +22827,7 @@
 			(at 195.58 246.38 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22366,6 +22837,7 @@
 			(at 195.58 241.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22400,6 +22872,7 @@
 			(at 200.66 267.97 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22409,6 +22882,7 @@
 			(at 205.74 267.97 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22418,6 +22892,7 @@
 			(at 195.58 273.05 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22427,6 +22902,7 @@
 			(at 195.58 273.05 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22436,6 +22912,7 @@
 			(at 195.58 267.97 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22470,6 +22947,7 @@
 			(at 246.38 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22479,6 +22957,7 @@
 			(at 246.38 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -22488,6 +22967,7 @@
 			(at 246.0752 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22497,6 +22977,7 @@
 			(at 245.11 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22506,6 +22987,7 @@
 			(at 245.11 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22515,6 +22997,7 @@
 			(at 245.11 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22524,6 +23007,7 @@
 			(at 245.11 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22533,6 +23017,7 @@
 			(at 245.11 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22542,6 +23027,7 @@
 			(at 245.11 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22575,6 +23061,7 @@
 			(at 200.66 260.35 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22584,6 +23071,7 @@
 			(at 205.74 260.35 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22593,6 +23081,7 @@
 			(at 195.58 265.43 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22602,6 +23091,7 @@
 			(at 195.58 265.43 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22611,6 +23101,7 @@
 			(at 195.58 260.35 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22645,6 +23136,7 @@
 			(at 148.59 76.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22654,6 +23146,7 @@
 			(at 148.59 78.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22663,6 +23156,7 @@
 			(at 147.0152 81.28 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22672,6 +23166,7 @@
 			(at 146.05 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22681,6 +23176,7 @@
 			(at 146.05 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22690,6 +23186,7 @@
 			(at 146.05 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22699,6 +23196,7 @@
 			(at 146.05 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22708,6 +23206,7 @@
 			(at 146.05 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22717,6 +23216,7 @@
 			(at 146.05 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22750,6 +23250,7 @@
 			(at 368.3 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22759,6 +23260,7 @@
 			(at 368.3 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -22768,6 +23270,7 @@
 			(at 367.9952 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22777,6 +23280,7 @@
 			(at 367.03 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22786,6 +23290,7 @@
 			(at 367.03 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22795,6 +23300,7 @@
 			(at 367.03 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22804,6 +23310,7 @@
 			(at 367.03 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22813,6 +23320,7 @@
 			(at 367.03 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22822,6 +23330,7 @@
 			(at 367.03 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22855,6 +23364,7 @@
 			(at 237.49 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22864,6 +23374,7 @@
 			(at 237.49 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -22873,6 +23384,7 @@
 			(at 235.9152 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22882,6 +23394,7 @@
 			(at 234.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22891,6 +23404,7 @@
 			(at 234.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22900,6 +23414,7 @@
 			(at 234.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22909,6 +23424,7 @@
 			(at 234.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22918,6 +23434,7 @@
 			(at 234.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22927,6 +23444,7 @@
 			(at 234.95 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22960,6 +23478,7 @@
 			(at 200.66 187.96 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22969,6 +23488,7 @@
 			(at 205.74 187.96 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -22978,6 +23498,7 @@
 			(at 195.58 193.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22987,6 +23508,7 @@
 			(at 195.58 193.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -22996,6 +23518,7 @@
 			(at 195.58 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23030,6 +23553,7 @@
 			(at 266.7 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23039,6 +23563,7 @@
 			(at 266.7 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -23048,6 +23573,7 @@
 			(at 266.3952 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23057,6 +23583,7 @@
 			(at 265.43 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23066,6 +23593,7 @@
 			(at 265.43 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23075,6 +23603,7 @@
 			(at 265.43 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23084,6 +23613,7 @@
 			(at 265.43 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23093,6 +23623,7 @@
 			(at 265.43 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23102,6 +23633,7 @@
 			(at 265.43 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23135,6 +23667,7 @@
 			(at 256.54 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23144,6 +23677,7 @@
 			(at 256.54 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -23153,6 +23687,7 @@
 			(at 256.2352 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23162,6 +23697,7 @@
 			(at 255.27 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23171,6 +23707,7 @@
 			(at 255.27 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23180,6 +23717,7 @@
 			(at 255.27 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23189,6 +23727,7 @@
 			(at 255.27 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23198,6 +23737,7 @@
 			(at 255.27 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23207,6 +23747,7 @@
 			(at 255.27 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23240,6 +23781,7 @@
 			(at 313.69 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23249,6 +23791,7 @@
 			(at 313.69 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -23258,6 +23801,7 @@
 			(at 312.1152 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23267,6 +23811,7 @@
 			(at 311.15 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23276,6 +23821,7 @@
 			(at 311.15 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23285,6 +23831,7 @@
 			(at 311.15 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23294,6 +23841,7 @@
 			(at 311.15 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23303,6 +23851,7 @@
 			(at 311.15 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23312,6 +23861,7 @@
 			(at 311.15 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23345,6 +23895,7 @@
 			(at 276.86 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23354,6 +23905,7 @@
 			(at 276.86 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -23363,6 +23915,7 @@
 			(at 276.5552 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23372,6 +23925,7 @@
 			(at 275.59 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23381,6 +23935,7 @@
 			(at 275.59 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23390,6 +23945,7 @@
 			(at 275.59 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23399,6 +23955,7 @@
 			(at 275.59 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23408,6 +23965,7 @@
 			(at 275.59 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23417,6 +23975,7 @@
 			(at 275.59 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23450,6 +24009,7 @@
 			(at 200.66 231.14 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23459,6 +24019,7 @@
 			(at 205.74 231.14 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23468,6 +24029,7 @@
 			(at 195.58 236.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23477,6 +24039,7 @@
 			(at 195.58 236.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23486,6 +24049,7 @@
 			(at 195.58 231.14 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23520,6 +24084,7 @@
 			(at 368.3 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23529,6 +24094,7 @@
 			(at 368.3 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -23538,6 +24104,7 @@
 			(at 367.9952 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23547,6 +24114,7 @@
 			(at 367.03 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23556,6 +24124,7 @@
 			(at 367.03 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23565,6 +24134,7 @@
 			(at 367.03 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23574,6 +24144,7 @@
 			(at 367.03 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23583,6 +24154,7 @@
 			(at 367.03 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23592,6 +24164,7 @@
 			(at 367.03 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23625,6 +24198,7 @@
 			(at 200.66 210.82 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23634,6 +24208,7 @@
 			(at 205.74 210.82 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23643,6 +24218,7 @@
 			(at 195.58 215.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23652,6 +24228,7 @@
 			(at 195.58 215.9 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23661,6 +24238,7 @@
 			(at 195.58 210.82 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23695,6 +24273,7 @@
 			(at 200.66 236.22 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23704,6 +24283,7 @@
 			(at 205.74 236.22 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23713,6 +24293,7 @@
 			(at 195.58 241.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23722,6 +24303,7 @@
 			(at 195.58 241.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23731,6 +24313,7 @@
 			(at 195.58 236.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23765,6 +24348,7 @@
 			(at 381 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23774,6 +24358,7 @@
 			(at 381 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -23783,6 +24368,7 @@
 			(at 379.4252 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23792,6 +24378,7 @@
 			(at 378.46 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23801,6 +24388,7 @@
 			(at 378.46 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23810,6 +24398,7 @@
 			(at 378.46 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23819,6 +24408,7 @@
 			(at 378.46 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23828,6 +24418,7 @@
 			(at 378.46 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23837,6 +24428,7 @@
 			(at 378.46 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23870,6 +24462,7 @@
 			(at 287.02 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -23879,6 +24472,7 @@
 			(at 287.02 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -23888,6 +24482,7 @@
 			(at 286.7152 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23897,6 +24492,7 @@
 			(at 285.75 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23906,6 +24502,7 @@
 			(at 285.75 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23915,6 +24512,7 @@
 			(at 285.75 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23924,6 +24522,7 @@
 			(at 285.75 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23933,6 +24532,7 @@
 			(at 285.75 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23942,6 +24542,7 @@
 			(at 285.75 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -23976,6 +24577,7 @@
 			(at 184.15 43.18 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -23984,6 +24586,7 @@
 			(at 184.15 45.72 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -23992,6 +24595,7 @@
 			(at 213.36 173.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -24002,6 +24606,7 @@
 			(at 213.36 273.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -24012,6 +24617,7 @@
 			(at 184.15 78.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24021,6 +24627,7 @@
 			(at 213.36 773.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -24031,6 +24638,7 @@
 			(at 213.36 873.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left top)
@@ -24041,6 +24649,7 @@
 			(at 184.15 78.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24050,6 +24659,7 @@
 			(at 184.15 78.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24105,6 +24715,7 @@
 			(at 242.57 112.395 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24114,6 +24725,7 @@
 			(at 242.57 109.22 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24123,6 +24735,7 @@
 			(at 242.57 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24132,6 +24745,7 @@
 			(at 242.57 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24141,6 +24755,7 @@
 			(at 242.57 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24171,6 +24786,7 @@
 			(at 200.66 238.76 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24180,6 +24796,7 @@
 			(at 205.74 238.76 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24189,6 +24806,7 @@
 			(at 195.58 243.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24198,6 +24816,7 @@
 			(at 195.58 243.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24207,6 +24826,7 @@
 			(at 195.58 238.76 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24241,6 +24861,7 @@
 			(at 236.22 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24250,6 +24871,7 @@
 			(at 236.22 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -24259,6 +24881,7 @@
 			(at 235.9152 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24268,6 +24891,7 @@
 			(at 234.95 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24277,6 +24901,7 @@
 			(at 234.95 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24286,6 +24911,7 @@
 			(at 234.95 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24295,6 +24921,7 @@
 			(at 234.95 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24304,6 +24931,7 @@
 			(at 234.95 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24313,6 +24941,7 @@
 			(at 234.95 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24346,6 +24975,7 @@
 			(at 275.59 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24355,6 +24985,7 @@
 			(at 275.59 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -24364,6 +24995,7 @@
 			(at 274.0152 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24373,6 +25005,7 @@
 			(at 273.05 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24382,6 +25015,7 @@
 			(at 273.05 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24391,6 +25025,7 @@
 			(at 273.05 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24400,6 +25035,7 @@
 			(at 273.05 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24409,6 +25045,7 @@
 			(at 273.05 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24418,6 +25055,7 @@
 			(at 273.05 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24452,6 +25090,7 @@
 			(at 165.1 76.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24461,6 +25100,7 @@
 			(at 165.1 78.74 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24470,6 +25110,7 @@
 			(at 160.782 77.47 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24479,6 +25120,7 @@
 			(at 162.56 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24488,6 +25130,7 @@
 			(at 162.56 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24497,6 +25140,7 @@
 			(at 162.56 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24506,6 +25150,7 @@
 			(at 162.56 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24515,6 +25160,7 @@
 			(at 162.56 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24524,6 +25170,7 @@
 			(at 162.56 77.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24557,6 +25204,7 @@
 			(at 200.66 213.36 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24566,6 +25214,7 @@
 			(at 205.74 213.36 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24575,6 +25224,7 @@
 			(at 195.58 218.44 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24584,6 +25234,7 @@
 			(at 195.58 218.44 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24593,6 +25244,7 @@
 			(at 195.58 213.36 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24627,6 +25279,7 @@
 			(at 307.34 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24636,6 +25289,7 @@
 			(at 307.34 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -24645,6 +25299,7 @@
 			(at 307.0352 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24654,6 +25309,7 @@
 			(at 306.07 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24663,6 +25319,7 @@
 			(at 306.07 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24672,6 +25329,7 @@
 			(at 306.07 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24681,6 +25339,7 @@
 			(at 306.07 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24690,6 +25349,7 @@
 			(at 306.07 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24699,6 +25359,7 @@
 			(at 306.07 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24732,6 +25393,7 @@
 			(at 360.68 58.42 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24740,6 +25402,7 @@
 			(at 360.68 55.88 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -24748,6 +25411,7 @@
 			(at 360.68 54.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24757,6 +25421,7 @@
 			(at 360.68 54.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24766,6 +25431,7 @@
 			(at 360.68 54.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24799,6 +25465,7 @@
 			(at 208.28 119.38 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24808,6 +25475,7 @@
 			(at 208.28 121.92 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -24817,6 +25485,7 @@
 			(at 205.74 120.65 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24826,6 +25495,7 @@
 			(at 205.74 120.65 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24835,6 +25505,7 @@
 			(at 205.74 120.65 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24844,6 +25515,7 @@
 			(at 205.74 120.65 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24853,6 +25525,7 @@
 			(at 205.74 120.65 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24862,6 +25535,7 @@
 			(at 205.74 120.65 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24871,6 +25545,7 @@
 			(at 205.74 120.65 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24905,6 +25580,7 @@
 			(at 152.4 50.165 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24914,6 +25590,7 @@
 			(at 152.4 46.99 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24923,6 +25600,7 @@
 			(at 152.4 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24932,6 +25610,7 @@
 			(at 152.4 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24941,6 +25620,7 @@
 			(at 152.4 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -24979,6 +25659,7 @@
 			(at 388.62 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -24988,6 +25669,7 @@
 			(at 388.62 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -24997,6 +25679,7 @@
 			(at 388.3152 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25006,6 +25689,7 @@
 			(at 387.35 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25015,6 +25699,7 @@
 			(at 387.35 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25024,6 +25709,7 @@
 			(at 387.35 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25033,6 +25719,7 @@
 			(at 387.35 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25042,6 +25729,7 @@
 			(at 387.35 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25051,6 +25739,7 @@
 			(at 387.35 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25085,6 +25774,7 @@
 			(at 339.09 44.45 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -25093,6 +25783,7 @@
 			(at 339.09 46.99 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -25101,6 +25792,7 @@
 			(at 342.9 68.58 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25111,6 +25803,7 @@
 			(at 339.09 45.72 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25120,6 +25813,7 @@
 			(at 339.09 59.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25129,6 +25823,7 @@
 			(at 339.09 59.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25138,6 +25833,7 @@
 			(at 339.09 59.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25147,6 +25843,7 @@
 			(at 339.09 59.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25156,6 +25853,7 @@
 			(at 339.09 59.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25210,6 +25908,7 @@
 			(at 210.82 106.68 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -25219,6 +25918,7 @@
 			(at 210.82 109.22 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -25228,6 +25928,7 @@
 			(at 213.36 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25237,6 +25938,7 @@
 			(at 213.36 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25246,6 +25948,7 @@
 			(at 213.36 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25255,6 +25958,7 @@
 			(at 210.82 111.76 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -25264,6 +25968,7 @@
 			(at 213.36 114.3 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25273,6 +25978,7 @@
 			(at 213.36 114.3 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25282,6 +25988,7 @@
 			(at 213.36 114.3 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25315,6 +26022,7 @@
 			(at 358.14 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25324,6 +26032,7 @@
 			(at 358.14 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -25333,6 +26042,7 @@
 			(at 357.8352 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25342,6 +26052,7 @@
 			(at 356.87 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25351,6 +26062,7 @@
 			(at 356.87 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25360,6 +26072,7 @@
 			(at 356.87 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25369,6 +26082,7 @@
 			(at 356.87 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25378,6 +26092,7 @@
 			(at 356.87 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25387,6 +26102,7 @@
 			(at 356.87 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25420,6 +26136,7 @@
 			(at 148.59 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25429,6 +26146,7 @@
 			(at 148.59 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -25438,6 +26156,7 @@
 			(at 146.05 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25447,6 +26166,7 @@
 			(at 146.05 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25456,6 +26176,7 @@
 			(at 146.05 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25465,6 +26186,7 @@
 			(at 146.05 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25474,6 +26196,7 @@
 			(at 146.05 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25483,6 +26206,7 @@
 			(at 146.05 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25492,6 +26216,7 @@
 			(at 146.05 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25525,6 +26250,7 @@
 			(at 220.98 118.11 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -25534,6 +26260,7 @@
 			(at 220.98 115.57 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -25543,6 +26270,7 @@
 			(at 219.71 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25552,6 +26280,7 @@
 			(at 219.71 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25561,6 +26290,7 @@
 			(at 219.71 116.84 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25594,6 +26324,7 @@
 			(at 252.73 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25603,6 +26334,7 @@
 			(at 252.73 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -25612,6 +26344,7 @@
 			(at 251.1552 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25621,6 +26354,7 @@
 			(at 250.19 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25630,6 +26364,7 @@
 			(at 250.19 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25639,6 +26374,7 @@
 			(at 250.19 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25648,6 +26384,7 @@
 			(at 250.19 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25657,6 +26394,7 @@
 			(at 250.19 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25666,6 +26404,7 @@
 			(at 250.19 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25699,6 +26438,7 @@
 			(at 200.66 226.06 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25708,6 +26448,7 @@
 			(at 205.74 226.06 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25717,6 +26458,7 @@
 			(at 195.58 231.14 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25726,6 +26468,7 @@
 			(at 195.58 231.14 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25735,6 +26478,7 @@
 			(at 195.58 226.06 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25769,6 +26513,7 @@
 			(at 200.66 233.68 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25778,6 +26523,7 @@
 			(at 205.74 233.68 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25787,6 +26533,7 @@
 			(at 195.58 238.76 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25796,6 +26543,7 @@
 			(at 195.58 238.76 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25805,6 +26553,7 @@
 			(at 195.58 233.68 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25839,6 +26588,7 @@
 			(at 358.14 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25848,6 +26598,7 @@
 			(at 358.14 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -25857,6 +26608,7 @@
 			(at 357.8352 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25866,6 +26618,7 @@
 			(at 356.87 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25875,6 +26628,7 @@
 			(at 356.87 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25884,6 +26638,7 @@
 			(at 356.87 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25893,6 +26648,7 @@
 			(at 356.87 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25902,6 +26658,7 @@
 			(at 356.87 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25911,6 +26668,7 @@
 			(at 356.87 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25944,6 +26702,7 @@
 			(at 276.86 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -25953,6 +26712,7 @@
 			(at 276.86 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -25962,6 +26722,7 @@
 			(at 276.5552 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25971,6 +26732,7 @@
 			(at 275.59 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25980,6 +26742,7 @@
 			(at 275.59 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25989,6 +26752,7 @@
 			(at 275.59 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -25998,6 +26762,7 @@
 			(at 275.59 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26007,6 +26772,7 @@
 			(at 275.59 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26016,6 +26782,7 @@
 			(at 275.59 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26049,6 +26816,7 @@
 			(at 317.5 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26058,6 +26826,7 @@
 			(at 317.5 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -26067,6 +26836,7 @@
 			(at 317.1952 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26076,6 +26846,7 @@
 			(at 316.23 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26085,6 +26856,7 @@
 			(at 316.23 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26094,6 +26866,7 @@
 			(at 316.23 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26103,6 +26876,7 @@
 			(at 316.23 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26112,6 +26886,7 @@
 			(at 316.23 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26121,6 +26896,7 @@
 			(at 316.23 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26154,6 +26930,7 @@
 			(at 317.5 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26163,6 +26940,7 @@
 			(at 317.5 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -26172,6 +26950,7 @@
 			(at 317.1952 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26181,6 +26960,7 @@
 			(at 316.23 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26190,6 +26970,7 @@
 			(at 316.23 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26199,6 +26980,7 @@
 			(at 316.23 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26208,6 +26990,7 @@
 			(at 316.23 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26217,6 +27000,7 @@
 			(at 316.23 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26226,6 +27010,7 @@
 			(at 316.23 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26259,6 +27044,7 @@
 			(at 231.14 228.6 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26268,6 +27054,7 @@
 			(at 227.33 223.52 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26277,6 +27064,7 @@
 			(at 231.14 222.25 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26286,6 +27074,7 @@
 			(at 231.14 222.25 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26295,6 +27084,7 @@
 			(at 231.14 222.25 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26325,6 +27115,7 @@
 			(at 209.55 44.45 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -26334,6 +27125,7 @@
 			(at 209.55 46.99 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -26343,6 +27135,7 @@
 			(at 212.09 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26352,6 +27145,7 @@
 			(at 212.09 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26361,6 +27155,7 @@
 			(at 212.09 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26370,6 +27165,7 @@
 			(at 209.55 49.53 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify right)
@@ -26379,6 +27175,7 @@
 			(at 212.09 52.07 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26388,6 +27185,7 @@
 			(at 212.09 52.07 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26397,6 +27195,7 @@
 			(at 212.09 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26430,6 +27229,7 @@
 			(at 119.38 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26439,6 +27239,7 @@
 			(at 119.38 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -26448,6 +27249,7 @@
 			(at 117.8052 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26457,6 +27259,7 @@
 			(at 116.84 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26466,6 +27269,7 @@
 			(at 116.84 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26475,6 +27279,7 @@
 			(at 116.84 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26484,6 +27289,7 @@
 			(at 116.84 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26493,6 +27299,7 @@
 			(at 116.84 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26502,6 +27309,7 @@
 			(at 116.84 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26535,6 +27343,7 @@
 			(at 76.2 41.91 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -26543,6 +27352,7 @@
 			(at 76.2 44.45 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -26551,6 +27361,7 @@
 			(at 76.2 53.848 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26560,6 +27371,7 @@
 			(at 76.2 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26569,6 +27381,7 @@
 			(at 76.2 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26578,6 +27391,7 @@
 			(at 76.2 46.99 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -26586,6 +27400,7 @@
 			(at 76.2 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26595,6 +27410,7 @@
 			(at 76.2 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26604,6 +27420,7 @@
 			(at 76.2 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26637,6 +27454,7 @@
 			(at 231.14 195.58 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26646,6 +27464,7 @@
 			(at 227.33 190.5 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26655,6 +27474,7 @@
 			(at 231.14 189.23 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26664,6 +27484,7 @@
 			(at 231.14 189.23 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26673,6 +27494,7 @@
 			(at 231.14 189.23 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26703,6 +27525,7 @@
 			(at 104.14 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26712,6 +27535,7 @@
 			(at 104.14 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -26721,6 +27545,7 @@
 			(at 102.5652 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26730,6 +27555,7 @@
 			(at 101.6 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26739,6 +27565,7 @@
 			(at 101.6 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26748,6 +27575,7 @@
 			(at 101.6 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26757,6 +27585,7 @@
 			(at 101.6 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26766,6 +27595,7 @@
 			(at 101.6 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26775,6 +27605,7 @@
 			(at 101.6 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26808,6 +27639,7 @@
 			(at 337.82 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26817,6 +27649,7 @@
 			(at 337.82 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -26826,6 +27659,7 @@
 			(at 337.5152 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26835,6 +27669,7 @@
 			(at 336.55 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26844,6 +27679,7 @@
 			(at 336.55 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26853,6 +27689,7 @@
 			(at 336.55 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26862,6 +27699,7 @@
 			(at 336.55 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26871,6 +27709,7 @@
 			(at 336.55 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26880,6 +27719,7 @@
 			(at 336.55 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26913,6 +27753,7 @@
 			(at 200.66 190.5 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26922,6 +27763,7 @@
 			(at 205.74 190.5 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26931,6 +27773,7 @@
 			(at 195.58 195.58 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26940,6 +27783,7 @@
 			(at 195.58 195.58 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26949,6 +27793,7 @@
 			(at 195.58 190.5 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -26983,6 +27828,7 @@
 			(at 256.54 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -26992,6 +27838,7 @@
 			(at 256.54 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27001,6 +27848,7 @@
 			(at 256.2352 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27010,6 +27858,7 @@
 			(at 255.27 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27019,6 +27868,7 @@
 			(at 255.27 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27028,6 +27878,7 @@
 			(at 255.27 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27037,6 +27888,7 @@
 			(at 255.27 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27046,6 +27898,7 @@
 			(at 255.27 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27055,6 +27908,7 @@
 			(at 255.27 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27088,6 +27942,7 @@
 			(at 307.34 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27097,6 +27952,7 @@
 			(at 307.34 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27106,6 +27962,7 @@
 			(at 307.0352 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27115,6 +27972,7 @@
 			(at 306.07 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27124,6 +27982,7 @@
 			(at 306.07 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27133,6 +27992,7 @@
 			(at 306.07 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27142,6 +28002,7 @@
 			(at 306.07 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27151,6 +28012,7 @@
 			(at 306.07 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27160,6 +28022,7 @@
 			(at 306.07 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27193,6 +28056,7 @@
 			(at 200.66 208.28 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27202,6 +28066,7 @@
 			(at 205.74 208.28 90)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27211,6 +28076,7 @@
 			(at 195.58 213.36 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27220,6 +28086,7 @@
 			(at 195.58 213.36 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27229,6 +28096,7 @@
 			(at 195.58 208.28 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27263,6 +28131,7 @@
 			(at 276.86 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27272,6 +28141,7 @@
 			(at 276.86 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27281,6 +28151,7 @@
 			(at 276.5552 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27290,6 +28161,7 @@
 			(at 275.59 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27299,6 +28171,7 @@
 			(at 275.59 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27308,6 +28181,7 @@
 			(at 275.59 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27317,6 +28191,7 @@
 			(at 275.59 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27326,6 +28201,7 @@
 			(at 275.59 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27335,6 +28211,7 @@
 			(at 275.59 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27368,6 +28245,7 @@
 			(at 212.09 62.23 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -27376,6 +28254,7 @@
 			(at 212.09 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 			)
@@ -27384,6 +28263,7 @@
 			(at 212.09 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27393,6 +28273,7 @@
 			(at 212.09 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27402,6 +28283,7 @@
 			(at 212.09 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27435,6 +28317,7 @@
 			(at 266.7 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27444,6 +28327,7 @@
 			(at 266.7 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27453,6 +28337,7 @@
 			(at 266.3952 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27462,6 +28347,7 @@
 			(at 265.43 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27471,6 +28357,7 @@
 			(at 265.43 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27480,6 +28367,7 @@
 			(at 265.43 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27489,6 +28377,7 @@
 			(at 265.43 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27498,6 +28387,7 @@
 			(at 265.43 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27507,6 +28397,7 @@
 			(at 265.43 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27541,6 +28432,7 @@
 			(at 242.57 50.165 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27550,6 +28442,7 @@
 			(at 242.57 46.99 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27559,6 +28452,7 @@
 			(at 242.57 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27568,6 +28462,7 @@
 			(at 242.57 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27577,6 +28472,7 @@
 			(at 242.57 52.07 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27607,6 +28503,7 @@
 			(at 246.38 214.63 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27616,6 +28513,7 @@
 			(at 246.38 219.71 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27625,6 +28523,7 @@
 			(at 246.0752 220.98 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27634,6 +28533,7 @@
 			(at 245.11 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27643,6 +28543,7 @@
 			(at 245.11 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27652,6 +28553,7 @@
 			(at 245.11 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27661,6 +28563,7 @@
 			(at 245.11 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27670,6 +28573,7 @@
 			(at 245.11 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27679,6 +28583,7 @@
 			(at 245.11 217.17 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27712,6 +28617,7 @@
 			(at 378.46 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27721,6 +28627,7 @@
 			(at 378.46 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27730,6 +28637,7 @@
 			(at 378.1552 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27739,6 +28647,7 @@
 			(at 377.19 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27748,6 +28657,7 @@
 			(at 377.19 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27757,6 +28667,7 @@
 			(at 377.19 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27766,6 +28677,7 @@
 			(at 377.19 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27775,6 +28687,7 @@
 			(at 377.19 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27784,6 +28697,7 @@
 			(at 377.19 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27817,6 +28731,7 @@
 			(at 133.35 64.77 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27826,6 +28741,7 @@
 			(at 133.35 67.31 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27835,6 +28751,7 @@
 			(at 131.7752 69.85 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27844,6 +28761,7 @@
 			(at 130.81 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27853,6 +28771,7 @@
 			(at 130.81 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27862,6 +28781,7 @@
 			(at 130.81 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27871,6 +28791,7 @@
 			(at 130.81 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27880,6 +28801,7 @@
 			(at 130.81 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27889,6 +28811,7 @@
 			(at 130.81 66.04 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27922,6 +28845,7 @@
 			(at 381 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -27931,6 +28855,7 @@
 			(at 381 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -27940,6 +28865,7 @@
 			(at 379.4252 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27949,6 +28875,7 @@
 			(at 378.46 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27958,6 +28885,7 @@
 			(at 378.46 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27967,6 +28895,7 @@
 			(at 378.46 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27976,6 +28905,7 @@
 			(at 378.46 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27985,6 +28915,7 @@
 			(at 378.46 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -27994,6 +28925,7 @@
 			(at 378.46 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28027,6 +28959,7 @@
 			(at 297.18 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -28036,6 +28969,7 @@
 			(at 297.18 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -28045,6 +28979,7 @@
 			(at 296.8752 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28054,6 +28989,7 @@
 			(at 295.91 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28063,6 +28999,7 @@
 			(at 295.91 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28072,6 +29009,7 @@
 			(at 295.91 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28081,6 +29019,7 @@
 			(at 295.91 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28090,6 +29029,7 @@
 			(at 295.91 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28099,6 +29039,7 @@
 			(at 295.91 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28132,6 +29073,7 @@
 			(at 307.34 198.12 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -28141,6 +29083,7 @@
 			(at 307.34 203.2 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -28150,6 +29093,7 @@
 			(at 307.0352 204.47 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28159,6 +29103,7 @@
 			(at 306.07 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28168,6 +29113,7 @@
 			(at 306.07 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28177,6 +29123,7 @@
 			(at 306.07 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28186,6 +29133,7 @@
 			(at 306.07 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28195,6 +29143,7 @@
 			(at 306.07 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28204,6 +29153,7 @@
 			(at 306.07 200.66 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28237,6 +29187,7 @@
 			(at 388.62 181.61 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -28246,6 +29197,7 @@
 			(at 388.62 186.69 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -28255,6 +29207,7 @@
 			(at 388.3152 187.96 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28264,6 +29217,7 @@
 			(at 387.35 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28273,6 +29227,7 @@
 			(at 387.35 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28282,6 +29237,7 @@
 			(at 387.35 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28291,6 +29247,7 @@
 			(at 387.35 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28300,6 +29257,7 @@
 			(at 387.35 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28309,6 +29267,7 @@
 			(at 387.35 184.15 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28342,6 +29301,7 @@
 			(at 252.73 127 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(justify left)
@@ -28351,6 +29311,7 @@
 			(at 252.73 129.54 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.016 1.016)
 				)
 				(justify left)
@@ -28360,6 +29321,7 @@
 			(at 251.1552 132.08 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28369,6 +29331,7 @@
 			(at 250.19 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28378,6 +29341,7 @@
 			(at 250.19 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28387,6 +29351,7 @@
 			(at 250.19 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28396,6 +29361,7 @@
 			(at 250.19 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28405,6 +29371,7 @@
 			(at 250.19 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -28414,6 +29381,7 @@
 			(at 250.19 128.27 0)
 			(effects
 				(font
+					(face "Times New Roman")
 					(size 1.27 1.27)
 				)
 				(hide yes)

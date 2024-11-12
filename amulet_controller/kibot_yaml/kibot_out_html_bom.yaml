@@ -1,0 +1,23 @@
+# KiBot output for generating Interactive HTML BoM
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/ibom.html
+
+kibot:
+  version: 1
+
+output:
+- name: '@NAME@'
+  comment: '@COMMENT@'
+  type: ibom
+  dir: '@DIR@'
+  options:
+    extra_data_file: '%F.net'
+    dark_mode: true
+    show_fields: 'Value,Footprint,Manufacturer Part Number'
+    group_fields: 'Value,Manufacturer Part Number'
+    show_fabrication: true
+    highlight_pin1: "selected"
+
+definitions:
+  NAME: 'html_bom_interactive'
+  COMMENT: 'Interactive BOM in HTML format'
+  DIR: 'Manufacturing/Assembly'

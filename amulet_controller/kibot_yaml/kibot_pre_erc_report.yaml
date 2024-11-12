@@ -1,0 +1,16 @@
+# KiBot preflight for generating ERC reports
+# https://kibot.readthedocs.io/en/latest/configuration/preflights/erc.html
+
+kibot:
+  version: 1
+
+preflight:
+  erc:
+    category: '@CATEGORY@'
+    dir: '@DIR@'
+    format: 'HTML, RPT'
+    output: 'report_%f-%i%I%v.%x'
+
+definitions:
+  CATEGORY: 'Schematic'
+  DIR: 'Reports'

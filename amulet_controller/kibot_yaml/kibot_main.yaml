@@ -1,0 +1,126 @@
+# KiBot configuration file for KDT_Hierarchical Template
+# KiCad 8.0
+
+kibot:
+  version: 1
+
+import:
+
+# Global parameters ==========================================================
+  - file: kibot_globals.yaml
+    definitions:
+      OUTPUT_DIR: '@OUTPUT_DIR@'
+      LAYER_DNP_TOP: '@LAYER_DNP_TOP@'
+      LAYER_DNP_BOTTOM: '@LAYER_DNP_BOTTOM@'
+
+  # Filters ====================================================================
+  # - file: kibot_filt_testpoints.yaml
+  #   definitions:
+  #     NAME: '@FILT_TP_ONLY@'
+  #     COMMENT: Exclude only testpoints
+    
+# - file: kibot_filt_testpoints.yaml
+#   definitions:
+#     NAME: '@FILT_TP_TOP_ONLY@'
+#     COMMENT: "Select only top testpoints"
+#     EXLUDE_TOP: true
+#     EXCLUDE_REFS: '@EXCLUDE_REFS@'
+
+# - file: kibot_filt_testpoints.yaml
+#   definitions:
+#     NAME: '@FILT_TP_BOTTOM_ONLY@'
+#     COMMENT: "Select only bottom testpoints"
+#     EXLUDE_BOTTOM: true
+#     EXCLUDE_REFS: '@EXCLUDE_REFS@'
+
+# Preflights =================================================================
+
+# # Generate ERC Report
+# - file: kibot_pre_erc_report.yaml
+#   definitions:
+#     CATEGORY: '@SCHEMATIC_DIR@'
+#     DIR: '@REPORT_DIR@'
+
+# # Generate DRC Report
+# - file: kibot_pre_drc_report.yaml
+#   definitions:
+#     CATEGORY: '@SCHEMATIC_DIR@'
+#     DIR: '@REPORT_DIR@'
+
+# # Draw stackup table in PCB
+# - file: kibot_pre_draw_stackup.yaml
+#   definitions:
+#     GERBER_OUTPUT: '@GERBER_OUTPUT@'
+#     NOTE: '@STACKUP_TABLE_NOTE@'
+
+# # Include tables in PCB for testpoint lists
+# - file: kibot_pre_include_table.yaml
+#   definitions:
+#     NAME: '@CSV_TP_TOP_OUTPUT@'
+
+# - file: kibot_pre_include_table_inverted.yaml
+#   definitions:
+#     NAME: '@CSV_TP_BOTTOM_OUTPUT@'
+
+# Generated outputs ============================================================
+
+# # Schematic in PDF format
+# - file: kibot_out_pdf_schematic.yaml
+#   definitions:
+#     NAME: '@PDF_SCHEMATIC_OUTPUT@'
+#     COMMENT: 'Schematic in PDF format'
+#     COLOR_THEME: '@COLOR_THEME@'
+#     DIR: '@SCHEMATIC_DIR@'
+#     CATEGORY: '@SCHEMATIC_DIR@'
+
+# # Netlist
+# - file: kibot_out_netlist.yaml
+#   definitions:
+#     NAME: '@NETLIST_OUTPUT@'
+#     COMMENT: 'Schematic netlist in KiCad format'
+
+# # Interactive HTML BOM. Needs netlist.
+# - file: kibot_out_html_bom.yaml
+#   definitions:
+#     NAME: '@HTML_BOM_OUTPUT@'
+#     COMMENT: 'Interactive BOM in HTML format'
+#     DIR: '@ASSEMBLY_DIR@'
+
+definitions:
+
+  # Output directories =========================================================
+
+  # Root
+  OUTPUT_DIR: ../Generated_alt
+
+  # Relative to root
+  # REPORT_DIR: 'Reports'
+  # SCHEMATIC_DIR: 'Schematic'
+  # MANUFACTURING_DIR: 'Manufacturing'
+  # ASSEMBLY_DIR: '@MANUFACTURING_DIR@/Assembly'
+
+  # Filters names ==============================================================
+  FILT_TP_ONLY: only_testpoints
+  # FILT_TP_TOP_ONLY: 'only_testpoints_top'
+  # FILT_TP_BOTTOM_ONLY: 'only_testpoints_bottom'
+
+  # # References to exlude from testpoint highlighting
+  # EXCLUDE_REFS: "MB*"
+
+  # # Preflight parameters =======================================================
+  # STACKUP_TABLE_NOTE: "external layer thicknesses are specified after plating"
+
+  # # Output names  ==============================================================
+  # CSV_TP_TOP_OUTPUT: 'csv_testpoints_top'
+  # CSV_TP_BOTTOM_OUTPUT: 'csv_testpoints_bottom'
+  # GERBER_OUTPUT: 'gbr_gerbers'
+  # PDF_SCHEMATIC_OUTPUT: 'pdf_schematic'
+  # NETLIST_OUTPUT: 'netlist'
+  # HTML_BOM_OUTPUT: 'html_bom_interactive'
+
+  # # Schematic parameters =======================================================
+  # COLOR_THEME: 'Altium_Theme'
+
+  # # Layer names. Should match user-defined names in the PCB.  ==================
+  LAYER_DNP_TOP: F.DNP
+  LAYER_DNP_BOTTOM: B.DNP
