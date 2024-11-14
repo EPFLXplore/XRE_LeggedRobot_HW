@@ -1,0 +1,28 @@
+# KiBot output for generating Bill of Materials in XLSX format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/bom.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: bom
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    format: XLSX
+    count_smd_tht: true
+    xlsx:
+      title: 'Bill of Materials'
+      logo: false
+      style: modern-blue
+      kicost: true
+      # specs: true
+      # kicost_api_disable: KitSpace
+
+...
+definitions:
+  NAME: xlsx_costs_bom
+  COMMENT: Costs Bill of Materials in XLSX format
+  DIR: Manufacturing/Assembly

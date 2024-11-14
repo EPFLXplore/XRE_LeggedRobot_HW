@@ -1,0 +1,19 @@
+# KiBot output for generating PCB 3D model in STEP format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/step.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: step
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    output: '%f%I%v.%x'
+
+definitions:
+  NAME: step
+  COMMENT: PCB 3D model in STEP format
+  DIR: 3D

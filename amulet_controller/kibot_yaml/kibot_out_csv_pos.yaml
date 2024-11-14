@@ -1,0 +1,22 @@
+# KiBot output for generating Position file in CSV format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/position.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: position
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    format: 'CSV'
+    only_smd: false
+    output: '%f-CPL%I%v.%x'
+    separate_files_for_front_and_back: false
+
+definitions:
+  NAME: csv_position
+  COMMENT: Position file in CSV format
+  DIR: Manufacturing/Assembly

@@ -4,19 +4,18 @@
 kibot:
   version: 1
 
-output:
-- name: '@NAME@'
+outputs:
+- name: @NAME@
   comment: '@COMMENT@'
   type: pdf_sch_print
   dir: '@DIR@'
-  category: '@CATEGORY@'
+  category: '@DIR@'
   options:
-    background_color: true
+    background_color: false
     color_theme: '@COLOR_THEME@'
 
 definitions:
-  NAME: 'pdf_schematic'
-  COMMENT: 'Schematic in PDF format'
-  COLOR_THEME: 'Altium_Theme'
-  DIR: 'Schematic'
-  CATEGORY: 'Schematic'
+  NAME: pdf_schematic
+  COMMENT: Schematic in PDF format
+  COLOR_THEME: Altium_Theme
+  DIR: Schematic

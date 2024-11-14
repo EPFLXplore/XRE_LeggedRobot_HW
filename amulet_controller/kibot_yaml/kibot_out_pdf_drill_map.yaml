@@ -1,0 +1,24 @@
+# KiBot output for generating Gerber files
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/excellon.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: excellon
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    pth_and_npth_single_file: false
+    pth_id: 'PTH'
+    npth_id: 'NPTH'
+    map: '@MAP_FORMAT@'
+
+...
+definitions:
+  NAME: drl_pth_npth
+  COMMENT: Drill in Excellon format
+  DIR: Manufacturing/Fabrication/Gerbers
+  MAP_FORMAT: None

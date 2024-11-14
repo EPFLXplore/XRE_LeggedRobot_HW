@@ -1,0 +1,42 @@
+# KiBot output for 3D Viewer renders in PNG format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/render_3d.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: render_3d
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    output: '%f-@SUFFIX@%I%v.%x'
+    auto_crop: true
+    enable_crop_workaround: true
+    rotate_x: @ROTATE_X@
+    rotate_y: @ROTATE_Y@
+    rotate_z: @ROTATE_Z@
+    zoom: @ZOOM@
+    height: @HEIGHT@
+    width: @WIDTH@
+    view: '@VIEW@'
+    ray_tracing: true
+    force_stackup_colors: true
+    orthographic: true
+    transparent_background: true
+    transparent_background_fuzz: 40
+
+...
+definitions:
+  NAME: png_3d_viewer
+  COMMENT: 3D viewer PCB render in PNG format
+  DIR: Images
+  SUFFIX: ""
+  VIEW: top
+  ROTATE_X: 0
+  ROTATE_Y: 0
+  ROTATE_Z: 0
+  ZOOM: 0
+  HEIGHT: 2000
+  WIDTH: 2000

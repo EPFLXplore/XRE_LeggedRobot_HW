@@ -4,9 +4,56 @@
 kibot:
   version: 1
 
+# To execute only outputs of a group:
+# kibot -c kibot_yaml/kibot_main.yaml <group_name>
+
+groups:
+  - name: fab
+    outputs:
+      - @GERBER_OUTPUT@
+      - @EXCELLON_DRILL_OUTPUT@
+      - @DXF_DRILL_MAP_OUTPUT@
+      - @PDF_DRILL_MAP_OUTPUT@
+      - @CSV_TP_TOP_OUTPUT@
+      - @CSV_TP_BOTTOM_OUTPUT@
+      - @PDF_FABRICATION_OUTPUT@
+      - @ZIP_COMPRESS_FAB_OUTPUT@
+
+  - name: assembly
+    outputs:
+      - @PNG_3D_VIEWER_TOP@
+      - @PNG_3D_VIEWER_BOTTOM@
+      - @PNG_3D_VIEWER_ANGLED_TOP@
+      - @PNG_3D_VIEWER_ANGLED_BOTTOM@
+      - @PDF_ASSEMBLY_OUTPUT@
+
+  - name: 3d_render
+    outputs:
+      - @PNG_3D_VIEWER_TOP@
+      - @PNG_3D_VIEWER_BOTTOM@
+      - @PNG_3D_VIEWER_ANGLED_TOP@
+      - @PNG_3D_VIEWER_ANGLED_BOTTOM@
+
+  - name: bom
+    outputs:
+      - @CSV_BOM_OUTPUT@
+      - @XLSX_BOM_OUTPUT@
+      - @HTML_BOM_OUTPUT@
+
+  - name: testpoints
+    outputs:
+      - @CSV_TP_OUTPUT@
+      - @CSV_TP_TOP_OUTPUT@
+      - @CSV_TP_BOTTOM_OUTPUT@
+
+  - name: 3d
+    outputs:
+      - @STEP_OUTPUT@
+      - @PCB2BLENDER_OUTPUT@
+
 import:
 
-# Global parameters ==========================================================
+  # Global parameters ==========================================================
   
   - file: kibot_globals.yaml
     definitions:
@@ -35,19 +82,19 @@ import:
       EXCLUDE_TOP: true
       EXCLUDE_REFS: @EXCLUDE_REFS@
 
-# Preflights =================================================================
+  # Preflights =================================================================
 
-  # Generate ERC Report
-  - file: kibot_pre_erc_report.yaml
-    definitions:
-      CATEGORY: @SCHEMATIC_DIR@
-      DIR: @REPORT_DIR@
+  # # Generate ERC Report
+  # - file: kibot_pre_erc_report.yaml
+  #   definitions:
+  #     CATEGORY: @SCHEMATIC_DIR@
+  #     DIR: @REPORT_DIR@
 
-  # Generate DRC Report
-  - file: kibot_pre_drc_report.yaml
-    definitions:
-      CATEGORY: @SCHEMATIC_DIR@
-      DIR: @REPORT_DIR@
+  # # Generate DRC Report
+  # - file: kibot_pre_drc_report.yaml
+  #   definitions:
+  #     CATEGORY: @SCHEMATIC_DIR@
+  #     DIR: @REPORT_DIR@
 
   # Draw stackup table in PCB. Needs gerber output
   - file: kibot_pre_draw_stackup.yaml
@@ -64,32 +111,69 @@ import:
 
 # Generated outputs ============================================================
 
-  # Netlist
+  # Netlist --------------------------------------------------------------------
   - file: kibot_out_netlist.yaml
     definitions:
       NAME: @NETLIST_OUTPUT@
       COMMENT: Schematic netlist in KiCad format
 
-  # Gerbers
+  # Gerbers --------------------------------------------------------------------
   - file: kibot_out_gerber.yaml
     definitions:
       NAME: @GERBER_OUTPUT@
       COMMENT: Gerbers in GBR format
-      DIR: @FABRICATION_DIR@/Gerbers
+      DIR: @GERBERS_DIR@
 
-  # Testpoint lists
+  # Drill files
+  - file: kibot_out_excellon_drill.yaml
+    definitions:
+      NAME: @EXCELLON_DRILL_OUTPUT@
+      COMMENT: Drill in Excellon format
+      DIR: @GERBERS_DIR@
+
+  # Drill Map (PDF)
+  - file: kibot_out_excellon_drill.yaml
+    definitions:
+      NAME: @PDF_DRILL_MAP_OUTPUT@
+      COMMENT: Drill Map in PDF format
+      DIR: @GERBERS_DIR@
+      GENERATE_DRILL: false
+      PTH_NPTH: true
+      MAP_FORMAT: pdf
+      PTH_ID: drill
+
+  # Drill Map (DXF)
+  - file: kibot_out_excellon_drill.yaml
+    definitions:
+      NAME: @DXF_DRILL_MAP_OUTPUT@
+      COMMENT: Drill Map in DXF format
+      DIR: @GERBERS_DIR@
+      GENERATE_DRILL: false
+      PTH_NPTH: true
+      MAP_FORMAT: dxf
+      PTH_ID: drill
+
+  # Position file --------------------------------------------------------------
+
+  - file: kibot_out_csv_pos.yaml
+    definitions:
+      NAME: @CSV_POS_OUTPUT@
+      COMMENT: Position file in CSV format
+      DIR: @ASSEMBLY_DIR@
+
+  # Testpoint lists ------------------------------------------------------------
   - file: kibot_out_csv_testpoints.yaml
     definitions:
       NAME: @CSV_TP_OUTPUT@
       COMMENT: Testpoint report in CSV format
-      CATEGORY: @TESTING_DIR@/Testpoints
+      DIR: @TESTPOINTS_DIR@
       EXCLUDE_FILTER: @FILT_TP_ONLY@
 
   - file: kibot_out_csv_testpoints_simple.yaml
     definitions:
       NAME: @CSV_TP_TOP_OUTPUT@
       COMMENT: Top testpoint report in CSV format
-      CATEGORY: @TESTING_DIR@/Testpoints
+      DIR: @TESTPOINTS_DIR@
       SUFFIX: -top
       EXCLUDE_FILTER: @FILT_TP_TOP_ONLY@
 
@@ -97,29 +181,133 @@ import:
     definitions:
       NAME: @CSV_TP_BOTTOM_OUTPUT@
       COMMENT: Bottom testpoint report in CSV format
-      CATEGORY: @TESTING_DIR@/Testpoints
+      DIR: @TESTPOINTS_DIR@
       SUFFIX: -bottom
       EXCLUDE_FILTER: @FILT_TP_BOTTOM_ONLY@
 
-  # Bill of Materials (BoM)
-  # - file: kibot_out_csv_bom.yaml
+  # CSV Bill of Materials (BoM) ------------------------------------------------
+  - file: kibot_out_csv_bom.yaml
+    definitions:
+      NAME: @CSV_BOM_OUTPUT@
+      COMMENT: Bill of Materials in CSV format
+      DIR: @ASSEMBLY_DIR@
 
-# # Interactive HTML BOM. Needs netlist.
-# - file: kibot_out_html_bom.yaml
-#   definitions:
-#     NAME: '@HTML_BOM_OUTPUT@'
-#     COMMENT: 'Interactive BOM in HTML format'
-#     DIR: '@ASSEMBLY_DIR@'
+  # XLSX Bill of Materials (BoM)
+  - file: kibot_out_xlsx_bom.yaml
+    definitions:
+      NAME: @XLSX_BOM_OUTPUT@
+      COMMENT: Bill of Materials in XLSX format
+      DIR: @ASSEMBLY_DIR@
 
-# # Schematic in PDF format
-# - file: kibot_out_pdf_schematic.yaml
-#   definitions:
-#     NAME: '@PDF_SCHEMATIC_OUTPUT@'
-#     COMMENT: 'Schematic in PDF format'
-#     COLOR_THEME: '@COLOR_THEME@'
-#     DIR: '@SCHEMATIC_DIR@'
-#     CATEGORY: '@SCHEMATIC_DIR@'
+  # Interactive HTML BOM. Needs netlist.
+  - file: kibot_out_html_bom.yaml
+    definitions:
+      NAME: @HTML_BOM_OUTPUT@
+      COMMENT: Interactive BOM in HTML format
+      DIR: @ASSEMBLY_DIR@
 
+  # PNG 3D Viewer renders ------------------------------------------------------
+  - file: kibot_out_png_3d_viewer.yaml
+    definitions:
+      NAME: @PNG_3D_VIEWER_TOP@
+      COMMENT: Top 3D viewer PCB render in PNG format
+      DIR: @IMAGES_DIR@
+      SUFFIX: top
+      VIEW: top
+
+  - file: kibot_out_png_3d_viewer.yaml
+    definitions:
+      NAME: @PNG_3D_VIEWER_BOTTOM@
+      COMMENT: Bottom 3D viewer PCB render in PNG format
+      DIR: @IMAGES_DIR@
+      SUFFIX: bottom
+      VIEW: bottom
+
+  - file: kibot_out_png_3d_viewer.yaml
+    definitions:
+      NAME: @PNG_3D_VIEWER_ANGLED_TOP@
+      COMMENT: Top (angled) 3D viewer PCB render in PNG format
+      DIR: @IMAGES_DIR@
+      SUFFIX: angled_top
+      VIEW: top
+      ROTATE_X: 2
+      ROTATE_Y: -1
+      ROTATE_Z: 1
+      ZOOM: -1
+
+  - file: kibot_out_png_3d_viewer.yaml
+    definitions:
+      NAME: @PNG_3D_VIEWER_ANGLED_BOTTOM@
+      COMMENT: Bottom (angled) 3D viewer PCB render in PNG format
+      DIR: @IMAGES_DIR@
+      SUFFIX: angled_bottom
+      VIEW: bottom
+      ROTATE_X: 2
+      ROTATE_Y: -1
+      ROTATE_Z: -1
+      ZOOM: -1
+
+  # STEP file ------------------------------------------------------------------
+  - file: kibot_out_step.yaml
+    definitions:
+      NAME: @STEP_OUTPUT@
+      COMMENT: PCB 3D model in STEP format
+      DIR: @3D_DIR@
+      
+  - file: kibot_out_pcb2blender.yaml
+    definitions:
+      NAME: @PCB2BLENDER_OUTPUT@
+      COMMENT: PCB 3D model in PCB3D Blender format
+      DIR: @3D_DIR@
+
+  # Schematic in PDF format ----------------------------------------------------
+  - file: kibot_out_pdf_schematic.yaml
+    definitions:
+      NAME: @PDF_SCHEMATIC_OUTPUT@
+      COMMENT: Schematic in PDF format
+      COLOR_THEME: @COLOR_THEME@
+      DIR: @SCHEMATIC_DIR@
+
+  # Fabrication Document in PDF format
+  - file: kibot_out_pdf_fabrication.yaml
+    definitions:
+      NAME: @PDF_FABRICATION_OUTPUT@
+      COMMENT: Fabrication document in PDF format
+      DIR: @FABRICATION_DIR@
+      COLOR_THEME: @COLOR_THEME@
+      SHEET_WKS: @SHEET_WKS@
+      FAB_EXCLUDE_FILTER: @FILT_TP_ONLY@
+      LAYER_DRILL_MAP: @LAYER_DRILL_MAP@
+      LAYER_TP_LIST_TOP: @LAYER_TP_LIST_TOP@
+      LAYER_TP_LIST_BOTTOM: @LAYER_TP_LIST_BOTTOM@
+
+  # Assembly Document in PDF format
+  - file: kibot_out_pdf_assembly.yaml
+    definitions:
+      NAME: @PDF_ASSEMBLY_OUTPUT@
+      COMMENT: Assembly document in PDF format
+      DIR: @ASSEMBLY_DIR@
+      COLOR_THEME: @COLOR_THEME@
+      SHEET_WKS: @SHEET_WKS@
+      FAB_EXCLUDE_FILTER: @FILT_TP_ONLY@
+      LAYER_TITLE_PAGE: @LAYER_TITLE_PAGE@
+      LAYER_ASSEMBLY_TEXT_TOP: @LAYER_ASSEMBLY_TEXT_TOP@
+      LAYER_ASSEMBLY_TEXT_BOTTOM: @LAYER_ASSEMBLY_TEXT_BOTTOM@
+      LAYER_DNP_CROSS_TOP: @LAYER_DNP_CROSS_TOP@
+      LAYER_DNP_CROSS_BOTTOM: @LAYER_DNP_CROSS_BOTTOM@
+
+  # Compress fabrication files into ZIP archive --------------------------------
+  - file: kibot_out_compress_fab.yaml
+    definitions:
+      NAME: @ZIP_COMPRESS_FAB_OUTPUT@
+      COMMENT: Generates a ZIP file with gerbers, drill and fabrication document
+      DIR: @FABRICATION_DIR@
+      GERBER_OUTPUT: @GERBER_OUTPUT@
+      DRILL_MAP_OUTPUT: @DXF_DRILL_MAP_OUTPUT@
+      DRILL_OUTPUT: @EXCELLON_DRILL_OUTPUT@
+      FABRICATION_OUTPUT: @PDF_FABRICATION_OUTPUT@
+
+# ==============================================================================
 ...
 definitions:
 
@@ -134,9 +322,14 @@ definitions:
   MANUFACTURING_DIR: Manufacturing
   ASSEMBLY_DIR: '@MANUFACTURING_DIR@/Assembly'
   FABRICATION_DIR: '@MANUFACTURING_DIR@/Fabrication'
+  GERBERS_DIR: '@FABRICATION_DIR@/Gerbers'
   TESTING_DIR: Testing
+  TESTPOINTS_DIR: '@TESTING_DIR@/Testpoints'
+  IMAGES_DIR: Images
+  3D_DIR: 3D
 
   # Filters names ==============================================================
+
   FILT_TP_ONLY: only_testpoints
   FILT_TP_TOP_ONLY: only_testpoints_top
   FILT_TP_BOTTOM_ONLY: only_testpoints_bottom
@@ -144,23 +337,56 @@ definitions:
   # References to exlude from testpoint highlighting
   EXCLUDE_REFS: '[MB*]'
 
-  # # Preflight parameters =======================================================
+  # # Preflight parameters =====================================================
+
   STACKUP_TABLE_NOTE: external layer thicknesses are specified after plating
 
-  # # Output names  ==============================================================
+  # # Output names  ============================================================
 
-
-  # PDF_SCHEMATIC_OUTPUT: 'pdf_schematic'
   NETLIST_OUTPUT: netlist
+
   GERBER_OUTPUT: gbr_gerbers
+  EXCELLON_DRILL_OUTPUT: drl_pth_npth
+  PDF_DRILL_MAP_OUTPUT: pdf_drill_map
+  DXF_DRILL_MAP_OUTPUT: dxf_drill_map
+  CSV_POS_OUTPUT: csv_position
+
   CSV_TP_OUTPUT: csv_testpoints
   CSV_TP_TOP_OUTPUT: csv_testpoints_top
   CSV_TP_BOTTOM_OUTPUT: csv_testpoints_bottom
-  # HTML_BOM_OUTPUT: html_bom_interactive
+
+  CSV_BOM_OUTPUT: csv_bom
+  XLSX_BOM_OUTPUT: xlsx_bom
+  HTML_BOM_OUTPUT: html_bom_interactive
+
+  PNG_3D_VIEWER_TOP: png_3d_viewer_top
+  PNG_3D_VIEWER_BOTTOM: png_3d_viewer_bottom
+  PNG_3D_VIEWER_ANGLED_TOP: png_3d_viewer_angled_top
+  PNG_3D_VIEWER_ANGLED_BOTTOM: png_3d_viewer_angled_bottom
+
+  STEP_OUTPUT: step
+  PCB2BLENDER_OUTPUT: pcb2blender
+
+  PDF_SCHEMATIC_OUTPUT: pdf_schematic
+  PDF_FABRICATION_OUTPUT: pdf_fabrication
+  PDF_ASSEMBLY_OUTPUT: pdf_assembly
+
+  ZIP_COMPRESS_FAB_OUTPUT: zip_compress_fab
 
   # Schematic parameters =======================================================
+
   COLOR_THEME: Altium_Theme
+  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_Title.kicad_wks
 
   # Layer names. Should match user-defined names in the PCB.  ==================
+
+  LAYER_TITLE_PAGE: TitlePage
   LAYER_DNP_TOP: F.DNP
   LAYER_DNP_BOTTOM: B.DNP
+  LAYER_DRILL_MAP: DrillMap
+  LAYER_TP_LIST_TOP: F.TestPointList
+  LAYER_TP_LIST_BOTTOM: B.TestPointList
+  LAYER_ASSEMBLY_TEXT_TOP: F.AssemblyText
+  LAYER_ASSEMBLY_TEXT_BOTTOM: B.AssemblyText
+  LAYER_DNP_CROSS_TOP: F.DNP
+  LAYER_DNP_CROSS_BOTTOM: B.DNP

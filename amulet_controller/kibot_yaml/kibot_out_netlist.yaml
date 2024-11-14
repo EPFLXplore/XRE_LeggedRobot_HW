@@ -5,7 +5,7 @@ kibot:
   version: 1
 
 outputs:
-- name: '@NAME@'
+- name: @NAME@
   comment: '@COMMENT@'
   type: netlist
 

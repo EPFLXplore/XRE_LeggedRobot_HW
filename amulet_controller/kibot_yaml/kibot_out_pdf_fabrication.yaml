@@ -1,0 +1,223 @@
+# KiBot output for generating Fabrication Document in PDF format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/pcb_print.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: pcb_print
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    colored_pads: false
+    colored_vias: false
+    color_theme: '@COLOR_THEME@'
+    output: '%f-fabrication%I%v.%x'
+    format: 'PDF'
+    title: '@DOC_TITLE@ Document'
+    realistic_solder_mask: false
+    dpi: 1200
+    dnf_filter: _kibom_dnf_Config
+    frame_plot_mechanism: 'internal' 
+    sheet_reference_layout: '@SHEET_WKS@'
+
+    pages:
+      - scaling: 1.0
+        title: '@DOC_TITLE@'
+        sheet: 'Top Fabrication'
+        layer_var: ''
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: F.Cu
+            color: '#F2F2F2'
+          - layer: F.Mask
+            color: '#E2E2E2'
+          - layer: F.Paste
+            color: '#E2E2E2'
+          - layer: F.Silkscreen
+            color: '#DBDBDB'
+          - layer: F.Fab
+            plot_footprint_refs: false
+            plot_footprint_values: false
+            color: '#818181'
+          - layer: F.Dimensions
+            color: '#000000'
+
+      - scaling: 1.0
+        mirror: true
+        mirror_pcb_text: false
+        title: '@DOC_TITLE@'
+        sheet: 'Bottom Fabrication'
+        layer_var: ''
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: B.Cu
+            color: '#F2F2F2'
+          - layer: B.Mask
+            color: '#E2E2E2'
+          - layer: B.Paste
+            color: '#E2E2E2'
+          - layer: B.Silkscreen
+            color: '#DBDBDB'
+          - layer: B.Fab
+            plot_footprint_refs: false
+            plot_footprint_values: false
+            color: '#818181'
+          - layer: B.Dimensions
+            color: '#000000'
+
+      - scaling: 1.0
+        title: '@DOC_TITLE@'
+        sheet: 'Drill Map'
+        layer_var: ''
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: '@LAYER_DRILL_MAP@'
+            color: '#000000'
+
+      - scaling: 1.0
+        title: '@DOC_TITLE@'
+        sheet: 'Top Test Points'
+        layer_var: 'Top Test Points (Scale 1:1)'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: F.Cu
+            color: '#E5E5E5'
+          - layer: F.Mask
+            color: '#CECECE'
+          - layer: F.Paste
+            color: '#CECECE'
+          - layer: F.Silkscreen
+            color: '#C7C7C7'
+          - layer: F.Fab
+            exclude_filter: '@FAB_EXCLUDE_FILTER@'
+            plot_footprint_values: false
+            sketch_pads_on_fab_layers: false
+            color: '#E10000'
+          - layer: '@LAYER_TP_LIST_TOP@'
+            color: '#000000'
+
+      - scaling: 1.0
+        mirror : true
+        mirror_pcb_text: true
+        title: '@DOC_TITLE@'
+        sheet: 'Bottom Test Points'
+        layer_var: 'Bottom Test Points (Scale 1:1)'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: Edge.Cuts
+            color: '#000000'
+          - layer: B.Cu
+            color: '#E5E5E5'
+          - layer: B.Mask
+            color: '#CECECE'
+          - layer: B.Paste
+            color: '#CECECE'
+          - layer: B.Silkscreen
+            color: '#C7C7C7'
+          - layer: B.Fab
+            exclude_filter: '@FAB_EXCLUDE_FILTER@'
+            plot_footprint_values: false
+            sketch_pads_on_fab_layers: false
+            color: '#0B00CC'
+          - layer: '@LAYER_TP_LIST_BOTTOM@'
+            color: '#000000'
+
+      - scaling: 1.0
+        sheet: '%ll'
+        layer_var: 'L1 (Sig, PWR)'
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: F.Cu
+            color: '#CA0000'
+
+      - scaling: 1.0
+        sheet: '%ll'
+        layer_var: 'L2 (GND)'
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: In1.Cu
+            color: '#77D56C'
+
+      - scaling: 1.0
+        sheet: '%ll'
+        layer_var: L3 (SIG, PWR)
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: In2.Cu
+            color: '#E6923E'
+
+      - scaling: 1.0
+        sheet: '%ll'
+        layer_var: L4 (SIG, PWR)
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: In3.Cu
+            color: '#82C9CE'
+
+      - scaling: 1.0
+        sheet: '%ll'
+        layer_var: L5 (GND)
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: In4.Cu
+            color: '#DF60AF'
+            
+      - scaling: 1.0
+        sheet: '%ll'
+        layer_var: L6 (SIG, PWR)
+        title: '@DOC_TITLE@'
+        sheet_reference_color: '#000000'
+        colored_holes: true
+        holes_color: "#FFFFFF"
+        layers:
+          - layer: B.Cu
+            color: '#5B7ACC'
+
+...
+definitions:
+  NAME: pdf_fabrication
+  COMMENT: Fabrication document in PDF format
+  DIR: Manufacturing/Fabrication
+  DOC_TITLE: Fabrication
+  COLOR_THEME: Altium_Theme
+  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_Title.kicad_wks
+  FAB_EXCLUDE_FILTER: only_testpoints
+  LAYER_DRILL_MAP: DrillMap
+  LAYER_TP_LIST_TOP: F.TestPointList
+  LAYER_TP_LIST_BOTTOM: B.TestPointList

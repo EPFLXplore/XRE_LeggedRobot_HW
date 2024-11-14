@@ -1,0 +1,37 @@
+# KiBot output for generating Bill of Materials in CSV format
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/bom.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: bom
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    format: CSV
+    csv:
+      hide_pcb_info: true
+      hide_stats_info: true
+    group_fields: ['Manufacturer Part Number']
+
+    columns:
+      - "Row"
+      - "Quantity Per PCB"
+      - "References"
+      - "Value"
+      - "Datasheet"
+      - "Footprint"
+      - "Description"
+      - "Manufacturer"
+      - "Manufacturer Part Number"
+      - "Supplier 1"
+      - "Supplier Part Number 1"
+
+...
+definitions:
+  NAME: csv_bom
+  COMMENT: Bill of Materials in CSV format
+  DIR: Manufacturing/Assembly

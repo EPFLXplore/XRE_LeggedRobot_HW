@@ -1,0 +1,33 @@
+# KiBot output for compressing Fabrication files to a ZIP archive
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/compress.html
+
+kibot:
+  version: 1
+
+outputs:
+- name: @NAME@
+  comment: '@COMMENT@'
+  type: compress
+  category: '@DIR@'
+  dir: '@DIR@'
+  options:
+    output: '%f-GERBERS%I%v.%x'
+    move_files: true
+    files:
+      - from_output: @GERBER_OUTPUT@
+        dest: '/'
+      - from_output: @DRILL_MAP_OUTPUT@
+        dest: '/'
+      - from_output: @DRILL_OUTPUT@
+        dest: '/'
+      - from_output: @FABRICATION_OUTPUT@
+        dest: '/'
+
+definitions:
+  NAME: zip_compress_fab
+  COMMENT: Generates a ZIP file with gerbers, drill and fabrication document
+  DIR: Manufacturing/Fabrication
+  GERBER_OUTPUT: gbr_gerbers
+  DRILL_MAP_OUTPUT: dxf_drill_map
+  DRILL_OUTPUT: drl_pth_npth
+  FABRICATION_OUTPUT: pdf_fabrication

@@ -1727,13 +1727,13 @@ RK5CYII=" alt="Logo" width="370" height="200">
  <td class="cell-info">
    <b>PCB</b>: amulet_controller<br>
    <b>Revision</b>: 1.1<br>
-   <b>Date</b>: 2024-11-12T23:51:32+0100<br>
+   <b>Date</b>: 2024-11-14T21:36:36+0100<br>
    <b>KiCad Version</b>: 8.0.6<br>
  </td>
  <td class="cell-stats">
-   <b>Errors</b>: 0 (+11 excluded)<br>
+   <b>Errors</b>: 11<br>
    <b>Warnings</b>: 13<br>
-   <b>Total</b>: 13 (+11 excluded)<br>
+   <b>Total</b>: 24<br>
  </td>
 </tr>
 </table>
@@ -1748,124 +1748,124 @@ RK5CYII=" alt="Logo" width="370" height="200">
  </thead>
  <tbody>
   <tr id="0">
+   <td class="td-error">copper_edge_clearance</td>
+   <td>Board edge clearance violation (board setup constraints edge clearance 0.25 mm; actual 0.249999 mm)</td>
+   <td>@(132.3003 mm, 58.2043 mm): Arc on Edge.Cuts<br>@(133.5004 mm, 58.7501 mm): PTH pad MP2 [CHASSIS] of J2<br></td>
+  </tr>
+  <tr id="1">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(170.8504 mm, 87.9001 mm): Footprint U10<br>@(172.6404 mm, 96.4501 mm): Footprint J6<br></td>
+  </tr>
+  <tr id="2">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(156.7504 mm, 54.1001 mm): Footprint J12<br>@(160.2004 mm, 61.2501 mm): Footprint D24<br></td>
+  </tr>
+  <tr id="3">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(140.2504 mm, 54.1001 mm): Footprint J13<br>@(143.6504 mm, 61.2501 mm): Footprint D25<br></td>
+  </tr>
+  <tr id="4">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(147.9 mm, 117.35 mm): Footprint C130<br>@(148.5004 mm, 122.0001 mm): Footprint H1<br></td>
+  </tr>
+  <tr id="5">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(171.650401 mm, 90.100103 mm): Footprint C108<br>@(172.6404 mm, 96.4501 mm): Footprint J6<br></td>
+  </tr>
+  <tr id="6">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(130.822731 mm, 107.70277 mm): Footprint J10<br>@(124.3404 mm, 96.4701 mm): Footprint J7<br></td>
+  </tr>
+  <tr id="7">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(172.6404 mm, 96.4501 mm): Footprint J6<br>@(166.1754 mm, 107.6751 mm): Footprint J14<br></td>
+  </tr>
+  <tr id="8">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(167.6 mm, 65.5 mm): Footprint D2<br>@(153.1504 mm, 64.7501 mm): Footprint J1<br></td>
+  </tr>
+  <tr id="9">
+   <td class="td-error">courtyards_overlap</td>
+   <td>Courtyards overlap</td>
+   <td>@(143.8504 mm, 64.7501 mm): Footprint J2<br>@(129.4 mm, 65.5 mm): Footprint D1<br></td>
+  </tr>
+  <tr id="10">
+   <td class="td-error">clearance</td>
+   <td>Clearance violation (board minimum clearance 0.2000 mm; actual 0.0379 mm)</td>
+   <td>@(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)<br>@(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)<br></td>
+  </tr>
+  <tr id="11">
    <td class="td-warning">solder_mask_bridge</td>
    <td>Front solder mask aperture bridges items with different nets</td>
    <td>@(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)<br>@(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="1">
+  <tr id="12">
    <td class="td-warning">solder_mask_bridge</td>
    <td>Front solder mask aperture bridges items with different nets</td>
    <td>@(129.96 mm, 84.840001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_N] of NT12 on L1 (Sig, PWR)<br>@(129.76 mm, 85.79 mm): Pad 1 [GND] of R18 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="2">
+  <tr id="13">
    <td class="td-warning">solder_mask_bridge</td>
    <td>Front solder mask aperture bridges items with different nets</td>
    <td>@(136.130445 mm, 93.156811 mm): Polygon on F.Mask<br>@(136.0504 mm, 93.9001 mm): Via [/Project Architecture/Power - Generation/VOS_3V3] on L1 (Sig, PWR) - L6 (Sig, PWR)<br></td>
   </tr>
-  <tr id="3">
+  <tr id="14">
    <td class="td-warning">solder_mask_bridge</td>
    <td>Front solder mask aperture bridges items with different nets</td>
    <td>@(157.7504 mm, 84.865 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SA_N] of NT6 on L1 (Sig, PWR)<br>@(157.5754 mm, 85.79 mm): Pad 1 [GND] of R12 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="4">
+  <tr id="15">
    <td class="td-warning">solder_mask_bridge</td>
    <td>Front solder mask aperture bridges items with different nets</td>
    <td>@(151.8996 mm, 84.0399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_P] of NT8 on L1 (Sig, PWR)<br>@(152.1 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_B] of R15 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="5">
+  <tr id="16">
    <td class="td-warning">solder_mask_bridge</td>
    <td>Front solder mask aperture bridges items with different nets</td>
    <td>@(151.8996 mm, 84.8399 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SB_N] of NT9 on L1 (Sig, PWR)<br>@(152.1 mm, 85.79 mm): Pad 1 [GND] of R15 on L1 (Sig, PWR)<br></td>
   </tr>
-  <tr id="6">
+  <tr id="17">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'SOT1176D' does not match copy in library '0_package_DFN_QFN'.</td>
    <td>@(163.187874 mm, 104.68757 mm): Footprint D26<br></td>
   </tr>
-  <tr id="7">
+  <tr id="18">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint '1054301203' does not match copy in library '0_connectors'.</td>
    <td>@(156.7504 mm, 54.1001 mm): Footprint J12<br></td>
   </tr>
-  <tr id="8">
+  <tr id="19">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint '1054301203' does not match copy in library '0_connectors'.</td>
    <td>@(140.2504 mm, 54.1001 mm): Footprint J13<br></td>
   </tr>
-  <tr id="9">
+  <tr id="20">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'SOT1176D' does not match copy in library '0_package_DFN_QFN'.</td>
    <td>@(169.106167 mm, 93.2751 mm): Footprint D16<br></td>
   </tr>
-  <tr id="10">
+  <tr id="21">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'SOT1176D' does not match copy in library '0_package_DFN_QFN'.</td>
    <td>@(128.472459 mm, 95.992643 mm): Footprint D17<br></td>
   </tr>
-  <tr id="11">
+  <tr id="22">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'SOP-14_4.4x5mm_P0.65mm_H1.2mm' does not match copy in library '0_package_SO'.</td>
    <td>@(166.253518 mm, 100.25 mm): Footprint U8<br></td>
   </tr>
-  <tr id="12">
+  <tr id="23">
    <td class="td-warning">lib_footprint_mismatch</td>
    <td>Footprint 'DIOM4336X24N' does not match copy in library '0_diode_smd'.</td>
    <td>@(129.4 mm, 65.5 mm): Footprint D1<br></td>
-  </tr>
-  <tr id="13">
-   <td class="td-excluded">copper_edge_clearance</td>
-   <td>Board edge clearance violation (board setup constraints edge clearance 0.25 mm; actual 0.249999 mm)</td>
-   <td>@(132.3003 mm, 58.2043 mm): Arc on Edge.Cuts<br>@(133.5004 mm, 58.7501 mm): PTH pad MP2 [CHASSIS] of J2<br></td>
-  </tr>
-  <tr id="14">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(170.8504 mm, 87.9001 mm): Footprint U10<br>@(172.6404 mm, 96.4501 mm): Footprint J6<br></td>
-  </tr>
-  <tr id="15">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(156.7504 mm, 54.1001 mm): Footprint J12<br>@(160.2004 mm, 61.2501 mm): Footprint D24<br></td>
-  </tr>
-  <tr id="16">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(140.2504 mm, 54.1001 mm): Footprint J13<br>@(143.6504 mm, 61.2501 mm): Footprint D25<br></td>
-  </tr>
-  <tr id="17">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(147.9 mm, 117.35 mm): Footprint C130<br>@(148.5004 mm, 122.0001 mm): Footprint H1<br></td>
-  </tr>
-  <tr id="18">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(171.650401 mm, 90.100103 mm): Footprint C108<br>@(172.6404 mm, 96.4501 mm): Footprint J6<br></td>
-  </tr>
-  <tr id="19">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(130.822731 mm, 107.70277 mm): Footprint J10<br>@(124.3404 mm, 96.4701 mm): Footprint J7<br></td>
-  </tr>
-  <tr id="20">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(172.6404 mm, 96.4501 mm): Footprint J6<br>@(166.1754 mm, 107.6751 mm): Footprint J14<br></td>
-  </tr>
-  <tr id="21">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(167.6 mm, 65.5 mm): Footprint D2<br>@(153.1504 mm, 64.7501 mm): Footprint J1<br></td>
-  </tr>
-  <tr id="22">
-   <td class="td-excluded">courtyards_overlap</td>
-   <td>Courtyards overlap</td>
-   <td>@(143.8504 mm, 64.7501 mm): Footprint J2<br>@(129.4 mm, 65.5 mm): Footprint D1<br></td>
-  </tr>
-  <tr id="23">
-   <td class="td-excluded">clearance</td>
-   <td>Clearance violation (board minimum clearance 0.2000 mm; actual 0.0379 mm)</td>
-   <td>@(129.96 mm, 84.040001 mm): Pad 1 [/Project Architecture/Motor Control - Top Level/SC_P] of NT11 on L1 (Sig, PWR)<br>@(129.76 mm, 83.09 mm): Pad 2 [/Project Architecture/Motor Control - Top Level/Motor Control - Inverter/SRC_LS_C] of R18 on L1 (Sig, PWR)<br></td>
   </tr>
  </tbody>
 </table>
