@@ -1,10 +1,16 @@
 # KiBot configuration file for KDT_Hierarchical Template
 # KiCad 8.0
 
+# To run the config:
+
+# kibot --skip-pre all -c kibot_yaml/kibot_main.yaml testpoints
+# kibot -c kibot_yaml/kibot_main.yaml
+
 kibot:
   version: 1
 
 # To execute only outputs of a group:
+
 # kibot -c kibot_yaml/kibot_main.yaml <group_name>
 
 groups:
@@ -49,7 +55,7 @@ groups:
   - name: 3d
     outputs:
       - @STEP_OUTPUT@
-      - @PCB2BLENDER_OUTPUT@
+      # - @PCB2BLENDER_OUTPUT@
 
 import:
 
@@ -254,11 +260,11 @@ import:
       COMMENT: PCB 3D model in STEP format
       DIR: @3D_DIR@
       
-  - file: kibot_out_pcb2blender.yaml
-    definitions:
-      NAME: @PCB2BLENDER_OUTPUT@
-      COMMENT: PCB 3D model in PCB3D Blender format
-      DIR: @3D_DIR@
+  # - file: kibot_out_pcb2blender.yaml
+  #   definitions:
+  #     NAME: @PCB2BLENDER_OUTPUT@
+  #     COMMENT: PCB 3D model in PCB3D Blender format
+  #     DIR: @3D_DIR@
 
   # Schematic in PDF format ----------------------------------------------------
   - file: kibot_out_pdf_schematic.yaml
@@ -314,7 +320,7 @@ definitions:
   # Output directories =========================================================
 
   # Root
-  OUTPUT_DIR: Generated_alt
+  OUTPUT_DIR: Generated
 
   # Relative to root
   REPORT_DIR: Reports
