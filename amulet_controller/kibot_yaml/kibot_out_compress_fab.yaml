@@ -12,7 +12,7 @@ outputs:
   dir: '@DIR@'
   options:
     output: '%f-GERBERS%I%v.%x'
-    move_files: true
+    move_files: false
     files:
       - from_output: @GERBER_OUTPUT@
         dest: '/'
