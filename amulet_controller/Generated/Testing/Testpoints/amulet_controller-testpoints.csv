@@ -1,0 +1,75 @@
+Testpoint Ref.,Net,Net Class,X,Y,Side,Pad Type,Value,Footprint
+TP1,/Project Architecture/MCU - IOs/MOTOR_ENABLE,Default,40.5766,22.6861,top,,MOTOR_ENABLE,TestPoint_Pad_D0.5mm
+TP2,/Project Architecture/MCU - IOs/MOTOR_HIZ,Default,37.8754,26.4999,top,,MOTOR_HIZ,TestPoint_Pad_D0.5mm
+TP3,/Project Architecture/MCU - IOs/MOTOR_FAULT,Default,32.7804,25.4599,top,,MOTOR_FAULT,TestPoint_Pad_D0.5mm
+TP4,/Project Architecture/MCU - IOs/DRV_SCLK,Default,35.7704,25.3799,top,,DRV_SCLK,TestPoint_Pad_D0.5mm
+TP5,/Project Architecture/MCU - IOs/DRV_MISO,Default,34.1704,24.7499,top,,DRV_MISO,TestPoint_Pad_D0.5mm
+TP6,/Project Architecture/MCU - IOs/DRV_MOSI,Default,41.3617,21.9806,top,,DRV_MOSI,TestPoint_Pad_D0.5mm
+TP7,/Project Architecture/MCU - IOs/DRV_CS,Default,31.9004,20.0999,bottom,,DRV_CS,TestPoint_Pad_D0.5mm
+TP8,/Project Architecture/MCU - IOs/PWM_PHASEA,Default,38.4004,24.3499,top,,PWM_PHASEA,TestPoint_Pad_D0.5mm
+TP9,/Project Architecture/MCU - IOs/PWM_PHASEB,Default,39.0504,23.3749,top,,PWM_PHASEB,TestPoint_Pad_D0.5mm
+TP10,/Project Architecture/MCU - IOs/PWM_PHASEC,Default,39.6504,24.3499,top,,PWM_PHASEC,TestPoint_Pad_D0.5mm
+TP11,/Project Architecture/MCU - IOs/SOA,Default,30.2754,25.2999,top,,SOA,TestPoint_Pad_D0.5mm
+TP12,/Project Architecture/MCU - IOs/SOB,Default,29.5754,24.5999,top,,SOB,TestPoint_Pad_D0.5mm
+TP13,/Project Architecture/MCU - IOs/SOC,Default,28.8754,23.8999,top,,SOC,TestPoint_Pad_D0.5mm
+TP14,/Project Architecture/Interface - Interconnects/SWDIO,Default,45.5254,15.0249,top,,SWDIO,TestPoint_Pad_D0.5mm
+TP15,/Project Architecture/Interface - Interconnects/SWCLK,Default,44.6004,14.4499,top,,SWCLK,TestPoint_Pad_D0.5mm
+TP16,/Project Architecture/Interface - Interconnects/NRST,Default,44.6004,15.5999,top,,NRST,TestPoint_Pad_D0.5mm
+TP17,/Project Architecture/Interface - Interconnects/AUX1_A,Default,51.5477,28.1109,top,,AUX1_A,TestPoint_Pad_D0.5mm
+TP18,/Project Architecture/Interface - Interconnects/AUX1_B,Default,51.1875,29.8875,top,,AUX1_B,TestPoint_Pad_D0.5mm
+TP19,/Project Architecture/Interface - Interconnects/AUX1_C,Default,51.0189,31.0189,top,,AUX1_C,TestPoint_Pad_D0.5mm
+TP20,/Project Architecture/Interface - Interconnects/AUX1_D,Default,52.4750,31.4250,top,,AUX1_D,TestPoint_Pad_D0.5mm
+TP21,/Project Architecture/Interface - Interconnects/AUX1_E,Default,52.8566,33.0161,top,,AUX1_E,TestPoint_Pad_D0.5mm
+TP22,/Project Architecture/Interface - Interconnects/AUX1_I2C_PULLUP,Default,41.7004,8.7999,top,,AUX1_I2C_PULLUP,TestPoint_Pad_D0.5mm
+TP23,/Project Architecture/Interface - Interconnects/POS_SENSOR_CS,Default,31.0504,19.2499,bottom,,POS_SENSOR_CS,TestPoint_Pad_D0.5mm
+TP24,/Project Architecture/Interface - Interconnects/AUX2_A,Default,21.7004,26.0999,top,,AUX2_A,TestPoint_Pad_D0.5mm
+TP25,/Project Architecture/Interface - Interconnects/AUX2_B,Default,21.7004,25.1999,top,,AUX2_B,TestPoint_Pad_D0.5mm
+TP26,/Project Architecture/Interface - Interconnects/AUX2_C,Default,20.8004,25.1999,top,,AUX2_C,TestPoint_Pad_D0.5mm
+TP27,/Project Architecture/Interface - Interconnects/AUX2_D,Default,20.8004,24.2999,top,,AUX2_D,TestPoint_Pad_D0.5mm
+TP28,/Project Architecture/Interface - Interconnects/AUX2_I2C_PULLUP,Default,27.7004,9.2999,top,,AUX2_I2C_PULLUP,TestPoint_Pad_D0.5mm
+TP29,/Project Architecture/Interface - RS-422/RS422_~{RE},Default,29.6284,17.7083,bottom,,RS422_RE,TestPoint_Pad_D0.5mm
+TP30,/Project Architecture/Interface - RS-422/RS422_DE,Default,27.6504,15.1999,bottom,,RS422_DE,TestPoint_Pad_D0.5mm
+TP31,/Project Architecture/MCU - IOs/LED_DBG,Default,26.5504,8.1499,top,,LED_DBG,TestPoint_Pad_D0.5mm
+TP32,/Project Architecture/MCU - IOs/LED_PWR,Default,27.7004,8.1499,top,,LED_PWR,TestPoint_Pad_D0.5mm
+TP33,/Project Architecture/Interface - FD-CAN/FDCAN_RX,Default,54.5004,35.2044,top,,FD_CAN_RX,TestPoint_Pad_D0.5mm
+TP34,/Project Architecture/Interface - FD-CAN/FDCAN_TX,Default,53.5904,34.6399,top,,FDCAN_TX,TestPoint_Pad_D0.5mm
+TP35,/Project Architecture/MCU - IOs/FAN_CTRL,Default,36.8394,12.7906,bottom,,FAN_CTRL,TestPoint_Pad_D0.5mm
+TP36,/Project Architecture/MCU - IOs/SENSE_TEMP_MOT,Default,30.3132,11.5244,bottom,,SENSE_TEMP_MOT,TestPoint_Pad_D0.5mm
+TP37,/Project Architecture/MCU - IOs/SENSE_TEMP_FET,Default,13.3400,47.2800,top,,SENSE_TEMP_FET,TestPoint_Pad_D0.5mm
+TP38,/Project Architecture/MCU - IOs/SENSE_VBAT,Default,12.6749,35.7749,top,,SENSE_VBAT,TestPoint_Pad_D0.5mm
+TP39,+VBAT,High Power,8.7754,45.8499,top,,+VBAT,TestPoint_Pad_D0.5mm
+TP40,+VBAT,High Power,43.9504,33.4999,top,,+VBAT,TestPoint_Pad_D0.5mm
+TP41,+VBAT,High Power,14.5004,37.7999,top,,+VBAT,TestPoint_Pad_D0.5mm
+TP42,/Project Architecture/Power - Generation/F_VIN_12V,High Power,48.0504,31.7499,top,,F_VIN_12V,TestPoint_Pad_D0.5mm
+TP43,/Project Architecture/Power - Generation/F_VIN_5V,High Power,11.4004,39.1499,top,,F_VIN_5V,TestPoint_Pad_D0.5mm
+TP44,/Project Architecture/Power - Generation/F_VIN_3V3,Power 5V,14.1504,33.2499,bottom,,F_VIN_3V3,TestPoint_Pad_D0.5mm
+TP45,+12V,Power 12V,46.0104,16.5299,top,,+12V,TestPoint_Pad_D0.5mm
+TP46,+5V,Power 5V,5.7504,44.0499,top,,+5V,TestPoint_Pad_D0.5mm
+TP47,+5V,Power 5V,56.6093,24.0781,bottom,,+5V,TestPoint_Pad_D0.5mm
+TP48,+3V3,Power 3V3,17.5204,24.2799,top,,+3V3,TestPoint_Pad_D0.5mm
+TP49,+3V3,Power 3V3,43.6004,13.9999,top,,+3V3,TestPoint_Pad_D0.5mm
+TP50,+3V3,Power 3V3,57.6804,25.6899,bottom,,+3V3,TestPoint_Pad_D0.5mm
+TP51,+A3V3,Power A3V3,26.8004,29.7249,top,,+A3V3,TestPoint_Pad_D0.5mm
+TP52,GND,GND,31.1750,26.2500,top,,GND,TestPoint_Pad_D0.5mm
+TP53,GND,GND,56.9504,39.2249,top,,GND,TestPoint_Pad_D0.5mm
+TP54,GND,GND,43.4504,11.7999,top,,GND,TestPoint_Pad_D0.5mm
+TP55,GND,GND,17.6754,35.2749,top,,GND,TestPoint_Pad_D0.5mm
+TP56,GND,GND,51.1232,23.2471,top,,GND,TestPoint_Pad_D0.5mm
+TP57,GND,GND,45.5254,13.8999,top,,GND,TestPoint_Pad_D0.5mm
+TP58,GND,GND,58.2504,27.5649,bottom,,GND,TestPoint_Pad_D0.5mm
+TP59,/Project Architecture/Motor Control - Top Level/GHA,Default,43.5804,34.5499,top,,GHA,TestPoint_Pad_D0.4mm
+TP60,/Project Architecture/Motor Control - Top Level/GLA,Default,43.5804,35.7499,top,,GLA,TestPoint_Pad_D0.4mm
+TP61,/Project Architecture/Motor Control - Top Level/SHA,Default,44.0004,35.1499,top,,SHA,TestPoint_Pad_D0.4mm
+TP62,/Project Architecture/Motor Control - Top Level/GHB,Default,30.4189,35.3799,top,,GHB,TestPoint_Pad_D0.4mm
+TP63,/Project Architecture/Motor Control - Top Level/GLB,Default,32.0704,35.5799,top,,GLB,TestPoint_Pad_D0.4mm
+TP64,/Project Architecture/Motor Control - Top Level/SHB,Default,30.5675,36.0799,top,,SHB,TestPoint_Pad_D0.4mm
+TP65,/Project Architecture/Motor Control - Top Level/GHC,Default,26.2704,35.8835,top,,GHC,TestPoint_Pad_D0.4mm
+TP66,/Project Architecture/Motor Control - Top Level/GLC,Default,26.2704,34.4999,top,,GLC,TestPoint_Pad_D0.4mm
+TP67,/Project Architecture/Motor Control - Top Level/SHC,Default,25.7704,35.2749,top,,SHC,TestPoint_Pad_D0.4mm
+TP68,/Project Architecture/Motor Control - Top Level/SA_P,Kelvin Diff Pair,36.2167,34.7396,top,,SA_P,TestPoint_Pad_D0.5mm
+TP69,/Project Architecture/Motor Control - Top Level/SA_N,Kelvin Diff Pair,35.4667,34.7396,top,,SA_N,TestPoint_Pad_D0.5mm
+TP70,/Project Architecture/Motor Control - Top Level/SB_P,Kelvin Diff Pair,33.6511,34.9263,top,,SB_P,TestPoint_Pad_D0.5mm
+TP71,/Project Architecture/Motor Control - Top Level/SB_N,Kelvin Diff Pair,34.4011,34.9263,top,,SB_N,TestPoint_Pad_D0.5mm
+TP72,/Project Architecture/Motor Control - Top Level/SC_P,Kelvin Diff Pair,30.2139,31.6529,top,,SC_P,TestPoint_Pad_D0.5mm
+TP73,/Project Architecture/Motor Control - Top Level/SC_N,Kelvin Diff Pair,30.2139,30.9029,top,,SC_N,TestPoint_Pad_D0.5mm
+TP74,/Project Architecture/Interface - Fan Control/FAN_SW,GND,36.7004,7.3499,bottom,,FAN_SW,TestPoint_Pad_D0.5mm
