@@ -320,7 +320,7 @@ definitions:
   # Output directories =========================================================
 
   # Root
-  OUTPUT_DIR: Generated
+  OUTPUT_DIR: ./
 
   # Relative to root
   REPORT_DIR: Reports
