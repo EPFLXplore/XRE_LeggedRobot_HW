@@ -1,0 +1,17 @@
+# KiBot Filter for excluding testpoints
+
+kibot:
+  version: 1
+
+filters:
+  - name: '@NAME@'
+    comment: '@COMMENT@'
+    type: generic
+    exclude_any:
+      - column: Reference
+        regex: "TP"
+
+...
+definitions:
+  COMMENT: Exclude only testpoints
+  NAME: exclude_testpoints

@@ -72,6 +72,11 @@ import:
   - file: kibot_filt_testpoints.yaml
     definitions:
       NAME: @FILT_TP_ONLY@
+      COMMENT: Include only testpoints
+
+  - file: kibot_filt_exclude_testpoints.yaml
+    definitions:
+      NAME: @FILT_TP_EXCLUDE@
       COMMENT: Exclude only testpoints
     
   - file: kibot_filt_testpoints.yaml
@@ -295,7 +300,7 @@ import:
       DIR: @ASSEMBLY_DIR@
       COLOR_THEME: @COLOR_THEME@
       SHEET_WKS: @SHEET_WKS@
-      FAB_EXCLUDE_FILTER: @FILT_TP_ONLY@
+      FAB_EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
       LAYER_TITLE_PAGE: @LAYER_TITLE_PAGE@
       LAYER_ASSEMBLY_TEXT_TOP: @LAYER_ASSEMBLY_TEXT_TOP@
       LAYER_ASSEMBLY_TEXT_BOTTOM: @LAYER_ASSEMBLY_TEXT_BOTTOM@
@@ -337,6 +342,7 @@ definitions:
   # Filters names ==============================================================
 
   FILT_TP_ONLY: only_testpoints
+  FILT_TP_EXCLUDE: exclude_testpoints
   FILT_TP_TOP_ONLY: only_testpoints_top
   FILT_TP_BOTTOM_ONLY: only_testpoints_bottom
 

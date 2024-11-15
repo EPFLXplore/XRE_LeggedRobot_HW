@@ -93,7 +93,7 @@ definitions:
   DOC_TITLE: Assembly
   COLOR_THEME: Altium_Theme
   SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_Title.kicad_wks
-  FAB_EXCLUDE_FILTER: only_testpoints
+  FAB_EXCLUDE_FILTER: exclude_testpoints
   LAYER_TITLE_PAGE: TitlePage
   LAYER_ASSEMBLY_TEXT_TOP: F.AssemblyText
   LAYER_ASSEMBLY_TEXT_BOTTOM: B.AssemblyText
