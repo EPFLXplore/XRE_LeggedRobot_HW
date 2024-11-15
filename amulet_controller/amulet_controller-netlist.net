@@ -1,7 +1,7 @@
 (export (version "E")
   (design
     (source "/home/vincent/XRE_LeggedRobot_HW/amulet_controller/amulet_controller.kicad_sch")
-    (date "2024-11-15T10:44:15+0100")
+    (date "2024-11-15T11:06:29+0100")
     (tool "Eeschema 8.0.6-8.0.6-0~ubuntu24.04.1")
     (textvar (name "BOARD_NAME") "Λmulet Motion Controller")
     (textvar (name "COMPANY") "EPFL Xplore Research")

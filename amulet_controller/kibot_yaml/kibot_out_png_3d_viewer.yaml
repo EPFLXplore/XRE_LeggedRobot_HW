@@ -21,7 +21,7 @@ outputs:
     height: @HEIGHT@
     width: @WIDTH@
     view: '@VIEW@'
-    ray_tracing: true
+    ray_tracing: @RAYTRACING@
     force_stackup_colors: true
     orthographic: true
     transparent_background: true
@@ -34,6 +34,7 @@ definitions:
   DIR: Images
   SUFFIX: ""
   VIEW: top
+  RAYTRACING: true
   ROTATE_X: 0
   ROTATE_Y: 0
   ROTATE_Z: 0
