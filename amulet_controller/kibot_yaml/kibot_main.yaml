@@ -4,7 +4,7 @@
 # To run the config:
 
 # kibot --skip-pre all -c kibot_yaml/kibot_main.yaml testpoints
-# kibot -c kibot_yaml/kibot_main.yaml
+# kibot -c kibot_yaml/kibot_main.yaml -i testpoints
 
 kibot:
   version: 1
