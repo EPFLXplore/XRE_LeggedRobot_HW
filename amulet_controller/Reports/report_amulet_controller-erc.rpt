@@ -1,0 +1,32 @@
+ERC report (2024-11-19T20:53:19+0100, Encoding UTF8)
+
+***** Sheet /
+***** Sheet /Block Diagram/
+***** Sheet /Project Architecture/
+***** Sheet /Project Architecture/MCU - Power/
+***** Sheet /Project Architecture/MCU - IOs/
+***** Sheet /Project Architecture/Power - Generation/
+***** Sheet /Project Architecture/Power - Connectors/
+***** Sheet /Project Architecture/Motor Control - Top Level/
+***** Sheet /Project Architecture/Motor Control - Top Level/Motor Control - Inverter/
+***** Sheet /Project Architecture/Misc - Board Version, DAC/
+***** Sheet /Project Architecture/User - LED Indicators/
+***** Sheet /Project Architecture/Sensing - Temperature/
+***** Sheet /Project Architecture/Sensing - Battery/
+***** Sheet /Project Architecture/Sensing - Position/
+***** Sheet /Project Architecture/Interface - RS-422/
+***** Sheet /Project Architecture/Interface - FD-CAN/
+***** Sheet /Project Architecture/Interface - Fan Control/
+***** Sheet /Project Architecture/Interface - Interconnects/
+[lib_symbol_issues]: Symbol 'SW_DPDT_x2' has been modified in library 'Switch'
+    ; warning
+    @(3.3401 mm, 0.8763 mm): Symbol SW1 [SW_DPDT_x2]
+
+[lib_symbol_issues]: Symbol 'SW_DPDT_x2' has been modified in library 'Switch'
+    ; warning
+    @(3.3401 mm, 0.6985 mm): Symbol SW1 [SW_DPDT_x2]
+
+***** Sheet /Project Architecture/Misc - Holes, Fiducials/
+***** Sheet /Power - Sequencing/
+***** Sheet /Revision History/
+ ** ERC messages: 2  Errors 0  Warnings 2

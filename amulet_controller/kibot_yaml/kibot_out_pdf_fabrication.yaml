@@ -20,6 +20,7 @@ outputs:
     realistic_solder_mask: false
     dpi: 1200
     dnf_filter: _kibom_dnf_Config
+    # dnf_filter: '_null'
     frame_plot_mechanism: 'internal' 
     sheet_reference_layout: '@SHEET_WKS@'
 
@@ -145,7 +146,7 @@ outputs:
 
       - scaling: 1.0
         sheet: '%ll'
-        layer_var: 'L1 (Sig, PWR)'
+        layer_var: 'L1 (SIG, PWR)'
         title: '@DOC_TITLE@'
         sheet_reference_color: '#000000'
         colored_holes: true
@@ -216,7 +217,7 @@ definitions:
   DIR: Manufacturing/Fabrication
   DOC_TITLE: Fabrication
   COLOR_THEME: Altium_Theme
-  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_Title.kicad_wks
+  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_PCB.kicad_wks
   FAB_EXCLUDE_FILTER: only_testpoints
   LAYER_DRILL_MAP: DrillMap
   LAYER_TP_LIST_TOP: F.TestPointList

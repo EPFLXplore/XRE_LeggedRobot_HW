@@ -648,7 +648,7 @@
 		)
 		(uuid "4d10b8f7-ee9d-4539-987e-2871a213b2d6")
 	)
-	(text "${VARIANT} ${RELEASE_DATE}"
+	(text "Date: ${RELEASE_DATE}"
 		(exclude_from_sim no)
 		(at 220.98 237.49 0)
 		(effects

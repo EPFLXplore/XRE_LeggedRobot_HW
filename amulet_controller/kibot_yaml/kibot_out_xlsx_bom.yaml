@@ -15,6 +15,7 @@ outputs:
     count_smd_tht: true
     xlsx:
       title: 'Bill of Materials'
+      datasheet_as_link: 'Datasheet'
       logo: false
       style: modern-blue
       kicost: true

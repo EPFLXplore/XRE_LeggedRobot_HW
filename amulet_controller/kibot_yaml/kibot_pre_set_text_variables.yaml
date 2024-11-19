@@ -1,0 +1,39 @@
+# KiBot preflight for setting Text Variables
+# https://kibot.readthedocs.io/en/latest/configuration/preflights/set_text_variables.html
+
+kibot:
+  version: 1
+
+preflight:
+  set_text_variables:
+
+    # Git related information
+    - variable: 'REVISION'
+      text: '@REVISION@'
+    - variable: 'RELEASE_DATE'
+      text: '@RELEASE_DATE@'
+    - variable: 'GIT_HASH_SCH'
+      command: 'git log -1 --format="%h" $KIBOT_SCH_NAME'
+    - variable: 'GIT_HASH_PCB'
+      command: 'git log -1 --format="%h" $KIBOT_PCB_NAME'
+
+    # Metadata
+    - variable: 'PROJECT_NAME'
+      text: '@PROJECT_NAME@'
+    - variable: 'BOARD_NAME'
+      text: '@BOARD_NAME@'
+    - variable: 'COMPANY'
+      text: '@COMPANY@'
+    - variable: 'DESIGNER'
+      text: '@DESIGNER@'
+    - variable: 'VARIANT'
+      text: '%V'
+
+...
+definitions:
+  PROJECT_NAME: ""
+  BOARD_NAME: ""
+  COMPANY: ""
+  DESIGNER: ""
+  REVISION: ""
+  RELEASE_DATE: ""

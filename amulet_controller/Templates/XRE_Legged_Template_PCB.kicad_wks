@@ -721,7 +721,7 @@
 		)
 		(comment "Sheet id")
 	)
-	(tbtext "${REVIEWER}"
+	(tbtext "${COMMENT9}"
 		(name "")
 		(pos 76.489 6.002)
 		(font

@@ -6,12 +6,61 @@
 # kibot --skip-pre all -c kibot_yaml/kibot_main.yaml testpoints
 # kibot -c kibot_yaml/kibot_main.yaml -i testpoints
 
-kibot:
-  version: 1
+# With variant:
+
+# kibot --skip-pre all -g variant=<VARIANT> -c kibot_yaml/kibot_main.yaml testpoints
+# kibot -g variant=<VARIANT> -c kibot_yaml/kibot_main.yaml -i testpoints
 
 # To execute only outputs of a group:
 
 # kibot -c kibot_yaml/kibot_main.yaml <group_name>
+
+kibot:
+  version: 1
+
+variants:
+
+  # Project progress variants
+
+  - name: 'DRAFT'
+    comment: "Very early stage of schematic, ignore details."
+    type: kibom
+    variant: DRAFT
+
+  - name: 'PRELIMINARY'
+    comment: "Close to final schematic."
+    type: kibom
+    variant: PRELIMINARY
+
+  - name: 'CHECKED'
+    comment: "There shouldn't be any mistakes. Contact the engineer if you find any."
+    type: kibom
+    variant: CHECKED
+    
+  - name: 'RELEASED'
+    comment: "A board with this schematic has been sent to production."
+    type: kibom
+    variant: RELEASED
+
+  # Assembly variants (should all be variants of RELEASED)
+  
+  - name: 'NO_XT60'
+    comment: 'Without XT60'
+    type: kibom
+    file_id: _(NO_XT60)
+    variant: NO_XT60
+  
+  - name: 'NO_SNUBBER'
+    comment: 'Without snubbers'
+    type: kibom
+    file_id: _(NO_SNUBBER)
+    variant: NO_SNUBBER
+
+  - name: 'NONE'
+    comment: 'Without snubbers and XT60'
+    type: kibom
+    file_id: _(NONE)
+    variant: NONE
 
 groups:
   - name: fab
@@ -95,17 +144,27 @@ import:
 
   # Preflights =================================================================
 
-  # # Generate ERC Report
-  # - file: kibot_pre_erc_report.yaml
-  #   definitions:
-  #     CATEGORY: @SCHEMATIC_DIR@
-  #     DIR: @REPORT_DIR@
+  # Set text variables
+  - file: kibot_pre_set_text_variables.yaml
+    definitions:
+      PROJECT_NAME: @PROJECT_NAME@
+      BOARD_NAME: @BOARD_NAME@
+      COMPANY: @COMPANY@
+      DESIGNER: @DESIGNER@
+      REVISION: @REVISION@
+      RELEASE_DATE: @RELEASE_DATE@
 
-  # # Generate DRC Report
-  # - file: kibot_pre_drc_report.yaml
-  #   definitions:
-  #     CATEGORY: @SCHEMATIC_DIR@
-  #     DIR: @REPORT_DIR@
+  # Generate ERC Report
+  - file: kibot_pre_erc_report.yaml
+    definitions:
+      CATEGORY: @SCHEMATIC_DIR@
+      DIR: @REPORT_DIR@
+
+  # Generate DRC Report
+  - file: kibot_pre_drc_report.yaml
+    definitions:
+      CATEGORY: @SCHEMATIC_DIR@
+      DIR: @REPORT_DIR@
 
   # Draw stackup table in PCB. Needs gerber output
   - file: kibot_pre_draw_stackup.yaml
@@ -216,6 +275,8 @@ import:
       NAME: @HTML_BOM_OUTPUT@
       COMMENT: Interactive BOM in HTML format
       DIR: @ASSEMBLY_DIR@
+      EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
+      TITLE: @BOARD_NAME@ Assembly
 
   # PNG 3D Viewer renders ------------------------------------------------------
   - file: kibot_out_png_3d_viewer.yaml
@@ -241,10 +302,10 @@ import:
       DIR: @IMAGES_DIR@
       SUFFIX: angled_top
       VIEW: top
-      ROTATE_X: 2
-      ROTATE_Y: -1
-      ROTATE_Z: 1
-      ZOOM: -1
+      ROTATE_X: @3D_VIEWER_ROT_X@
+      ROTATE_Y: @3D_VIEWER_ROT_Y@
+      ROTATE_Z: @3D_VIEWER_ROT_Z@
+      ZOOM: @3D_VIEWER_ZOOM@
 
   - file: kibot_out_png_3d_viewer.yaml
     definitions:
@@ -253,10 +314,10 @@ import:
       DIR: @IMAGES_DIR@
       SUFFIX: angled_bottom
       VIEW: bottom
-      ROTATE_X: 2
-      ROTATE_Y: -1
-      ROTATE_Z: -1
-      ZOOM: -1
+      ROTATE_X: @3D_VIEWER_ROT_X@
+      ROTATE_Y: @3D_VIEWER_ROT_Y@
+      ROTATE_Z: -@3D_VIEWER_ROT_Z@
+      ZOOM: @3D_VIEWER_ZOOM@
 
   # STEP file ------------------------------------------------------------------
   - file: kibot_out_step.yaml
@@ -322,6 +383,15 @@ import:
 ...
 definitions:
 
+  # Metadata
+
+  PROJECT_NAME: Chienpanzé
+  BOARD_NAME: Λmulet Motion Controller
+  COMPANY: EPFL Xplore Research
+  DESIGNER: Vincent Nguyen
+  REVISION: 1.1
+  RELEASE_DATE: 13-APR-2024
+
   # Output directories =========================================================
 
   # Root
@@ -385,10 +455,17 @@ definitions:
 
   ZIP_COMPRESS_FAB_OUTPUT: zip_compress_fab
 
+  # 3D Viewer rotations (in steps) =============================================
+
+  3D_VIEWER_ROT_X: 2
+  3D_VIEWER_ROT_Y: -1
+  3D_VIEWER_ROT_Z: 1
+  3D_VIEWER_ZOOM: -1
+
   # Schematic parameters =======================================================
 
   COLOR_THEME: Altium_Theme
-  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_Title.kicad_wks
+  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_PCB_GIT.kicad_wks
 
   # Layer names. Should match user-defined names in the PCB.  ==================
 

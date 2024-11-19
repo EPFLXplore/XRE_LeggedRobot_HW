@@ -1000,7 +1000,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "Templates/XRE_Legged_Template_Title.kicad_wks"
+    "page_layout_descr_file": "Templates/XRE_Legged_Template_PCB_GIT.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
@@ -1126,7 +1126,7 @@
       "version": 1
     },
     "net_format_name": "KiCad",
-    "page_layout_descr_file": "Templates/XRE_Legged_Template.kicad_wks",
+    "page_layout_descr_file": "Templates/XRE_Legged_Template_GIT.kicad_wks",
     "plot_directory": "Schematic/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
@@ -1227,11 +1227,11 @@
     "BOARD_NAME": "\u039bmulet Motion Controller",
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
-    "DOC_TYPE": "Assembly",
+    "GIT_HASH_PCB": "1ffc255",
+    "GIT_HASH_SCH": "74ecd17",
     "PROJECT_NAME": "Chienpanz\u00e9",
     "RELEASE_DATE": "13-APR-2024",
-    "REVIEWER": "",
     "REVISION": "1.1",
-    "VARIANT": "Released"
+    "VARIANT": "NO_XT60"
   }
 }

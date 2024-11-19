@@ -25,6 +25,7 @@ outputs:
     force_stackup_colors: true
     orthographic: true
     transparent_background: true
+    transparent_background_color: '#00FF00'
     transparent_background_fuzz: 40
 
 ...

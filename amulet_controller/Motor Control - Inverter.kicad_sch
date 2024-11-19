@@ -5905,6 +5905,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 69.85 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "96777c6f-44b1-46c4-8cfb-62230aee6926")
 		)
@@ -6412,6 +6421,15 @@
 			(effects
 				(font
 					(face "Times New Roman")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 151.13 71.12 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -7539,6 +7557,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 69.85 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bfe8ef81-dc2c-45a8-9188-ab85d1d13d9f")
 		)
@@ -7915,6 +7942,15 @@
 			(effects
 				(font
 					(face "Times New Roman")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 69.85 71.12 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -8821,6 +8857,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 232.41 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "654b2842-3a4c-4969-8d32-c84b70b17e30")
 		)
@@ -9363,6 +9408,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 232.41 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e86a8ea6-f5e8-411a-a7ba-51b32b05f510")
 		)
@@ -9616,6 +9670,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 232.41 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab023cb8-6293-4555-a79b-39ca16a4bf95")
 		)
@@ -9733,6 +9796,15 @@
 			(effects
 				(font
 					(face "Times New Roman")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 151.13 95.25 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -10071,6 +10143,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 151.13 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "4600a9b9-a875-4516-b8ba-487674dfe85d")
 		)
@@ -10261,6 +10342,15 @@
 			(effects
 				(font
 					(face "Times New Roman")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 232.41 71.12 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
@@ -10693,6 +10783,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 151.13 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ecda0067-923a-4856-b2fc-5768f37bd504")
 		)
@@ -10810,6 +10909,15 @@
 			(effects
 				(font
 					(face "Times New Roman")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-NO_SNUBBER,-NONE"
+			(at 69.85 102.87 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)

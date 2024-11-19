@@ -20,6 +20,7 @@ outputs:
     realistic_solder_mask: false
     dpi: 1200
     dnf_filter: _kibom_dnf_Config
+    # dnf_filter: '_null'
     sheet_reference_layout: '@SHEET_WKS@'
 
     pages:
@@ -92,7 +93,7 @@ definitions:
   DIR: Manufacturing/Assembly
   DOC_TITLE: Assembly
   COLOR_THEME: Altium_Theme
-  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_Title.kicad_wks
+  SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_PCB.kicad_wks
   FAB_EXCLUDE_FILTER: exclude_testpoints
   LAYER_TITLE_PAGE: TitlePage
   LAYER_ASSEMBLY_TEXT_TOP: F.AssemblyText

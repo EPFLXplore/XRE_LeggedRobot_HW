@@ -7888,6 +7888,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "-NO_XT60,-NONE"
+			(at 115.57 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3035d0e-d891-4e8d-85c5-741fa0cdc4d6")
 		)
@@ -8234,6 +8243,15 @@
 			(effects
 				(font
 					(face "Times New Roman")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "-NO_XT60,-NONE"
+			(at 115.57 67.31 0)
+			(effects
+				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)

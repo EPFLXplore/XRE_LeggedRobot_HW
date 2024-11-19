@@ -1,0 +1,230 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "8.0.6-8.0.6-0~ubuntu24.04.1"
+    },
+    "CreationDate": "2024-11-19T00:33:54+01:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "amulet_controller",
+      "GUID": "616d756c-6574-45f6-936f-6e74726f6c6c",
+      "Revision": "1.1"
+    },
+    "Size": {
+      "X": 69.8656,
+      "Y": 76.9
+    },
+    "LayerNumber": 6,
+    "BoardThickness": 1.66,
+    "Finish": "Immersion gold",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.2,
+      "PadToTrack": 0.2,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.2,
+      "MinLineWidth": 0.2,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "amulet_controller-L1 (Sig, PWR)_(NO_SNUBBER).gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-L2 (GND)_(NO_SNUBBER).gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-L3 (Sig, PWR)_(NO_SNUBBER).gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-L4 (Sig, PWR)_(NO_SNUBBER).gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-L5 (GND)_(NO_SNUBBER).gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-L6 (Sig, PWR)_(NO_SNUBBER).gbr",
+      "FileFunction": "Copper,L6,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-Edge_Cuts_(NO_SNUBBER).gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-F_Silkscreen_(NO_SNUBBER).gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-F_Mask_(NO_SNUBBER).gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "amulet_controller-F_Paste_(NO_SNUBBER).gbr",
+      "FileFunction": "SolderPaste,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-B_Silkscreen_(NO_SNUBBER).gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "amulet_controller-B_Mask_(NO_SNUBBER).gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "amulet_controller-B_Paste_(NO_SNUBBER).gbr",
+      "FileFunction": "SolderPaste,Bot",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Color": "Yellow",
+      "Material": "Direct Printing",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Black",
+      "Thickness": 0.02,
+      "Material": "Solder Resist",
+      "DielectricConstant": "3.3",
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.07,
+      "Name": "L1 (Sig, PWR)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.18,
+      "Material": "FR4_7628",
+      "DielectricConstant": "4.29",
+      "LossTangent": "0.02",
+      "Name": "L1 (Sig, PWR)/L2 (GND)",
+      "Notes": "Type: dielectric layer 1 (from L1 (Sig, PWR) to L2 (GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L2 (GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.4,
+      "Material": "FR4",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "L2 (GND)/L3 (Sig, PWR)",
+      "Notes": "Type: dielectric layer 2 (from L2 (GND) to L3 (Sig, PWR))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L3 (Sig, PWR)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.18,
+      "Material": "FR4_7628",
+      "DielectricConstant": "4.29",
+      "LossTangent": "0.02",
+      "Name": "L3 (Sig, PWR)/L4 (Sig, PWR)",
+      "Notes": "Type: dielectric layer 3 (from L3 (Sig, PWR) to L4 (Sig, PWR))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L4 (Sig, PWR)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.4,
+      "Material": "FR4",
+      "DielectricConstant": "4.6",
+      "LossTangent": "0.02",
+      "Name": "L4 (Sig, PWR)/L5 (GND)",
+      "Notes": "Type: dielectric layer 4 (from L4 (Sig, PWR) to L5 (GND))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.035,
+      "Name": "L5 (GND)"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.18,
+      "Material": "FR4_7628",
+      "DielectricConstant": "4.29",
+      "LossTangent": "0.02",
+      "Name": "L5 (GND)/L6 (Sig, PWR)",
+      "Notes": "Type: dielectric layer 5 (from L5 (GND) to L6 (Sig, PWR))"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.07,
+      "Name": "L6 (Sig, PWR)"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Black",
+      "Thickness": 0.02,
+      "Material": "Solder Resist",
+      "DielectricConstant": "3.3",
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Color": "Yellow",
+      "Material": "Direct Printing",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

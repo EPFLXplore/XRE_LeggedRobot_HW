@@ -16,9 +16,14 @@ outputs:
     group_fields: 'Value,Manufacturer Part Number'
     show_fabrication: true
     highlight_pin1: "selected"
+    exclude_filter: '@EXCLUDE_FILTER@'
+    hide_excluded: true
+    forced_name: '@TITLE@'
 
 ...
 definitions:
   NAME: html_bom_interactive
   COMMENT: Interactive BOM in HTML format
   DIR: Manufacturing/Assembly
+  EXCLUDE_FILTER: exclude_testpoints
+  TITLE: ""
