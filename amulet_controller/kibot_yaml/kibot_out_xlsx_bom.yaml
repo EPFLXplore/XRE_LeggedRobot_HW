@@ -12,18 +12,27 @@ outputs:
   dir: '@DIR@'
   options:
     format: XLSX
+    pre_transform: _value_split
     count_smd_tht: true
+    distributors:
+        - Mouser
+        - Digi-Key
+        - TME
+        # - Arrow
+        # - Farnell
     xlsx:
       title: 'Bill of Materials'
       datasheet_as_link: 'Datasheet'
       logo: false
       style: modern-blue
       kicost: true
-      # specs: true
-      # kicost_api_disable: KitSpace
+      kicost_config: '@KICOST_CONFIG@'
+
+      specs: true
 
 ...
 definitions:
   NAME: xlsx_costs_bom
   COMMENT: Costs Bill of Materials in XLSX format
   DIR: Manufacturing/Assembly
+  KICOST_CONFIG: kibot_yaml/kicost_config_local.yaml

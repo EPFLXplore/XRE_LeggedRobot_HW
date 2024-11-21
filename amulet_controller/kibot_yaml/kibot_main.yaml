@@ -26,21 +26,25 @@ variants:
     comment: "Very early stage of schematic, ignore details."
     type: kibom
     variant: DRAFT
+    exclude_filter: '_null'
 
   - name: 'PRELIMINARY'
     comment: "Close to final schematic."
     type: kibom
     variant: PRELIMINARY
+    exclude_filter: '_null'
 
   - name: 'CHECKED'
     comment: "There shouldn't be any mistakes. Contact the engineer if you find any."
     type: kibom
     variant: CHECKED
+    exclude_filter: '_null'
     
   - name: 'RELEASED'
     comment: "A board with this schematic has been sent to production."
     type: kibom
     variant: RELEASED
+    exclude_filter: '_null'
 
   # Assembly variants (should all be variants of RELEASED)
   
@@ -49,18 +53,21 @@ variants:
     type: kibom
     file_id: _(NO_XT60)
     variant: NO_XT60
+    exclude_filter: '_null'
   
   - name: 'NO_SNUBBER'
     comment: 'Without snubbers'
     type: kibom
     file_id: _(NO_SNUBBER)
     variant: NO_SNUBBER
+    exclude_filter: '_null'
 
   - name: 'NONE'
     comment: 'Without snubbers and XT60'
     type: kibom
     file_id: _(NONE)
     variant: NONE
+    exclude_filter: '_null'
 
 groups:
   - name: fab
@@ -180,6 +187,13 @@ import:
 
 
 # Generated outputs ============================================================
+
+  # Schematic variant with split fields ----------------------------------------
+  - file: kibot_out_sch_variant.yaml
+    definitions:
+      NAME: @SCH_VARIANT_OUTPUT@
+      COMMENT: Split component Value field of components
+      DIR: '@SCHEMATIC_DIR@/value_split'
 
   # Netlist --------------------------------------------------------------------
   - file: kibot_out_netlist.yaml
@@ -424,6 +438,8 @@ definitions:
   STACKUP_TABLE_NOTE: external layer thicknesses are specified after plating
 
   # # Output names  ============================================================
+
+  SCH_VARIANT_OUTPUT: value_split
 
   NETLIST_OUTPUT: netlist
 

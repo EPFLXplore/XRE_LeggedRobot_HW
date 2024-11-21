@@ -159,6 +159,12 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "FB2","1k @ 100MHz","R_0805_2012_DensityHigh",11.0704,44.8999,0.0000,top
 "FB3","1k @ 100MHz","R_0805_2012_DensityHigh",47.4004,32.6999,-135.0000,top
 "FB4","1k @ 100MHz","R_0805_2012_DensityHigh",11.5004,32.9999,90.0000,bottom
+"FM1","Fiducial","Fiducial_1mm_Mask2mm",35.0004,74.9999,0.0000,top
+"FM2","Fiducial","Fiducial_1mm_Mask2mm",13.5004,21.9999,180.0000,bottom
+"FM3","Fiducial","Fiducial_1mm_Mask2mm",22.2004,10.9999,0.0000,top
+"FM4","Fiducial","Fiducial_1mm_Mask2mm",56.5004,21.9999,180.0000,bottom
+"FM5","Fiducial","Fiducial_1mm_Mask2mm",47.8004,10.9999,0.0000,top
+"FM6","Fiducial","Fiducial_1mm_Mask2mm",35.0004,74.9999,180.0000,bottom
 "J6","SM08B-GHS-TB","JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",59.1404,28.5499,75.0000,top
 "J7","SM07B-GHS-TB","JST_GH_SM07B-GHS-TB_1x07-1MP_P1.25mm_Horizontal",10.8404,28.5299,-75.0000,top
 "J8","S2B-PH-SM4-TB","JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal",26.3004,7.9999,90.0000,bottom

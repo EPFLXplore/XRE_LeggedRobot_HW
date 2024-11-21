@@ -1069,14 +1069,14 @@
         },
         {
           "group_by": false,
-          "label": "Manufacturer",
-          "name": "Manufacturer",
+          "label": "manf",
+          "name": "manf",
           "show": true
         },
         {
           "group_by": true,
-          "label": "Manufacturer Part Number",
-          "name": "Manufacturer Part Number",
+          "label": "manf#",
+          "name": "manf#",
           "show": true
         },
         {
@@ -1090,13 +1090,19 @@
           "label": "Supplier Part Number 1",
           "name": "Supplier Part Number 1",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Config",
+          "name": "Config",
+          "show": false
         }
       ],
-      "filter_string": "",
+      "filter_string": "c108",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Value"
+      "sort_field": "manf#"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -1227,8 +1233,8 @@
     "BOARD_NAME": "\u039bmulet Motion Controller",
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
-    "GIT_HASH_PCB": "1ffc255",
-    "GIT_HASH_SCH": "74ecd17",
+    "GIT_HASH_PCB": "04d3b06",
+    "GIT_HASH_SCH": "04d3b06",
     "PROJECT_NAME": "Chienpanz\u00e9",
     "RELEASE_DATE": "13-APR-2024",
     "REVISION": "1.1",

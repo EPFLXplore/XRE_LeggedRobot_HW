@@ -1,0 +1,20 @@
+# KiBot output for generating Alternate Schematic with split value fields
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/sch_variant.html
+
+kibot:
+  version: 1
+
+outputs:
+  - name: @NAME@
+    comment: '@COMMENT@'
+    type: sch_variant
+    dir: '@DIR@'
+    options:
+      pre_transform: _value_split_replace
+      copy_project: true
+
+...
+definitions:
+  NAME: value_split
+  COMMENT: Split component Value field of components
+  DIR: Schematic
