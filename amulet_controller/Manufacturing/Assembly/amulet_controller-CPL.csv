@@ -114,6 +114,15 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "C113","100n X7R 50V","C_0402_1005_DensityHigh",13.8294,33.2415,15.0000,top
 "C114","100n X7R 50V","C_0402_1005_DensityHigh",54.3254,26.6048,165.0000,top
 "C115","100n X7R 50V","C_0402_1005_DensityHigh",14.1604,32.0099,15.0000,top
+"C116","3n3 X7R 100V","C_0402_1005_DensityHigh",53.9510,32.8288,-15.0000,top
+"C117","3n3 X7R 100V","C_0402_1005_DensityHigh",17.8203,26.8722,-165.0000,top
+"C118","3n3 X7R 100V","C_0402_1005_DensityHigh",53.7440,32.0561,-15.0000,top
+"C119","3n3 X7R 100V","C_0402_1005_DensityHigh",17.2010,29.1904,-165.0000,top
+"C120","3n3 X7R 100V","C_0402_1005_DensityHigh",53.1206,29.7488,-15.0000,top
+"C121","3n3 X7R 100V","C_0402_1005_DensityHigh",16.9940,29.9631,-165.0000,top
+"C122","3n3 X7R 100V","C_0402_1005_DensityHigh",52.9135,28.9761,-15.0000,top
+"C123","3n3 X7R 100V","C_0402_1005_DensityHigh",16.3663,32.3055,-165.0000,top
+"C124","3n3 X7R 100V","C_0402_1005_DensityHigh",52.3020,26.6552,-15.0000,top
 "C125","100n X7R 50V","C_0402_1005_DensityHigh",38.1404,8.6099,-90.0000,bottom
 "C126","100n X7R 50V","C_0402_1005_DensityHigh",17.5004,22.9499,45.0000,top
 "C127","100n X7R 50V","C_0402_1005_DensityHigh",48.4504,18.3499,45.0000,top
@@ -159,6 +168,12 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "FB2","1k @ 100MHz","R_0805_2012_DensityHigh",11.0704,44.8999,0.0000,top
 "FB3","1k @ 100MHz","R_0805_2012_DensityHigh",47.4004,32.6999,-135.0000,top
 "FB4","1k @ 100MHz","R_0805_2012_DensityHigh",11.5004,32.9999,90.0000,bottom
+"FM1","Fiducial","Fiducial_1mm_Mask2mm",35.0004,74.9999,0.0000,top
+"FM2","Fiducial","Fiducial_1mm_Mask2mm",13.5004,21.9999,180.0000,bottom
+"FM3","Fiducial","Fiducial_1mm_Mask2mm",22.2004,10.9999,0.0000,top
+"FM4","Fiducial","Fiducial_1mm_Mask2mm",56.5004,21.9999,180.0000,bottom
+"FM5","Fiducial","Fiducial_1mm_Mask2mm",47.8004,10.9999,0.0000,top
+"FM6","Fiducial","Fiducial_1mm_Mask2mm",35.0004,74.9999,180.0000,bottom
 "J6","SM08B-GHS-TB","JST_GH_SM08B-GHS-TB_1x08-1MP_P1.25mm_Horizontal",59.1404,28.5499,75.0000,top
 "J7","SM07B-GHS-TB","JST_GH_SM07B-GHS-TB_1x07-1MP_P1.25mm_Horizontal",10.8404,28.5299,-75.0000,top
 "J8","S2B-PH-SM4-TB","JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal",26.3004,7.9999,90.0000,bottom
@@ -230,7 +245,9 @@ Ref,Val,Package,PosX,PosY,Rot,Side
 "R49","100R 1% 1/5W","R_0402_1005_DensityHigh",22.5572,20.0922,-45.0000,bottom
 "R50","60R4 1% 1/4W","R_0603_1608_DensityHigh",62.2004,40.3199,180.0000,top
 "R51","60R4 1% 1/4W","R_0603_1608_DensityHigh",59.2004,40.3199,180.0000,top
+"R52","0R","R_0603_1608_DensityHigh",35.6000,7.6500,90.0000,top
 "R53","0R","R_0603_1608_DensityHigh",10.1700,55.2000,-45.0000,bottom
+"R54","0R","R_0603_1608_DensityHigh",59.8300,55.2000,-135.0000,bottom
 "R55","5R 1% 0.4W","R_0603_1608_DensityHigh",41.9500,43.9750,90.0000,top
 "R56","5R 1% 0.4W","R_0603_1608_DensityHigh",35.0000,43.9750,90.0000,top
 "R57","5R 1% 0.4W","R_0603_1608_DensityHigh",14.1400,43.9750,90.0000,top

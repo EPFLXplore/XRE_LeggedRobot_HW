@@ -11,7 +11,7 @@ first_command_options="--skip-pre all -c kibot_yaml/kibot_main.yaml testpoints"
 second_command_options="-c kibot_yaml/kibot_main.yaml -i testpoints"
 
 # Default options
-variant="" # Default variant
+variant="RELEASED" # Default variant
 first_command_additional_options=""
 second_command_additional_options=""
 

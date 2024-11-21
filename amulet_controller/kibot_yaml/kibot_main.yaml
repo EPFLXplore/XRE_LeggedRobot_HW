@@ -99,7 +99,7 @@ groups:
   - name: bom
     outputs:
       - @CSV_BOM_OUTPUT@
-      - @XLSX_BOM_OUTPUT@
+      # - @XLSX_BOM_OUTPUT@
       - @HTML_BOM_OUTPUT@
 
   - name: testpoints
@@ -362,6 +362,7 @@ import:
       DIR: @FABRICATION_DIR@
       COLOR_THEME: @COLOR_THEME@
       SHEET_WKS: @SHEET_WKS@
+      SCALING: @FAB_SCALING@
       FAB_EXCLUDE_FILTER: @FILT_TP_ONLY@
       LAYER_DRILL_MAP: @LAYER_DRILL_MAP@
       LAYER_TP_LIST_TOP: @LAYER_TP_LIST_TOP@
@@ -375,6 +376,7 @@ import:
       DIR: @ASSEMBLY_DIR@
       COLOR_THEME: @COLOR_THEME@
       SHEET_WKS: @SHEET_WKS@
+      SCALING: @ASSEMBLY_SCALING@
       FAB_EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
       LAYER_TITLE_PAGE: @LAYER_TITLE_PAGE@
       LAYER_ASSEMBLY_TEXT_TOP: @LAYER_ASSEMBLY_TEXT_TOP@
@@ -482,6 +484,8 @@ definitions:
 
   COLOR_THEME: Altium_Theme
   SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_PCB_GIT.kicad_wks
+  FAB_SCALING: 1
+  ASSEMBLY_SCALING: 1
 
   # Layer names. Should match user-defined names in the PCB.  ==================
 

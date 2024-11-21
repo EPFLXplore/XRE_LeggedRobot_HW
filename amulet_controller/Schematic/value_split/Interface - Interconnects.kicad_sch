@@ -32965,7 +32965,7 @@
     (property "manf" "JST Sales America Inc." (at 50.8 176.53 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
-    (property "manf#" "SM07B-GHS-TB" (at 50.8 176.53 0)
+    (property "manf#" "SM07B-GHS-TB(LF)(SN)" (at 50.8 176.53 0)
       (effects (font (size 1.27 1.27)) (hide yes))
     )
     (property "Manufacturer" "JST Sales America Inc." (at 50.8 176.53 0)

@@ -24,7 +24,7 @@ outputs:
     sheet_reference_layout: '@SHEET_WKS@'
 
     pages:
-      - scaling: 1.0
+      - scaling: @SCALING@
         layer_var: ''
         title: '@DOC_TITLE@'
         sheet: Top/Bottom View
@@ -32,10 +32,11 @@ outputs:
         layers:
           - layer: '@LAYER_TITLE_PAGE@'
             color: '#000000'
-      - scaling: 1.0
-        layer_var: "Top Assembly (scale 1:1)"
+
+      - scaling: @SCALING@
+        layer_var: "Top Assembly (Scale @SCALING@:1)"
         title: '@DOC_TITLE@'
-        sheet: Top Assembly
+        sheet: Top Assembly (Scale @SCALING@:1)
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
@@ -58,12 +59,12 @@ outputs:
           - layer: '@LAYER_DNP_CROSS_TOP@'
             color: '#D63034'
 
-      - scaling: 1.0
-        layer_var: "Bottom Assembly (scale 1:1)"
+      - scaling: @SCALING@
+        layer_var: "Bottom Assembly (Scale @SCALING@:1)"
         mirror: true
         mirror_pcb_text: false
         title: '@DOC_TITLE@'
-        sheet: Bottom Assembly
+        sheet: Bottom Assembly (Scale @SCALING@:1)
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
@@ -94,6 +95,7 @@ definitions:
   DOC_TITLE: Assembly
   COLOR_THEME: Altium_Theme
   SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_PCB.kicad_wks
+  SCALING: 1.0
   FAB_EXCLUDE_FILTER: exclude_testpoints
   LAYER_TITLE_PAGE: TitlePage
   LAYER_ASSEMBLY_TEXT_TOP: F.AssemblyText

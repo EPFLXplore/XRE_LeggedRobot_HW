@@ -2,17 +2,17 @@
 <export version="E">
   <design>
     <source>/home/vincent/XRE_LeggedRobot_HW/amulet_controller/amulet_controller.kicad_sch</source>
-    <date>2024-11-21T14:47:10+0100</date>
+    <date>2024-11-21T23:18:14+0100</date>
     <tool>Eeschema 8.0.6-8.0.6-0~ubuntu22.04.1</tool>
     <textvar name="BOARD_NAME">Λmulet Motion Controller</textvar>
     <textvar name="COMPANY">EPFL Xplore Research</textvar>
     <textvar name="DESIGNER">Vincent Nguyen</textvar>
-    <textvar name="GIT_HASH_PCB">04d3b06</textvar>
+    <textvar name="GIT_HASH_PCB">bc571c1</textvar>
     <textvar name="GIT_HASH_SCH">04d3b06</textvar>
     <textvar name="PROJECT_NAME">Chienpanzé</textvar>
     <textvar name="RELEASE_DATE">13-APR-2024</textvar>
     <textvar name="REVISION">1.1</textvar>
-    <textvar name="VARIANT">NO_XT60</textvar>
+    <textvar name="VARIANT">RELEASED</textvar>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title>Cover Page</title>

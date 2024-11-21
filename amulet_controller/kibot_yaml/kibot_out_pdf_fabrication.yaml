@@ -25,10 +25,10 @@ outputs:
     sheet_reference_layout: '@SHEET_WKS@'
 
     pages:
-      - scaling: 1.0
+      - scaling: @SCALING@
         title: '@DOC_TITLE@'
-        sheet: 'Top Fabrication'
-        layer_var: ''
+        sheet: 'Top Fabrication (Scale @SCALING@:1)'
+        layer_var: 'Top Fabrication (Scale @SCALING@:1)'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
@@ -50,12 +50,12 @@ outputs:
           - layer: F.Dimensions
             color: '#000000'
 
-      - scaling: 1.0
+      - scaling: @SCALING@
         mirror: true
         mirror_pcb_text: false
         title: '@DOC_TITLE@'
-        sheet: 'Bottom Fabrication'
-        layer_var: ''
+        sheet: 'Bottom Fabrication (Scale @SCALING@:1)'
+        layer_var: 'Bottom Fabrication (Scale @SCALING@:1)'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
@@ -77,10 +77,10 @@ outputs:
           - layer: B.Dimensions
             color: '#000000'
 
-      - scaling: 1.0
+      - scaling: @SCALING@
         title: '@DOC_TITLE@'
-        sheet: 'Drill Map'
-        layer_var: ''
+        sheet: 'Drill Drawing Top View (Scale @SCALING@:1)'
+        layer_var: 'Drill Drawing Top View (Scale @SCALING@:1)'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
@@ -90,10 +90,10 @@ outputs:
           - layer: '@LAYER_DRILL_MAP@'
             color: '#000000'
 
-      - scaling: 1.0
+      - scaling: @SCALING@
         title: '@DOC_TITLE@'
-        sheet: 'Top Test Points'
-        layer_var: 'Top Test Points (Scale 1:1)'
+        sheet: 'Top Test Points (Scale @SCALING@:1)'
+        layer_var: 'Top Test Points (Scale @SCALING@:1)'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
@@ -116,12 +116,12 @@ outputs:
           - layer: '@LAYER_TP_LIST_TOP@'
             color: '#000000'
 
-      - scaling: 1.0
+      - scaling: @SCALING@
         mirror : true
         mirror_pcb_text: true
         title: '@DOC_TITLE@'
-        sheet: 'Bottom Test Points'
-        layer_var: 'Bottom Test Points (Scale 1:1)'
+        sheet: 'Bottom Test Points (Scale @SCALING@:1)'
+        layer_var: 'Bottom Test Points (Scale @SCALING@:1)'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
@@ -144,71 +144,17 @@ outputs:
           - layer: '@LAYER_TP_LIST_BOTTOM@'
             color: '#000000'
 
-      - scaling: 1.0
-        sheet: '%ll'
-        layer_var: 'L1 (SIG, PWR)'
+      - scaling: @SCALING@
+        sheet: '%ln (Scale @SCALING@:1)'
+        layer_var: '%ln (Scale @SCALING@:1)'
         title: '@DOC_TITLE@'
         sheet_reference_color: '#000000'
         colored_holes: true
         holes_color: "#FFFFFF"
+        repeat_for_layer: 'F.Cu'
+        repeat_layers: 'copper'
         layers:
-          - layer: F.Cu
-            color: '#CA0000'
-
-      - scaling: 1.0
-        sheet: '%ll'
-        layer_var: 'L2 (GND)'
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: In1.Cu
-            color: '#77D56C'
-
-      - scaling: 1.0
-        sheet: '%ll'
-        layer_var: L3 (SIG, PWR)
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: In2.Cu
-            color: '#E6923E'
-
-      - scaling: 1.0
-        sheet: '%ll'
-        layer_var: L4 (SIG, PWR)
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: In3.Cu
-            color: '#82C9CE'
-
-      - scaling: 1.0
-        sheet: '%ll'
-        layer_var: L5 (GND)
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: In4.Cu
-            color: '#DF60AF'
-            
-      - scaling: 1.0
-        sheet: '%ll'
-        layer_var: L6 (SIG, PWR)
-        title: '@DOC_TITLE@'
-        sheet_reference_color: '#000000'
-        colored_holes: true
-        holes_color: "#FFFFFF"
-        layers:
-          - layer: B.Cu
-            color: '#5B7ACC'
+          - layer: 'F.Cu'
 
 ...
 definitions:
@@ -218,6 +164,7 @@ definitions:
   DOC_TITLE: Fabrication
   COLOR_THEME: Altium_Theme
   SHEET_WKS: ${KIPRJMOD}/Templates/XRE_Legged_Template_PCB.kicad_wks
+  SCALING: 1.0
   FAB_EXCLUDE_FILTER: only_testpoints
   LAYER_DRILL_MAP: DrillMap
   LAYER_TP_LIST_TOP: F.TestPointList

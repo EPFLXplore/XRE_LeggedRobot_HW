@@ -15,6 +15,13 @@ global:
       number: 10
     - filter: 'Ignore multiple schematics warning (hierarchical schematic). kibot#594'
       number: 44
+    - filter: 'Ignore malformed values.'
+      number: 20
+    - filter: 'Ignore value field mismatch (for BoM)'
+      number: 135
+    - filter: 'Ignore no information found at Distributor for Part (all information available in KiCost).'
+      number: 7
+
 
 ...
 definitions:

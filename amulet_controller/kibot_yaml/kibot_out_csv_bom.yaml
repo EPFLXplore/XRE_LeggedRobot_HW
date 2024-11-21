@@ -15,7 +15,7 @@ outputs:
     csv:
       hide_pcb_info: true
       hide_stats_info: true
-    group_fields: ['Manufacturer Part Number']
+    group_fields: ['manf#']
 
     columns:
       - "Row"
@@ -25,8 +25,8 @@ outputs:
       - "Datasheet"
       - "Footprint"
       - "Description"
-      - "Manufacturer"
-      - "Manufacturer Part Number"
+      - "manf"
+      - "manf#"
       - "Supplier 1"
       - "Supplier Part Number 1"
 
