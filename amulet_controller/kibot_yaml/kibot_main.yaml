@@ -101,6 +101,7 @@ groups:
       - @CSV_BOM_OUTPUT@
       # - @XLSX_BOM_OUTPUT@
       - @HTML_BOM_OUTPUT@
+      - @CSV_REPORT_COMP_OUPUT@
 
   - name: testpoints
     outputs:
@@ -292,6 +293,13 @@ import:
       EXCLUDE_FILTER: @FILT_TP_EXCLUDE@
       TITLE: @BOARD_NAME@ Assembly
 
+  # CSV number of components report
+  - file: kibot_out_csv_report_comp.yaml
+    definitions:
+      NAME: @CSV_REPORT_COMP_OUPUT@
+      COMMENT: Component report (count) in CSV format
+      DIR: @ASSEMBLY_DIR@
+
   # PNG 3D Viewer renders ------------------------------------------------------
   - file: kibot_out_png_3d_viewer.yaml
     definitions:
@@ -458,6 +466,7 @@ definitions:
   CSV_BOM_OUTPUT: csv_bom
   XLSX_BOM_OUTPUT: xlsx_bom
   HTML_BOM_OUTPUT: html_bom_interactive
+  CSV_REPORT_COMP_OUPUT: csv_report_comp
 
   PNG_3D_VIEWER_TOP: png_3d_viewer_top
   PNG_3D_VIEWER_BOTTOM: png_3d_viewer_bottom

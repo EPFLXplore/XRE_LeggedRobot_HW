@@ -28,8 +28,7 @@ outputs:
     columns:
       - field: References
         name: Ref.
-      # - field: Net Label
-      field: Net Name
+      - field: Net Label
         name: Net 
       - field: Footprint X
         name: X

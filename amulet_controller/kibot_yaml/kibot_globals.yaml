@@ -19,12 +19,14 @@ global:
     - number: 20
     # - filter: 'Ignore value field mismatch (for BoM)'
     - number: 135
+    # - filter: 'Ignore use blender_export instead of KiCad's 3d viewer'
+    - number: 143
     # - filter: 'Ignore no information found at Distributor for Part (all information available in KiCost).'
-    - number: 7
-
+    - number: 1007
+    # - filter: 'Ignore can't enable <Distributor> without a key'
 
 ...
 definitions:
-  OUTPUT_DIR: ../Generated
+  OUTPUT_DIR: ./
   LAYER_DNP_TOP: F.DNP
   LAYER_DNP_BOTTOM: B.DNP

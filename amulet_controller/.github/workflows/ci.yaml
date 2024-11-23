@@ -1,0 +1,65 @@
+name: CI
+
+on:
+  push:
+    tags:
+      - '*.*'
+    branches:
+      - master
+      - dev
+      - kibot
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    if: github.ref_type == 'tag'  # Ensures this job only runs on tag pushes
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.ref }}
+          
+      - name: Extract release notes
+        uses: ffurrer2/extract-release-notes@v2
+        id: extract-release-notes
+        with:
+          prerelease: true
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release create ${{ github.ref_name }} --notes '${{ steps.extract-release-notes.outputs.release_notes }}'
+      
+      - name: Update changelog
+        uses: thomaseizinger/keep-a-changelog-new-release@v2
+        with:
+          tag: ${{ github.ref_name }}
+
+      - name: Commit updated CHANGELOG
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          branch: kibot
+          commit_message: Update CHANGELOG
+          file_pattern: CHANGELOG.md
+
+  generate_testpoints:
+    - uses: actions/checkout@v4
+
+    - name: Generate testpoints
+      uses: INTI-CMNB/KiBot@v2_dk8
+      with:
+        additional_args: --skip-pre all -c kibot_yaml/kibot_main.yaml testpoints
+        variant: RELEASED
+        config: kibot_yaml/kibot/main.kibot.yaml
+
+  generate_outputs:
+    - name: Generate outputs
+      needs: generate_testpoints
+      uses: INTI-CMNB/KiBot@v2_dk8
+      with:
+        additional_args: -i testpoints
+        variant: RELEASED
+        config: kibot_yaml/kibot/main.kibot.yaml

@@ -4630,7 +4630,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://datasheets.kyocera-avx.com/cx5r.pdf"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/40/CM_Series_e-2835982.pdf"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -4650,7 +4650,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier 1" "Digikey"
+		(property "Supplier 1" "Mouser"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -4660,7 +4660,7 @@
 				(hide yes)
 			)
 		)
-		(property "Supplier Part Number 1" "478-04023D475MAT2ACT-ND"
+		(property "Supplier Part Number 1" "581-CM05X5R475M25AH"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -4679,7 +4679,7 @@
 				(hide yes)
 			)
 		)
-		(property "manf#" "04023D475MAT2A"
+		(property "manf#" "CM05X5R475M25AH"
 			(at 133.35 118.11 0)
 			(effects
 				(font

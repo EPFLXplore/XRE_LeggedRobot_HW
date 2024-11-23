@@ -58,7 +58,19 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|129889289|83827869|40e614cd-f794-4c8a-96a4-edc577044a93|75a12556-b5ac-44de-93a6-edad9651569a",
+        "copper_edge_clearance|132800401|58204262|aa82e4e1-4d6b-4d06-86dd-8165664626b3|a5ca2eea-f08a-4e48-8f00-7d8c7523b9c8",
+        "courtyards_overlap|128634859|101433647|6442073d-c40f-4dc9-8c6d-62bd32083b71|ea25d7f2-bcc8-4b3c-9f4a-558df7741e5d",
+        "courtyards_overlap|132341825|63550001|68ae4902-f4b6-444b-89a1-483e2a30d85a|b7d12f16-7fc9-4858-a625-1ca5f4098091",
+        "courtyards_overlap|142050401|60000101|3e7b8523-404b-4c6d-8bab-3e9b1f37f245|8cf38cac-3d21-46ed-b85a-4de9c5cef766",
+        "courtyards_overlap|148499999|118547590|54e2da0e-7509-4aad-bfaa-6f2acdbc7e54|6e97441e-4ed1-41ac-aa2f-b7575ae07765",
+        "courtyards_overlap|158600401|60000101|1a00927a-0ba9-4625-a9c8-9246bb72022c|596e2607-2529-4476-8cfc-b8ffeed6f11b",
+        "courtyards_overlap|164650001|63550001|2079d8b3-bd30-42e8-b734-18719c260911|38b5aa42-a671-4f89-890f-74a95726968d",
+        "courtyards_overlap|167680765|102595863|7460f8f0-c8ea-4a32-81b2-71d03b9a50fc|865196ab-4385-4006-a847-18e3cb3e5bfa",
+        "courtyards_overlap|171129474|89725104|6264d4b1-3957-4ac0-b5e5-e6de57edfd22|7460f8f0-c8ea-4a32-81b2-71d03b9a50fc",
+        "courtyards_overlap|172970399|89063830|1188f39b-8096-410e-8b13-39028ce41599|7460f8f0-c8ea-4a32-81b2-71d03b9a50fc"
+      ],
       "meta": {
         "version": 2
       },
@@ -1230,14 +1242,14 @@
     ]
   ],
   "text_variables": {
-    "BOARD_NAME": "\u039bmulet Motion Controller",
+    "BOARD_NAME": "Λmulet Motion Controller",
     "COMPANY": "EPFL Xplore Research",
     "DESIGNER": "Vincent Nguyen",
-    "GIT_HASH_PCB": "397e15c",
+    "GIT_HASH_PCB": "7d4c743",
     "GIT_HASH_SCH": "04d3b06",
-    "PROJECT_NAME": "Chienpanz\u00e9",
+    "PROJECT_NAME": "Chienpanzé",
     "RELEASE_DATE": "13-APR-2024",
     "REVISION": "1.1",
-    "VARIANT": ""
+    "VARIANT": "RELEASED"
   }
 }

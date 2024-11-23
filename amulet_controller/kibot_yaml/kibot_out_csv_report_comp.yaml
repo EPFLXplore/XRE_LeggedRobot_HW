@@ -1,0 +1,21 @@
+# KiBot output for CSV Report with number of components per sides and type (SMD, THT)
+# https://kibot.readthedocs.io/en/latest/configuration/outputs/report.html
+
+kibot:
+  version: 1
+
+outputs:
+  - name: @NAME@
+    comment: '@COMMENT@'
+    type: report
+    category: '@DIR@'
+    dir: '@DIR@'
+    output_id: _components
+    options:
+      output: '%f-%i%I%v.csv'
+      template: total_components
+...
+definitions:
+  NAME: csv_report_comp
+  COMMENT: Component report (count) in CSV format
+  DIR: Manufacturing/Assembly
