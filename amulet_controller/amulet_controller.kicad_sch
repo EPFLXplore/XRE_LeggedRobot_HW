@@ -873,7 +873,7 @@
 		)
 		(uuid "718e4830-a352-43f0-b9c5-1495032b5970")
 	)
-	(text "${CURRENT_DATE}"
+	(text "${RELEASE_DATE_NUM}"
 		(exclude_from_sim no)
 		(at 388.62 40.64 0)
 		(effects
@@ -1043,7 +1043,7 @@
 		)
 		(uuid "8e3a42f2-e677-4e63-ad6b-96640eb04138")
 	)
-	(text "Rev ${REVISION}"
+	(text "Rev. ${REVISION}"
 		(exclude_from_sim no)
 		(at 388.62 58.42 0)
 		(effects
